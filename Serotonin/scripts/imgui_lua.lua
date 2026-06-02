@@ -3363,3 +3363,4 @@ open_popup_window = function(me)
 
     me._clip_rect = { x = me.x, y = me.y, w = 8, h = 8 }
     insert(g.clip_stack, me._clip_rect)
+
