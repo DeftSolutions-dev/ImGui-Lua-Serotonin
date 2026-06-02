@@ -685,3 +685,4 @@ end
 
 local function ItemHoverable(x, y, w, h, id)
     if not g.menu_open then return false end
+    if g._disabled_depth and g._disabled_depth > 0 then return false end
