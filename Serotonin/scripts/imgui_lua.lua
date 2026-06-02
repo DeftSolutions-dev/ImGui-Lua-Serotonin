@@ -3167,3 +3167,4 @@ function ImGui.TableHeadersRow()
         end
         return
     end
+    local r0_y = win.cursor_y
