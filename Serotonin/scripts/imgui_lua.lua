@@ -1695,3 +1695,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
         if iy >= y and iy + row_h <= y + box_h then
             local ix = x + 2
             local iw = total_w - 4
+            local ih = row_h
