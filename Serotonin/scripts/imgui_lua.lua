@@ -1576,3 +1576,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     local visible = ItemAdd(x, y, drag_w, frame_h)
     local hovered = ItemHoverable(x, y, drag_w, frame_h, id)
     if hovered and g.mouse_left_clicked then
+        set_active_id(id, win, { x = x, y = y, w = drag_w, h = frame_h })
