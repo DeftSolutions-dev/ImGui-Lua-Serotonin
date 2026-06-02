@@ -1359,3 +1359,4 @@ local function draw_popup()
         local c = DesirePro.vars[popup.varid]
         local pad, sv_w, sv_h, hue_w = 14, 158, 130, 14
         local px, py = popup.x, popup.y
+        local pw = pad + sv_w + 8 + hue_w + pad
