@@ -121,3 +121,4 @@ local function hsv_to_rgb(h, s, v)
     else return v, p, q end
 end
 
+local function rgb_to_hsv(r, g, b)
