@@ -2990,3 +2990,4 @@ function ImGui.PushStyleVar(name, value)
     else
         Style[name] = value
     end
+end
