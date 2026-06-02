@@ -1248,3 +1248,4 @@ function ImGui.BeginGroup()
         indent_save   = win.indent_x,
 
         group_max_x   = win.cursor_x,
+        group_max_y   = win.cursor_y,
