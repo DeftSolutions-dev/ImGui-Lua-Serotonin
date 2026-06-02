@@ -3127,3 +3127,4 @@ function ImGui.TableNextColumn()
     return true
 end
 
+function ImGui.TableSetupColumn(label, flags)
