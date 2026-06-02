@@ -2661,3 +2661,4 @@ function ImGui.SetCursorScreenPos(x, y)
     local win = g.current_window; if not win then return end
     win.cursor_x = x; win.cursor_y = y
 end
+function ImGui.GetContentRegionAvail()
