@@ -354,3 +354,4 @@ function DesirePro.grad_rrect(layer, x, y, w, h, r, c1, c2)
     if not r or r <= 0.5 then ImGui.AddGradient(layer, x, y, w, h, c1, c2, true); return end
     if r > w / 2 then r = w / 2 end
     if r > h / 2 then r = h / 2 end
+    ImGui.AddRectFilled(layer, x, y, 2 * r, 2 * r, c1, r)
