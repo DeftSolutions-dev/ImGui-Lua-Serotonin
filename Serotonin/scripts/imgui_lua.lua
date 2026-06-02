@@ -2192,3 +2192,4 @@ end
 local INPUT_KEYS = {}
 do
     for i = 0, 25 do
+        INPUT_KEYS[#INPUT_KEYS + 1] = { key = char(65 + i), emit = char(65 + i), letter = true }
