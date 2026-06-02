@@ -706,3 +706,4 @@ end
 local function split_desc(s)
     local c = s:find(":")
     if not c then return s, "" end
+    local a = s:sub(1, c - 1):gsub("%s+$", "")
