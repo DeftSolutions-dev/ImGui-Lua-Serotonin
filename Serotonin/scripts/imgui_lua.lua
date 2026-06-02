@@ -3732,3 +3732,4 @@ function ImGui.MenuSeparator()
     ItemSize(w, 5)
 end
 
+function ImGui.InputIntStep(label, value, step)
