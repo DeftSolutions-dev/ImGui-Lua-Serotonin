@@ -2124,3 +2124,4 @@ function ImGui.TreeNode(label)
     local th = Style.FontHeight
     local h = th + Style.FramePadding.y * 2
     local x, y = win.cursor_x, win.cursor_y
+    local tw, _ = text_size(label)
