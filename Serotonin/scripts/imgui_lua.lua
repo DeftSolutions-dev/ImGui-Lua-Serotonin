@@ -1009,3 +1009,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     end
 
     if not opts.no_scroll and not win.collapsed then
+        local ok_ctrl, ctrl_held = pcall(keyboard.IsPressed, "Control")
