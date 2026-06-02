@@ -4497,3 +4497,4 @@ function ImGui.ShowStyleEditor()
         end
         if ImGui.BeginTabItem("Colors") then
 
+            ImGui.Style._filter = ImGui.Style._filter or ""
