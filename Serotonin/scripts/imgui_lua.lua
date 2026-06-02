@@ -1874,3 +1874,4 @@ function ImGui.BeginTabBar(name, flags)
     insert(g.id_stack, "tabbar:" .. tostring(id))
     local tab_h = Style.FontHeight + Style.FramePadding.y * 2
     win._tabbar = {
+        id          = id,
