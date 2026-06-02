@@ -3219,3 +3219,4 @@ function ImGui.TableHeader(label)
     end
     if my_idx then
         local sp = t.sort_specs[my_idx]
+        local arrow = (sp.dir > 0) and "v" or "^"
