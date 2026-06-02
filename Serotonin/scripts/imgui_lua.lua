@@ -3146,3 +3146,4 @@ function ImGui.TableSetupColumn(label, flags)
             end
         end
         local stretch_avail = max(0, total - fixed_sum)
+        for i, s in ipairs(t.setups) do
