@@ -2716,3 +2716,4 @@ end
 function ImGui.PopItemWidth()
     local win = g.current_window; if not win then return end
     if win._item_width_stack and #win._item_width_stack > 0 then
+        remove(win._item_width_stack)
