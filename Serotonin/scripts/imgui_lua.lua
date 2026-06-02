@@ -4262,3 +4262,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
                 local ok, cb = pcall(utility.GetClipboard)
                 if ok and type(cb) == "string" then text = text .. cb end
             end
+            for _, ch in ipairs(typed) do
