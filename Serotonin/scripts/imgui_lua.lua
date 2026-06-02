@@ -2804,3 +2804,4 @@ function ImGui.BeginCombo(label, preview, flags)
     local win = g.current_window; if not win then return false end
     local id = GetID("cmb:" .. label)
     local tw_lbl, th = text_size(label)
+    local pad = Style.FramePadding
