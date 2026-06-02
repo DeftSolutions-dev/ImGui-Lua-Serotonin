@@ -2245,3 +2245,4 @@ function ImGui.InputText(label, value, callback)
     local frame_h = th + pad.y * 2
     local total_w = win._content_x1 - win.cursor_x
     local tw_lbl, _ = text_size(label)
+    local label_part = (tw_lbl > 0) and (tw_lbl + Style.ItemInnerSpacing.x) or 0
