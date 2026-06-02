@@ -856,3 +856,4 @@ local function get_or_create_window(id, title)
         content_h    = 0,
         active       = false,
         opened       = true,
+        flags        = {},
