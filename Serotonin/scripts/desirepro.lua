@@ -677,3 +677,4 @@ local function rotate_point(cx, cy, px, py, a)
 end
 
 local active_drag = nil
+local open_combo = nil
