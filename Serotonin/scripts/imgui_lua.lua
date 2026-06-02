@@ -265,3 +265,4 @@ g = {
 
     key_states        = {},
     key_states_prev   = {},
+    chars_queue       = {},
