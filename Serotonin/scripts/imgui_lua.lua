@@ -452,3 +452,4 @@ local function update_io()
     end
     g.toggle_key_prev = tk
 
+    local function any_pressed(names)
