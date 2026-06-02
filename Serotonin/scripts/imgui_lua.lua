@@ -999,3 +999,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         local rid = fnv1a("resize", id)
         local rx = win.x + win.w - grip_size
         local ry = win.y + win.h - grip_size
+        local _, hov, held = ButtonBehavior(rx, ry, grip_size, grip_size, rid)
