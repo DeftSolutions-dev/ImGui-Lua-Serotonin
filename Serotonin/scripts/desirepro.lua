@@ -1599,3 +1599,4 @@ function DesirePro.page(idx, px, py, ph)
         local c2 = DesirePro.begin_card("Menu settings:This decsription for child", px, ry, CARD_W, 262, "BOMB_FILL")
         if c2.on then
             if DesirePro.button(c2, "SAVE CONFIG") then DesirePro.notify("Config saved", "NOTIFICATION_FILL") end
+            if DesirePro.button(c2, "CHANGE THEME") then
