@@ -3820,3 +3820,4 @@ function ImGui.LoadIniSettings(path)
         end
     end
 
+    for _, win in pairs(g.windows) do
