@@ -1275,3 +1275,4 @@ function ImGui.EndGroup()
     ItemSize(gw, gh)
 end
 
+function ImGui.Text(text)
