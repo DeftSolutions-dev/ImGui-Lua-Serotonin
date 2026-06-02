@@ -157,3 +157,4 @@ local C_NAMES = {
     "Header","HeaderHovered","HeaderActive","Separator","SeparatorHovered","SeparatorActive",
     "ResizeGrip","ResizeGripHovered","ResizeGripActive","Tab","TabHovered","TabActive",
     "TabUnfocused","TabUnfocusedActive","PlotLines","PlotLinesHovered","PlotHistogram",
+    "PlotHistogramHovered","TableHeaderBg","TableBorderStrong","TableBorderLight",
