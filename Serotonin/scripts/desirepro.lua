@@ -1769,3 +1769,4 @@ function DesirePro.menu()
     local box_rw, box_rh = box_w * s, box_h * s
     local rx = DesirePro.box_x and (pvx + (DesirePro.box_x - pvx) * s) or (pvx - box_rw / 2)
     local ry = DesirePro.box_y and (pvy + (DesirePro.box_y - pvy) * s) or (pvy - box_rh / 2)
+    if rx < 0 then rx = 0 elseif rx > sw - box_rw then rx = sw - box_rw end
