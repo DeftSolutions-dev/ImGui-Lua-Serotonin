@@ -2484,3 +2484,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     win.indent_x       = 0
     win._child_scroll_key = sk
     win._child_scroll_y   = sy
+
