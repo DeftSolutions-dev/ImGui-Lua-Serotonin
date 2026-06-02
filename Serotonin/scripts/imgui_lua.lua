@@ -975,3 +975,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             if cb_pressed then win._close_clicked = true end
         end
     end
+
