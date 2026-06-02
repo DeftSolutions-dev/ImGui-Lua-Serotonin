@@ -725,3 +725,4 @@ local function ButtonBehavior(x, y, w, h, id)
         set_active_id(id, g.current_window, { x = x, y = y, w = w, h = h })
     end
     if g.active_id == id then
+        held = g.mouse_left_down
