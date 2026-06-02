@@ -4023,3 +4023,4 @@ function ImGui.Spinner(label, radius, thickness, color)
         ImGui.SameLine()
         ImGui.Text(label)
     end
+end
