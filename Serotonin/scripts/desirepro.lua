@@ -427,3 +427,4 @@ function DesirePro.notify(text, icon)
     DesirePro.notifs[#DesirePro.notifs + 1] = { text = text, icon = icon or "NOTIFICATION_FILL", t = 0, x = 1 }
 end
 
+function DesirePro.update_notifications()
