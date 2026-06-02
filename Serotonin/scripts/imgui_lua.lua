@@ -2448,3 +2448,4 @@ function ImGui.BeginChild(str_id, w, h, border)
         content_y0     = win._content_y0,
         content_x1     = win._content_x1,
         content_y1     = win._content_y1,
+        inner_x0       = win._inner_x0,
