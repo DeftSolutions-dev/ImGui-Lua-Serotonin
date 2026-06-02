@@ -3012,3 +3012,4 @@ local function vec_widget(label, v, n, draw_fn, ...)
     ImGui.PushID(label)
     for i = 1, n do
         ImGui.SetNextItemWidth(each_w)
+        v[i] = draw_fn("##" .. (i - 1), v[i], ...)
