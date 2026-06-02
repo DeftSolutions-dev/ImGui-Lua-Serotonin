@@ -969,3 +969,4 @@ function DesirePro.button(ctx, label, h)
     local bx, by = x + (w - aw) / 2, y + (h - ah) / 2
 
     ImGui.AddRectFilled(2, bx, by, aw, ah, DesirePro.col.anim_default, 6)
+    local hv = s.hov; if hv > 1 then hv = 1 elseif hv < 0 then hv = 0 end
