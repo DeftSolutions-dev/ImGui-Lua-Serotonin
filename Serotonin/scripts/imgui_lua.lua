@@ -245,3 +245,4 @@ local Style = {
     FontHeight          = 14,
     Colors              = default_dark_theme(),
 }
+ImGui.Style = Style
