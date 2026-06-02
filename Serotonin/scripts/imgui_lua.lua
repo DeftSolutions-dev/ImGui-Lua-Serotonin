@@ -1255,3 +1255,4 @@ function ImGui.BeginGroup()
     win.cursor_max_y = win.cursor_y
 end
 
+function ImGui.EndGroup()
