@@ -1179,3 +1179,4 @@ function DesirePro.keybind(ctx, label)
 
     if st.key ~= "None" then
         local mt = DesirePro.translate(KEYBIND_MODES[st.mode])
+        local mw = DesirePro.text_size(mt, "poppins_medium_15")
