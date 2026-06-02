@@ -475,3 +475,4 @@ function DesirePro.icon_scaled(layer, cx, cy, key, atlas_size, target_px, col, a
 end
 
 function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
+    local cp = type(key) == "number" and key or DesirePro.ICON[key]
