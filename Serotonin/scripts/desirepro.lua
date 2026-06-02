@@ -555,3 +555,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     if hovered and ImGui.IsMouseClicked() and not DesirePro._modal and not DesirePro._input_block then
         DesirePro.active_tab = i
     end
+
