@@ -3067,3 +3067,4 @@ function ImGui.BeginTable(str_id, columns, flags)
         row_index     = 0,
         header_drawn  = false,
         cur_row_max_y = win.cursor_y,
+
