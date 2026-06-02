@@ -1820,3 +1820,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
             set_active_id(hue_id, pwin, { x = hb_x, y = hb_y, w = hue_w, h = hb_h })
         end
         if g.active_id == hue_id then
+            if g.mouse_left_down then
