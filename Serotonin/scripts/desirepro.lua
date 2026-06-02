@@ -1378,3 +1378,4 @@ local function draw_popup()
         ImGui.AddGradient(3, sv_x, sv_y, sv_w, sv_h, ImGui.ColF(0, 0, 0, 0), ImGui.ColF(0, 0, 0, 1), false)
         local cur_x, cur_y = sv_x + c.s * sv_w, sv_y + (1 - c.v) * sv_h
         ImGui.AddCircleFilled(3, cur_x, cur_y, 5, ImGui.ColF(0, 0, 0, 1), 16)
+        ImGui.AddCircleFilled(3, cur_x, cur_y, 3.5, ImGui.ColF(1, 1, 1, 1), 16)
