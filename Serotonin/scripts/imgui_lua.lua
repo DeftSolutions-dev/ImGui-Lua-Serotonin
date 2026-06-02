@@ -3164,3 +3164,4 @@ function ImGui.TableHeadersRow()
         for _, s in ipairs(t.setups) do
             ImGui.TableNextColumn()
             ImGui.TableHeader(s.label)
+        end
