@@ -1078,3 +1078,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win._inner_x1      = win.x + win.w
     win._inner_y1      = win.y + effective_h
 
+    local out_open
