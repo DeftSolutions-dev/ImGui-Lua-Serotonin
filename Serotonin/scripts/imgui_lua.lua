@@ -2418,3 +2418,4 @@ render_scrollbar = function(win)
             clear_active_id()
         end
     end
+
