@@ -2602,3 +2602,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
                 idx = clamp(idx, 1, count)
                 local px = tx(idx)
                 dr_line(2, px, y, px, y + plot_h, StyleColor(Col.PlotLinesHovered), 1)
+                ImGui.BeginTooltip()
