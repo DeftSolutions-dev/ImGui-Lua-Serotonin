@@ -2492,3 +2492,4 @@ end
 
 function ImGui.EndChild()
     local win = g.current_window; if not win then return end
+    local stack = win._child_stack
