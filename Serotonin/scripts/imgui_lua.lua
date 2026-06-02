@@ -1016,3 +1016,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             local _, hov, held = ButtonBehavior(win.x, win.y + title_h,
                                                 win.w, win.h - title_h, cs_id)
             if held then
+                win.scroll_y = (win.scroll_y or 0) - g.mouse_dy
