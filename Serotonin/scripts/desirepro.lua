@@ -1845,3 +1845,4 @@ function DesirePro.menu()
                 end
                 DesirePro.drag.down = false; DesirePro.drag.moved = false
             end
+        end
