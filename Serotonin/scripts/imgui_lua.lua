@@ -433,3 +433,4 @@ local function update_io()
         local mouse_in_popup = (g.mouse_x >= p.x and g.mouse_x < p.x + p.w
                             and g.mouse_y >= p.y and g.mouse_y < p.y + p.h)
         local clear = false
+        if mouse_in_popup then
