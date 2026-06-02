@@ -1699,3 +1699,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
             local iid = fnv1a("listitem_" .. tostring(i), id)
             local hov = ItemHoverable(ix, iy, iw, ih, iid)
             if i == current_idx then
+                dr_rect_filled(2, ix, iy, iw, ih, StyleColor(Col.Header), 0)
