@@ -242,3 +242,4 @@ local Style = {
     PopupBorderSize     = 1,
     CellPadding         = { x = 4, y = 2 },
     Font                = "Verdana",
+    FontHeight          = 14,
