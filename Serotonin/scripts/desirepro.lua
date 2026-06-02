@@ -198,3 +198,4 @@ function DesirePro.shadow_rect(layer, x, y, w, h, color, alpha, spread)
     local m = spread or 18
     ImGui.AddImage(layer, x - m, y - m, w + 2 * m, h + 2 * m, tex,
                    color or ImGui.RGBA(0, 0, 0, 255), alpha or 0.55)
+end
