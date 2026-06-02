@@ -627,3 +627,4 @@ local function draw_header(mx, my, mw)
     end
     if h1 and hclk then DesirePro.settings_open = not DesirePro.settings_open end
     if h2 and hclk and not DesirePro._modal then ImGui.SetMenuOpen(false) end
+
