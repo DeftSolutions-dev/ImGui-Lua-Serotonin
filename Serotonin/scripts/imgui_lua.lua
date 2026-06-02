@@ -3976,3 +3976,4 @@ function ImGui.TextLink(label)
     local pressed, hovered, held = ButtonBehavior(x, y, tw, th, id)
     local col = StyleColor(Col.CheckMark)
     if hovered then
+        col = StyleColor(Col.ButtonHovered)
