@@ -1014,3 +1014,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         if ctrl_held then
             local cs_id = fnv1a("ctrl_scroll", id)
             local _, hov, held = ButtonBehavior(win.x, win.y + title_h,
+                                                win.w, win.h - title_h, cs_id)
