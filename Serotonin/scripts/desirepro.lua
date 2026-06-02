@@ -1532,3 +1532,4 @@ function DesirePro.esp_preview(ctx)
                 local at = #layout + 1
                 for i, it in ipairs(layout) do
                     if it.group == tg and it.sy and it.sy > my then at = i; break end
+                end
