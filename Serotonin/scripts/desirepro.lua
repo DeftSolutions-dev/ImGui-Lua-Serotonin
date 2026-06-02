@@ -1095,3 +1095,4 @@ function DesirePro.color(ctx, label)
     local c = var(id, { h = 0.05, s = 0.6, v = 0.9, a = 1 })
     local h = floor(32 * DesirePro.US)
     local x0, x1 = appear_xy(id, ctx, h)
+    local y = ctx.cy
