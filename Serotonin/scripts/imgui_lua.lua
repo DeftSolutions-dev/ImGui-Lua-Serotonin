@@ -3586,3 +3586,4 @@ function ImGui.BeginMenu(label)
             return ImGui.BeginPopup(str_id)
         end
         return false
+    end
