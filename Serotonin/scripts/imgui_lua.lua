@@ -3957,3 +3957,4 @@ function ImGui.SelectableEx(label, selected, flags, w_override, h_override)
     local pressed = ImGui.Selectable(label, selected, w_override, h_override)
     if flags.disabled then ImGui.EndDisabled() end
 
+    if flags.allow_double_click and pressed then
