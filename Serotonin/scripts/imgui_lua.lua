@@ -3406,3 +3406,4 @@ local function close_popup_window()
 
     local final_w = (win.cursor_max_x - me.x) + pad.x
     local final_h = (win.cursor_max_y - me.y) + pad.y
+    if final_w < 32 then final_w = 32 end
