@@ -441,3 +441,4 @@ local function update_io()
             local overlaps = (r.x < p.x + p.w and r.x + r.w > p.x
                           and r.y < p.y + p.h and r.y + r.h > p.y)
             if overlaps then clear = true end
+        end
