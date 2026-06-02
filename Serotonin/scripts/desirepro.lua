@@ -78,3 +78,4 @@ local function load_tex(rel)
         tex_cache[rel] = false
         return nil
     end
+    local ok2, id = pcall(utility.LoadImage, data)
