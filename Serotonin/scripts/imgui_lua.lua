@@ -2080,3 +2080,4 @@ function ImGui.TreeNodeEx(label, flags)
     if pressed and not flags.leaf then
         open = not open
         store_set(win, key, open)
+        g._toggled_id = id
