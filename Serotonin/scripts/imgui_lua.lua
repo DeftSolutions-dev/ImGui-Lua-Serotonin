@@ -4710,3 +4710,4 @@ function ImGui.Render()
     end
     g._focus_next_idx = nil
 
+    local zpri = {}
