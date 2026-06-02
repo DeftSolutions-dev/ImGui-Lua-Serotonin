@@ -4719,3 +4719,4 @@ function ImGui.Render()
         if n < 2 then return end
         local idx = {}
         for i = 1, n do idx[i] = i end
+        table.sort(idx, function(a, b)
