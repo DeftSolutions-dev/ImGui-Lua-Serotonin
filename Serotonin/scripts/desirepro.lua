@@ -549,3 +549,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
         tab_anim[i] = st
     end
 
+    local mx, my = ImGui.GetMousePos()
