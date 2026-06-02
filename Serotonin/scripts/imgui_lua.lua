@@ -1541,3 +1541,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
         end
         t = clamp(t, 0, 1)
         local grab_w = max(Style.GrabMinSize, slider_w * 0.05)
+        local grab_x = x + t * (slider_w - grab_w)
