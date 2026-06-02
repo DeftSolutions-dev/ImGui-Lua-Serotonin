@@ -779,3 +779,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
         ImGui.AddImage(2, pill_l, pill_t, pw, ph, ptex, ImGui.ColF(0.13, 0.13, 0.15, 1), 1)
         if cs.t > 0.01 then
             ImGui.AddImage(2, pill_l, pill_t, pw, ph, ptex, ImGui.ColF(1, 1, 1, 1), cs.t)
+        end
