@@ -2615,3 +2615,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
 
     local lw, _ = text_size(label)
     if lw > 0 then
+        dr_text(2, label, x + plot_w + Style.ItemInnerSpacing.x, y + (plot_h - th) * 0.5, StyleColor(Col.Text))
