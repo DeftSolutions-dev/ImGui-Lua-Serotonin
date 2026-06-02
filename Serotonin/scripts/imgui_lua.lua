@@ -3808,3 +3808,4 @@ function ImGui.LoadIniSettings(path)
                     local p = g._pending_window_settings[current_title]
                     if k == "Pos" then
                         local px, py = v:match("(-?%d+),(-?%d+)")
+                        p.x, p.y = tonumber(px), tonumber(py)
