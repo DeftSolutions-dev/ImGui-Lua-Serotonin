@@ -2152,3 +2152,4 @@ function ImGui.TreeNode(label)
 end
 
 function ImGui.TreePop()
+    ImGui.Unindent()
