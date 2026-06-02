@@ -4615,3 +4615,4 @@ local function flush_layer(layer)
                 draw.Rect(c.x, c.y, c.w, c.h, col, c.thick, c.rounding, a)
             end
 
+        elseif k == "line" then
