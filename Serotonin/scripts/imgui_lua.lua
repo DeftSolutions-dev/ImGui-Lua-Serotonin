@@ -1031,3 +1031,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     local effective_h = title_h + body_anim_h
     win._effective_h  = effective_h
 
+    local bg_col = StyleColor(Col.WindowBg)
