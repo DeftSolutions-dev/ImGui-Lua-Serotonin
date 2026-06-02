@@ -3677,3 +3677,4 @@ function ImGui.BeginTooltip()
     insert(g.draw_layers[5], bg_cmd)
     insert(g.draw_layers[5], br_cmd)
     me._bg_cmd = bg_cmd
+    me._br_cmd = br_cmd
