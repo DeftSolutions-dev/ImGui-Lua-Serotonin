@@ -1240,3 +1240,4 @@ function DesirePro.input(ctx, label, placeholder)
     end
 
     st.border = DesirePro.anim(st.border, focused and 2 or (hovered and 1 or 0), 12)
+    local bcol = focused and DesirePro.col.active or (hovered and DesirePro.col.label or DesirePro.col.child_stroke)
