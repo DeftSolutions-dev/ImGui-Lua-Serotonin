@@ -3713,3 +3713,4 @@ function ImGui.EndTooltip()
     local me = win._tooltip
     local pad = Style.WindowPadding
     local fw = (win.cursor_max_x - me.x) + pad.x
+    local fh = (win.cursor_max_y - me.y) + pad.y
