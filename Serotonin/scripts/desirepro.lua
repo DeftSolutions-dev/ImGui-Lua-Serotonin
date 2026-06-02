@@ -119,6 +119,7 @@ local function resolve_font(font_key)
     local wi = w and FONT_WEIGHT_ORDER[w]
     if not wi then return font_key end
     local ni = wi + shift
+    if ni < 0 then ni = 0 elseif ni > 2 then ni = 2 end
 function DesirePro.text(layer, x, y, str, font_key, color, alpha)
     local fm = META.fonts[font_key]
     if not fm then return 0 end
