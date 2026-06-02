@@ -3827,3 +3827,4 @@ function ImGui.LoadIniSettings(path)
             if p.y then win.y = p.y end
             if p.w then win.w = p.w end
             if p.h then win.h = p.h end
+            if p.collapsed ~= nil then win.collapsed = p.collapsed end
