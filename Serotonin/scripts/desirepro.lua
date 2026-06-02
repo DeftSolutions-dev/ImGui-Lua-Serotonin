@@ -954,3 +954,4 @@ function DesirePro.button(ctx, label, h)
     local id = "bt:" .. ctx.idp .. label
     local s = widget_state(id, { hov = 0, press = 0, text = 0 })
     local x = appear_xy(id, ctx, h)
+    local y, w = ctx.cy, ctx.w
