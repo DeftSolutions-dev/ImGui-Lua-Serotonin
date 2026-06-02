@@ -913,3 +913,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
 
     local frac = (v - vmin) / (vmax - vmin)
     s.slow = DesirePro.anim(s.slow, frac * tw, 25)
+    s.grab = DesirePro.ease_toggle(s, "grabE", over or active_drag == id, 20)
