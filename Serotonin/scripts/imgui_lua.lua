@@ -4089,3 +4089,4 @@ function ImGui.DatePicker(label, y, m, d)
     local hw  = text_size(hdr)
 
     ImGui.Text(hdr)
+    ImGui.SameLine()
