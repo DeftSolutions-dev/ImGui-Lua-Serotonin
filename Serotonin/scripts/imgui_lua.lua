@@ -1433,3 +1433,4 @@ function ImGui.Checkbox(label, value)
 
         local check_t = anim_step(win, fnv1a("chkmark", id), value and 1 or 0, 18)
         if check_t > 0.05 then
+            local cm = col_mul_alpha(StyleColor(Col.CheckMark), check_t)
