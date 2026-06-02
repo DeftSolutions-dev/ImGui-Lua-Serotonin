@@ -2901,3 +2901,4 @@ function ImGui.Hotkey(label, key)
     end
 
     local bg = StyleColor(Col.FrameBg)
+    if active then bg = StyleColor(Col.FrameBgActive)
