@@ -801,3 +801,4 @@ function ImGui.GetMousePos()
     return g.mouse_x, g.mouse_y
 end
 function ImGui.GetMouseDelta()
+    if ui_scale ~= 1 then return g.mouse_dx / ui_scale, g.mouse_dy / ui_scale end
