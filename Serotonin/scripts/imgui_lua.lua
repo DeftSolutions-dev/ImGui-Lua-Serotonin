@@ -4275,3 +4275,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
             if ok_e and e and not g._mtxt_enter_prev then text = text .. "\n" end
             g._mtxt_enter_prev = ok_e and e or false
             value = text
+        end
