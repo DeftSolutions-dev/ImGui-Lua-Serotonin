@@ -2156,3 +2156,4 @@ function ImGui.TreePop()
 end
 
 function ImGui.CollapsingHeader(label)
+    local win = g.current_window; if not win then return false end
