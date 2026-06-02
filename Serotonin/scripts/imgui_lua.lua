@@ -2802,3 +2802,4 @@ end
 function ImGui.BeginCombo(label, preview, flags)
     flags = flags or {}
     local win = g.current_window; if not win then return false end
+    local id = GetID("cmb:" .. label)
