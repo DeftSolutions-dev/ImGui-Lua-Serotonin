@@ -2749,3 +2749,4 @@ function ImGui.BeginDisabled(disabled)
     g._disabled_stack = g._disabled_stack or {}
     insert(g._disabled_stack, disabled)
 end
+function ImGui.EndDisabled()
