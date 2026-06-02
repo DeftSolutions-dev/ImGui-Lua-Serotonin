@@ -969,3 +969,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             local cy = ty + th * 0.5
             local cb_pressed, cb_hov = ButtonBehavior(cx - 7, cy - 7, 14, 14, close_id)
             local lc = cb_hov and StyleColor(Col.ButtonHovered) or StyleColor(Col.Text)
+
