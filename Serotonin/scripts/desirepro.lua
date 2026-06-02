@@ -531,3 +531,4 @@ DesirePro.tabs = {
     { icon = "COMPASS_FILL",        name = "Radar" },
     { icon = "EARTH_2_FILL",        name = "World" },
     { icon = "MIC_AI_FILL",         name = "Misc" },
+    { icon = "BOMB_FILL",           name = "Exploits" },
