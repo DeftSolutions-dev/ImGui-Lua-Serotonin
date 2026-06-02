@@ -181,3 +181,4 @@ function DesirePro.icon_size(key, size)
     local g = cp and im.glyphs[cp]
     if not g then return 0, 0 end
     return g.w, g.h
+end
