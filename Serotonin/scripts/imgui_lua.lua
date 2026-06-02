@@ -3582,3 +3582,4 @@ function ImGui.BeginMenu(label)
         elseif hovered then col = StyleColor(Col.HeaderHovered) end
         if col then dr_rect_filled(2, x, y, w, h, col, 0) end
         dr_text(2, label, x + pad_x, y + (h - th) * 0.5, StyleColor(Col.Text))
+        if is_open then
