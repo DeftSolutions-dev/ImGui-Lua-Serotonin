@@ -3928,3 +3928,4 @@ function ImGui.PopClipRect()
 end
 
 local _font_stack = {}
+function ImGui.PushFont(font_name)
