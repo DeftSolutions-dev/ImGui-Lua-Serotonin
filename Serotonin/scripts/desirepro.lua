@@ -1878,3 +1878,4 @@ function DesirePro.menu()
     DesirePro._win = { x = mx, y = my, w = mw, h = mh }
     local page_x = mx + 14
     local page_y = my + DesirePro.HEADER_H + 14
+    local page_h = mh - DesirePro.HEADER_H - 28
