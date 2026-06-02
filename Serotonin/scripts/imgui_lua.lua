@@ -3568,3 +3568,4 @@ function ImGui.BeginMenu(label)
         for i = 1, #g.popup_stack do
             if g.popup_stack[i].id == pid then is_open = true; break end
         end
+        if hovered and g.mouse_left_clicked then
