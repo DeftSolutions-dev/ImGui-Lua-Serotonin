@@ -187,3 +187,4 @@ function DesirePro.image(layer, x, y, w, h, name, color, alpha)
     local info = META.images[name]
     if not info then return end
     local tex = load_tex(ROOT .. "/" .. info.f)
+    if tex then ImGui.AddImage(layer, x, y, w, h, tex, color or ImGui.ColF(1, 1, 1, 1), alpha or 1) end
