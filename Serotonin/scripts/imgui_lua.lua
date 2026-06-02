@@ -4692,3 +4692,4 @@ local function flush_layer(layer)
             local col, a = to_image_tint(c.col, c.alpha)
             a = a * am
 
+            local draw_it = (not clip)
