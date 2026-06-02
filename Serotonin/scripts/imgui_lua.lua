@@ -2359,3 +2359,4 @@ local function text_clip(s, max_w, font)
     return sub(s, 1, lo) .. ell
 end
 ImGui.TextClip = text_clip
+
