@@ -4143,3 +4143,4 @@ function ImGui.FileBrowser(str_id, state)
     end
     ImGui.Separator()
 
+    local items = {}
