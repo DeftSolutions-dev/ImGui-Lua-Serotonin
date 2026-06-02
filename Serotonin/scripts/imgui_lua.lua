@@ -15,3 +15,4 @@ local Color3_new = Color3.new
 local function clamp(v, a, b)
     if v < a then return a end
     if v > b then return b end
+    return v
