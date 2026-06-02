@@ -2886,3 +2886,4 @@ function ImGui.Hotkey(label, key)
         set_active_id(id, win, { x = x, y = y, w = hk_w, h = frame_h })
     end
     local active = (g.active_id == id)
+    if active then
