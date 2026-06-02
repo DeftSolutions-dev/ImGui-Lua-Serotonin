@@ -1487,3 +1487,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     local win = g.current_window; if not win then return value end
     local id = GetID("sld:" .. label)
     local tw_lbl, th = text_size(label)
+    local pad = Style.FramePadding
