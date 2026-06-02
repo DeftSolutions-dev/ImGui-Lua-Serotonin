@@ -3082,3 +3082,4 @@ end
 local function table_total_w(t)
     local s = 0; for i = 1, t.columns do s = s + t.col_widths[i] end
     return s
+end
