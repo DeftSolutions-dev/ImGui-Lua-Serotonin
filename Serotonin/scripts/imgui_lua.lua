@@ -565,3 +565,4 @@ function ImGui.GetUIScale() return ui_scale end
 local function push_cmd(layer, cmd)
 
     cmd.amul = draw_alpha_mul
+    local original_layer = layer
