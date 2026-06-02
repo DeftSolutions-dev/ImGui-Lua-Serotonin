@@ -1349,3 +1349,4 @@ local function draw_popup()
 
         local b = popup.box
         if rc and can_click and not point_in_rect(mx, my, px, py, pw, ph)
+            and not point_in_rect(mx, my, b.x, b.y, b.w, b.h) then
