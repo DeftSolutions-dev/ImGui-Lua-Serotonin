@@ -561,3 +561,4 @@ function ImGui.SetUIScale(s, px, py)
     ui_py = py or 0
 end
 function ImGui.GetUIScale() return ui_scale end
+
