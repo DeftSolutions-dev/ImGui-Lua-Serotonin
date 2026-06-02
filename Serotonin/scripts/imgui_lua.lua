@@ -2286,3 +2286,4 @@ function ImGui.InputText(label, value, callback)
         for _, k in ipairs(INPUT_KEYS) do g.key_states_prev[k.key] = g.key_states[k.key] end
 
         if callback and ImGui.IsKeyPressed("Tab") then
+            local r = callback("completion", { value = value })
