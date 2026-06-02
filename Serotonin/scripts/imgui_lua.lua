@@ -3415,3 +3415,4 @@ local function close_popup_window()
     if me._open_anim > 0.995 then me._open_anim = 1 end
     local h_anim = final_h * me._open_anim
 
+    me.w = final_w; me.h = final_h
