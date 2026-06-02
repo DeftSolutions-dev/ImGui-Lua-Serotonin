@@ -3914,3 +3914,4 @@ function ImGui.SeparatorEx(thickness)
     local win = g.current_window; if not win then return end
     thickness = thickness or 1
     local x = win.cursor_x
+    local y = win.cursor_y + 2
