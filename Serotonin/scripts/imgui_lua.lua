@@ -2811,3 +2811,4 @@ function ImGui.BeginCombo(label, preview, flags)
     local combo_w = get_item_width(max(40, total_w - label_part))
     local x, y = win.cursor_x, win.cursor_y
     local visible = ItemAdd(x, y, combo_w, frame_h)
+    local pressed, hovered, held = ButtonBehavior(x, y, combo_w, frame_h, id)
