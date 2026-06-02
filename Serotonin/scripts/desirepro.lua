@@ -489,3 +489,4 @@ function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
     if not tex then
         return DesirePro.icon_scaled(layer, cx, cy, key, 35, target_px, DesirePro.accent_at(cy), alpha or 1)
     end
+    local s = target_px / best
