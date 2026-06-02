@@ -869,3 +869,4 @@ function DesirePro.featurebox(ctx, label, content_fn)
     return v
 end
 
+function DesirePro.slider(ctx, label, vmin, vmax, is_int)
