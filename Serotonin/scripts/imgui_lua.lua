@@ -321,3 +321,4 @@ g = {
     registered        = false,
 
     mouse_down_probe  = nil,
+}
