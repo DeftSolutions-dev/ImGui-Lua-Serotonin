@@ -2240,3 +2240,4 @@ function ImGui.InputText(label, value, callback)
     local win = g.current_window; if not win then return value end
     local id = GetID("inp:" .. label)
     insert(g.focus_list, id)
+    local th = Style.FontHeight
