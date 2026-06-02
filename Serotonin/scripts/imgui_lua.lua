@@ -1504,3 +1504,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     if active then
         if g.mouse_left_down then
 
+            local t = (slider_w > 0) and clamp((g.mouse_x - x) / slider_w, 0, 1) or 0
