@@ -1250,3 +1250,4 @@ function ImGui.BeginGroup()
         group_max_x   = win.cursor_x,
         group_max_y   = win.cursor_y,
     })
+
