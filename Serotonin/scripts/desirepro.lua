@@ -983,3 +983,4 @@ end
 
 function DesirePro.combo(ctx, label, items)
     local id = "co:" .. ctx.idp .. label
+    local sel = var(id, 0)
