@@ -1299,3 +1299,4 @@ local function draw_popup()
                 ImGui.SetDrawAlpha(1)
                 return
             end
+        end
