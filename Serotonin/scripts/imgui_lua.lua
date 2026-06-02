@@ -4737,3 +4737,4 @@ function ImGui.Render()
     end
 end
 
+function ImGui.Setup(user_fn)
