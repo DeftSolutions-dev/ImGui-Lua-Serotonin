@@ -397,3 +397,4 @@ function DesirePro.spawn_particles(cx, cy, n)
     if #DesirePro.particles > 300 then return end
     for i = 1, n do
         local a = random_unit() * 6.28318
+        local sp = 25 + random_unit() * 95
