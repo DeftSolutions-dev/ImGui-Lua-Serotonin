@@ -4416,3 +4416,4 @@ function ImGui.StyleColorsClassic()
     for i = 1, #C_NAMES do if t[i] == nil then t[i] = d[i] end end
     Style.Colors = t
 end
+
