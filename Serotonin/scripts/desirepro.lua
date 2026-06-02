@@ -172,3 +172,4 @@ function DesirePro.icon(layer, x, y, key, size, color, alpha)
                        g.w, g.h, tex, color, alpha)
     end
     return g.w
+end
