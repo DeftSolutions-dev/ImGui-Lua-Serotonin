@@ -2938,3 +2938,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     local sw, sh = draw.GetScreenSize()
     insert(g.draw_layers[4], {
         kind = "rectf", x = 0, y = 0, w = sw, h = sh,
+        col = StyleColor(Col.ModalWindowDimBg), rounding = 0,
