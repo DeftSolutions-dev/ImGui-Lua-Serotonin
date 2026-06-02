@@ -865,3 +865,4 @@ local function get_or_create_window(id, title)
     g.storage[id] = g.storage[id] or {}
 
     if g._pending_window_settings and g._pending_window_settings[title] then
+        local p = g._pending_window_settings[title]
