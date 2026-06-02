@@ -3357,3 +3357,4 @@ open_popup_window = function(me)
     insert(g.draw_layers[4], bg_cmd)
     insert(g.draw_layers[4], br_cmd)
     me._bg_cmd = bg_cmd
+    me._br_cmd = br_cmd
