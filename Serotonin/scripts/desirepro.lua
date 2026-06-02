@@ -1830,3 +1830,4 @@ function DesirePro.menu()
             and not DesirePro._modal and not DesirePro._input_block then
             DesirePro.drag.down = true; DesirePro.drag.moved = false; DesirePro.drag.sx = mxp; DesirePro.drag.sy = myp
         end
+        if DesirePro.drag.down then
