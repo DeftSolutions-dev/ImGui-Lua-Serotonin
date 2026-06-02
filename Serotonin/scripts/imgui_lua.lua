@@ -1602,3 +1602,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
             dr_text(2, label, x + drag_w + Style.ItemInnerSpacing.x, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
         end
     end
+    record_item(id, x, y, drag_w + label_part, frame_h, hovered, false, active)
