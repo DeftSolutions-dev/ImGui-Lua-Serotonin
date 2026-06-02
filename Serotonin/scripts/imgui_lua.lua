@@ -3477,3 +3477,4 @@ end
 
 function ImGui.BeginPopup(str_id, flags)
     local id = fnv1a("popup:" .. tostring(str_id))
+
