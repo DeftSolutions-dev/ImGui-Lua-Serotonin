@@ -2097,3 +2097,4 @@ function ImGui.TreeNodeEx(label, flags)
     end
 
     local cx = x + 10
+    local cy = y + h * 0.5
