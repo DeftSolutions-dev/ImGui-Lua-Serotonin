@@ -1670,3 +1670,4 @@ function ImGui.Combo(label, current_idx, items, flags)
             if ImGui.Selectable(tostring(it), current_idx == i) then
                 current_idx = i
                 ImGui.CloseCurrentPopup()
+            end
