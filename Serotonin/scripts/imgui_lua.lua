@@ -1676,3 +1676,4 @@ function ImGui.Combo(label, current_idx, items, flags)
         ImGui.EndCombo()
     end
     return current_idx
+end
