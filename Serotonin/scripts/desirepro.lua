@@ -1191,3 +1191,4 @@ function DesirePro.keybind(ctx, label)
             local k = scan_key()
             if k then
                 st.key = (k == "None") and "None" or k
+                st.waiting = false
