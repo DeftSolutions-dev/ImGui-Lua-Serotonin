@@ -1746,3 +1746,4 @@ function DesirePro.menu()
     DesirePro.scale = 1
     ImGui.SetUIScale(1)
 
+    local pmx, pmy = ImGui.GetMousePos()
