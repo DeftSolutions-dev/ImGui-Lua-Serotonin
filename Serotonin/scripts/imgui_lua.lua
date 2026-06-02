@@ -76,3 +76,4 @@ local function clip_line_cs(x1, y1, x2, y2, c)
         else x2, y2 = nx, ny; k2 = code(x2, y2) end
     end
     return nil
+end
