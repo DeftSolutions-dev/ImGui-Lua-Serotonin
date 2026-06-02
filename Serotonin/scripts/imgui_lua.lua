@@ -3236,3 +3236,4 @@ end
 function ImGui.TableGetSortSpecs()
     local win = g.current_window; if not win then return {} end
     local t = win._table; if not t or not t.sortable then return {} end
+    local out = {}
