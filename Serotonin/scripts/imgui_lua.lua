@@ -2393,3 +2393,4 @@ render_scrollbar = function(win)
     local t = (win.scroll_y / win.scroll_max_y)
     local grab_y = sb_y + t * grab_y_range
 
+    if g.mouse_left_clicked
