@@ -1393,3 +1393,4 @@ local function draw_popup()
         ImGui.AddGradient(3, sv_x, alpha_y, sv_w, alpha_h, DesirePro.with_alpha(full, 0), DesirePro.with_alpha(full, 1), true)
         local acx = sv_x + c.a * sv_w
         ImGui.AddRect(3, acx - 2, alpha_y - 1, 4, alpha_h + 2, ImGui.ColF(1, 1, 1, 1), 1, 1)
+
