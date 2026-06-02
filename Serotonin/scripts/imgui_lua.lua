@@ -4499,3 +4499,4 @@ function ImGui.ShowStyleEditor()
 
             ImGui.Style._filter = ImGui.Style._filter or ""
             ImGui.Style._filter = ImGui.InputText("Filter", ImGui.Style._filter)
+            local filt = string.lower(ImGui.Style._filter or "")
