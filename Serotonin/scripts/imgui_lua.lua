@@ -3752,3 +3752,4 @@ function ImGui.InputFloatStep(label, value, step, fmt)
     fmt  = fmt or "%.3f"
     ImGui.PushID(label)
     if ImGui.SmallButton("-") then value = value - step end
+    ImGui.SameLine(nil, 2)
