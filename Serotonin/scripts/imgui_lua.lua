@@ -3182,3 +3182,4 @@ function ImGui.TableHeader(label)
     local x  = t.x0; for i = 1, t.cur_col do x = x + t.col_widths[i] end
     local y  = t.row_y
 
+    local click_x, click_w = x + 3, cw - 6
