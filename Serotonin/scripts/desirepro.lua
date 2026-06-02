@@ -159,3 +159,4 @@ DesirePro.ICON = {
     ARROWS_LEFT_LINE = 0xE99C,
 }
 
+function DesirePro.icon(layer, x, y, key, size, color, alpha)
