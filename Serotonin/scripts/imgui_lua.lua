@@ -3565,3 +3565,4 @@ function ImGui.BeginMenu(label)
         local str_id = "##menupopup_" .. tostring(id)
         local pid = fnv1a("popup:" .. str_id)
         local is_open = false
+        for i = 1, #g.popup_stack do
