@@ -662,3 +662,4 @@ local function hsv2rgb(h, s, v, a)
     elseif i == 1 then r, g, b = q, v, p
     elseif i == 2 then r, g, b = p, v, t
     elseif i == 3 then r, g, b = p, q, v
+    elseif i == 4 then r, g, b = t, p, v
