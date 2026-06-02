@@ -87,3 +87,4 @@ local function load_tex(rel)
     return id
 end
 DesirePro.load_tex = load_tex
+
