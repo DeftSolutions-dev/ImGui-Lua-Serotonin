@@ -1445,3 +1445,4 @@ function DesirePro.esp_preview(ctx)
     local px, py, pw = ctx.x, ctx.cy, ctx.w
     local ph = pw * 1.4533
 
+    local layout = DesirePro.vars["esp_layout"]
