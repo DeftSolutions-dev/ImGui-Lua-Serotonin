@@ -400,3 +400,4 @@ local function update_io()
     g.mouse_left_released = g.mouse_left_down_prev and (not g.mouse_left_down)
 
     g.hovered_window_id = nil
+    for i = #g.windows_z_order, 1, -1 do
