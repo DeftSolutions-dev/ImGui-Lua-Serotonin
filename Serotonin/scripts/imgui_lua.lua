@@ -2558,3 +2558,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
     plot_h = plot_h or 60
     plot_w = plot_w or (win._content_x1 - win.cursor_x - 80)
     auto_wrap(plot_w)
+    local x, y = win.cursor_x, win.cursor_y
