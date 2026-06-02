@@ -689,3 +689,4 @@ local function raw_clicked() return ImGui.IsMouseClicked() end
 local function clicked()
     if not ImGui.IsMouseClicked() then return false end
     if DesirePro._input_block then return false end
+    if DesirePro._modal and not DesirePro._modal_active then return false end
