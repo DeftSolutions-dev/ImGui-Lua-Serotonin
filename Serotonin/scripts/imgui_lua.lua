@@ -4579,3 +4579,4 @@ local function flush_layer(layer)
 
         if k == "rectf" then
             local col, a = to_draw(c.col)
+            a = a * am
