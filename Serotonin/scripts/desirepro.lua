@@ -245,3 +245,4 @@ function DesirePro.preload(spec)
         local im = META.icons[size]
         if im then
             for _, name in ipairs(names) do
+                local cp = DesirePro.ICON[name]
