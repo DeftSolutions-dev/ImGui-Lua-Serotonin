@@ -105,3 +105,4 @@ local function utf8_iter(s)
         i = i + size
         return cp
     end
+end
