@@ -3421,3 +3421,4 @@ local function close_popup_window()
     me._bg_cmd.w = final_w; me._bg_cmd.h = h_anim
     me._br_cmd.w = final_w; me._br_cmd.h = h_anim
 
+    if me._clip_rect then
