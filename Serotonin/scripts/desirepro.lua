@@ -1093,3 +1093,4 @@ end
 function DesirePro.color(ctx, label)
     local id = "cl:" .. ctx.idp .. label
     local c = var(id, { h = 0.05, s = 0.6, v = 0.9, a = 1 })
+    local h = floor(32 * DesirePro.US)
