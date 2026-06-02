@@ -1774,3 +1774,4 @@ function DesirePro.menu()
     local ox = floor(pvx + (rx - pvx) / s)
     local oy = floor(pvy + (ry - pvy) / s)
     local mx, my, tx, ty, tw, th
+    if dock == 0 then
