@@ -1668,3 +1668,4 @@ function ImGui.Combo(label, current_idx, items, flags)
         end
         for i, it in ipairs(items) do
             if ImGui.Selectable(tostring(it), current_idx == i) then
+                current_idx = i
