@@ -4448,3 +4448,4 @@ function ImGui.BeginDragDropTarget()
     return true
 end
 
+function ImGui.AcceptDragDropPayload(type_str)
