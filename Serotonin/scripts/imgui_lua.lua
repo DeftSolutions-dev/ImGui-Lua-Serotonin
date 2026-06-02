@@ -467,3 +467,4 @@ local function update_io()
 
     g.mouse_wheel = g.mouse_wheel or 0
     local ok_w, content = pcall(file.read, "wheel.txt")
+    if ok_w and type(content) == "string" and #content > 0 then
