@@ -4753,3 +4753,4 @@ function ImGui._OnPaint()
     end
     _frame_ctr = _frame_ctr + 1
 
+    local ok, err = pcall(function()
