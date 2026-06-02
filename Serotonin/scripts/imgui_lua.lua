@@ -1816,3 +1816,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         local hb_h = sv_size
         local hue_id = fnv1a("hue", id)
         local hue_hover = ItemHoverable(hb_x, hb_y, hue_w, hb_h, hue_id)
+        if hue_hover and g.mouse_left_clicked then
