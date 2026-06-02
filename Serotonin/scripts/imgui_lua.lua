@@ -1611,3 +1611,4 @@ function ImGui.DragFloat(label, v, speed, vmin, vmax, fmt) return drag_internal(
 function ImGui.DragInt(label, v, speed, vmin, vmax, fmt)   return drag_internal(label, v, speed or 1, vmin, vmax, fmt or "%d",  true) end
 
 function ImGui.ProgressBar(fraction, w, h, overlay)
+    local win = g.current_window; if not win then return end
