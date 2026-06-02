@@ -4209,3 +4209,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
     local hovered = ItemHoverable(x, y, w, h, id)
     if hovered and g.mouse_left_clicked then
         set_active_id(id, win, { x = x, y = y, w = w, h = h })
+    end
