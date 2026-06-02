@@ -1153,3 +1153,4 @@ end
 local KEYBIND_MODES = { "Hold", "Toggle", "Always" }
 function DesirePro.keybind(ctx, label)
     local id = "kb:" .. ctx.idp .. label
+    local st = widget_state(id, { key = "None", waiting = false, size = 60, bga = 0, mode = 1 })
