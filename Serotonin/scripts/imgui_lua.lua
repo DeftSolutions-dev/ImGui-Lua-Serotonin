@@ -299,3 +299,4 @@ g = {
     current_window    = nil,
     window_stack      = {},
 
+    storage           = {},
