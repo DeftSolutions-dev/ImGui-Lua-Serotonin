@@ -309,3 +309,4 @@ g = {
     color_stack       = {},
 
     open_popup        = nil,
+
