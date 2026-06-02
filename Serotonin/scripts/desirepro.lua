@@ -892,3 +892,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local plus_hit = point_in_rect(mx, my, x + w - btn, mid_y - btn / 2, btn, btn)
     if minus_hit and clicked() then
         v = v - step; if v < vmin then v = vmin end; if is_int then v = floor(v + 0.5) end; DesirePro.vars[id] = v
+    end
