@@ -401,3 +401,4 @@ local function update_io()
 
     g.hovered_window_id = nil
     for i = #g.windows_z_order, 1, -1 do
+        local wid = g.windows_z_order[i]
