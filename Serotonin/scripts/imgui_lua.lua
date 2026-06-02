@@ -3052,3 +3052,4 @@ function ImGui.BeginTable(str_id, columns, flags)
 
     local saved_specs = store_get(win, "tbl_specs_" .. tostring(id), nil)
     win._table = {
+        id            = id,
