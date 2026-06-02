@@ -3861,3 +3861,4 @@ function ImGui.IsMouseDragging(threshold)
 
     return d2 > threshold * threshold or (g._is_dragging or false)
 end
+function ImGui.GetMouseDragDelta()
