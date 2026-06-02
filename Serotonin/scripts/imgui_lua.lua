@@ -4123,3 +4123,4 @@ function ImGui.DatePicker(label, y, m, d)
                     d = idx
                 end
                 if is_sel then ImGui.PopStyleColor() end
+                idx = idx + 1
