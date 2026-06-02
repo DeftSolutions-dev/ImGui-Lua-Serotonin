@@ -1851,3 +1851,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
             ImGui.Text(string.format("#%02X%02X%02X",
                                      round(r * 255), round(g_ * 255), round(b * 255)))
         end
+        ImGui.EndPopup()
