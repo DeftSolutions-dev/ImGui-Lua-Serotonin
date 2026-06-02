@@ -1866,3 +1866,4 @@ function DesirePro.menu()
         end
         if DesirePro.hdrag then
             if ImGui.IsMouseDown() then
+                local dx, dy = ImGui.GetMouseDelta()
