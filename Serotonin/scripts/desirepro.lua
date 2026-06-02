@@ -1090,3 +1090,4 @@ function DesirePro.multicombo(ctx, label, items)
     return sel
 end
 
+function DesirePro.color(ctx, label)
