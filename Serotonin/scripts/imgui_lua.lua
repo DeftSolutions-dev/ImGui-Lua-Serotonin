@@ -2435,3 +2435,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     auto_wrap(cw)
     cx, cy = win.cursor_x, win.cursor_y
 
+    if border then
