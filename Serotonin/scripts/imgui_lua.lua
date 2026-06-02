@@ -593,3 +593,4 @@ local function push_cmd(layer, cmd)
         if cmd.thick then cmd.thick = cmd.thick * s end
         if cmd.max_w then cmd.max_w = cmd.max_w * s end
         if cmd.clip then
+            local c = cmd.clip
