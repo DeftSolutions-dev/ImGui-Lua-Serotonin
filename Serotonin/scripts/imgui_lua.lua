@@ -4613,3 +4613,4 @@ local function flush_layer(layer)
                 end
             else
                 draw.Rect(c.x, c.y, c.w, c.h, col, c.thick, c.rounding, a)
+            end
