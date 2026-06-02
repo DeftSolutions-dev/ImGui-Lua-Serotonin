@@ -735,3 +735,4 @@ local function ButtonBehavior(x, y, w, h, id)
 end
 ImGui.ButtonBehavior = ButtonBehavior
 
+local function anim_get(win, id)
