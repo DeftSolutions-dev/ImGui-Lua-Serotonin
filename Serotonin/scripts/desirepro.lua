@@ -1729,3 +1729,4 @@ local function draw_settings()
         and not (gr and point_in_rect(mx, my, gr.x, gr.y, gr.w, gr.h))
         and not in_popup(mx, my) then
         DesirePro.settings_open = false
+    end
