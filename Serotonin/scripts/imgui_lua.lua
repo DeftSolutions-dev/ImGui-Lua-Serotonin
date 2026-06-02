@@ -1767,3 +1767,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
 
     local popup_str = "##colpicker_" .. tostring(id)
     if pressed and not flags.no_picker then
+        if ImGui.IsPopupOpen(popup_str) then
