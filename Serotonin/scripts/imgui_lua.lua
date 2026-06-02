@@ -2015,3 +2015,4 @@ function ImGui.EndTabBar()
     if tb and tb.reorderable then
 
         for i = #tb.label_order, 1, -1 do
+            if not tb.label_seen[tb.label_order[i]] then
