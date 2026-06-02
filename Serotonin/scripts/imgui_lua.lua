@@ -2800,3 +2800,4 @@ function ImGui.ColorButton(desc_id, col, w, h)
 end
 
 function ImGui.BeginCombo(label, preview, flags)
+    flags = flags or {}
