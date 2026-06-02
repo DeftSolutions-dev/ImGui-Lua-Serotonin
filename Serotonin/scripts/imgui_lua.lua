@@ -456,3 +456,4 @@ local function update_io()
         for _, k in ipairs(names) do
             local ok, v = pcall(keyboard.IsPressed, k)
             if ok and v then return true end
+        end
