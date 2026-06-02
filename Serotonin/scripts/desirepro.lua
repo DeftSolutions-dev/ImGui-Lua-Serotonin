@@ -385,3 +385,4 @@ end
 local _seed = 2463534242
 local function random_unit()
     local x = _seed
+    x = bit.bxor(x, bit.lshift(x, 13))
