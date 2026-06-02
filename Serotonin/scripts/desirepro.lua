@@ -1116,3 +1116,4 @@ function DesirePro.color(ctx, label)
     ctx.cy = ctx.cy + h + floor(9 * DesirePro.US)
 end
 
+local CAPTURE_KEYS = {}
