@@ -3653,3 +3653,4 @@ end
 function ImGui.BeginTooltip()
 
     local pad = Style.WindowPadding
+    local me = {
