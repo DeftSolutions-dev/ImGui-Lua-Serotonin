@@ -3172,3 +3172,4 @@ function ImGui.TableHeadersRow()
                    StyleColor(Col.TableHeaderBg), 0)
 end
 
+function ImGui.TableHeader(label)
