@@ -1646,3 +1646,4 @@ function ImGui.Selectable(label, selected, w_override, h_override)
             dr_rect_filled(2, x, y, w, h, col, 0)
         end
         dr_text(2, label, x + 4, y + (h - th) * 0.5, StyleColor(Col.Text))
+    end
