@@ -394,3 +394,4 @@ local function update_io()
 
     g.mouse_left_down_prev = g.mouse_left_down
 
+    local probe_down = check_mouse_down_now()
