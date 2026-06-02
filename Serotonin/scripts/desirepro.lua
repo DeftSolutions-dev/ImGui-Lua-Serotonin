@@ -37,3 +37,4 @@ DesirePro.meta = META
 local ROOT = "desirepro"
 
 do
+    local nf = 0
