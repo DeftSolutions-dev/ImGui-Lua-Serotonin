@@ -249,3 +249,4 @@ function DesirePro.preload(spec)
                 local g = cp and im.glyphs[cp]
                 if g and g.f and load_tex(ROOT .. "/" .. im.dir .. "/" .. g.f) then total = total + 1 end
                 if g and g.f and load_tex(ROOT .. "/icon_grad/" .. size .. "/" .. g.f) then total = total + 1 end
+            end
