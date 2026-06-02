@@ -4669,3 +4669,4 @@ local function flush_layer(layer)
                    and c.cy + c.r >= clip.y and c.cy - c.r <= clip.y + clip.h then
                     draw.CircleFilled(c.cx, c.cy, c.r, col, c.segs, a)
                 end
+            else
