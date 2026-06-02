@@ -47,3 +47,4 @@ local function clip_intersect(x, y, w, h, c)
     return x1, y1, x2 - x1, y2 - y1
 end
 
+local function clip_line_cs(x1, y1, x2, y2, c)
