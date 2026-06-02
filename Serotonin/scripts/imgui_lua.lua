@@ -1765,3 +1765,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
 
     local s = get_picker_state(id, r, g_, b)
 
+    local popup_str = "##colpicker_" .. tostring(id)
