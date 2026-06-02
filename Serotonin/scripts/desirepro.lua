@@ -636,3 +636,4 @@ end
 
 local widget_states = {}
 local function widget_state(id, init)
+    local s = widget_states[id]
