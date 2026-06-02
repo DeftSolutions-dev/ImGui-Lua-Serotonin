@@ -1082,3 +1082,4 @@ function DesirePro.multicombo(ctx, label, items)
             if iw > maxw then maxw = iw end
         end
         popup = { kind = "multicombo", varid = id, items = items, t = s.open,
+                  x = box_max - maxw, y = y + h + 4, w = maxw,
