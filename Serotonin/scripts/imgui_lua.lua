@@ -78,3 +78,4 @@ local function clip_line_cs(x1, y1, x2, y2, c)
     return nil
 end
 
+local function lerp(a, b, t) return a + (b - a) * t end
