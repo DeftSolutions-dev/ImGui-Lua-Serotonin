@@ -2622,3 +2622,4 @@ end
 
 function ImGui.PlotLines(label, values, overlay, scale_min, scale_max, w, h)
     plot_internal(label, values, overlay, scale_min, scale_max, w, h, "lines")
+end
