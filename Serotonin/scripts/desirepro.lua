@@ -917,3 +917,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local grab_cx = tmin_x + s.slow
     if grab_cx < tmin_x + 8 then grab_cx = tmin_x + 8 elseif grab_cx > tmax_x - 7 then grab_cx = tmax_x - 7 end
 
+    DesirePro.text(2, x, y, DesirePro.translate(label), "poppins_medium_15", DesirePro.col.label, 1)
