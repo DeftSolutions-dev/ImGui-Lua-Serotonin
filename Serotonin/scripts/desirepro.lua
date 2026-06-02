@@ -1783,3 +1783,4 @@ function DesirePro.menu()
     else
         mx, my = ox, oy;                           tx, ty, tw, th = ox + mw, oy, side, mh
     end
+
