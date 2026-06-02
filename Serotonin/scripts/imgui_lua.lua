@@ -2630,3 +2630,4 @@ end
 function ImGui.GetCursorPos()
     local win = g.current_window
     if not win then return 0, 0 end
+    return win.cursor_x - win.x, win.cursor_y - win.y
