@@ -1201,3 +1201,4 @@ function DesirePro.keybind(ctx, label)
 end
 
 function DesirePro.input(ctx, label, placeholder)
+    local id = "in:" .. ctx.idp .. label
