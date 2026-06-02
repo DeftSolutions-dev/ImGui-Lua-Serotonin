@@ -4445,3 +4445,4 @@ function ImGui.BeginDragDropTarget()
     local r = g.last_item_rect
     if not point_in_rect(g.mouse_x, g.mouse_y, r.x, r.y, r.w, r.h) then return false end
     g.dragdrop_target_id = g.last_item_id
+    return true
