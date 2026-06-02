@@ -1432,3 +1432,4 @@ function ImGui.Checkbox(label, value)
         end
 
         local check_t = anim_step(win, fnv1a("chkmark", id), value and 1 or 0, 18)
+        if check_t > 0.05 then
