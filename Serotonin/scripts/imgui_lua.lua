@@ -3275,3 +3275,4 @@ function ImGui.EndTable()
         end
         store_set(win, "tbl_w_" .. tostring(t.id), t.col_widths)
     end
+
