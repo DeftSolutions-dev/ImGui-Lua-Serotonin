@@ -2792,3 +2792,4 @@ function ImGui.ColorButton(desc_id, col, w, h)
     local pressed, hovered, held = ButtonBehavior(x, y, w, h, id)
     if ItemAdd(x, y, w, h) then
         dr_rect_filled(2, x, y, w, h, col, Style.FrameRounding)
+        dr_rect(2, x, y, w, h, StyleColor(Col.Border), 1, Style.FrameRounding)
