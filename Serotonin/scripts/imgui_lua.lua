@@ -1446,3 +1446,4 @@ function ImGui.Checkbox(label, value)
         end
         dr_text(2, label, x + box_sz + Style.ItemInnerSpacing.x, y + (box_sz - th) * 0.5, StyleColor(Col.Text))
     end
+    record_item(id, x, y, total_w, box_sz, hovered, pressed, held)
