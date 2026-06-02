@@ -1064,3 +1064,4 @@ function DesirePro.multicombo(ctx, label, items)
 
     DesirePro.text_in(2, x0, y, h, DesirePro.translate(label), "poppins_medium_16", lcol, 1)
     ImGui.AddRectFilled(2, box_min, y, bw, h, DesirePro.col.anim_default, 3)
+    ImGui.PushClipRect(box_min + 6, y, bw - 28, h)
