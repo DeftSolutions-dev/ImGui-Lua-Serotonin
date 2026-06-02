@@ -600,3 +600,4 @@ local function push_cmd(layer, cmd)
 
     insert(g.draw_layers[layer], cmd)
 end
+
