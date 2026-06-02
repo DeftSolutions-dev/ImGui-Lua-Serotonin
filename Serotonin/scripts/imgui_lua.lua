@@ -267,3 +267,4 @@ g = {
     key_states_prev   = {},
     chars_queue       = {},
 
+    id_stack          = {},
