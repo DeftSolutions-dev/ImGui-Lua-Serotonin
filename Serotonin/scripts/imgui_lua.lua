@@ -4780,3 +4780,4 @@ function ImGui.GetIO()
         MouseClicked   = g.mouse_left_clicked,
         MouseReleased  = g.mouse_left_released,
         DeltaTime      = g.dt,
+        FrameCount     = g.frame_count,
