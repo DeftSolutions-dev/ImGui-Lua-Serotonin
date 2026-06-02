@@ -67,3 +67,4 @@ function DesirePro.translate(en)
 end
 
 local tex_cache = {}
+local function load_tex(rel)
