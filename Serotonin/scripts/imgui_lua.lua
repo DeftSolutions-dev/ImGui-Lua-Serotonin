@@ -947,3 +947,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     if not opts.no_title then
         local tx, ty, tw, th = win.x, win.y, win.w, title_h
         local close_reserve  = win._has_close and 22 or 0
+
