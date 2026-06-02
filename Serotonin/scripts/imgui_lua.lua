@@ -2987,3 +2987,4 @@ function ImGui.PushStyleVar(name, value)
     insert(_style_var_stack, { name = name, prev = Style[name] })
     if type(value) == "table" then
         Style[name] = { x = value.x or value[1], y = value.y or value[2] }
+    else
