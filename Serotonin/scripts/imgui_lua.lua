@@ -2480,3 +2480,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     win._inner_x0      = cx
     win._inner_y0      = cy
     win._inner_x1      = cx + cw
+    win._inner_y1      = cy + ch
