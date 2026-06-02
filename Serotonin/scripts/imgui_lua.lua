@@ -3131,3 +3131,4 @@ function ImGui.TableSetupColumn(label, flags)
     local win = g.current_window; if not win then return end
     local t = win._table; if not t then return end
     flags = flags or {}
+    t.setups = t.setups or {}
