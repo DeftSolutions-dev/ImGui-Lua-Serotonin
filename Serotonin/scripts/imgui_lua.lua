@@ -158,3 +158,4 @@ local C_NAMES = {
     "ResizeGrip","ResizeGripHovered","ResizeGripActive","Tab","TabHovered","TabActive",
     "TabUnfocused","TabUnfocusedActive","PlotLines","PlotLinesHovered","PlotHistogram",
     "PlotHistogramHovered","TableHeaderBg","TableBorderStrong","TableBorderLight",
+    "TableRowBg","TableRowBgAlt","TextSelectedBg","DragDropTarget","NavHighlight",
