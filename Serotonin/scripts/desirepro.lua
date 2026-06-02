@@ -70,3 +70,4 @@ local tex_cache = {}
 local function load_tex(rel)
     local v = tex_cache[rel]
     if v ~= nil then
+        if v == false then return nil end
