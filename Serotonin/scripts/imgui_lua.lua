@@ -106,3 +106,4 @@ local function to_draw(c)
 end
 
 local function hsv_to_rgb(h, s, v)
+    if s <= 0 then return v, v, v end
