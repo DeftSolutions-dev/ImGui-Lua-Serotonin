@@ -4182,3 +4182,4 @@ function ImGui.CheckboxFlags(label, flags_int, flag_bit)
         else               flags_int = bit.band(flags_int, bit.bnot(flag_bit)) end
     end
     return flags_int, pressed
+end
