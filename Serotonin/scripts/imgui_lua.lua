@@ -2098,3 +2098,4 @@ function ImGui.TreeNodeEx(label, flags)
 
     local cx = x + 10
     local cy = y + h * 0.5
+    local mk = StyleColor(Col.Text)
