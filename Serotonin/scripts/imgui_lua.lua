@@ -3816,3 +3816,4 @@ function ImGui.LoadIniSettings(path)
                         p.collapsed = (v == "1")
                     end
                 end
+            end
