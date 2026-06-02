@@ -22,3 +22,4 @@ local function point_in_rect(px, py, rx, ry, rw, rh)
     return px >= rx and py >= ry and px < rx + rw and py < ry + rh
 end
 
+local g
