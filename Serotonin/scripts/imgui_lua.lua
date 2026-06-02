@@ -1775,3 +1775,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         end
     end
     if ImGui.BeginPopup(popup_str) then
+        local pwin = g.current_window
