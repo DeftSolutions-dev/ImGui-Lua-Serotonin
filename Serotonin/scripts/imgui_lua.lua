@@ -3811,3 +3811,4 @@ function ImGui.LoadIniSettings(path)
                         p.x, p.y = tonumber(px), tonumber(py)
                     elseif k == "Size" then
                         local pw, ph = v:match("(-?%d+),(-?%d+)")
+                        p.w, p.h = tonumber(pw), tonumber(ph)
