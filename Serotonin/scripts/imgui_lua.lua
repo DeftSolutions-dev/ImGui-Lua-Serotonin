@@ -2836,3 +2836,4 @@ function ImGui.BeginCombo(label, preview, flags)
         if preview and not flags.no_preview then
             dr_text(2, tostring(preview), x + 4, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
         end
+        if tw_lbl > 0 then
