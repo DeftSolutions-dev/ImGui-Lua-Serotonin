@@ -1229,3 +1229,4 @@ function ImGui.SeparatorText(text)
     local x = win.cursor_x
     local y = win.cursor_y + math.floor(th * 0.5)
     local total_w = win._content_x1 - x
+    local pad = 6
