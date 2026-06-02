@@ -1066,3 +1066,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win.cursor_max_y   = win.cursor_start_y
     win.line_h         = Style.FontHeight
     win.prev_line_h    = Style.FontHeight
+    win.indent_x       = 0
