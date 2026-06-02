@@ -1628,3 +1628,4 @@ function DesirePro.page(idx, px, py, ph)
         if c.on then
             DesirePro.slider(c, "Radar Range", 0, 500, true)
             DesirePro.combo(c, "Radar Mode", { "Off", "Minimal", "Full" })
+            DesirePro.checkbox(c, "Footprints")
