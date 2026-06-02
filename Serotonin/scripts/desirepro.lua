@@ -305,3 +305,4 @@ function DesirePro.update_theme()
     local src = DesirePro.theme and DesirePro.col_light or DesirePro.col_dark
     local step = (ImGui.GetDeltaTime() or 0.016) * 12
     if DesirePro.no_anim or step > 1 then step = 1 end
+    for k, tgt in pairs(src) do
