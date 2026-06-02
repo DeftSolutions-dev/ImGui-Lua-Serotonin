@@ -50,3 +50,4 @@ do
         local chunk = loadstring(src, "desirepro_locale")
         if chunk then
             local ok2, t = pcall(chunk)
+            if ok2 and type(t) == "table" then LOCALE = t end
