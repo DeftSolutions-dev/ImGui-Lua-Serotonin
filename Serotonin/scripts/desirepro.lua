@@ -251,3 +251,4 @@ function DesirePro.preload(spec)
                 if g and g.f and load_tex(ROOT .. "/icon_grad/" .. size .. "/" .. g.f) then total = total + 1 end
             end
         end
+    end
