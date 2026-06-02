@@ -3186,3 +3186,4 @@ function ImGui.TableHeader(label)
     if click_w < 4 then click_x, click_w = x, cw end
     local hovered = ItemHoverable(click_x, y, click_w, h, id)
     if hovered and g.mouse_left_clicked and t.sortable then
+        local ctrl_held = ImGui.IsKeyDown("Control")
