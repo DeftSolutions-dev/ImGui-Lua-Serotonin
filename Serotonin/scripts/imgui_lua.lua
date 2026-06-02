@@ -958,3 +958,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             local dx, dy, dw, dh = tx + 20, ty, tw - 20 - close_reserve, th
             local _, hov, held = ButtonBehavior(dx, dy, dw, dh, drag_id)
             if held then
+                win.x = win.x + g.mouse_dx
