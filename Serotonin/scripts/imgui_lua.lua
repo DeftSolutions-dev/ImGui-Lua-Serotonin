@@ -1564,3 +1564,4 @@ function ImGui.SliderInt(label, v, vmin, vmax, fmt, flags)   return slider_inter
 local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     local win = g.current_window; if not win then return value end
     local id = GetID("drg:" .. label)
+    insert(g.focus_list, id)
