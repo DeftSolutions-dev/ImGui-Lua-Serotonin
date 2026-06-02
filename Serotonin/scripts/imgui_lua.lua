@@ -1972,3 +1972,4 @@ function ImGui.BeginTabItem(label, p_open)
     local closed_now  = false
 
     if on_screen then
+
