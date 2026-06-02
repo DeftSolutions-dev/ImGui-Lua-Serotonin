@@ -609,3 +609,4 @@ local function dr_rect(layer, x, y, w, h, col, thick, rounding)
     push_cmd(layer, { kind = "rect", x = x, y = y, w = w, h = h, col = col, thick = thick or 1, rounding = rounding or 0 })
 end
 
+local function dr_line(layer, x1, y1, x2, y2, col, thick)
