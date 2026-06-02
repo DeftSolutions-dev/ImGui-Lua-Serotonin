@@ -1818,3 +1818,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         local hue_hover = ItemHoverable(hb_x, hb_y, hue_w, hb_h, hue_id)
         if hue_hover and g.mouse_left_clicked then
             set_active_id(hue_id, pwin, { x = hb_x, y = hb_y, w = hue_w, h = hb_h })
+        end
