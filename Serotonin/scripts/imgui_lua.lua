@@ -263,3 +263,4 @@ g = {
     mouse_left_down_prev = false,
     mouse_wheel       = 0,
 
+    key_states        = {},
