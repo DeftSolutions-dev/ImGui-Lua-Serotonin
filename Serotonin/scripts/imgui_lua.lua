@@ -3626,3 +3626,4 @@ function ImGui.MenuItem(label, shortcut, selected)
             if mods_ok then pressed = true end
         end
     end
+    if pressed then
