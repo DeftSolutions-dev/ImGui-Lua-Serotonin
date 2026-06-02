@@ -1091,3 +1091,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
               win._content_y1 - win._content_y0)
 
     if not opts.no_resize then
+        local gs = 14
