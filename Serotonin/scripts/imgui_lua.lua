@@ -1615,3 +1615,4 @@ function ImGui.ProgressBar(fraction, w, h, overlay)
     fraction = clamp(fraction or 0, 0, 1)
     local th = Style.FontHeight
     local frame_h = h or (th + Style.FramePadding.y * 2)
+    local frame_w = w or (win._content_x1 - win.cursor_x)
