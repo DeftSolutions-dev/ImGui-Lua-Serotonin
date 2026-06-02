@@ -2872,3 +2872,4 @@ function ImGui.Hotkey(label, key)
     insert(g.focus_list, id)
     local th = Style.FontHeight
     local pad = Style.FramePadding
+    local frame_h = th + pad.y * 2
