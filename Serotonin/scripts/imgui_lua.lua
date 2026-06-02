@@ -1414,3 +1414,4 @@ function ImGui.Checkbox(label, value)
     local x, y = win.cursor_x, win.cursor_y
     local total_w = box_sz + Style.ItemInnerSpacing.x + tw
     local visible = ItemAdd(x, y, total_w, box_sz)
+    local pressed, hovered, held = ButtonBehavior(x, y, total_w, box_sz, id)
