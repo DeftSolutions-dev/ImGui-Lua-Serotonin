@@ -1488,3 +1488,4 @@ function DesirePro.esp_preview(ctx)
     for k, it in ipairs(groups.right) do
         it.sx, it.align = bx + bw + 11, "left"; it.sy = by + 2 + (k - 1) * LH
     end
+    local sy_min, sy_max = py + 2, py + ph - LH - 2
