@@ -1002,3 +1002,4 @@ function DesirePro.combo(ctx, label, items)
     end
     s.lab = DesirePro.anim(s.lab, hovered and 1 or 0, 12)
     s.open = DesirePro.anim(s.open or 0, opened and 1 or 0, 15)
+    s.roll = DesirePro.anim(s.roll or 0, opened and 1 or 0, 6)
