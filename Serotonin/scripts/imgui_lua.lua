@@ -3312,3 +3312,4 @@ function ImGui.IsPopupOpen(str_id)
     return false
 end
 
+function ImGui.IsAnyPopupOpen() return #g.popup_stack > 0 end
