@@ -3498,3 +3498,4 @@ function ImGui.BeginPopup(str_id, flags)
     open_popup_window(me)
     return true
 end
+
