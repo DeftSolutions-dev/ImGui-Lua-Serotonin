@@ -4271,3 +4271,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
                 else text = text .. ch end
             end
 
+            local ok_e, e = pcall(keyboard.IsPressed, "Enter")
