@@ -421,3 +421,4 @@ local function update_io()
         end
     end
 
+    if g.mouse_left_clicked and g.active_id and g.active_id_rect then
