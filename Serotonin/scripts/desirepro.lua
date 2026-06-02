@@ -203,3 +203,4 @@ end
 function DesirePro.shadow_circle(layer, cx, cy, r, color, alpha)
     local tex = load_tex(ROOT .. "/shadow/circle.png")
     if not tex then return end
+    local s = r * 2.2
