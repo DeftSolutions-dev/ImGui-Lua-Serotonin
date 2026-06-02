@@ -4443,3 +4443,4 @@ function ImGui.BeginDragDropTarget()
     if not g.dragdrop_active then return false end
     if g.last_item_id == nil then return false end
     local r = g.last_item_rect
+    if not point_in_rect(g.mouse_x, g.mouse_y, r.x, r.y, r.w, r.h) then return false end
