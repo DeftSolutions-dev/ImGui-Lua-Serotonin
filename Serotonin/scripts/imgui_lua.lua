@@ -2947,3 +2947,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     local title_h = Style.WindowTitleHeight
     local last_w = me._last_w or 320
 
+    local title_cmd_bg = { kind = "rectf", x = me.x, y = me.y, w = last_w, h = title_h,
