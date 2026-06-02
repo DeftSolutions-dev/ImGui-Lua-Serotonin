@@ -1718,3 +1718,4 @@ local function get_picker_state(id, r, g_, b)
     if not s then
         local h, s2, v = rgb_to_hsv(r, g_, b)
         s = { h = h, s = s2, v = v, open = false, last_r = r, last_g = g_, last_b = b }
+        store_set(win, key, s)
