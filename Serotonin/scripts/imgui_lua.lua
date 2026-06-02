@@ -307,3 +307,4 @@ g = {
     next_window_focus      = false,
 
     color_stack       = {},
+
