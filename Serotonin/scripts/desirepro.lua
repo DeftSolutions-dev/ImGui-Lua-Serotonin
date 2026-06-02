@@ -1712,3 +1712,4 @@ local function draw_settings()
     DesirePro.icon_scaled(2, px + 26, py + 23, "SETTINGS_4_FILL", 35, 20, DesirePro.col.active, 1)
     DesirePro.text_in(2, px + 46, py, 46, DesirePro.translate("Settings"), "poppins_semibold_18", DesirePro.col.label_active, 1)
 
+    local cxb, cyb = px + pw - 24, py + 23
