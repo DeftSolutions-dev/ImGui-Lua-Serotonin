@@ -863,3 +863,4 @@ local function get_or_create_window(id, title)
     insert(g.windows_order, id)
     insert(g.windows_z_order, id)
     g.storage[id] = g.storage[id] or {}
+
