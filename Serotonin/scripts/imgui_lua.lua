@@ -2131,3 +2131,4 @@ function ImGui.TreeNode(label)
     if pressed then
         open = not open
         store_set(win, key, open)
+        g._toggled_id = id
