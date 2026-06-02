@@ -1454,3 +1454,4 @@ function DesirePro.esp_preview(ctx)
 
     DesirePro.image(2, px, py, pw, ph, "esp_bg")
     ImGui.AddRect(2, px, py, pw, ph, DesirePro.col.child_stroke, 1, 6)
+    local bw = pw * 0.36
