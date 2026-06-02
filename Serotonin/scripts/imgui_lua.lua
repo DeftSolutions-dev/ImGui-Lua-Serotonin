@@ -4434,3 +4434,4 @@ end
 function ImGui.SetDragDropPayload(type_str, data)
     if not g.dragdrop_active then return false end
     g.dragdrop_payload = { type = type_str, data = data }
+    return true
