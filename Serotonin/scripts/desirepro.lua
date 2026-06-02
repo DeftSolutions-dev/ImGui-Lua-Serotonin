@@ -799,3 +799,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
 
     ImGui.PushClipRect(bx, y + CARD_HEADER, w, cs.h + 2)
 
+    return { x = bx + 13, cy = y + CARD_HEADER + 13, w = w - 26, x1 = bx + w - 13,
