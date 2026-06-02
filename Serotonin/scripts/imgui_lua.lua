@@ -3057,3 +3057,4 @@ function ImGui.BeginTable(str_id, columns, flags)
         columns       = columns,
         col_widths    = widths,
         x0            = win.cursor_x,
+        y0            = win.cursor_y,
