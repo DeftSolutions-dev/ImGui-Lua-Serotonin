@@ -1751,3 +1751,4 @@ function DesirePro.menu()
     DesirePro._modal = DesirePro.settings_open
     popup = nil
     DesirePro.update_theme()
+
