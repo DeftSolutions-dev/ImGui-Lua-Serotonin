@@ -656,3 +656,4 @@ local function hsv2rgb(h, s, v, a)
     h = (h - floor(h)) * 6
     local i = floor(h)
     local f = h - i
+    local p, q, t = v * (1 - s), v * (1 - s * f), v * (1 - s * (1 - f))
