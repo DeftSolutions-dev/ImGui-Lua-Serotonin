@@ -1083,3 +1083,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
     if win.collapsed and win._collapse_t > 0.99 then
         if p_open ~= nil then return false, out_open end
+        return false
