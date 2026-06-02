@@ -1765,3 +1765,4 @@ function DesirePro.menu()
     local box_w = horiz and mw or (side + mw)
     local box_h = horiz and (band + mh) or mh
     local s = DesirePro.scale or 1
+    local pvx, pvy = sw * 0.5, sh * 0.5
