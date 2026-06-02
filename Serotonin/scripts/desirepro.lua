@@ -788,3 +788,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     DesirePro.shadow_circle(2, knob_cx, knob_cy, 7, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.45)
     ImGui.AddRectFilled(2, floor(knob_cx - 7), floor(knob_cy - 7), 14, 14, ImGui.ColF(kc, kc, kc, 1), 7)
 
+    local title, desc = split_desc(DesirePro.translate(name))
