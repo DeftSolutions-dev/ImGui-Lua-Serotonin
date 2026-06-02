@@ -550,3 +550,4 @@ function ImGui.PopStyleColor(n)
     for i = 1, n do remove(g.color_stack) end
 end
 
+local draw_alpha_mul = 1
