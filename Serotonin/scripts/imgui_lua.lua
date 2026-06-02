@@ -2420,3 +2420,4 @@ render_scrollbar = function(win)
     end
 
     local col = StyleColor(Col.ScrollbarGrab)
+    if active then col = StyleColor(Col.ScrollbarGrabActive)
