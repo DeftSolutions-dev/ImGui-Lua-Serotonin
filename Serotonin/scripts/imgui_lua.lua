@@ -1444,3 +1444,4 @@ function ImGui.Checkbox(label, value)
             dr_line(2, x0, y0, x1, y1, cm, 2)
             dr_line(2, x1, y1, x2, y2, cm, 2)
         end
+        dr_text(2, label, x + box_sz + Style.ItemInnerSpacing.x, y + (box_sz - th) * 0.5, StyleColor(Col.Text))
