@@ -1995,3 +1995,4 @@ function ImGui.BeginTabItem(label, p_open)
     end
 
     local sel = false
+    if is_selected and not closed_now then
