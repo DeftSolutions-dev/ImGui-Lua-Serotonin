@@ -1122,3 +1122,4 @@ function ImGui.End()
         win.h = max(Style.WindowMinSize.y,
                     (win.cursor_max_y - win.y) + pad.y)
     end
+
