@@ -1220,3 +1220,4 @@ function DesirePro.input(ctx, label, placeholder)
     end
     local focused = (DesirePro._focus_input == id)
 
+    if focused and not raw_clicked() then
