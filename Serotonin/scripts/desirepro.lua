@@ -1723,3 +1723,4 @@ local function draw_settings()
     DesirePro.no_anim = DesirePro.checkbox(ctx, "Disable animations")
     DesirePro.no_appear = DesirePro.checkbox(ctx, "Disable appear anim")
     ImGui.SetDrawAlpha(1)
+
