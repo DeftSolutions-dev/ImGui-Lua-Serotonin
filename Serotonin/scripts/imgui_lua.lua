@@ -2535,3 +2535,4 @@ end
 function ImGui.ImageButton(str_id, tex_id, w, h, tint, bg)
     local win = g.current_window; if not win then return false end
     local id = GetID("imgbtn:" .. tostring(str_id))
+    auto_wrap(w + 4)
