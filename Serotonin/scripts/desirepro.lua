@@ -666,3 +666,4 @@ local function hsv2rgb(h, s, v, a)
     else r, g, b = v, p, q end
     return { r = r, g = g, b = b, a = a or 1 }
 end
+DesirePro.hsv2rgb = hsv2rgb
