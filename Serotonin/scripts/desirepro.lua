@@ -1594,3 +1594,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.color(c, "Tracer Color")
         end
         DesirePro.end_card(c)
+        ry = ry + c.total + GAP
