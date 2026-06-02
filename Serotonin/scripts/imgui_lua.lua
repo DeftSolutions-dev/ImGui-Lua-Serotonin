@@ -938,3 +938,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
     g.current_window = win
     insert(g.window_stack, win)
+
