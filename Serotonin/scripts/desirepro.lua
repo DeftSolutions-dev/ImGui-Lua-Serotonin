@@ -379,3 +379,4 @@ function DesirePro.ease_toggle(st, key, on, speed)
     rec.t = rec.t + 0.1 * delta_time() * (speed or 12)
     if rec.t > 1 then rec.t = 1 end
     local e = DesirePro.ease_back(rec.t)
+    return on and e or (1 - e)
