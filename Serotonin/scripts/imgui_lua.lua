@@ -72,3 +72,4 @@ local function clip_line_cs(x1, y1, x2, y2, c)
         else
             ny = y1 + (y2 - y1) * (cx1 - x1) / (x2 - x1); nx = cx1
         end
+        if out == k1 then x1, y1 = nx, ny; k1 = code(x1, y1)
