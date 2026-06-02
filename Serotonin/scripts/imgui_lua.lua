@@ -254,3 +254,4 @@ g = {
     dt                = 0,
 
     mouse_x           = 0,
+    mouse_y           = 0,
