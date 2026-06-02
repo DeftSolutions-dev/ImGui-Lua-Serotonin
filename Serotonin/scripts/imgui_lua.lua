@@ -3495,3 +3495,4 @@ function ImGui.BeginPopup(str_id, flags)
         if g.popup_stack[i].id == id then me = g.popup_stack[i]; break end
     end
     if not me then return false end
+    open_popup_window(me)
