@@ -2595,3 +2595,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
             if hovered then
                 local idx
                 if kind == "hist" then
+                    idx = floor((g.mouse_x - x) / (plot_w / count)) + 1
