@@ -2265,3 +2265,4 @@ function ImGui.InputText(label, value, callback)
                 value = value .. cb
             end
         end
+        for _, ch in ipairs(typed) do
