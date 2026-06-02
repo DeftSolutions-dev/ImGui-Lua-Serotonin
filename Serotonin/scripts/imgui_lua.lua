@@ -4734,3 +4734,4 @@ function ImGui.Render()
     stable_sort_by_z(g.draw_layers[3])
     for i = 1, #g.draw_layers do
         flush_layer(g.draw_layers[i])
+    end
