@@ -515,3 +515,4 @@ end
 local function GetID(label)
 
     local seed = FNV_OFFSET
+    local stack = g.id_stack
