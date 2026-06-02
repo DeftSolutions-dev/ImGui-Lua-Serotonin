@@ -1420,3 +1420,4 @@ local function draw_popup()
         elseif color_drag == "alpha" then
             c.a = clamp01((mx - sv_x) / sv_w)
         end
+
