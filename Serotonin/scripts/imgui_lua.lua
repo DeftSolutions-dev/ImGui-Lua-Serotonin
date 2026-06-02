@@ -2485,3 +2485,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     win._child_scroll_key = sk
     win._child_scroll_y   = sy
 
+    pop_clip()
