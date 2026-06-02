@@ -1140,3 +1140,4 @@ local function key_edge(name)
 end
 
 local function scan_key()
+    if key_down("Escape") then return "None" end
