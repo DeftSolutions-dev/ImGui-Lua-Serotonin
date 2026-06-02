@@ -1263,3 +1263,4 @@ function ImGui.EndGroup()
     local gh = win.cursor_max_y - s.cursor_y_save
 
     win.cursor_max_x = max(s.max_x_save, win.cursor_max_x)
+    win.cursor_max_y = max(s.max_y_save, win.cursor_max_y)
