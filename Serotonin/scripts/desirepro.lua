@@ -895,3 +895,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     end
     if plus_hit and clicked() then
         v = v + step; if v > vmax then v = vmax end; if is_int then v = floor(v + 0.5) end; DesirePro.vars[id] = v
+    end
