@@ -3079,3 +3079,4 @@ function ImGui.BeginTable(str_id, columns, flags)
     return true
 end
 
+local function table_total_w(t)
