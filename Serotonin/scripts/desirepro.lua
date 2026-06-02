@@ -1005,3 +1005,4 @@ function DesirePro.combo(ctx, label, items)
     s.roll = DesirePro.anim(s.roll or 0, opened and 1 or 0, 6)
     local lcol = opened and DesirePro.col.label_active or (hovered and DesirePro.col.label_hover or DesirePro.col.label)
 
+    DesirePro.text_in(2, x0, y, h, DesirePro.translate(label), "poppins_medium_16", lcol, 1)
