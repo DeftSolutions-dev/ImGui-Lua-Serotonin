@@ -1834,3 +1834,4 @@ function DesirePro.menu()
             if abs(mxp - DesirePro.drag.sx) + abs(myp - DesirePro.drag.sy) > 8 then DesirePro.drag.moved = true end
             if not ImGui.IsMouseDown() then
                 if DesirePro.drag.moved then
+                    local slots = { { 0, mx + mw / 2, my - band / 2 }, { 1, mx + mw / 2, my + mh + band / 2 },
