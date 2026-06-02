@@ -2103,3 +2103,4 @@ function ImGui.TreeNodeEx(label, flags)
         dr_circle_filled(2, cx, cy, 2, mk, 8)
     elseif flags.leaf then
 
+    elseif open then
