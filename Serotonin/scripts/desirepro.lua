@@ -1176,3 +1176,4 @@ function DesirePro.keybind(ctx, label)
     DesirePro.rrect(2, px, py, pw, ph, 3, bg)
     DesirePro.icon_scaled(2, px + 13, py + ph / 2, "KEYBOARD_FILL", 18, 13, DesirePro.col.label, 1)
     DesirePro.text_in(2, px + 26, py, ph, name, "poppins_medium_15", DesirePro.col.label_active, 1)
+
