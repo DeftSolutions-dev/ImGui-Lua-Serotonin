@@ -1013,3 +1013,4 @@ function DesirePro.combo(ctx, label, items)
     local ang = s.roll * 3.14159
     local lx1, ly1 = rotate_point(acx, acy, acx - 4, acy - 2, ang)
     local lx2, ly2 = rotate_point(acx, acy, acx, acy + 3, ang)
+    local lx3, ly3 = rotate_point(acx, acy, acx + 4, acy - 2, ang)
