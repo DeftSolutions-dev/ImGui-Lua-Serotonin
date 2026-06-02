@@ -244,3 +244,4 @@ local Style = {
     Font                = "Verdana",
     FontHeight          = 14,
     Colors              = default_dark_theme(),
+}
