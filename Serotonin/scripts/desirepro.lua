@@ -1570,3 +1570,4 @@ function DesirePro.esp_preview(ctx)
                           sw = { x = lx, y = it.sy, w = it._w or 20, h = LH } }
             end
         end
+    end
