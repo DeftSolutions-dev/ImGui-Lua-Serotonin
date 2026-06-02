@@ -1829,3 +1829,4 @@ function DesirePro.menu()
         if not DesirePro.drag.down and ImGui.IsMouseClicked() and point_in_rect(mxp, myp, tx, ty, tw, th)
             and not DesirePro._modal and not DesirePro._input_block then
             DesirePro.drag.down = true; DesirePro.drag.moved = false; DesirePro.drag.sx = mxp; DesirePro.drag.sy = myp
+        end
