@@ -2507,3 +2507,4 @@ function ImGui.EndChild()
     win.cursor_start_y = s.cursor_start_y
     win._content_x0    = s.content_x0
     win._content_y0    = s.content_y0
+    win._content_x1    = s.content_x1
