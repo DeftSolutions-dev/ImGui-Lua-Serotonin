@@ -4173,3 +4173,4 @@ function ImGui.LogTextBox(str_id, lines, w, h)
     end
     ImGui.EndChild()
 end
+
