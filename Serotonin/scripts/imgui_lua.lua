@@ -829,3 +829,4 @@ local function focus_window(win)
     end
     insert(g.windows_z_order, win.id)
 end
+
