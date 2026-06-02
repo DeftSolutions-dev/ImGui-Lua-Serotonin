@@ -2006,3 +2006,4 @@ function ImGui.BeginTabItem(label, p_open)
     return sel
 end
 
+function ImGui.EndTabItem()
