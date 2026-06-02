@@ -1146,3 +1146,4 @@ local function ItemSize(w, h)
     g.last_item_rect.h = h
     win.line_h   = max(win.line_h, h)
     win.cursor_max_x = max(win.cursor_max_x, win.cursor_x + w)
+    win.cursor_max_y = max(win.cursor_max_y, win.cursor_y + win.line_h)
