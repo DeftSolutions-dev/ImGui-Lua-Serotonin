@@ -3049,3 +3049,4 @@ function ImGui.BeginTable(str_id, columns, flags)
         local k = total_w / sum
         for i = 1, columns do widths[i] = widths[i] * k end
     end
+
