@@ -1653,3 +1653,4 @@ function DesirePro.page(idx, px, py, ph)
 end
 
 DesirePro._feature_t = 0
+DesirePro._feature_h = 92
