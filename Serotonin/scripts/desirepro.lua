@@ -117,3 +117,4 @@ function DesirePro.text(layer, x, y, str, font_key, color, alpha)
     for cp in utf8_iter(tostring(str)) do
         local g = fm.glyphs[cp]
         if g then
+            if g.f then
