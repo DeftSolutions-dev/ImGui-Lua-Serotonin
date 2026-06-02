@@ -3292,3 +3292,4 @@ function ImGui.BeginListBox(label, w, h)
     h = h or 6 * (Style.FontHeight + 4) + 4
     return ImGui.BeginChild("##listbox_" .. label, w, h, true)
 end
+function ImGui.EndListBox() ImGui.EndChild() end
