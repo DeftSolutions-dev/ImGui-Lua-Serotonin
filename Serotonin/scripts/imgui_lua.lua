@@ -13,3 +13,4 @@ local Color3_fromRGB = Color3.fromRGB
 local Color3_new = Color3.new
 
 local function clamp(v, a, b)
+    if v < a then return a end
