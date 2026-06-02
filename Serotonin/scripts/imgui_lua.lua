@@ -484,3 +484,4 @@ local function update_io()
         for _, n in ipairs(names) do if probe(n) then return true end end
         return false
     end
+    local nav_blocked = g._input_text_active or false
