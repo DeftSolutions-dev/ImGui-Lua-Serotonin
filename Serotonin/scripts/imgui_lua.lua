@@ -2543,3 +2543,4 @@ function ImGui.ImageButton(str_id, tex_id, w, h, tint, bg)
         local frame = bg or StyleColor(Col.Button)
         if held and hovered then frame = StyleColor(Col.ButtonActive)
         elseif hovered then frame = StyleColor(Col.ButtonHovered) end
+        dr_rect_filled(2, x, y, w + 4, h + 4, frame, Style.FrameRounding)
