@@ -877,3 +877,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local x = appear_xy(id, ctx, floor(44 * US))
     local y, w = ctx.cy, ctx.w
     local label_h = floor(16 * US)
+    local btn = floor(16 * US)
