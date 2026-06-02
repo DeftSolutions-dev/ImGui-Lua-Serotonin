@@ -2823,3 +2823,4 @@ function ImGui.BeginCombo(label, preview, flags)
         else g.popup_pending_open = { str_id = str_id, id = pid, x = x, y = y + frame_h }; is_open = true end
     end
     if visible then
+        local bg = StyleColor(Col.FrameBg)
