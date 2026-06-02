@@ -1622,3 +1622,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.slider(c3, "Max Distance", 0, 500, true)
             DesirePro.keybind(c3, "Wallhack")
         end
+        DesirePro.end_card(c3)
