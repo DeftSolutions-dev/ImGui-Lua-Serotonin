@@ -3831,3 +3831,4 @@ function ImGui.LoadIniSettings(path)
             g._pending_window_settings[win.title] = nil
         end
     end
+    return true
