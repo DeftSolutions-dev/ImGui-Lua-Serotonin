@@ -3840,3 +3840,4 @@ end
 function ImGui.IsKeyPressed(name)
 
     g._key_prev = g._key_prev or {}
+    local now  = ImGui.IsKeyDown(name)
