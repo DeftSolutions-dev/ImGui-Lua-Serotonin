@@ -3710,3 +3710,4 @@ end
 function ImGui.EndTooltip()
     local win = g.current_window
     if not win or not win._is_tooltip then return end
+    local me = win._tooltip
