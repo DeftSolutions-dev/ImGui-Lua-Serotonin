@@ -1724,3 +1724,4 @@ local function draw_settings()
     DesirePro.no_appear = DesirePro.checkbox(ctx, "Disable appear anim")
     ImGui.SetDrawAlpha(1)
 
+    local gr = DesirePro._gear_rect
