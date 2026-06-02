@@ -4102,3 +4102,4 @@ function ImGui.DatePicker(label, y, m, d)
 
     for i, name in ipairs(DOW_NAMES) do
         if i > 1 then ImGui.SameLine(nil, 2) end
+        local x, _ = ImGui.GetCursorScreenPos()
