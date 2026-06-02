@@ -1266,3 +1266,4 @@ local function draw_popup()
     local mx, my = ImGui.GetMousePos()
     local rc = raw_clicked()
 
+    if popup.kind == "combo" then
