@@ -1324,3 +1324,4 @@ local function draw_popup()
         ImGui.AddRect(3, px, py, pw, ph, DesirePro.col.child_stroke, 1, 6)
 
         local can_click = t > 0.85
+        for i = 1, n do
