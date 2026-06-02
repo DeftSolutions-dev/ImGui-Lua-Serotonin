@@ -609,3 +609,4 @@ local function draw_header(mx, my, mw)
     DesirePro.icon_gradient(2, mx + 35, my + 30, "TETHER_USDT_FILL", 30, 1)
 
     DesirePro.text(2, mx + 60, my + 11, "DesirePro", "poppins_semibold_18", DesirePro.col.label_active, 1)
+    DesirePro.text(2, mx + 60, my + 32, DesirePro.translate("Fine-tuning for sure wins"), "poppins_medium_15", DesirePro.col.desc, 1)
