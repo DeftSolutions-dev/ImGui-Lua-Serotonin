@@ -1051,3 +1051,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
         dr_text(2, title, win.x + 22, win.y + (title_h - Style.FontHeight) * 0.5, StyleColor(Col.Text))
     end
+    if Style.WindowBorderSize > 0 and not opts.no_bg then
