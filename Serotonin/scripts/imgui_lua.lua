@@ -3768,3 +3768,4 @@ function ImGui.GetMainViewport()
     return { x = 0, y = 0, w = sw, h = sh,
              center_x = sw * 0.5, center_y = sh * 0.5 }
 end
+
