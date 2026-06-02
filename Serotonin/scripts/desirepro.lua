@@ -974,3 +974,4 @@ function DesirePro.button(ctx, label, h)
         local gw, gh = aw * hv, ah
         DesirePro.grad_rrect(2, bx + (aw - gw) / 2, by + (ah - gh) / 2, gw, gh, 6, DesirePro.col.dark, DesirePro.col.active)
     end
+    local tcol = col_lerp_rgb(DesirePro.col.label, DesirePro.col.label_active, s.text)
