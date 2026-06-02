@@ -4439,3 +4439,4 @@ end
 
 function ImGui.EndDragDropSource() ImGui.EndTooltip() end
 
+function ImGui.BeginDragDropTarget()
