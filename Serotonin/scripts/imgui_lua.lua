@@ -2332,3 +2332,4 @@ function ImGui.InputFloat(label, value, step, fmt)
 end
 
 function ImGui.SetTooltip(text)
+    local mx, my = g.mouse_x + 14, g.mouse_y + 8
