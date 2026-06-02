@@ -3639,3 +3639,4 @@ function ImGui.MenuItem(label, shortcut, selected)
     end
     if selected then
 
+        local cm = StyleColor(Col.CheckMark)
