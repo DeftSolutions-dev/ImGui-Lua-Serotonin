@@ -2317,3 +2317,4 @@ function ImGui.InputText(label, value, callback)
     return value, active
 end
 
+function ImGui.InputInt(label, value, step)
