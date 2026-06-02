@@ -1776,3 +1776,4 @@ function DesirePro.menu()
     local mx, my, tx, ty, tw, th
     if dock == 0 then
         tx, ty, tw, th = ox, oy, mw, band;        mx, my = ox, oy + band
+    elseif dock == 1 then
