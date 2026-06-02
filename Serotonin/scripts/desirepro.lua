@@ -1079,3 +1079,4 @@ function DesirePro.multicombo(ctx, label, items)
         local maxw = bw
         for _, it in ipairs(items) do
             local iw = DesirePro.text_size(DesirePro.translate(it), "poppins_medium_16") + 56
+            if iw > maxw then maxw = iw end
