@@ -797,3 +797,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
         DesirePro.icon_gradient(2, x + 28, y + 28, icon, 24, 1)
     end
 
+    ImGui.PushClipRect(bx, y + CARD_HEADER, w, cs.h + 2)
