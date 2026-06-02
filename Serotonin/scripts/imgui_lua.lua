@@ -718,3 +718,4 @@ local function ItemHoverable(x, y, w, h, id)
 end
 
 local function ButtonBehavior(x, y, w, h, id)
+    local hovered = ItemHoverable(x, y, w, h, id)
