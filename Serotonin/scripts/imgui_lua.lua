@@ -1111,3 +1111,4 @@ function ImGui.End()
     local win = g.current_window
     if not win then return end
 
+    win.content_w = win.cursor_max_x - win.cursor_start_x
