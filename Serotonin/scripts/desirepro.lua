@@ -73,3 +73,4 @@ local function load_tex(rel)
         if v == false then return nil end
         return v
     end
+    local ok, data = pcall(file.read, rel)
