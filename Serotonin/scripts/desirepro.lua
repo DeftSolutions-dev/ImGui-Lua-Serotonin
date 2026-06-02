@@ -242,3 +242,4 @@ function DesirePro.preload(spec)
     local names = (spec and spec.icon_names) or {}
     local isizes = (spec and spec.icon_sizes) or { 18, 35 }
     for _, size in ipairs(isizes) do
+        local im = META.icons[size]
