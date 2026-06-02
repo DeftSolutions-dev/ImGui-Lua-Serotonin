@@ -2752,3 +2752,4 @@ end
 function ImGui.EndDisabled()
     local s = g._disabled_stack
     if s and #s > 0 then
+        local was = remove(s)
