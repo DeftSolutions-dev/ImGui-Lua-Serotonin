@@ -712,3 +712,4 @@ local function split_desc(s)
 end
 
 local appear_state = {}
+function DesirePro.appear(id, center_y)
