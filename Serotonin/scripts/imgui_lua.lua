@@ -3087,3 +3087,4 @@ end
 function ImGui.TableNextRow()
     local win = g.current_window; if not win then return end
     local t = win._table; if not t then return end
+    if t.row_index > 0 then
