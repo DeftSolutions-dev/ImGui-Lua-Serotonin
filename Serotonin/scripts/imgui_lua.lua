@@ -1635,3 +1635,4 @@ function ImGui.Selectable(label, selected, w_override, h_override)
     local w = w_override or (win._content_x1 - win.cursor_x)
     local h = h_override or (th + Style.FramePadding.y)
     local x, y = win.cursor_x, win.cursor_y
+    local visible = ItemAdd(x, y, w, h)
