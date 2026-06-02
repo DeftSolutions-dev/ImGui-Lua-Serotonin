@@ -799,3 +799,4 @@ function ImGui.GetMousePos()
         return ui_px + (g.mouse_x - ui_px) / ui_scale, ui_py + (g.mouse_y - ui_py) / ui_scale
     end
     return g.mouse_x, g.mouse_y
+end
