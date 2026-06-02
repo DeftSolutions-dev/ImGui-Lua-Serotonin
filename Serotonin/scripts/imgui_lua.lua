@@ -4046,3 +4046,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
 
     local total_w = ImGui.GetContentRegionAvail()
     ImGui.SetNextItemWidth(total_w - 70)
+    state.input = ImGui.InputText("##cons_in_" .. str_id, state.input)
