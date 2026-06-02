@@ -3959,3 +3959,4 @@ function ImGui.SelectableEx(label, selected, flags, w_override, h_override)
 
     if flags.allow_double_click and pressed then
         local now = g.time or 0
+        local last = g._sel_dbl_t or -1e9
