@@ -1364,3 +1364,4 @@ local function button_internal(label, w_override, h_override)
     if g.nav_id == id and g.nav_activate then pressed = true end
     if visible then
 
+        local nav_focused = (g.nav_id == id)
