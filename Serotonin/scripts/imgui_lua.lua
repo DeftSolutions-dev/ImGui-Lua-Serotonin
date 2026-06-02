@@ -1032,3 +1032,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win._effective_h  = effective_h
 
     local bg_col = StyleColor(Col.WindowBg)
+    if not opts.no_bg and body_anim_h > 0 then
