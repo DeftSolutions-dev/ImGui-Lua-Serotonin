@@ -4253,3 +4253,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
         local x, y = win.cursor_x, win.cursor_y
         local hovered = ItemHoverable(x, y, w - 8, h - 8, id)
         if hovered and g.mouse_left_clicked then
+            set_active_id(id, win, { x = x, y = y, w = w - 8, h = h - 8 })
