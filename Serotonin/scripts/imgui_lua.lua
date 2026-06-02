@@ -1928,3 +1928,4 @@ function ImGui.BeginTabItem(label, p_open)
         y = tb.row_y
         tb.next_x  = tb.next_x + tab_w + 2
         tb.items_w = tb.items_w + tab_w + 2
+    end
