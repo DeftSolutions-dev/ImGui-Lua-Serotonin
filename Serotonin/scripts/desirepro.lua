@@ -1551,3 +1551,4 @@ function DesirePro.esp_preview(ctx)
 
     for _, it in ipairs(layout) do
         local disp = DesirePro.translate(it.name)
+        local cid = "espc:" .. it.name
