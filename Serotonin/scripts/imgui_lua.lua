@@ -1282,3 +1282,4 @@ function ImGui.Text(text)
     if ItemAdd(win.cursor_x, win.cursor_y, tw, th) then
         dr_text(2, text, win.cursor_x, win.cursor_y, StyleColor(Col.Text))
     end
+    ItemSize(tw, th)
