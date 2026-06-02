@@ -4592,3 +4592,4 @@ local function flush_layer(layer)
                 draw.RectFilled(c.x, c.y, c.w, c.h, col, c.rounding, a)
             end
 
+        elseif k == "rect" then
