@@ -150,3 +150,4 @@ end
 
 local Col = {}
 local C_NAMES = {
+    "Text","TextDisabled","WindowBg","ChildBg","PopupBg","Border","BorderShadow",
