@@ -272,3 +272,4 @@ local R = ImGui.RGBA
 DesirePro.col_dark = {
     active        = R(88, 116, 245, 255), dark          = R(228, 58, 72, 255),
     second        = R(22, 22, 24, 255),   background    = R(22, 22, 27, 255),
+    window_bg     = R(14, 14, 16, 200),   bg            = R(14, 14, 16, 255),
