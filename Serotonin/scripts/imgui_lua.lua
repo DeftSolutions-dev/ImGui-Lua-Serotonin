@@ -1410,3 +1410,4 @@ function ImGui.Checkbox(label, value)
     local id = GetID("chk:" .. label)
     insert(g.focus_list, id)
     local box_sz = Style.FontHeight + Style.FramePadding.y * 2
+    local tw, th = text_size(label)
