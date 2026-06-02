@@ -972,3 +972,4 @@ function DesirePro.button(ctx, label, h)
     local hv = s.hov; if hv > 1 then hv = 1 elseif hv < 0 then hv = 0 end
     if hv > 0.01 then
         local gw, gh = aw * hv, ah
+        DesirePro.grad_rrect(2, bx + (aw - gw) / 2, by + (ah - gh) / 2, gw, gh, 6, DesirePro.col.dark, DesirePro.col.active)
