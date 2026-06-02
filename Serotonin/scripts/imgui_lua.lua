@@ -3567,3 +3567,4 @@ function ImGui.BeginMenu(label)
         local is_open = false
         for i = 1, #g.popup_stack do
             if g.popup_stack[i].id == pid then is_open = true; break end
+        end
