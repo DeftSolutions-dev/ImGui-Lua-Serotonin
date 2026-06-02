@@ -1470,3 +1470,4 @@ function ImGui.RadioButton(label, active)
         local r = sz * 0.5 - 1
         dr_circle_filled(2, cx, cy, r, bg, 16)
         if active then
+            dr_circle_filled(2, cx, cy, r * 0.5, StyleColor(Col.CheckMark), 12)
