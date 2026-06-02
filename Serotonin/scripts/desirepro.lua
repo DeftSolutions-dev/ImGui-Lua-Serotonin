@@ -1137,3 +1137,4 @@ local function key_edge(name)
     local e = d and not key_prev[name]
     key_prev[name] = d
     return e
+end
