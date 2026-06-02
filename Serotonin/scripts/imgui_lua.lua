@@ -2318,3 +2318,4 @@ function ImGui.InputText(label, value, callback)
 end
 
 function ImGui.InputInt(label, value, step)
+    step = step or 1
