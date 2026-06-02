@@ -4116,3 +4116,4 @@ function ImGui.DatePicker(label, y, m, d)
             if cell_idx < first or idx > total then
                 ImGui.Dummy(cell_w, cell_h)
             else
+                local is_sel = (idx == d)
