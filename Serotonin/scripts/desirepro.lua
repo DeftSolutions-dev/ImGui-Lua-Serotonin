@@ -428,3 +428,4 @@ function DesirePro.notify(text, icon)
 end
 
 function DesirePro.update_notifications()
+    if #DesirePro.notifs == 0 then return end
