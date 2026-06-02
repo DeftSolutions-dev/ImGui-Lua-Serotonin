@@ -1877,3 +1877,4 @@ function ImGui.BeginTabBar(name, flags)
         id          = id,
         x           = win.cursor_x,
         y           = win.cursor_y,
+        w           = win._content_x1 - win.cursor_x,
