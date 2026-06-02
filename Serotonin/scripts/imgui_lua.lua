@@ -3349,3 +3349,4 @@ end
 open_popup_window = function(me)
     local pad = Style.WindowPadding
 
+    local bg_cmd = { kind = "rectf", x = me.x, y = me.y, w = 1, h = 1,
