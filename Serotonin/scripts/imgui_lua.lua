@@ -1119,3 +1119,4 @@ function ImGui.End()
         local title_h = win._title_h or 0
         win.w = max(Style.WindowMinSize.x,
                     (win.cursor_max_x - win.x) + pad.x + Style.ScrollbarSize)
+        win.h = max(Style.WindowMinSize.y,
