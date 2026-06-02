@@ -1110,3 +1110,4 @@ function DesirePro.color(ctx, label)
     ImGui.AddCircleFilled(2, cx, cy, 9, rgb, 24)
 
     if open_color == id then
+        popup = { kind = "color", varid = id, x = x1 - 218, y = y + h + 6,
