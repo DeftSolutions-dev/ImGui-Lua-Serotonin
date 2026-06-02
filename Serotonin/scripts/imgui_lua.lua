@@ -2923,3 +2923,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
             id   = id, str_id = name,
 
             x    = sw * 0.5 - 100, y = sh * 0.5 - 50,
+            w = 0, h = 0,
