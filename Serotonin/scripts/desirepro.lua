@@ -1438,3 +1438,4 @@ local ESP_DEFAULT = {
     { name = "Hit", group = "right" },
     { name = "Defusing", group = "bottom" }, { name = "Bomb", group = "bottom" },
     { name = "LC", group = "bottom" },
+}
