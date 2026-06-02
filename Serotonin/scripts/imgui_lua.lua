@@ -285,3 +285,4 @@ g = {
 
     popup_active      = false,
     popup_rect        = nil,
+    popup_active_prev = false,
