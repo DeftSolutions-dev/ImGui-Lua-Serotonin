@@ -315,3 +315,4 @@ function DesirePro.update_theme()
 end
 
 function DesirePro.accent_at(y)
+    local win = DesirePro._win
