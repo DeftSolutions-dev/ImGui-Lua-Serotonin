@@ -625,3 +625,4 @@ local function dr_triangle_filled(layer, x1, y1, x2, y2, x3, y3, col)
     push_cmd(layer, { kind = "trif", x1 = x1, y1 = y1, x2 = x2, y2 = y2, x3 = x3, y3 = y3, col = col })
 end
 
+local function dr_circle_filled(layer, cx, cy, r, col, segs)
