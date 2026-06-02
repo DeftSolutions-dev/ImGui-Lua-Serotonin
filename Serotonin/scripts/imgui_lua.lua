@@ -491,3 +491,4 @@ local function update_io()
     if tab_now and not g._tab_prev then
         g.nav_dir = shift_now and -1 or 1
     end
+    g._tab_prev = tab_now
