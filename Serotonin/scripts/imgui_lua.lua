@@ -826,3 +826,4 @@ local function focus_window(win)
 
     for i, wid in ipairs(g.windows_z_order) do
         if wid == win.id then remove(g.windows_z_order, i); break end
+    end
