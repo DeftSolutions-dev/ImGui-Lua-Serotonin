@@ -3156,3 +3156,4 @@ function ImGui.TableSetupColumn(label, flags)
     end
 end
 
+function ImGui.TableHeadersRow()
