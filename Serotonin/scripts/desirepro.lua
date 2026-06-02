@@ -1778,3 +1778,4 @@ function DesirePro.menu()
         tx, ty, tw, th = ox, oy, mw, band;        mx, my = ox, oy + band
     elseif dock == 1 then
         mx, my = ox, oy;                           tx, ty, tw, th = ox, oy + mh, mw, band
+    elseif dock == 2 then
