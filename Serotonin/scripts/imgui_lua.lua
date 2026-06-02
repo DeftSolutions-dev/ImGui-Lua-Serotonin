@@ -2249,3 +2249,4 @@ function ImGui.InputText(label, value, callback)
     local input_w = max(40, total_w - label_part)
     local x, y = win.cursor_x, win.cursor_y
 
+    local hovered = ItemHoverable(x, y, input_w, frame_h, id)
