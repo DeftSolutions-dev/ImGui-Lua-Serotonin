@@ -3531,3 +3531,4 @@ function ImGui.BeginMenuBar()
 end
 
 function ImGui.EndMenuBar()
+    local win = g.current_window; if not win then return end
