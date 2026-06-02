@@ -4761,3 +4761,4 @@ function ImGui._OnPaint()
         ImGui.Render()
     end)
     if not ok then
+        local s = tostring(err)
