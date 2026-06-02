@@ -4411,3 +4411,4 @@ function ImGui.StyleColorsClassic()
     t[Col.DragDropTarget]        = COL(1.00, 1.00, 0.00, 0.90)
     t[Col.NavHighlight]          = COL(0.45, 0.45, 0.90, 0.80)
     t[Col.ModalWindowDimBg]      = COL(0.20, 0.20, 0.20, 0.35)
+
