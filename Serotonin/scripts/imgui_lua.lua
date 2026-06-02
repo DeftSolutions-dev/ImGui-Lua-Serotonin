@@ -237,3 +237,4 @@ local Style = {
     ScrollbarRounding   = 9,
     GrabMinSize         = 12,
     GrabRounding        = 0,
+    TabRounding         = 4,
