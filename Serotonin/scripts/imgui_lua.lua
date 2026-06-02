@@ -3335,3 +3335,4 @@ function ImGui.CloseCurrentPopup()
     end
 end
 
+local function clamp_popup_to_screen(me, final_w, final_h)
