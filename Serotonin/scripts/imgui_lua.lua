@@ -2940,3 +2940,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
         kind = "rectf", x = 0, y = 0, w = sw, h = sh,
         col = StyleColor(Col.ModalWindowDimBg), rounding = 0,
     })
+
