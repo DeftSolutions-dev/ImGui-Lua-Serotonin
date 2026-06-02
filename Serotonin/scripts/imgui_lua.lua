@@ -3536,3 +3536,4 @@ function ImGui.EndMenuBar()
 
     if mb._old_clip then
         local c = mb._old_clip
+        local new_y = mb.y + mb.h
