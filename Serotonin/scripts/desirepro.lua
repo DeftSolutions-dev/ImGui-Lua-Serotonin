@@ -1604,3 +1604,4 @@ function DesirePro.page(idx, px, py, ph)
                 DesirePro.notify(DesirePro.theme and "Light theme" or "Dark theme", DesirePro.theme and "SUN_2_FILL" or "MOONLIGHT_FILL")
             end
             DesirePro.slider(c2, "Particle count", 15, 150, true)
+            DesirePro.color(c2, "First gradient color")
