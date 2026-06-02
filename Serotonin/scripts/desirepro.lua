@@ -736,3 +736,4 @@ function DesirePro.appear(id, center_y)
     local wh = (DesirePro._win and DesirePro._win.h) or 700
     local rel = (center_y - wy) / wh
     if rel < 0 then rel = 0 elseif rel > 1 then rel = 1 end
+    local delay = 0.1 + rel * 0.9
