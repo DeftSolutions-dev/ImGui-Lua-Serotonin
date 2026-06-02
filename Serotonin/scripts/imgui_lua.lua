@@ -2134,3 +2134,4 @@ function ImGui.TreeNode(label)
         g._toggled_id = id
     end
 
+    local cx = x + 8
