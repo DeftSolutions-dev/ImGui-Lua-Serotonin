@@ -637,3 +637,4 @@ local function to_image_tint(col, alpha)
 
     return Color3_fromRGB(round(saturate(col.r) * 255), round(saturate(col.g) * 255), round(saturate(col.b) * 255)),
            round(saturate((col.a or 1) * (alpha or 1)) * 255)
+end
