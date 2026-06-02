@@ -705,3 +705,4 @@ end
 
 local function split_desc(s)
     local c = s:find(":")
+    if not c then return s, "" end
