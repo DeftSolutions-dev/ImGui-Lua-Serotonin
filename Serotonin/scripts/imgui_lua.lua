@@ -842,3 +842,4 @@ local function get_or_create_window(id, title)
         h            = 240,
         collapsed    = false,
         scroll_y     = 0,
+        scroll_max_y = 0,
