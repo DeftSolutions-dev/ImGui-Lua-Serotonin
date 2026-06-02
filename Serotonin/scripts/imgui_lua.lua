@@ -3482,3 +3482,4 @@ function ImGui.BeginPopup(str_id, flags)
         insert(g.popup_stack, {
             id                = id,
             str_id            = str_id,
+            x                 = g.popup_pending_open.x,
