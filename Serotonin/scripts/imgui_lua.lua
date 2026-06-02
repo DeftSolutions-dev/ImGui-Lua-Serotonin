@@ -44,3 +44,4 @@ local function clip_intersect(x, y, w, h, c)
     local x2 = (x + w < c.x + c.w) and (x + w) or (c.x + c.w)
     local y2 = (y + h < c.y + c.h) and (y + h) or (c.y + c.h)
     if x2 <= x1 or y2 <= y1 then return nil end
+    return x1, y1, x2 - x1, y2 - y1
