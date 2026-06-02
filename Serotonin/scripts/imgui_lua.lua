@@ -486,3 +486,4 @@ local function update_io()
     end
     local nav_blocked = g._input_text_active or false
     local tab_now   = (not nav_blocked) and probe_any({ "Tab", "TAB", 0x09 })
+    local shift_now = probe("Shift")
