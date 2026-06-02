@@ -413,3 +413,4 @@ function DesirePro.update_particles()
         p.life = p.life - d
         if p.life <= 0 then
             table.remove(DesirePro.particles, i)
+        else
