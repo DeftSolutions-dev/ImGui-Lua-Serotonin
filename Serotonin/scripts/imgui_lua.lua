@@ -3359,3 +3359,4 @@ open_popup_window = function(me)
     me._bg_cmd = bg_cmd
     me._br_cmd = br_cmd
 
+    insert(g.draw_layer_stack, 4)
