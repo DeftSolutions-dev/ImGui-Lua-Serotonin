@@ -2827,3 +2827,4 @@ function ImGui.BeginCombo(label, preview, flags)
         if held and hovered then bg = StyleColor(Col.FrameBgActive)
         elseif hovered then bg = StyleColor(Col.FrameBgHovered) end
         dr_rect_filled(2, x, y, combo_w, frame_h, bg, Style.FrameRounding)
+        if not flags.no_arrow then
