@@ -3132,3 +3132,4 @@ function ImGui.TableSetupColumn(label, flags)
     local t = win._table; if not t then return end
     flags = flags or {}
     t.setups = t.setups or {}
+    insert(t.setups, { label = label, flags = flags })
