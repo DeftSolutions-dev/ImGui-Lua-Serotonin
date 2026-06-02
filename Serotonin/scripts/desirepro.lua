@@ -997,3 +997,4 @@ function DesirePro.combo(ctx, label, items)
     local mx, my = mouse_pos()
     local hovered = point_in_rect(mx, my, box_min, y, bw, h)
     if hovered and clicked() then
+        open_combo = opened and nil or id
