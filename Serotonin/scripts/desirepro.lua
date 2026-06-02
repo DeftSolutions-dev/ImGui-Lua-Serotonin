@@ -1023,3 +1023,4 @@ function DesirePro.combo(ctx, label, items)
             local iw = DesirePro.text_size(DesirePro.translate(it), "poppins_medium_16") + 40
             if iw > maxw then maxw = iw end
         end
+        popup = { kind = "combo", varid = id, items = items, t = s.open,
