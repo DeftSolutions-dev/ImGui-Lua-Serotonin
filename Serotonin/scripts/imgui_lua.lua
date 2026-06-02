@@ -2497,3 +2497,4 @@ function ImGui.EndChild()
     local s = remove(stack)
 
     pop_clip()
+    push_clip(s.content_x0, s.content_y0, s.content_x1 - s.content_x0, s.content_y1 - s.content_y0)
