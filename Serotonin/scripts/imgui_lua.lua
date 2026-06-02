@@ -2893,3 +2893,4 @@ function ImGui.Hotkey(label, key)
                 key = name
                 clear_active_id()
                 break
+            end
