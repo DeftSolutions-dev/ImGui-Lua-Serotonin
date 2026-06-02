@@ -3701,3 +3701,4 @@ function ImGui.BeginTooltip()
         _inner_x1 = me.x + 1000, _inner_y1 = me.y + 1000,
         _title_h = 0,
         _id_stack_save = #g.id_stack,
+        _is_tooltip = true, _tooltip = me,
