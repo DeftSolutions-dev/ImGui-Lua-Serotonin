@@ -1308,3 +1308,4 @@ local function draw_popup()
             open_combo = nil
             popup = nil
         end
+
