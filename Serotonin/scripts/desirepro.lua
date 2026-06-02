@@ -581,3 +581,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     if la > 0 then
         DesirePro.text_centered(2, cx, by + bh - 20, lab, "poppins_medium_18", lcol, la)
     end
+end
