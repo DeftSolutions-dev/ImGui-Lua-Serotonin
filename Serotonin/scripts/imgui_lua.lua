@@ -142,3 +142,4 @@ local FNV_PRIME  = 16777619
 local function fnv1a(s, seed)
     local h = seed or FNV_OFFSET
     for i = 1, #s do
+        h = bit.bxor(h, byte(s, i))
