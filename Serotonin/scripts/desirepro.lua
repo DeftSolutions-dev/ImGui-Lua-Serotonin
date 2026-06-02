@@ -1511,3 +1511,4 @@ function DesirePro.esp_preview(ctx)
                 local cid = "espc:" .. it.name
                 var(cid, { h = 0.33, s = 0.7, v = 0.95, a = 1 })
                 open_color = (open_color == cid) and nil or cid
+            end
