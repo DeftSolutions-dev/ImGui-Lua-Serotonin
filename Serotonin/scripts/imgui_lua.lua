@@ -2010,3 +2010,4 @@ function ImGui.EndTabItem()
 end
 
 function ImGui.EndTabBar()
+    local win = g.current_window; if not win then return end
