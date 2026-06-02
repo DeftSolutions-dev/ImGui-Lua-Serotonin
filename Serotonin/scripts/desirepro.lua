@@ -684,3 +684,4 @@ local popup = nil
 local popup_rect = nil
 DesirePro._input_block = false
 
+local function mouse_pos() return ImGui.GetMousePos() end
