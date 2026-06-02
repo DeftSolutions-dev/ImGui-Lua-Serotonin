@@ -3168,3 +3168,4 @@ function ImGui.TableHeadersRow()
         return
     end
     local r0_y = win.cursor_y
+    dr_rect_filled(2, t.x0, r0_y, table_total_w(t), Style.FontHeight + Style.FramePadding.y * 2,
