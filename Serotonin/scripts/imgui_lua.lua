@@ -2398,3 +2398,4 @@ render_scrollbar = function(win)
        and not point_in_rect(g.mouse_x, g.mouse_y, sb_x, grab_y, sb_w, grab_h) then
         if g.mouse_y < grab_y then
             win.scroll_y = max(0, win.scroll_y - visible_h * 0.9)
+        else
