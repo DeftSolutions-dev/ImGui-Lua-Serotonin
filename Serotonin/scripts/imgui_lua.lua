@@ -1168,3 +1168,4 @@ local function auto_wrap(w)
     if not win then return end
     if win.cursor_x + w > win._content_x1 and win.cursor_x > win.cursor_start_x + win.indent_x then
         win.cursor_y = win.cursor_y + win.prev_line_h + Style.ItemSpacing.y
+        win.cursor_x = win.cursor_start_x + win.indent_x
