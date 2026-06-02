@@ -2178,3 +2178,4 @@ function ImGui.CollapsingHeader(label)
     dr_rect_filled(2, x, y, w, h, col, Style.FrameRounding)
     local cx, cy = x + 10, y + h * 0.5
     local arr = StyleColor(Col.Text)
+    if open then
