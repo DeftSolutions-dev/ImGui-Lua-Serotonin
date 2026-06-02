@@ -2425,3 +2425,4 @@ render_scrollbar = function(win)
     dr_rect_filled(3, sb_x, grab_y, sb_w, grab_h, col, Style.ScrollbarRounding)
 end
 
+function ImGui.BeginChild(str_id, w, h, border)
