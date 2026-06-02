@@ -4619,3 +4619,4 @@ local function flush_layer(layer)
             local col, a = to_draw(c.col)
             a = a * am
             if clip then
+                local x1, y1, x2, y2 = clip_line_cs(c.x1, c.y1, c.x2, c.y2, clip)
