@@ -3084,3 +3084,4 @@ local function table_total_w(t)
     return s
 end
 
+function ImGui.TableNextRow()
