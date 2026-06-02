@@ -2817,3 +2817,4 @@ function ImGui.BeginCombo(label, preview, flags)
     local str_id = "##cmb_popup_" .. tostring(id)
     local pid = fnv1a("popup:" .. str_id)
     local is_open = false
+    for i = 1, #g.popup_stack do if g.popup_stack[i].id == pid then is_open = true; break end end
