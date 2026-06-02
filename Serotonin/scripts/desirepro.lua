@@ -127,3 +127,4 @@ function DesirePro.text(layer, x, y, str, font_key, color, alpha)
             pen = pen + (g.adv or 0)
         end
     end
+    return pen - x
