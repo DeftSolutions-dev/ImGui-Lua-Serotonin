@@ -1727,3 +1727,4 @@ local function draw_settings()
     local gr = DesirePro._gear_rect
     if t > 0.9 and clicked() and not point_in_rect(mx, my, px, py, pw, ph)
         and not (gr and point_in_rect(mx, my, gr.x, gr.y, gr.w, gr.h))
+        and not in_popup(mx, my) then
