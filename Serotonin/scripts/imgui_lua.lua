@@ -2739,3 +2739,4 @@ function ImGui.BeginDisabled(disabled)
         local function dim(c) return col_mul_alpha(c, 0.5) end
         ImGui.PushStyleColor(Col.Text,           StyleColor(Col.TextDisabled))
         ImGui.PushStyleColor(Col.Button,         dim(StyleColor(Col.Button)))
+        ImGui.PushStyleColor(Col.ButtonHovered,  dim(StyleColor(Col.Button)))
