@@ -1666,3 +1666,4 @@ function ImGui.Combo(label, current_idx, items, flags)
         if need_scroll then
             ImGui.BeginChild("##cmb_scroll_" .. label, 0, visible_rows * row_h, false)
         end
+        for i, it in ipairs(items) do
