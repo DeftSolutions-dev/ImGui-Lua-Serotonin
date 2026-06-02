@@ -678,3 +678,4 @@ set_active_id = function(id, win, rect)
 end
 
 clear_active_id = function()
+    g.active_id = nil
