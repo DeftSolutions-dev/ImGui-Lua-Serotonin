@@ -440,3 +440,4 @@ function DesirePro.update_notifications()
         if n.t > 3.5 and n.x > 0.98 then
             table.remove(DesirePro.notifs, i)
         else
+            local w, h = 280, 58
