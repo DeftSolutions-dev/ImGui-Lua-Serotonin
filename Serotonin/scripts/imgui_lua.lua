@@ -4241,3 +4241,4 @@ function ImGui.VSliderInt(label, w, h, value, vmin, vmax, fmt)
     return floor(v + 0.5), a
 end
 
+function ImGui.InputTextMultiline(label, value, w, h)
