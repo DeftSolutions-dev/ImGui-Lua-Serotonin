@@ -861,3 +861,4 @@ local function get_or_create_window(id, title)
     }
     g.windows[id] = w
     insert(g.windows_order, id)
+    insert(g.windows_z_order, id)
