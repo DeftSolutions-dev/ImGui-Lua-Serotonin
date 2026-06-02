@@ -1732,3 +1732,4 @@ local function draw_settings()
     end
     DesirePro._modal_active = false
 end
+
