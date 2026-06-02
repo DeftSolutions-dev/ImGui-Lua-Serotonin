@@ -2846,3 +2846,4 @@ function ImGui.BeginCombo(label, preview, flags)
         return ImGui.BeginPopup(str_id)
     end
     return false
+end
