@@ -53,3 +53,4 @@ do
             if ok2 and type(t) == "table" then LOCALE = t end
         end
     end
+end
