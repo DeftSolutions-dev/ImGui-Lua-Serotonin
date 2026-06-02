@@ -2552,3 +2552,4 @@ function ImGui.ImageButton(str_id, tex_id, w, h, tint, bg)
 end
 
 local function plot_internal(label, values, overlay, scale_min, scale_max, plot_w, plot_h, kind)
+    local win = g.current_window; if not win then return end
