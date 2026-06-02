@@ -10,3 +10,4 @@ end
 
 local DesirePro = { ImGui = ImGui }
 
+local byte, sub, format = string.byte, string.sub, string.format
