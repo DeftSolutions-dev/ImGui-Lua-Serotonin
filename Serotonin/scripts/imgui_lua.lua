@@ -2782,3 +2782,4 @@ function ImGui.LabelText(label, fmt, ...)
 end
 
 function ImGui.ColorButton(desc_id, col, w, h)
+    local win = g.current_window; if not win then return false end
