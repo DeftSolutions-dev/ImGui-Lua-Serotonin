@@ -4179,3 +4179,4 @@ function ImGui.CheckboxFlags(label, flags_int, flag_bit)
     local new_active, pressed = ImGui.Checkbox(label, active)
     if pressed then
         if new_active then flags_int = bit.bor(flags_int, flag_bit)
+        else               flags_int = bit.band(flags_int, bit.bnot(flag_bit)) end
