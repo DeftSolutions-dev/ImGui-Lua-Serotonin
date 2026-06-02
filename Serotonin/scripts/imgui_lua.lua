@@ -4018,3 +4018,4 @@ function ImGui.Spinner(label, radius, thickness, color)
             dr_line(2, x1, y1, x2, y2, col_mul_alpha(color, t2), thickness)
         end
     end
+    ItemSize(sz, sz)
