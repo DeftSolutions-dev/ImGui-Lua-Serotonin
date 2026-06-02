@@ -3683,3 +3683,4 @@ function ImGui.BeginTooltip()
     insert(g.clip_stack, { x = -1e9, y = -1e9, w = 2e9, h = 2e9 })
     local pwin = {
         id = me.id, title = "##tooltip",
+        x = me.x, y = me.y, w = 1, h = 1,
