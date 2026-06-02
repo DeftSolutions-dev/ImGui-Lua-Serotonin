@@ -4521,3 +4521,4 @@ function ImGui.NewFrame()
 
     g._toggled_id     = nil
 
+    g.storage[0] = g.storage[0] or {}
