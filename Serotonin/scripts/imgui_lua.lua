@@ -3703,3 +3703,4 @@ function ImGui.BeginTooltip()
         _id_stack_save = #g.id_stack,
         _is_tooltip = true, _tooltip = me,
     }
+    insert(g.window_stack, pwin)
