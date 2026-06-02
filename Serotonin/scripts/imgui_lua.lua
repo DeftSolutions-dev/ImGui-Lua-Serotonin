@@ -836,3 +836,4 @@ local function get_or_create_window(id, title)
     w = {
         id           = id,
         title        = title,
+        x            = 60 + (#g.windows_order * 24),
