@@ -3206,3 +3206,4 @@ function ImGui.TableHeader(label)
         end
         store_set(win, "tbl_specs_" .. tostring(t.id), t.sort_specs)
         t.sort_col = t.sort_specs[1] and t.sort_specs[1].col or -1
+        t.sort_dir = t.sort_specs[1] and t.sort_specs[1].dir or 1
