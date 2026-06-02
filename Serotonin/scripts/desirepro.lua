@@ -150,6 +150,7 @@ function DesirePro.text(layer, x, y, str, font_key, color, alpha)
 end
 
 function DesirePro.text_size(str, font_key)
+    font_key = resolve_font(font_key)
     local fm = META.fonts[font_key]
     if not fm then return 0, 0 end
     local w = 0
