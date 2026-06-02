@@ -30,3 +30,4 @@ do
     end
 end
 if not META then
+    print("[desirepro] FATAL: could not load desirepro/metrics.lua (run build_desirepro_assets.py)")
