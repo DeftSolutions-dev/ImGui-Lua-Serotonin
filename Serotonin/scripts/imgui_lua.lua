@@ -1385,3 +1385,4 @@ local function button_internal(label, w_override, h_override)
         end
         local tx = x + (w - tw) * 0.5
         local ty = y + (h - th) * 0.5
+        dr_text(2, label, tx, ty, StyleColor(Col.Text))
