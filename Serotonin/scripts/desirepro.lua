@@ -1428,3 +1428,4 @@ local function draw_popup()
             popup = nil
         end
     end
+end
