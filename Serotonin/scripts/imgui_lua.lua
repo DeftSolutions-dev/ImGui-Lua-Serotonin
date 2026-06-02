@@ -2934,3 +2934,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
         if g.popup_stack[i].id == id then me = g.popup_stack[i]; break end
     end
     if not me then return false end
+
