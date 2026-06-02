@@ -414,3 +414,4 @@ function DesirePro.update_particles()
         if p.life <= 0 then
             table.remove(DesirePro.particles, i)
         else
+            p.vy = p.vy + 150 * d
