@@ -2188,3 +2188,4 @@ function ImGui.CollapsingHeader(label)
     ItemSize(w, h)
     return open
 end
+
