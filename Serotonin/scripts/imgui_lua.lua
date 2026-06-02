@@ -3077,3 +3077,4 @@ function ImGui.BeginTable(str_id, columns, flags)
         win._table.sort_dir = win._table.sort_specs[1].dir
     end
     return true
+end
