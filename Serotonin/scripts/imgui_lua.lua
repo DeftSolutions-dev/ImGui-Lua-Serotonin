@@ -384,3 +384,4 @@ local function update_io()
 
     local just_clicked = false
     local ok_click, clicked = pcall(mouse.IsClicked, "left")
+    if ok_click and clicked then just_clicked = true end
