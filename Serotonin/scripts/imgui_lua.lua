@@ -2922,3 +2922,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
         insert(g.popup_stack, {
             id   = id, str_id = name,
 
+            x    = sw * 0.5 - 100, y = sh * 0.5 - 50,
