@@ -4643,3 +4643,4 @@ local function flush_layer(layer)
             else
                 draw.Text(c.text, c.x, c.y, col, c.font, a)
             end
+
