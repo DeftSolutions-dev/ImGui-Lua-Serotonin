@@ -2419,3 +2419,4 @@ render_scrollbar = function(win)
         end
     end
 
+    local col = StyleColor(Col.ScrollbarGrab)
