@@ -1852,3 +1852,4 @@ function DesirePro.menu()
             for _, g in ipairs(ghosts) do
                 local hg = point_in_rect(mxp, myp, g[1], g[2], g[3], g[4])
                 ImGui.AddRectFilled(3, g[1], g[2], g[3], g[4], DesirePro.with_alpha(DesirePro.col.active, hg and 0.25 or 0.08), 9)
+                ImGui.AddRect(3, g[1], g[2], g[3], g[4], DesirePro.with_alpha(DesirePro.col.active, 0.5), 1, 9)
