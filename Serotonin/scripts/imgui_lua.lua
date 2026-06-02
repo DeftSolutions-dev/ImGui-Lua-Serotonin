@@ -225,3 +225,4 @@ local Style = {
     WindowPadding       = { x = 8,  y = 8  },
     WindowRounding      = 0,
     WindowBorderSize    = 1,
+    WindowMinSize       = { x = 80, y = 60 },
