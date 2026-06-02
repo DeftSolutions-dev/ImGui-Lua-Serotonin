@@ -1394,3 +1394,4 @@ local function draw_popup()
         local acx = sv_x + c.a * sv_w
         ImGui.AddRect(3, acx - 2, alpha_y - 1, 4, alpha_h + 2, ImGui.ColF(1, 1, 1, 1), 1, 1)
 
+        local R, G, Bb = floor(full.r * 255 + 0.5), floor(full.g * 255 + 0.5), floor(full.b * 255 + 0.5)
