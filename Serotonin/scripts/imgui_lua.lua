@@ -1336,3 +1336,4 @@ function ImGui.HelpMarker(text)
     end
 end
 
+function ImGui.BulletText(text)
