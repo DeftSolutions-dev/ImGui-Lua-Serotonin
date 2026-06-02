@@ -4711,3 +4711,4 @@ function ImGui.Render()
     g._focus_next_idx = nil
 
     local zpri = {}
+    for i, wid in ipairs(g.windows_z_order) do zpri[wid] = i end
