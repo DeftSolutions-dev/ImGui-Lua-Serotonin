@@ -474,3 +474,4 @@ function DesirePro.icon_scaled(layer, cx, cy, key, atlas_size, target_px, col, a
                    floor(w + 0.5), floor(h + 0.5), tex, col, alpha)
 end
 
+function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
