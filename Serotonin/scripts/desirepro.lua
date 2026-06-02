@@ -298,3 +298,4 @@ DesirePro.col_light = {
     desc_hover    = R(100, 100, 100, 255), desc         = R(120, 120, 120, 255),
 }
 DesirePro.col = {}
+for k, v in pairs(DesirePro.col_dark) do DesirePro.col[k] = { r = v.r, g = v.g, b = v.b, a = v.a } end
