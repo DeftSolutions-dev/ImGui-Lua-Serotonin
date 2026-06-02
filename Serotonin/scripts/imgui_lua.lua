@@ -4236,3 +4236,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
     return value, active
 end
 
+function ImGui.VSliderInt(label, w, h, value, vmin, vmax, fmt)
