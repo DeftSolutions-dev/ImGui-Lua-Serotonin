@@ -4175,3 +4175,4 @@ function ImGui.LogTextBox(str_id, lines, w, h)
 end
 
 function ImGui.CheckboxFlags(label, flags_int, flag_bit)
+    local active = bit.band(flags_int, flag_bit) == flag_bit
