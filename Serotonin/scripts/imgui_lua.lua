@@ -1715,3 +1715,4 @@ local function get_picker_state(id, r, g_, b)
     local win = g.current_window
     local key = "picker_" .. tostring(id)
     local s = store_get(win, key)
+    if not s then
