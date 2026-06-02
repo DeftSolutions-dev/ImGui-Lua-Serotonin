@@ -3947,3 +3947,4 @@ function ImGui.InputTextWithHint(label, hint, value)
                     r.y + (r.h - Style.FontHeight) * 0.5,
                     StyleColor(Col.TextDisabled))
         end
+    end
