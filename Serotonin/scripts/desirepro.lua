@@ -1509,3 +1509,4 @@ function DesirePro.esp_preview(ctx)
                 DesirePro._esp_dx, DesirePro._esp_dy = mx - lx, my - it.sy
             elseif right_clicked() then
                 local cid = "espc:" .. it.name
+                var(cid, { h = 0.33, s = 0.7, v = 0.95, a = 1 })
