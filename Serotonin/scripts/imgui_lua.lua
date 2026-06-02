@@ -4080,3 +4080,4 @@ function ImGui.DatePicker(label, y, m, d)
     ImGui.PushID(label)
 
     if ImGui.SmallButton("<") then
+        m = m - 1
