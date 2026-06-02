@@ -1356,3 +1356,4 @@ local function draw_popup()
 
     elseif popup.kind == "color" then
         if color_drag and not ImGui.IsMouseDown() then color_drag = nil end
+        local c = DesirePro.vars[popup.varid]
