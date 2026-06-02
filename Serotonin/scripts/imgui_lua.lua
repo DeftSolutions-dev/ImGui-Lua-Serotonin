@@ -2956,3 +2956,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
 
     local drag_id = fnv1a("modal_drag", id)
     local _, dh, dheld = ButtonBehavior(me.x, me.y, last_w - 22, title_h, drag_id)
+    if dheld then
