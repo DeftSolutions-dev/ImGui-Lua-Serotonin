@@ -3060,3 +3060,4 @@ function ImGui.BeginTable(str_id, columns, flags)
         y0            = win.cursor_y,
         cur_col       = 0,
         row_h         = 0,
+        row_y         = win.cursor_y,
