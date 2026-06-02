@@ -1365,3 +1365,4 @@ local function button_internal(label, w_override, h_override)
     if visible then
 
         local nav_focused = (g.nav_id == id)
+        local target = (held and hovered) and 2 or ((hovered or nav_focused) and 1 or 0)
