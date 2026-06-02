@@ -94,3 +94,4 @@ end
 
 local function col_mul_alpha(c, m)
     return { r = c.r, g = c.g, b = c.b, a = c.a * m }
+end
