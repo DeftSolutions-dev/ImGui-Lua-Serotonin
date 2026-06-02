@@ -4502,3 +4502,4 @@ function ImGui.ShowStyleEditor()
             local filt = string.lower(ImGui.Style._filter or "")
             for i, name in ipairs(C_NAMES) do
                 if filt == "" or string.find(string.lower(name), filt, 1, true) then
+                    local c = Style.Colors[i]
