@@ -3563,3 +3563,4 @@ function ImGui.BeginMenu(label)
         mb.next_x = mb.next_x + w
         local hovered = ItemHoverable(x, y, w, h, id)
         local str_id = "##menupopup_" .. tostring(id)
+        local pid = fnv1a("popup:" .. str_id)
