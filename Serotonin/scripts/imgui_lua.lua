@@ -1692,3 +1692,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
     dr_rect(2, x, y, total_w, box_h, StyleColor(Col.Border), 1, Style.FrameRounding)
     for i, it in ipairs(items) do
         local iy = y + 2 + (i - 1) * row_h
+        if iy >= y and iy + row_h <= y + box_h then
