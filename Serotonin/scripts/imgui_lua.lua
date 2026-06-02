@@ -555,3 +555,4 @@ function ImGui.SetDrawAlpha(a) draw_alpha_mul = a or 1 end
 function ImGui.GetDrawAlpha() return draw_alpha_mul end
 
 local ui_scale, ui_px, ui_py = 1, 0, 0
+function ImGui.SetUIScale(s, px, py)
