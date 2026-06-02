@@ -2255,3 +2255,4 @@ function ImGui.InputText(label, value, callback)
     end
     if g.mouse_left_clicked and not hovered and g.active_id == id then clear_active_id() end
     local active = (g.active_id == id)
+    if active then g._input_text_was_active = true end
