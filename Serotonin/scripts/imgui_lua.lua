@@ -4749,3 +4749,4 @@ function ImGui._OnPaint()
     if _first_paint then
         _first_paint = false
         local sw, sh = draw.GetScreenSize()
+        print("[imgui] onPaint fired FIRST TIME. screen=" .. tostring(sw) .. "x" .. tostring(sh))
