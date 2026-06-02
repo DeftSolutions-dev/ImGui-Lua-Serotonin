@@ -2887,3 +2887,4 @@ function ImGui.Hotkey(label, key)
     end
     local active = (g.active_id == id)
     if active then
+        for _, name in ipairs(HOTKEY_PROBE_NAMES) do
