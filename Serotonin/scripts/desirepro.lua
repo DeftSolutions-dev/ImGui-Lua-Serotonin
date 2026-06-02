@@ -1067,3 +1067,4 @@ function DesirePro.multicombo(ctx, label, items)
     ImGui.PushClipRect(box_min + 6, y, bw - 28, h)
     DesirePro.text_in(2, box_min + 10, y, h, preview, "poppins_medium_16", DesirePro.col.label_active, 1)
     ImGui.PopClipRect()
+    local acx, acy = box_max - 14, y + h / 2
