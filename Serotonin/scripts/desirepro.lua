@@ -911,3 +911,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
         end
     end
 
+    local frac = (v - vmin) / (vmax - vmin)
