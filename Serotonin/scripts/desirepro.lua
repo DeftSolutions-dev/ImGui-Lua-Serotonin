@@ -388,3 +388,4 @@ local function random_unit()
     x = bit.bxor(x, bit.lshift(x, 13))
     x = bit.bxor(x, bit.rshift(x, 17))
     x = bit.bxor(x, bit.lshift(x, 5))
+    _seed = x
