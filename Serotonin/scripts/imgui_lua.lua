@@ -1712,3 +1712,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
 end
 
 local function get_picker_state(id, r, g_, b)
+    local win = g.current_window
