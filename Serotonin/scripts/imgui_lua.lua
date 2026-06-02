@@ -3558,3 +3558,4 @@ function ImGui.BeginMenu(label)
         local pad_x, pad_y = 8, Style.FramePadding.y
         local w = tw + pad_x * 2
         local h = mb.h
+        local x = mb.next_x
