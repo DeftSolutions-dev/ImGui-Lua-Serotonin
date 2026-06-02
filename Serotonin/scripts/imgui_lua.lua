@@ -1055,3 +1055,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         dr_rect(3, win.x, win.y, win.w, effective_h, StyleColor(Col.Border), Style.WindowBorderSize, Style.WindowRounding)
     end
 
+    local pad = Style.WindowPadding
