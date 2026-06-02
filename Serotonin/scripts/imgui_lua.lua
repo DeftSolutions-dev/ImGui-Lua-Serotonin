@@ -1104,3 +1104,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     return true
 end
 
+local render_scrollbar
