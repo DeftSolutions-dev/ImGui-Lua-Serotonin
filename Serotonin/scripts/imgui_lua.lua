@@ -3516,3 +3516,4 @@ function ImGui.BeginMenuBar()
     insert(g.draw_layers[1], {
         kind = "rectf", x = win.x, y = mb.y, w = win.w, h = th,
         col = StyleColor(Col.MenuBarBg), rounding = 0,
+    })
