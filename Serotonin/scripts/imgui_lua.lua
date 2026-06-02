@@ -1188,3 +1188,4 @@ end
 function ImGui.NewLine()
     ItemSize(0, Style.FontHeight)
 end
+
