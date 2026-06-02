@@ -3597,3 +3597,4 @@ local function _parse_shortcut(s)
     local mods, key = { ctrl = false, shift = false, alt = false }, nil
     for part in s:gmatch("[^+]+") do
         local lp = part:gsub("%s", ""):lower()
+        if     lp == "ctrl" or lp == "control" then mods.ctrl  = true
