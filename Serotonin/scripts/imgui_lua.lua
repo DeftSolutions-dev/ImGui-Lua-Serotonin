@@ -794,3 +794,4 @@ function ImGui.IsWindowFocused()
     return last == win.id
 end
 
+function ImGui.GetMousePos()
