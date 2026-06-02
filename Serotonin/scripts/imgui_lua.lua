@@ -451,3 +451,4 @@ local function update_io()
         g.menu_open = not g.menu_open
     end
     g.toggle_key_prev = tk
+
