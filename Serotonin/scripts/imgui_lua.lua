@@ -3250,3 +3250,4 @@ function ImGui.EndTable()
     win._content_x1 = win.x + win.w - Style.WindowPadding.x - Style.ScrollbarSize
 
     local total_w = table_total_w(t)
+    local total_h = t.cur_row_max_y - t.y0
