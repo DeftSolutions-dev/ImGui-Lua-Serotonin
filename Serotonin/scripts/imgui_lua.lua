@@ -1486,3 +1486,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     if g.current_window then insert(g.focus_list, GetID("sld:" .. label)) end
     local win = g.current_window; if not win then return value end
     local id = GetID("sld:" .. label)
+    local tw_lbl, th = text_size(label)
