@@ -338,3 +338,4 @@ function DesirePro.anim(cur, target, mul)
 end
 
 function DesirePro.with_alpha(col, a)
+    return { r = col.r, g = col.g, b = col.b, a = a }
