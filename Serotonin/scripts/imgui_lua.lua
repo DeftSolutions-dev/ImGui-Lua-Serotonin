@@ -3436,3 +3436,4 @@ local function close_popup_window()
             end
             if #g.popup_stack == 0 then
 
+                g.popup_active = false
