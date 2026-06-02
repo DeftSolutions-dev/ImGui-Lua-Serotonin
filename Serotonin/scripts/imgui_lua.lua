@@ -3017,3 +3017,4 @@ local function vec_widget(label, v, n, draw_fn, ...)
     end
     ImGui.Text(label)
     ImGui.PopID()
+    return v
