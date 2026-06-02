@@ -864,3 +864,4 @@ function DesirePro.featurebox(ctx, label, content_fn)
         end
     end
     st.gh = DesirePro.anim(st.gh, (hov or opened) and 1 or 0, 12)
+    local gcol = (hov or opened) and DesirePro.col.label_active or DesirePro.col.label
