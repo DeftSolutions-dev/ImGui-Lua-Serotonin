@@ -1699,3 +1699,4 @@ local function draw_settings()
     DesirePro._modal_active = true
     local t = DesirePro.settings_t
     local mx, my = mouse_pos()
+    local win = DesirePro._win or { x = 0, y = 0, w = DesirePro.WINDOW_W, h = DesirePro.WINDOW_H }
