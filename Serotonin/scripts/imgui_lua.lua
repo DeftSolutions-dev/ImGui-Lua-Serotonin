@@ -1069,3 +1069,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win.indent_x       = 0
     win._title_h       = title_h
     win._content_x0    = win.x + pad.x
+    win._content_y0    = win.y + title_h + pad.y
