@@ -38,3 +38,4 @@ local function current_clip()
     return { x = -1e9, y = -1e9, w = 2e9, h = 2e9 }
 end
 
+local function clip_intersect(x, y, w, h, c)
