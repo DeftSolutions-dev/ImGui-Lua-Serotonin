@@ -3194,3 +3194,4 @@ function ImGui.TableHeader(label)
         end
         if ctrl_held then
 
+            if existing_idx then
