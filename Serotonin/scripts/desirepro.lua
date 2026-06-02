@@ -1754,3 +1754,4 @@ function DesirePro.menu()
 
     local mw, mh = DesirePro.WINDOW_W, DesirePro.WINDOW_H
     local band, side = DesirePro.TAB_BAND, floor(225 * DesirePro.US)
+    local dock = DesirePro.dock or 0
