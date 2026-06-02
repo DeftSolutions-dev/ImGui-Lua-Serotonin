@@ -1889,3 +1889,4 @@ function DesirePro.menu()
     DesirePro.update_particles()
     DesirePro.update_notifications()
 
+    ImGui.SetUIScale(1)
