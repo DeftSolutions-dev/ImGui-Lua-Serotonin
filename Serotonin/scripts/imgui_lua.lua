@@ -3114,3 +3114,4 @@ function ImGui.TableSetColumnIndex(col)
     win.cursor_y    = t.row_y + 2
     win._content_x1 = x + cw - 4
 end
+
