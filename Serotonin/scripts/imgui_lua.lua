@@ -349,3 +349,4 @@ local function check_mouse_down_now()
         end
     end
     return false
+end
