@@ -3141,3 +3141,4 @@ function ImGui.TableSetupColumn(label, flags)
         for _, s in ipairs(t.setups) do
             if s.flags.fixed or s.flags.width then
                 fixed_sum = fixed_sum + (s.flags.width or 80)
+            else
