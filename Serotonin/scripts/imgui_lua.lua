@@ -1729,3 +1729,4 @@ local function get_picker_state(id, r, g_, b)
         local nh, ns, nv = rgb_to_hsv(r, g_, b)
 
         if ns > 0 then s.h = nh end
+        s.s, s.v = ns, nv
