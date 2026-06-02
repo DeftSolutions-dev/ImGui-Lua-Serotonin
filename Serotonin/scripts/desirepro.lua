@@ -927,3 +927,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
 
     DesirePro.pill(2, tmin_x, tmin_y, tw, th, DesirePro.col.anim_default)
     if s.slow > 1 then
+        local fw = (s.slow < th) and th or s.slow
