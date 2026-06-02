@@ -1410,3 +1410,4 @@ local function draw_popup()
 
         if rc then
             if point_in_rect(mx, my, sv_x, sv_y, sv_w, sv_h) then color_drag = "sv"
+            elseif point_in_rect(mx, my, hue_x, sv_y, hue_w, sv_h) then color_drag = "hue"
