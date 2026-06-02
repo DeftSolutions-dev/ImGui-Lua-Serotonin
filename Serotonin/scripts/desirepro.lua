@@ -1166,3 +1166,4 @@ function DesirePro.keybind(ctx, label)
     local px = x1 - pw
     local py = y + (h - ph) / 2
     local mx, my = mouse_pos()
+    local hovered = point_in_rect(mx, my, px, py, pw, ph)
