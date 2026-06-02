@@ -162,3 +162,4 @@ local C_NAMES = {
     "ModalWindowDimBg",
 }
 for i, n in ipairs(C_NAMES) do Col[n] = i end
+ImGui.Col = Col
