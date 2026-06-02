@@ -1355,3 +1355,4 @@ local function draw_popup()
         end
 
     elseif popup.kind == "color" then
+        if color_drag and not ImGui.IsMouseDown() then color_drag = nil end
