@@ -1192,3 +1192,4 @@ end
 function ImGui.Spacing()
 
     local win = g.current_window; if not win then return end
+    win.cursor_y = win.cursor_y + Style.ItemSpacing.y
