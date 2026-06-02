@@ -3348,3 +3348,4 @@ end
 
 open_popup_window = function(me)
     local pad = Style.WindowPadding
+
