@@ -676,3 +676,4 @@ local function rotate_point(cx, cy, px, py, a)
     return cx + dx * cs - dy * sn, cy + dx * sn + dy * cs
 end
 
+local active_drag = nil
