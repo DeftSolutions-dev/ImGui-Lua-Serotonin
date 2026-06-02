@@ -4144,3 +4144,4 @@ function ImGui.FileBrowser(str_id, state)
     ImGui.Separator()
 
     local items = {}
+    local ok, lst = pcall(file.listdir, state.path)
