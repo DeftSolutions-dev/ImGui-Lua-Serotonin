@@ -3715,3 +3715,4 @@ function ImGui.EndTooltip()
     local fw = (win.cursor_max_x - me.x) + pad.x
     local fh = (win.cursor_max_y - me.y) + pad.y
     me._bg_cmd.w = fw; me._bg_cmd.h = fh
+    me._br_cmd.w = fw; me._br_cmd.h = fh
