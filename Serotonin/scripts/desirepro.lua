@@ -1475,3 +1475,4 @@ function DesirePro.esp_preview(ctx)
         local g = groups[it.group] or groups.top
         g[#g + 1] = it
     end
+    local cxb = bx + bw / 2
