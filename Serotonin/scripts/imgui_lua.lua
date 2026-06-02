@@ -1112,3 +1112,4 @@ function ImGui.End()
     if not win then return end
 
     win.content_w = win.cursor_max_x - win.cursor_start_x
+    win.content_h = win.cursor_max_y - win.cursor_start_y
