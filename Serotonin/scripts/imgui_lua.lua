@@ -3036,3 +3036,4 @@ function ImGui.BeginTable(str_id, columns, flags)
     local win = g.current_window; if not win then return false end
     flags = flags or {}
     local total_w = win._content_x1 - win.cursor_x
+    local id = GetID("tbl:" .. str_id)
