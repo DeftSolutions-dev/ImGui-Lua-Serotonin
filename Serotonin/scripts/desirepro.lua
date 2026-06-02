@@ -1660,3 +1660,4 @@ local function draw_feature()
     if DesirePro._feature_t < 0.01 then return end
     local t = DesirePro._feature_t
     DesirePro._modal_active = true
+    local mx, my = mouse_pos()
