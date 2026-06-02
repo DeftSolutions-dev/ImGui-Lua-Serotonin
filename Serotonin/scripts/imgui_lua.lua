@@ -139,3 +139,4 @@ end
 
 local FNV_OFFSET = 2166136261
 local FNV_PRIME  = 16777619
+local function fnv1a(s, seed)
