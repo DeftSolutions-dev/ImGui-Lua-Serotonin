@@ -1906,3 +1906,4 @@ function ImGui.BeginTabItem(label, p_open)
     local tab_w = tw + pad.x * 2 + 8 + close_w
     local tab_h = tb.tab_h
 
+    tb.label_seen[label] = true
