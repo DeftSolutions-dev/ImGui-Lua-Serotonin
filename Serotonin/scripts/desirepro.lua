@@ -392,3 +392,4 @@ local function random_unit()
     return bit.band(x, 0xFFFFFF) / 0x1000000
 end
 
+DesirePro.particles = {}
