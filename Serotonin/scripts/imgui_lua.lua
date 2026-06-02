@@ -3937,3 +3937,4 @@ function ImGui.PopFont()
 end
 
 function ImGui.InputTextWithHint(label, hint, value)
+    local was_empty = (value == nil or value == "")
