@@ -236,3 +236,4 @@ function DesirePro.preload(spec)
     if not fonts then
         fonts = {}
         for k in pairs(META.fonts) do fonts[#fonts + 1] = k end
+    end
