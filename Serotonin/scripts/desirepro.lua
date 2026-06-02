@@ -1871,3 +1871,4 @@ function DesirePro.menu()
                 DesirePro.box_y = oy + dy
             else
                 DesirePro.hdrag = false
+            end
