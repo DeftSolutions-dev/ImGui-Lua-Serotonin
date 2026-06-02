@@ -3618,3 +3618,4 @@ function ImGui.MenuItem(label, shortcut, selected)
     local pressed = hovered and g.mouse_left_clicked
 
     if shortcut and shortcut ~= "" then
+        local mods, key = _parse_shortcut(shortcut)
