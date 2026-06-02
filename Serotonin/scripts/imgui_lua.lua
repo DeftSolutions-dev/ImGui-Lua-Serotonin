@@ -858,3 +858,4 @@ local function get_or_create_window(id, title)
         opened       = true,
         flags        = {},
         groups       = {},
+    }
