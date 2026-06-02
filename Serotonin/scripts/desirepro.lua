@@ -1239,3 +1239,4 @@ function DesirePro.input(ctx, label, placeholder)
         end
     end
 
+    st.border = DesirePro.anim(st.border, focused and 2 or (hovered and 1 or 0), 12)
