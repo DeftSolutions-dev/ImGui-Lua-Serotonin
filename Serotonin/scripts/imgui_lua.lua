@@ -2101,3 +2101,4 @@ function ImGui.TreeNodeEx(label, flags)
     local mk = StyleColor(Col.Text)
     if flags.bullet then
         dr_circle_filled(2, cx, cy, 2, mk, 8)
+    elseif flags.leaf then
