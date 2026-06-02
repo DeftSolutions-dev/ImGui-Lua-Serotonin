@@ -3923,3 +3923,4 @@ end
 function ImGui.PushClipRect(x, y, w, h)
     insert(g.clip_stack, { x = x, y = y, w = w, h = h })
 end
+function ImGui.PopClipRect()
