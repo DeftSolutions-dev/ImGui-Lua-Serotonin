@@ -1295,3 +1295,4 @@ local function draw_popup()
             if ih_hover and rc and can_click then
                 DesirePro.vars[popup.varid] = i - 1
                 open_combo = nil
+                popup = nil
