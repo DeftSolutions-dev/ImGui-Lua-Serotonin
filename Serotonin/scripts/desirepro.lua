@@ -441,3 +441,4 @@ function DesirePro.update_notifications()
             table.remove(DesirePro.notifs, i)
         else
             local w, h = 280, 58
+            local nx = sw - w - 22 + n.x * (w + 44)
