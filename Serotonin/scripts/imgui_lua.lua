@@ -1535,3 +1535,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
                 t = math.log(value / vmin) / denom
             else
                 t = 0
+            end
