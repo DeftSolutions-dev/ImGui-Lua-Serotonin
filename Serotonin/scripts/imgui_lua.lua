@@ -796,3 +796,4 @@ end
 
 function ImGui.GetMousePos()
     if ui_scale ~= 1 then
+        return ui_px + (g.mouse_x - ui_px) / ui_scale, ui_py + (g.mouse_y - ui_py) / ui_scale
