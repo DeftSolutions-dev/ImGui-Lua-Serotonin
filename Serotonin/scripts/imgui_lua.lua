@@ -910,3 +910,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     else
         opts = {}
     end
+    local id = fnv1a(title)
