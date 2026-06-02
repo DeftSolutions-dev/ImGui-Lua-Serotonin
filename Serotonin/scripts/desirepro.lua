@@ -1384,3 +1384,4 @@ local function draw_popup()
             local segh = sv_h / 6
             ImGui.AddGradient(3, hue_x, sv_y + i * segh, hue_w, segh,
                 hsv2rgb(i / 6, 1, 1, 1), hsv2rgb((i + 1) / 6, 1, 1, 1), false)
+        end
