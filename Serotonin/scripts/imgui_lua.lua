@@ -2455,3 +2455,4 @@ function ImGui.BeginChild(str_id, w, h, border)
         cursor_x       = win.cursor_x,
         cursor_y       = win.cursor_y,
         cursor_max_x   = win.cursor_max_x,
+        cursor_max_y   = win.cursor_max_y,
