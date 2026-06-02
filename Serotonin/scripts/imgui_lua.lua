@@ -3704,3 +3704,4 @@ function ImGui.BeginTooltip()
         _is_tooltip = true, _tooltip = me,
     }
     insert(g.window_stack, pwin)
+    g.current_window = pwin
