@@ -2952,3 +2952,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     insert(g.draw_layers[4], title_cmd_bg)
     me._title_bg_cmd = title_cmd_bg
     insert(g.draw_layers[4], { kind = "text", text = name, x = me.x + 8, y = me.y + 4,
+                               col = StyleColor(Col.Text), font = Style.Font })
