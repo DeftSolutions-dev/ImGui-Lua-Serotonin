@@ -2736,3 +2736,4 @@ function ImGui.BeginDisabled(disabled)
     if disabled == nil then disabled = true end
     if disabled then
         g._disabled_depth = (g._disabled_depth or 0) + 1
+        local function dim(c) return col_mul_alpha(c, 0.5) end
