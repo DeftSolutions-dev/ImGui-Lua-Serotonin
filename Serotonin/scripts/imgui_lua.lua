@@ -1373,3 +1373,4 @@ local function button_internal(label, w_override, h_override)
         local col
         if t <= 1 then
             col = col_lerp(col_a, col_b, t)
+        else
