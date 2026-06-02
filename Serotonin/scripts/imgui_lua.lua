@@ -3897,3 +3897,4 @@ function ImGui.OpenPopupOnItemClick(str_id, button)
     if button == 1 and g.mouse_right_clicked then
         ImGui.OpenPopup(str_id); return true
     end
+    if button == 0 and g.mouse_left_clicked then
