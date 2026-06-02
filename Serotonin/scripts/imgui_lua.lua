@@ -2555,3 +2555,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
     local win = g.current_window; if not win then return end
     local th = Style.FontHeight
     local count = #values
+    plot_h = plot_h or 60
