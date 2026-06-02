@@ -4107,3 +4107,4 @@ function ImGui.DatePicker(label, y, m, d)
         ImGui.Dummy(cell_w, cell_h)
     end
     local first = dow_first(y, m)
+    local total = days_in_month(y, m)
