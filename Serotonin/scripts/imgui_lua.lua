@@ -1181,3 +1181,4 @@ function ImGui.SameLine(offset_x, spacing)
     else
         local r = g.last_item_rect
         win.cursor_x = (r.x + r.w) + (spacing or Style.ItemInnerSpacing.x)
+    end
