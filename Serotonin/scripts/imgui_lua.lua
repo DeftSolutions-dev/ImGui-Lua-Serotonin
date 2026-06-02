@@ -2104,3 +2104,4 @@ function ImGui.TreeNodeEx(label, flags)
     elseif flags.leaf then
 
     elseif open then
+        dr_triangle_filled(2, cx - 4, cy - 2, cx + 4, cy - 2, cx, cy + 4, mk)
