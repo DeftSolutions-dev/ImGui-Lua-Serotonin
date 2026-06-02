@@ -2051,3 +2051,4 @@ function ImGui.EndTabBar()
             if rp then tb.scroll = min(max_scroll, (tb.scroll or 0) + step) end
             store_set(win, "tabbar_scroll_" .. tostring(tb.id), tb.scroll)
         end
+
