@@ -1893,3 +1893,4 @@ function ImGui.BeginTabBar(name, flags)
         tab_widths  = store_get(win, "tabbar_widths_"  .. tostring(id), nil) or {},
         label_seen  = {},
     }
+    return true
