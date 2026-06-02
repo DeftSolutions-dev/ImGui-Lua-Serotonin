@@ -2517,3 +2517,4 @@ function ImGui.EndChild()
     win.cursor_x       = s.cursor_x
     win.cursor_y       = s.cursor_y
     win.cursor_max_x   = s.cursor_max_x
+    win.cursor_max_y   = s.cursor_max_y
