@@ -1566,3 +1566,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     local id = GetID("drg:" .. label)
     insert(g.focus_list, id)
     local tw_lbl, th = text_size(label)
+    local pad = Style.FramePadding
