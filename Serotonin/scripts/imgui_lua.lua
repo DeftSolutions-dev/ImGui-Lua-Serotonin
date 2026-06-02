@@ -973,3 +973,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             dr_line(2, cx - 4, cy - 4, cx + 4, cy + 4, lc, 2)
             dr_line(2, cx + 4, cy - 4, cx - 4, cy + 4, lc, 2)
             if cb_pressed then win._close_clicked = true end
+        end
