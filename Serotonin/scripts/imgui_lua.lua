@@ -4299,3 +4299,4 @@ function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
     if active then
         if g.mouse_left_down then
             local d = is_vertical and g.mouse_dx or g.mouse_dy
+            size1 = size1 + d
