@@ -3297,3 +3297,4 @@ function ImGui.EndListBox() ImGui.EndChild() end
 function ImGui.OpenPopup(str_id)
     g.popup_pending_open = {
         str_id = str_id,
+        id     = fnv1a("popup:" .. tostring(str_id)),
