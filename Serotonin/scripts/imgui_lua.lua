@@ -134,3 +134,4 @@ local function rgb_to_hsv(r, g, b)
         h = h / 6
         if h < 0 then h = h + 1 end
     end
+    return h, s, v
