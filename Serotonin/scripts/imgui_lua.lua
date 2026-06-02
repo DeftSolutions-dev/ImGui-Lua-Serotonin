@@ -4098,3 +4098,4 @@ function ImGui.DatePicker(label, y, m, d)
     ImGui.Spacing()
 
     local cell_w = 30
+    local cell_h = ImGui.GetFrameHeight()
