@@ -4589,3 +4589,4 @@ local function flush_layer(layer)
                     draw.RectFilled(x, y, w, h, col, rd, a)
                 end
             else
+                draw.RectFilled(c.x, c.y, c.w, c.h, col, c.rounding, a)
