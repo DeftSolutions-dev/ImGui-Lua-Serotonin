@@ -2189,3 +2189,4 @@ function ImGui.CollapsingHeader(label)
     return open
 end
 
+local INPUT_KEYS = {}
