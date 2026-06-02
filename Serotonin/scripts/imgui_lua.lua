@@ -4200,3 +4200,4 @@ function ImGui.DragFloatRange2(label, vmin_cur, vmax_cur, speed, lo, hi, fmt)
     return vmin_cur, vmax_cur
 end
 
+function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
