@@ -337,3 +337,4 @@ function DesirePro.anim(cur, target, mul)
     return DesirePro.lerp(cur, target, delta_time() * (mul or 12))
 end
 
+function DesirePro.with_alpha(col, a)
