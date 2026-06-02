@@ -365,3 +365,4 @@ function DesirePro.grad_rrect(layer, x, y, w, h, r, c1, c2)
     if w > 2 * r then ImGui.AddGradient(layer, x + r, y, w - 2 * r, h, c1, c2, true) end
 end
 
+local C1, C3 = 1.70158, 2.70158
