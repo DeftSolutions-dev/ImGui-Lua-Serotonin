@@ -4163,3 +4163,4 @@ function ImGui.FileBrowser(str_id, state)
             end
         end
     end
+    ImGui.EndChild()
