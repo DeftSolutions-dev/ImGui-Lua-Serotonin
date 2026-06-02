@@ -2646,3 +2646,4 @@ function ImGui.SetCursorPos(x, y)
     win.cursor_y = win.y + y
 end
 function ImGui.SetCursorPosX(x)
+    local win = g.current_window; if not win then return end
