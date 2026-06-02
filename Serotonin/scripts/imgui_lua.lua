@@ -3974,3 +3974,4 @@ function ImGui.TextLink(label)
     auto_wrap(tw)
     local x, y = win.cursor_x, win.cursor_y
     local pressed, hovered, held = ButtonBehavior(x, y, tw, th, id)
+    local col = StyleColor(Col.CheckMark)
