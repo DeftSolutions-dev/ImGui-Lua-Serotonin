@@ -2264,3 +2264,4 @@ function ImGui.InputText(label, value, callback)
             if ok_clip and type(cb) == "string" then
                 value = value .. cb
             end
+        end
