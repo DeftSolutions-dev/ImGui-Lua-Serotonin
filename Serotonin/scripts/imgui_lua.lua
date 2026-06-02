@@ -3320,3 +3320,4 @@ end
 
 function ImGui.BeginPopupContextVoid(str_id)
     str_id = str_id or "##voidcontext"
+    if g.mouse_right_clicked and not g.hovered_window_id then
