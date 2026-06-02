@@ -1105,3 +1105,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 end
 
 local render_scrollbar
+local open_popup_window
