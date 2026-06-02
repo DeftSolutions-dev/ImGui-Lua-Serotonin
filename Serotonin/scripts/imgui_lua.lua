@@ -4234,3 +4234,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
     record_item(id, x, y, w, h, hovered, false, active)
     ItemSize(w, h)
     return value, active
+end
