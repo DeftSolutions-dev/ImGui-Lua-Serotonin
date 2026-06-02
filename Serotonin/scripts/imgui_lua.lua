@@ -3279,3 +3279,4 @@ function ImGui.EndTable()
     if t.borders then
         dr_rect(3, t.x0, t.y0, total_w, total_h,
                 StyleColor(Col.TableBorderStrong), 1, 0)
+    end
