@@ -3119,3 +3119,4 @@ function ImGui.TableNextColumn()
     local win = g.current_window; if not win then return false end
     local t = win._table; if not t then return false end
     if t.cur_col + 1 >= t.columns then
+        ImGui.TableNextRow()
