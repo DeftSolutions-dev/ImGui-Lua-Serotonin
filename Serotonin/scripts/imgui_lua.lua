@@ -2068,3 +2068,4 @@ function ImGui.TreeNodeEx(label, flags)
     local key = "tree_" .. tostring(id)
     local open = store_get(win, key, flags.default_open and true or false)
     if flags.leaf then open = false end
+
