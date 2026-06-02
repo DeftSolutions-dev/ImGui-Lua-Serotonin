@@ -1679,3 +1679,4 @@ function ImGui.Combo(label, current_idx, items, flags)
 end
 
 function ImGui.ListBox(label, current_idx, items, height_in_items)
+    local win = g.current_window; if not win then return current_idx end
