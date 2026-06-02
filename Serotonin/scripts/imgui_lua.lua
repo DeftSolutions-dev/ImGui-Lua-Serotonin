@@ -2824,3 +2824,4 @@ function ImGui.BeginCombo(label, preview, flags)
     end
     if visible then
         local bg = StyleColor(Col.FrameBg)
+        if held and hovered then bg = StyleColor(Col.FrameBgActive)
