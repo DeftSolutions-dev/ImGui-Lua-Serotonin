@@ -410,3 +410,4 @@ local function update_io()
     end
 
     if g.mouse_left_clicked and not g.popup_active_prev and g.hovered_window_id then
+        for i = #g.windows_z_order, 1, -1 do
