@@ -951,3 +951,4 @@ end
 
 function DesirePro.button(ctx, label, h)
     h = floor((h or 35) * DesirePro.US)
+    local id = "bt:" .. ctx.idp .. label
