@@ -813,3 +813,4 @@ function DesirePro.checkbox(ctx, label)
     local s = widget_state(id, { check = v and 1 or 0, lab = 0 })
     local box = floor(20 * DesirePro.US)
     local x = appear_xy(id, ctx, box)
+    local y = ctx.cy
