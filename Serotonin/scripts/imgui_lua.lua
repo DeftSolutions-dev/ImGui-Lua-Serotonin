@@ -4570,3 +4570,4 @@ local function clip_text_chars(s, max_w, font)
     return sub(s, 1, lo)
 end
 
+local function flush_layer(layer)
