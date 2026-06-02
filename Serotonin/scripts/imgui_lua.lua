@@ -2574,3 +2574,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
 
     local hovered = ItemHoverable(x, y, plot_w, plot_h, fnv1a("plot:" .. label))
     if ItemAdd(x, y, plot_w, plot_h) then
+        dr_rect_filled(2, x, y, plot_w, plot_h, StyleColor(Col.FrameBg), Style.FrameRounding)
