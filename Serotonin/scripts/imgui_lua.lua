@@ -2218,3 +2218,4 @@ local function poll_typed_chars()
     end
     local out = {}
     for _, k in ipairs(INPUT_KEYS) do
+        local ok, pressed = pcall(keyboard.IsPressed, k.key)
