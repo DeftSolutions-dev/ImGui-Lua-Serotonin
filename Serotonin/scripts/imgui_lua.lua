@@ -1836,3 +1836,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
             dr_gradient(2, hb_x, hb_y + i * hue_step, hue_w, hue_step + 1,
                         COL(r0, g0, b0, 1), COL(r1, g1, b1, 1), false)
         end
+        local hc_y = hb_y + s.h * hb_h
