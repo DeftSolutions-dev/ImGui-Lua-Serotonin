@@ -3659,3 +3659,4 @@ function ImGui.BeginTooltip()
         y     = g.mouse_y + 8,
     }
 
+    g.storage[0] = g.storage[0] or {}
