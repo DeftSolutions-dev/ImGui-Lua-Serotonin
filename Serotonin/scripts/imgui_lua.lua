@@ -2250,3 +2250,4 @@ function ImGui.InputText(label, value, callback)
     local x, y = win.cursor_x, win.cursor_y
 
     local hovered = ItemHoverable(x, y, input_w, frame_h, id)
+    if hovered and g.mouse_left_clicked then
