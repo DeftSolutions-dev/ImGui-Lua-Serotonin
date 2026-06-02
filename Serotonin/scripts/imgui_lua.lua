@@ -4118,3 +4118,4 @@ function ImGui.DatePicker(label, y, m, d)
             else
                 local is_sel = (idx == d)
                 local btn_id = "##d" .. tostring(idx)
+                if is_sel then ImGui.PushStyleColor(Col.Button, StyleColor(Col.ButtonActive)) end
