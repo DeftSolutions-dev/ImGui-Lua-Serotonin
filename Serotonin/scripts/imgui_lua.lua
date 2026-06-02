@@ -2319,3 +2319,4 @@ end
 
 function ImGui.InputInt(label, value, step)
     step = step or 1
+    local v_str = tostring(value or 0)
