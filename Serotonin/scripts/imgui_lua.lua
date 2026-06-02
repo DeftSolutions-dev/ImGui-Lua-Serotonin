@@ -3356,3 +3356,4 @@ open_popup_window = function(me)
                      rounding = Style.PopupRounding }
     insert(g.draw_layers[4], bg_cmd)
     insert(g.draw_layers[4], br_cmd)
+    me._bg_cmd = bg_cmd
