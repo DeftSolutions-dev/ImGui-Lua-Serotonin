@@ -1812,3 +1812,4 @@ function DesirePro.menu()
         end
     else
         local rowx, roww, ry = tx + 12, tw - 24, ty + 16
+        for i = 1, #DesirePro.tabs do
