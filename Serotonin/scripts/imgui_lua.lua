@@ -4778,3 +4778,4 @@ function ImGui.GetIO()
         MousePos       = { x = g.mouse_x, y = g.mouse_y },
         MouseDown      = g.mouse_left_down,
         MouseClicked   = g.mouse_left_clicked,
+        MouseReleased  = g.mouse_left_released,
