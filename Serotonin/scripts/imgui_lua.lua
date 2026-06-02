@@ -2148,3 +2148,4 @@ function ImGui.TreeNode(label)
     if open then
         ImGui.Indent()
     end
+    return open
