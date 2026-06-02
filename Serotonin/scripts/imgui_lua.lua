@@ -4303,3 +4303,4 @@ function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
             size2 = size2 - d
             if size1 < (min1 or 24) then size2 = size2 - ((min1 or 24) - size1); size1 = (min1 or 24) end
             if size2 < (min2 or 24) then size1 = size1 - ((min2 or 24) - size2); size2 = (min2 or 24) end
+        else clear_active_id() end
