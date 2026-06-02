@@ -2696,3 +2696,4 @@ function ImGui.SetWindowFocus()
 end
 function ImGui.GetFontSize()                 return Style.FontHeight end
 function ImGui.GetFrameHeight()              return Style.FontHeight + Style.FramePadding.y * 2 end
+function ImGui.GetTextLineHeight()           return Style.FontHeight end
