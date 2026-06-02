@@ -644,3 +644,4 @@ local function dr_image(layer, x, y, w, h, texid, col, alpha)
                       col = col or COL(1, 1, 1, 1), alpha = alpha or 1 })
 end
 
+function ImGui.AddRectFilled(layer, x, y, w, h, col, rounding) dr_rect_filled(layer or 2, x, y, w, h, col, rounding) end
