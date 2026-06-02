@@ -4563,3 +4563,4 @@ local function clip_text_chars(s, max_w, font)
     if w <= max_w then return s end
     local lo, hi = 0, #s
     while lo < hi do
+        local mid = floor((lo + hi + 1) / 2)
