@@ -760,3 +760,4 @@ local function record_item(id, x, y, w, h, hovered, clicked, active)
     local r = g.last_item_rect
     r.x, r.y, r.w, r.h = x, y, w, h
     g.last_item_hovered = hovered
+    g.last_item_clicked = clicked
