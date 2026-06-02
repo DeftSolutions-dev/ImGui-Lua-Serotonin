@@ -1697,3 +1697,4 @@ local function draw_settings()
     DesirePro.settings_t = DesirePro.anim(DesirePro.settings_t, DesirePro.settings_open and 1 or 0, 14)
     if DesirePro.settings_t < 0.01 then return end
     DesirePro._modal_active = true
+    local t = DesirePro.settings_t
