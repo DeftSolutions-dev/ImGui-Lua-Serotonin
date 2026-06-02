@@ -936,3 +936,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         g.next_window_collapsed = nil
     end
 
+    g.current_window = win
