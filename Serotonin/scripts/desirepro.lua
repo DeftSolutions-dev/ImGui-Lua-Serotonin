@@ -640,3 +640,4 @@ local function widget_state(id, init)
     if not s then s = init or {}; widget_states[id] = s end
     return s
 end
+
