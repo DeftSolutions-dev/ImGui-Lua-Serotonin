@@ -3712,3 +3712,4 @@ function ImGui.EndTooltip()
     if not win or not win._is_tooltip then return end
     local me = win._tooltip
     local pad = Style.WindowPadding
+    local fw = (win.cursor_max_x - me.x) + pad.x
