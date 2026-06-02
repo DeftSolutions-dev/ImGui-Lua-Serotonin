@@ -4568,3 +4568,4 @@ local function clip_text_chars(s, max_w, font)
         if sw <= max_w then lo = mid else hi = mid - 1 end
     end
     return sub(s, 1, lo)
+end
