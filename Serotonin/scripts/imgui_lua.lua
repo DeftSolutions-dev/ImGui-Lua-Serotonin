@@ -3089,3 +3089,4 @@ function ImGui.TableNextRow()
     local t = win._table; if not t then return end
     if t.row_index > 0 then
         if t.borders then
+            dr_line(2, t.x0, t.cur_row_max_y, t.x0 + table_total_w(t), t.cur_row_max_y,
