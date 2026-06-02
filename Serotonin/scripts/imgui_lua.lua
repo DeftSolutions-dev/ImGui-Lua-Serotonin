@@ -866,3 +866,4 @@ local function get_or_create_window(id, title)
 
     if g._pending_window_settings and g._pending_window_settings[title] then
         local p = g._pending_window_settings[title]
+        if p.x then w.x = p.x end
