@@ -3664,3 +3664,4 @@ function ImGui.BeginTooltip()
     local dt = g.dt or 0.016
     a = a + (1 - a) * min(1, dt * 14)
     g.storage[0]._tooltip_alpha = a
+    me._alpha = a
