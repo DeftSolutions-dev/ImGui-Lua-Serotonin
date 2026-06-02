@@ -342,3 +342,4 @@ function DesirePro.with_alpha(col, a)
 end
 
 function DesirePro.pill(layer, x, y, w, h, col)
+    local r = (w < h and w or h) / 2
