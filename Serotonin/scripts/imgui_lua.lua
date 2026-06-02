@@ -2693,3 +2693,4 @@ function ImGui.SetWindowFocus()
         if wid == w.id then remove(g.windows_z_order, i); break end
     end
     insert(g.windows_z_order, w.id)
+end
