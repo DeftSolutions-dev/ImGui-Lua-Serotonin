@@ -1102,3 +1102,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
     if p_open ~= nil then return true, out_open end
     return true
+end
