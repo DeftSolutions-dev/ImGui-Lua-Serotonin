@@ -2845,3 +2845,4 @@ function ImGui.BeginCombo(label, preview, flags)
     if is_open then
         return ImGui.BeginPopup(str_id)
     end
+    return false
