@@ -1501,3 +1501,4 @@ function DesirePro.esp_preview(ctx)
         local w = DesirePro.text_size(DesirePro.translate(it.name), FONT)
         local lx = (it.align == "center") and (it.sx - w / 2)
                 or (it.align == "right") and (it.sx - w) or it.sx
+        if lx < px + 2 then lx = px + 2 elseif lx + w > px + pw - 2 then lx = px + pw - 2 - w end
