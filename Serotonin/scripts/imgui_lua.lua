@@ -1412,3 +1412,4 @@ function ImGui.Checkbox(label, value)
     local box_sz = Style.FontHeight + Style.FramePadding.y * 2
     local tw, th = text_size(label)
     local x, y = win.cursor_x, win.cursor_y
+    local total_w = box_sz + Style.ItemInnerSpacing.x + tw
