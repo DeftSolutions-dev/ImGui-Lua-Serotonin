@@ -1178,3 +1178,4 @@ function DesirePro.keybind(ctx, label)
     DesirePro.text_in(2, px + 26, py, ph, name, "poppins_medium_15", DesirePro.col.label_active, 1)
 
     if st.key ~= "None" then
+        local mt = DesirePro.translate(KEYBIND_MODES[st.mode])
