@@ -3543,3 +3543,4 @@ function ImGui.EndMenuBar()
         }
     end
 
+    win.cursor_y = mb._save_cursor_y + mb.h + Style.ItemSpacing.y
