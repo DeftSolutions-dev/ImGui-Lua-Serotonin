@@ -1742,3 +1742,4 @@ function DesirePro.menu()
         DesirePro._last_tab = DesirePro.active_tab
     end
 
+    local sw, sh = ImGui.GetScreenSize()
