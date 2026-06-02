@@ -4717,3 +4717,4 @@ function ImGui.Render()
 
         local n = #layer
         if n < 2 then return end
+        local idx = {}
