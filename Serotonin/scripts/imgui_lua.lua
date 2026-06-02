@@ -2128,3 +2128,4 @@ function ImGui.TreeNode(label)
     local total_w = 16 + tw
     local hov = ItemHoverable(x, y, total_w, h, id)
     local pressed = hov and g.mouse_left_clicked
+    if pressed then
