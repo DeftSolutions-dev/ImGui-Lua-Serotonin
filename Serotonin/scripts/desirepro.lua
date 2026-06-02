@@ -478,3 +478,4 @@ function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
     local cp = type(key) == "number" and key or DesirePro.ICON[key]
     if not cp then return end
     local best = 35
+    for _, sz in ipairs(DesirePro.ICON_SIZES) do
