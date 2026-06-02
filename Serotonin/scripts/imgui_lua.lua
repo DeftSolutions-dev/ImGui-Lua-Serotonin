@@ -3259,3 +3259,4 @@ function ImGui.EndTable()
             local rid = fnv1a("col_resize", i, t.id)
             local _, hov, held = ButtonBehavior(edge_x - 2, t.y0, 4, total_h, rid)
             if held then
+                local dx = g.mouse_dx
