@@ -2903,3 +2903,4 @@ function ImGui.Hotkey(label, key)
     local bg = StyleColor(Col.FrameBg)
     if active then bg = StyleColor(Col.FrameBgActive)
     elseif hovered then bg = StyleColor(Col.FrameBgHovered) end
+    dr_rect_filled(2, x, y, hk_w, frame_h, bg, Style.FrameRounding)
