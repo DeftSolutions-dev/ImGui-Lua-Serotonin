@@ -1237,3 +1237,4 @@ function DesirePro.input(ctx, label, placeholder)
         if key_edge("Enter") or key_edge("Return") or key_edge("Escape") then
             DesirePro._focus_input = nil; focused = false
         end
+    end
