@@ -381,3 +381,4 @@ function DesirePro.ease_toggle(st, key, on, speed)
     local e = DesirePro.ease_back(rec.t)
     return on and e or (1 - e)
 end
+
