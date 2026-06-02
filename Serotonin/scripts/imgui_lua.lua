@@ -2880,3 +2880,4 @@ function ImGui.Hotkey(label, key)
     local x, y = win.cursor_x, win.cursor_y
     auto_wrap(hk_w + label_part)
     x, y = win.cursor_x, win.cursor_y
+
