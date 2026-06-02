@@ -1088,3 +1088,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
     push_clip(win._content_x0, win._content_y0,
               win._content_x1 - win._content_x0,
+              win._content_y1 - win._content_y0)
