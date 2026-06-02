@@ -1662,3 +1662,4 @@ local function draw_feature()
     DesirePro._modal_active = true
     local mx, my = mouse_pos()
 
+    local pw = 230
