@@ -529,3 +529,4 @@ DesirePro.tabs = {
     { icon = "TRANSLATE_2_AI_LINE", name = "Lang" },
     { icon = "GROUP_3_FILL",        name = "Players" },
     { icon = "COMPASS_FILL",        name = "Radar" },
+    { icon = "EARTH_2_FILL",        name = "World" },
