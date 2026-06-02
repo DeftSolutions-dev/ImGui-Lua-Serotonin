@@ -789,3 +789,4 @@ function ImGui.IsWindowHovered()
     return point_in_rect(g.mouse_x, g.mouse_y, win.x, win.y, win.w, win.h)
 end
 function ImGui.IsWindowFocused()
+    local win = g.current_window; if not win then return false end
