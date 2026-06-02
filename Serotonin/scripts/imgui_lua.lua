@@ -1140,3 +1140,4 @@ local function ItemSize(w, h)
     local win = g.current_window
     if not win then return end
 
+    g.last_item_rect.x = win.cursor_x
