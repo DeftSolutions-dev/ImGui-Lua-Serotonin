@@ -2274,3 +2274,4 @@ function ImGui.InputText(label, value, callback)
                 end
 
                 local accept = true
+                if callback then
