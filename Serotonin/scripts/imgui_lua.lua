@@ -1846,3 +1846,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
 
         ImGui.Dummy(sv_size + pad_in + hue_w, sv_size)
         if not flags.no_inputs then
+            ImGui.Text(string.format("R %3d  G %3d  B %3d",
