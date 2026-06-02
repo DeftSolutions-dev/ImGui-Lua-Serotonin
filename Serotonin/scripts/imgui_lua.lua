@@ -4425,3 +4425,4 @@ function ImGui.BeginDragDropSource(flags)
     if not g.mouse_left_down then return false end
 
     g.dragdrop_active = true
+    g.dragdrop_source_id = g.last_item_id
