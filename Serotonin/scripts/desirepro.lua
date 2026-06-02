@@ -961,3 +961,4 @@ function DesirePro.button(ctx, label, h)
     if pressed then DesirePro.spawn_particles(x + w / 2, y + h / 2, 22) end
 
     s.hov = DesirePro.ease_toggle(s, "hovE", hovered, 23)
+    s.press = DesirePro.ease_toggle(s, "pressE", hovered and mouse_down(), 30)
