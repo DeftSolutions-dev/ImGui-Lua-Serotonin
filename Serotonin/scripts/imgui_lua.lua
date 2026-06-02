@@ -2687,3 +2687,4 @@ function ImGui.SetWindowSize(w_, h_)
 end
 function ImGui.SetWindowCollapsed(b) local w = g.current_window; if w then w.collapsed = b end end
 function ImGui.SetWindowFocus()
+    local w = g.current_window; if not w then return end
