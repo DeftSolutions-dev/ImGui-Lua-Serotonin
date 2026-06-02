@@ -2976,3 +2976,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     end
 
     local win = g.current_window
+    win.cursor_y = me.y + title_h + pad.y
