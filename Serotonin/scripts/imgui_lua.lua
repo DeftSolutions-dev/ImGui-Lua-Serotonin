@@ -3925,3 +3925,4 @@ function ImGui.PushClipRect(x, y, w, h)
 end
 function ImGui.PopClipRect()
     if #g.clip_stack > 0 then remove(g.clip_stack) end
+end
