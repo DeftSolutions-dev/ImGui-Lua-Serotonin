@@ -1627,3 +1627,4 @@ function ImGui.ProgressBar(fraction, w, h, overlay)
     ItemSize(frame_w, frame_h)
 end
 
+function ImGui.Selectable(label, selected, w_override, h_override)
