@@ -1883,3 +1883,4 @@ function DesirePro.menu()
     ImGui.SetDrawAlpha(1)
 
     draw_feature()
+    draw_settings()
