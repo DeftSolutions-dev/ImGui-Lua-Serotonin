@@ -3416,3 +3416,4 @@ local function close_popup_window()
     local h_anim = final_h * me._open_anim
 
     me.w = final_w; me.h = final_h
+
