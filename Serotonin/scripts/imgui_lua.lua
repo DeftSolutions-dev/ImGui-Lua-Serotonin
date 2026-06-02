@@ -4176,3 +4176,4 @@ end
 
 function ImGui.CheckboxFlags(label, flags_int, flag_bit)
     local active = bit.band(flags_int, flag_bit) == flag_bit
+    local new_active, pressed = ImGui.Checkbox(label, active)
