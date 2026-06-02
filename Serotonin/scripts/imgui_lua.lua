@@ -1926,3 +1926,4 @@ function ImGui.BeginTabItem(label, p_open)
     else
         x = tb.next_x - (tb.scroll or 0)
         y = tb.row_y
+        tb.next_x  = tb.next_x + tab_w + 2
