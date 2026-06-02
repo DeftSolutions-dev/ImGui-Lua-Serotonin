@@ -769,3 +769,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     cs.t = DesirePro.anim(cs.t, cs.on and 1 or 0, 12)
     cs.h = DesirePro.anim(cs.h, cs.on and body_h or 0, 12)
     local total = CARD_HEADER + cs.h
+
