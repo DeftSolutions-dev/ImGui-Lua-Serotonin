@@ -1524,3 +1524,4 @@ function DesirePro.esp_preview(ctx)
         else
             local tg = DesirePro._esp_target or "top"
             local moved
+            for i = #layout, 1, -1 do
