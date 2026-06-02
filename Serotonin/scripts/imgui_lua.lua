@@ -3290,3 +3290,4 @@ function ImGui.BeginListBox(label, w, h)
     local total_w = win._content_x1 - win.cursor_x
     w = w or get_item_width(total_w)
     h = h or 6 * (Style.FontHeight + 4) + 4
+    return ImGui.BeginChild("##listbox_" .. label, w, h, true)
