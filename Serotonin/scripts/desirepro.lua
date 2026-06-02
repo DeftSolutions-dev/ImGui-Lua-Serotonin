@@ -1625,3 +1625,4 @@ function DesirePro.page(idx, px, py, ph)
         DesirePro.end_card(c3)
     elseif idx == 1 then
         local c = DesirePro.begin_card("Combat Settings:Esp features", px, py, CARD_W, 322, "PIC_AI_FILL")
+        if c.on then
