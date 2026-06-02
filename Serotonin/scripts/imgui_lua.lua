@@ -4767,3 +4767,4 @@ function ImGui._OnPaint()
             print("[imgui_lua ERROR] " .. s)
         end
     end
+end
