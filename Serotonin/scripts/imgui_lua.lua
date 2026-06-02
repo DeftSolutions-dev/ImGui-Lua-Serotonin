@@ -3815,3 +3815,4 @@ function ImGui.LoadIniSettings(path)
                     elseif k == "Collapsed" then
                         p.collapsed = (v == "1")
                     end
+                end
