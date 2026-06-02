@@ -575,3 +575,4 @@ local function push_cmd(layer, cmd)
     if g.current_window then cmd.win_id = g.current_window.id end
 
     if ui_scale ~= 1 then
+        local s, px, py = ui_scale, ui_px, ui_py
