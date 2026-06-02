@@ -1806,3 +1806,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
             dr_gradient(2, sv_x, sv_y + i * row_h, sv_size, row_h + 1, cL, cR, true)
         end
 
+        local sc_x = sv_x + s.s * sv_size
