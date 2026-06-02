@@ -345,3 +345,4 @@ function DesirePro.pill(layer, x, y, w, h, col)
     local r = (w < h and w or h) / 2
     ImGui.AddRectFilled(layer, x, y, w, h, col, r)
 end
+
