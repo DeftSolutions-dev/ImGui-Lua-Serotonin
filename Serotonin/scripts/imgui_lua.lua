@@ -1465,3 +1465,4 @@ function ImGui.RadioButton(label, active)
         local bg = StyleColor(Col.FrameBg)
         if held and hovered then bg = StyleColor(Col.FrameBgActive)
         elseif hovered then bg = StyleColor(Col.FrameBgHovered) end
+        local cx = x + sz * 0.5
