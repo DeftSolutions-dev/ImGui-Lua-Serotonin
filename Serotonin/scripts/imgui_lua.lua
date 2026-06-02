@@ -1689,3 +1689,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
     local x, y = win.cursor_x, win.cursor_y
 
     dr_rect_filled(2, x, y, total_w, box_h, StyleColor(Col.FrameBg), Style.FrameRounding)
+    dr_rect(2, x, y, total_w, box_h, StyleColor(Col.Border), 1, Style.FrameRounding)
