@@ -3509,3 +3509,4 @@ function ImGui.BeginMenuBar()
         y      = win.y + win._title_h,
         w      = win.w,
         h      = th,
+        next_x = win.x + 4,
