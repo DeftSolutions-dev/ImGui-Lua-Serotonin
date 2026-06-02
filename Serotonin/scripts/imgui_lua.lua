@@ -2058,3 +2058,4 @@ function ImGui.EndTabBar()
         win.cursor_max_y = max(win.cursor_max_y, win.cursor_y)
     end
     win._tabbar = nil
+    remove(g.id_stack)
