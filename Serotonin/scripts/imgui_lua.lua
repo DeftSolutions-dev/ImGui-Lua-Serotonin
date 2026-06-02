@@ -4707,3 +4707,4 @@ function ImGui.Render()
 
     if g._focus_next_idx and g.focus_list[g._focus_next_idx + 1] then
         g.nav_id = g.focus_list[g._focus_next_idx + 1]
+    end
