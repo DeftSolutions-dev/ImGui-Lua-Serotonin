@@ -3547,3 +3547,4 @@ function ImGui.EndMenuBar()
     win.cursor_x = win.cursor_start_x + win.indent_x
     win._menubar = nil
 end
+
