@@ -3106,3 +3106,4 @@ function ImGui.TableSetColumnIndex(col)
     local win = g.current_window; if not win then return end
     local t = win._table; if not t then return end
     if win.cursor_max_y > t.cur_row_max_y then t.cur_row_max_y = win.cursor_max_y end
+    t.cur_col = col
