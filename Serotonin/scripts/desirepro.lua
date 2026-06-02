@@ -115,3 +115,4 @@ function DesirePro.text(layer, x, y, str, font_key, color, alpha)
     local dir = ROOT .. "/" .. fm.dir .. "/"
     local pen = x
     for cp in utf8_iter(tostring(str)) do
+        local g = fm.glyphs[cp]
