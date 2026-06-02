@@ -2870,3 +2870,4 @@ function ImGui.Hotkey(label, key)
     local win = g.current_window; if not win then return key end
     local id = GetID("hk:" .. label)
     insert(g.focus_list, id)
+    local th = Style.FontHeight
