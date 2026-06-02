@@ -4039,3 +4039,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
                 ImGui.TextColored(line.color or StyleColor(Col.Text), line.text or "")
             else
                 ImGui.Text(tostring(line))
+            end
