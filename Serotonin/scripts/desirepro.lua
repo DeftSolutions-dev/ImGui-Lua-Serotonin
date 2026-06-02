@@ -635,3 +635,4 @@ local function draw_header(mx, my, mw)
 end
 
 local widget_states = {}
+local function widget_state(id, init)
