@@ -1679,3 +1679,4 @@ local function draw_feature()
                   on = true, idp = (feat and feat.idp or "feature") }
     if feat and feat.content then feat.content(sub) end
     ImGui.PopClipRect()
+    DesirePro._feature_h = DesirePro.anim(DesirePro._feature_h, (sub.cy - py) + 6, 16)
