@@ -619,3 +619,4 @@ end
 
 local function dr_text_clip(layer, text, x, y, col, max_w, font)
     push_cmd(layer, { kind = "text_clip", text = text, x = x, y = y, col = col, max_w = max_w, font = font or Style.Font })
+end
