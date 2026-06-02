@@ -1587,3 +1587,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
             if is_int then value = floor(value + 0.5) end
         else
             clear_active_id()
+        end
