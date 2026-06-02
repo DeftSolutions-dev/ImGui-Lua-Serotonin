@@ -1808,3 +1808,4 @@ function DesirePro.menu()
         local tbx = tx + 8
         local tab_w = floor((tw - 16 - 7 * gap) / 8)
         for i = 1, #DesirePro.tabs do
+            draw_square_tab(i - 1, DesirePro.tabs[i], tbx + (i - 1) * (tab_w + gap), tby, tab_w, tbh)
