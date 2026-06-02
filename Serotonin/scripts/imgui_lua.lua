@@ -900,3 +900,4 @@ function ImGui.SetNextWindowCollapsed(b, cond)
 end
 function ImGui.SetNextWindowFocus() g.next_window_focus = true end
 
+function ImGui.Begin(title, opts_or_p_open, maybe_opts)
