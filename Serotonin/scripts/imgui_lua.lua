@@ -428,3 +428,4 @@ local function update_io()
         end
     end
 
+    if g.popup_active_prev and g.popup_rect_prev and g.active_id and g.active_id_rect then
