@@ -2881,3 +2881,4 @@ function ImGui.Hotkey(label, key)
     auto_wrap(hk_w + label_part)
     x, y = win.cursor_x, win.cursor_y
 
+    local hovered = ItemHoverable(x, y, hk_w, frame_h, id)
