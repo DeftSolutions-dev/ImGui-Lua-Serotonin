@@ -4198,3 +4198,4 @@ function ImGui.DragFloatRange2(label, vmin_cur, vmax_cur, speed, lo, hi, fmt)
     ImGui.Text(label)
     ImGui.PopID()
     return vmin_cur, vmax_cur
+end
