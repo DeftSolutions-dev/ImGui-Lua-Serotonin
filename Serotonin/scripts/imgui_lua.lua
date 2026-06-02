@@ -1636,3 +1636,4 @@ function ImGui.Selectable(label, selected, w_override, h_override)
     local h = h_override or (th + Style.FramePadding.y)
     local x, y = win.cursor_x, win.cursor_y
     local visible = ItemAdd(x, y, w, h)
+    local pressed, hovered, held = ButtonBehavior(x, y, w, h, id)
