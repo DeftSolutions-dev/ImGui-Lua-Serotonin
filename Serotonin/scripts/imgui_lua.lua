@@ -4048,3 +4048,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
     ImGui.SetNextItemWidth(total_w - 70)
     state.input = ImGui.InputText("##cons_in_" .. str_id, state.input)
     ImGui.SameLine()
+    if ImGui.Button("Send") and state.input ~= "" then
