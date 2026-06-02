@@ -3351,3 +3351,4 @@ open_popup_window = function(me)
 
     local bg_cmd = { kind = "rectf", x = me.x, y = me.y, w = 1, h = 1,
                      col = StyleColor(Col.PopupBg), rounding = Style.PopupRounding }
+    local br_cmd = { kind = "rect",  x = me.x, y = me.y, w = 1, h = 1,
