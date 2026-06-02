@@ -3289,3 +3289,4 @@ function ImGui.BeginListBox(label, w, h)
     local win = g.current_window; if not win then return false end
     local total_w = win._content_x1 - win.cursor_x
     w = w or get_item_width(total_w)
+    h = h or 6 * (Style.FontHeight + 4) + 4
