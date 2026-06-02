@@ -2927,3 +2927,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
             opened_this_frame = true,
             modal = true,
         })
+        g.popup_pending_open = nil
