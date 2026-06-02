@@ -1493,3 +1493,4 @@ function DesirePro.esp_preview(ctx)
         if it.sy < sy_min then it.sy = sy_min elseif it.sy > sy_max then it.sy = sy_max end
     end
 
+    local mx, my = mouse_pos()
