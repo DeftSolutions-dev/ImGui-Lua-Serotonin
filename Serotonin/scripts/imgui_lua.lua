@@ -711,3 +711,4 @@ local function ItemHoverable(x, y, w, h, id)
     if not point_in_rect(g.mouse_x, g.mouse_y, x, y, w, h) then return false end
     if g.mouse_left_clicked and g.active_id ~= nil and g.active_id ~= id then
         clear_active_id()
+    end
