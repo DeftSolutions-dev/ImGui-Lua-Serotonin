@@ -2705,3 +2705,4 @@ function ImGui.CalcItemWidth()
         return win._item_width_stack[#win._item_width_stack]
     end
     return win and (win._content_x1 - win.cursor_x) or 0
+end
