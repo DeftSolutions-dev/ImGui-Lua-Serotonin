@@ -420,3 +420,4 @@ function DesirePro.update_particles()
             ImGui.AddCircleFilled(3, p.x, p.y, p.sz, DesirePro.with_alpha(p.col, p.life / p.max), 8)
         end
     end
+end
