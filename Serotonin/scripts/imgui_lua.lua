@@ -3635,3 +3635,4 @@ function ImGui.MenuItem(label, shortcut, selected)
     end
     dr_text(2, label, x + pad_x, y + (h - th) * 0.5, StyleColor(Col.Text))
     if shortcut then
+        dr_text(2, shortcut, x + w - pad_x - sw, y + (h - th) * 0.5, StyleColor(Col.TextDisabled))
