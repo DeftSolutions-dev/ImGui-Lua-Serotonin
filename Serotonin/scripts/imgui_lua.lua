@@ -2627,3 +2627,4 @@ function ImGui.PlotHistogram(label, values, overlay, scale_min, scale_max, w, h)
     plot_internal(label, values, overlay, scale_min, scale_max, w, h, "hist")
 end
 
+function ImGui.GetCursorPos()
