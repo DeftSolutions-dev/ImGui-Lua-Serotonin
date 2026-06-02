@@ -4695,3 +4695,4 @@ local function flush_layer(layer)
             local draw_it = (not clip)
                 or (c.x < clip.x + clip.w and c.x + c.w > clip.x
                     and c.y < clip.y + clip.h and c.y + c.h > clip.y)
+            if draw_it then
