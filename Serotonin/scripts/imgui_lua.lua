@@ -893,3 +893,4 @@ function ImGui.SetNextWindowPos(x, y, cond)
     g.next_window_pos = { x = x, y = y, cond = cond or "always" }
 end
 function ImGui.SetNextWindowSize(w, h, cond)
+    g.next_window_size = { w = w, h = h, cond = cond or "always" }
