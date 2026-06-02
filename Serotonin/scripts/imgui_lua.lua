@@ -3594,3 +3594,4 @@ end
 function ImGui.EndMenu() ImGui.EndPopup() end
 
 local function _parse_shortcut(s)
+    local mods, key = { ctrl = false, shift = false, alt = false }, nil
