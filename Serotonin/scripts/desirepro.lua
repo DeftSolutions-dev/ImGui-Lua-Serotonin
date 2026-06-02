@@ -308,3 +308,4 @@ function DesirePro.update_theme()
     for k, tgt in pairs(src) do
         local c = DesirePro.col[k]
         c.r = c.r + (tgt.r - c.r) * step
+        c.g = c.g + (tgt.g - c.g) * step
