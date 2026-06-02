@@ -940,3 +940,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     insert(g.window_stack, win)
 
     win._id_stack_save = #g.id_stack
+    insert(g.id_stack, "win:" .. tostring(id))
