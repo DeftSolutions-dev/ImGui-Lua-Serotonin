@@ -1910,3 +1910,4 @@ function ImGui.BeginTabItem(label, p_open)
 
     local x, y = tb.row_y, tb.row_y
     if tb.reorderable then
+        local pos
