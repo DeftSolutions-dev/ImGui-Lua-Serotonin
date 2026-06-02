@@ -2365,3 +2365,4 @@ render_scrollbar = function(win)
     local visible_h = win.h - win._title_h - Style.WindowPadding.y * 2
     local content_h = win.cursor_max_y - win.cursor_start_y
     win.scroll_max_y = max(0, content_h - visible_h)
+
