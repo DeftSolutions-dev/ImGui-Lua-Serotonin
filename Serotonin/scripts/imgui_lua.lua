@@ -4286,3 +4286,4 @@ end
 
 function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
     local win = g.current_window; if not win then return size1, size2 end
+    local id = GetID("splitter")
