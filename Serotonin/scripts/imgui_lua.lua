@@ -227,3 +227,4 @@ local Style = {
     WindowBorderSize    = 1,
     WindowMinSize       = { x = 80, y = 60 },
     WindowTitleHeight   = 22,
+    FramePadding        = { x = 4,  y = 3  },
