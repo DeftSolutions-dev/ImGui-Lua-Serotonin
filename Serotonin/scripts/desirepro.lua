@@ -1683,3 +1683,4 @@ local function draw_feature()
 
     ImGui.SetDrawAlpha(1)
 
+    if feat and t > 0.85 and clicked()
