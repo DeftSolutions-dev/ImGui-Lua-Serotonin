@@ -3909,3 +3909,4 @@ function ImGui.SetClipboardText(s)   pcall(utility.SetClipboard, tostring(s or "
 ImGui.InputDouble = function(label, v, step, fmt)
     return ImGui.InputFloat(label, v, step, fmt or "%.6f")
 end
+
