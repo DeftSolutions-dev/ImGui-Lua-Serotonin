@@ -4645,3 +4645,4 @@ local function flush_layer(layer)
             end
 
         elseif k == "trif" then
+            local col, a = to_draw(c.col)
