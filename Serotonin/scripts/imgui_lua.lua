@@ -2949,3 +2949,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
 
     local title_cmd_bg = { kind = "rectf", x = me.x, y = me.y, w = last_w, h = title_h,
                            col = StyleColor(Col.TitleBgActive), rounding = 0 }
+    insert(g.draw_layers[4], title_cmd_bg)
