@@ -4264,3 +4264,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
             end
             for _, ch in ipairs(typed) do
                 if ch == "\b" then text = sub(text, 1, -2)
+                elseif ch == " " then text = text .. " "
