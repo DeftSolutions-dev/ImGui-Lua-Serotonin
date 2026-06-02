@@ -1887,3 +1887,4 @@ function ImGui.BeginTabBar(name, flags)
         scroll      = store_get(win, "tabbar_scroll_" .. tostring(id), 0),
         items_w     = 0,
         btn_reserve = 0,
+
