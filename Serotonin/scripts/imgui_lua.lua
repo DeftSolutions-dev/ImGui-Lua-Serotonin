@@ -2140,3 +2140,4 @@ function ImGui.TreeNode(label)
     if open then
         dr_triangle_filled(2, cx - 4, cy - 2, cx + 4, cy - 2, cx, cy + 4, arr)
     else
+        dr_triangle_filled(2, cx - 2, cy - 4, cx + 4, cy, cx - 2, cy + 4, arr)
