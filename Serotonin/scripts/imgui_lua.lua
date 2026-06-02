@@ -4270,3 +4270,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
                     text = text .. ch
                 else text = text .. ch end
             end
+
