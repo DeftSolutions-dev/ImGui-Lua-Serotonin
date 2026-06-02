@@ -4240,3 +4240,4 @@ function ImGui.VSliderInt(label, w, h, value, vmin, vmax, fmt)
     local v, a = ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt or "%d")
     return floor(v + 0.5), a
 end
+
