@@ -1720,3 +1720,4 @@ local function draw_settings()
     local ctx = { x = px + 13, cy = py + 58, w = pw - 26, x1 = px + pw - 13, on = true, idp = "settings" }
     DesirePro.combo(ctx, "Font weight", { "Regular", "Medium", "SemiBold" })
     DesirePro.combo(ctx, "Animation side", { "Left", "Right" })
+    DesirePro.no_anim = DesirePro.checkbox(ctx, "Disable animations")
