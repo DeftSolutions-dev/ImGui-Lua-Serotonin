@@ -2367,3 +2367,4 @@ render_scrollbar = function(win)
     win.scroll_max_y = max(0, content_h - visible_h)
 
     if point_in_rect(g.mouse_x, g.mouse_y, win.x, win.y, win.w, win.h) then
+        if g._pg_up_edge   then win.scroll_y = max(0, win.scroll_y - visible_h * 0.9) end
