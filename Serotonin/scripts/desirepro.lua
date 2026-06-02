@@ -1535,3 +1535,4 @@ function DesirePro.esp_preview(ctx)
                 end
                 table.insert(layout, at, moved)
             end
+            DesirePro._esp_drag, DesirePro._esp_target, drag = nil, nil, nil
