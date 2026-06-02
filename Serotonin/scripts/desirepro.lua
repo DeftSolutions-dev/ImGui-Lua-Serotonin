@@ -1365,3 +1365,4 @@ local function draw_popup()
         local alpha_y = sv_y + sv_h + 10
         local alpha_h = 12
         local hex_y = alpha_y + alpha_h + 12
+        local preset_y = hex_y + 24
