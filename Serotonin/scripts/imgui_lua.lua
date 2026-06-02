@@ -138,3 +138,4 @@ local function rgb_to_hsv(r, g, b)
 end
 
 local FNV_OFFSET = 2166136261
+local FNV_PRIME  = 16777619
