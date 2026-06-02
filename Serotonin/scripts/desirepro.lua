@@ -1387,3 +1387,4 @@ local function draw_popup()
         end
         local hcy = sv_y + c.h * sv_h
         ImGui.AddRect(3, hue_x - 1, hcy - 2, hue_w + 2, 4, ImGui.ColF(1, 1, 1, 1), 1, 1)
+
