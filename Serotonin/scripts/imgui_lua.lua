@@ -1796,3 +1796,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
             end
         end
 
+        local hr, hg, hb = hsv_to_rgb(s.h, 1, 1)
