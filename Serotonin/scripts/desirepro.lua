@@ -968,3 +968,4 @@ function DesirePro.button(ctx, label, h)
     local aw, ah = w * sc, h * sc
     local bx, by = x + (w - aw) / 2, y + (h - ah) / 2
 
+    ImGui.AddRectFilled(2, bx, by, aw, ah, DesirePro.col.anim_default, 6)
