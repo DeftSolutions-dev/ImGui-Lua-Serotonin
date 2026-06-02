@@ -4150,3 +4150,4 @@ function ImGui.FileBrowser(str_id, state)
 
         table.sort(items, function(a, b) return tostring(a) < tostring(b) end)
     end
+    if ImGui.BeginChild("##fb_" .. str_id, 0, 200, true) then
