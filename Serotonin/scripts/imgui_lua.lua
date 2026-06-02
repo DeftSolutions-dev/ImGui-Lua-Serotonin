@@ -235,3 +235,4 @@ local Style = {
     IndentSpacing       = 21,
     ScrollbarSize       = 16,
     ScrollbarRounding   = 9,
+    GrabMinSize         = 12,
