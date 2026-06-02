@@ -1844,3 +1844,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         r, g_, b = hsv_to_rgb(s.h, s.s, s.v)
         picker_state_commit(s, r, g_, b)
 
+        ImGui.Dummy(sv_size + pad_in + hue_w, sv_size)
