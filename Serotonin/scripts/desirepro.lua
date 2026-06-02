@@ -1661,3 +1661,4 @@ local function draw_feature()
     local t = DesirePro._feature_t
     DesirePro._modal_active = true
     local mx, my = mouse_pos()
+
