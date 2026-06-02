@@ -1840,3 +1840,4 @@ function DesirePro.menu()
                     for _, s in ipairs(slots) do
                         local d = abs(mxp - s[2]) + abs(myp - s[3])
                         if d < bd then bd = d; best = s[1] end
+                    end
