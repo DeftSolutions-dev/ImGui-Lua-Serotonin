@@ -79,3 +79,4 @@ local function load_tex(rel)
         return nil
     end
     local ok2, id = pcall(utility.LoadImage, data)
+    if not ok2 or type(id) ~= "number" then
