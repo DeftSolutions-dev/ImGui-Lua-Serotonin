@@ -2577,3 +2577,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
         dr_rect_filled(2, x, y, plot_w, plot_h, StyleColor(Col.FrameBg), Style.FrameRounding)
         if count >= 2 then
             local col = (kind == "hist") and StyleColor(Col.PlotHistogram) or StyleColor(Col.PlotLines)
+            local function tx(i) return x + (i - 1) / (count - 1) * plot_w end
