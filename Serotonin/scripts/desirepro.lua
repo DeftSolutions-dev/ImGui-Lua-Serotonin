@@ -56,3 +56,4 @@ do
 end
 DesirePro.lang = 0
 DesirePro.LANG_KEYS = { "en", "ru", "zh", "ja", "vi", "id" }
+DesirePro.LANG_NAMES = { "English", "\208\160\209\131\209\129\209\129\208\186\208\184\208\185",
