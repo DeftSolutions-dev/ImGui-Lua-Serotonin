@@ -1115,3 +1115,4 @@ function ImGui.End()
     win.content_h = win.cursor_max_y - win.cursor_start_y
 
     if win.flags and win.flags.auto_resize then
+        local pad = Style.WindowPadding
