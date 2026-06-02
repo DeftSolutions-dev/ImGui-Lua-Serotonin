@@ -2732,3 +2732,4 @@ local function get_item_width(default_w)
 end
 ImGui._GetItemWidth = get_item_width
 
+function ImGui.BeginDisabled(disabled)
