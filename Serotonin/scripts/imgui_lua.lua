@@ -4146,3 +4146,4 @@ function ImGui.FileBrowser(str_id, state)
     local items = {}
     local ok, lst = pcall(file.listdir, state.path)
     if ok and type(lst) == "table" then
+        for _, name in ipairs(lst) do insert(items, tostring(name)) end
