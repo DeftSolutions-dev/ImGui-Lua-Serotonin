@@ -3918,3 +3918,4 @@ function ImGui.SeparatorEx(thickness)
     local w = win._content_x1 - x
     dr_line(2, x, y, x + w, y, StyleColor(Col.Separator), thickness)
     ItemSize(w, 4 + thickness)
+end
