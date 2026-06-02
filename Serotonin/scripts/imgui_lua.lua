@@ -2912,3 +2912,4 @@ function ImGui.Hotkey(label, key)
     end
     record_item(id, x, y, hk_w + label_part, frame_h, hovered, false, active)
     ItemSize(hk_w + label_part, frame_h)
+    return key or ""
