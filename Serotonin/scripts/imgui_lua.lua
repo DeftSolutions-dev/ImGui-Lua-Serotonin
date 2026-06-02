@@ -2905,3 +2905,4 @@ function ImGui.Hotkey(label, key)
     elseif hovered then bg = StyleColor(Col.FrameBgHovered) end
     dr_rect_filled(2, x, y, hk_w, frame_h, bg, Style.FrameRounding)
     local display = active and "<press a key...>" or (((key == nil or key == "") and "[None]") or ("[" .. key .. "]"))
+    local dw = text_size(display)
