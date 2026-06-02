@@ -1148,3 +1148,4 @@ local function scan_key()
         if key_down(n) then return n end
     end
     return nil
+end
