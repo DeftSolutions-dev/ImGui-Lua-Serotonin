@@ -2356,3 +2356,4 @@ local function text_clip(s, max_w, font)
         local sw, _ = text_size(sub_s, font)
         if sw <= target then lo = mid else hi = mid - 1 end
     end
+    return sub(s, 1, lo) .. ell
