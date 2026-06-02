@@ -3355,3 +3355,4 @@ open_popup_window = function(me)
                      col = StyleColor(Col.Border), thick = Style.PopupBorderSize,
                      rounding = Style.PopupRounding }
     insert(g.draw_layers[4], bg_cmd)
+    insert(g.draw_layers[4], br_cmd)
