@@ -2216,3 +2216,4 @@ local function poll_typed_chars()
         for _, k in ipairs(INPUT_KEYS) do g.key_states_prev[k.key] = g.key_states[k.key] end
         return {}, false, false
     end
+    local out = {}
