@@ -1596,3 +1596,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
         elseif hovered then bg = StyleColor(Col.FrameBgHovered) end
         dr_rect_filled(2, x, y, drag_w, frame_h, bg, Style.FrameRounding)
         local vtext = format(fmt or (is_int and "%d" or "%.3f"), value)
+        local vtw, _ = text_size(vtext)
