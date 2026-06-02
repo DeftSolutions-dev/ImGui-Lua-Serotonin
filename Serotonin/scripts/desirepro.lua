@@ -146,3 +146,4 @@ function DesirePro.font_height(font_key)
     local fm = META.fonts[font_key]
     return fm and fm.line_height or 0
 end
+
