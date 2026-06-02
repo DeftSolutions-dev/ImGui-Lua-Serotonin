@@ -4455,3 +4455,4 @@ function ImGui.AcceptDragDropPayload(type_str)
     local r = g.last_item_rect
     dr_rect(2, r.x - 1, r.y - 1, r.w + 2, r.h + 2, StyleColor(Col.DragDropTarget), 2, 0)
     if g.mouse_left_released then
+        local data = g.dragdrop_payload.data
