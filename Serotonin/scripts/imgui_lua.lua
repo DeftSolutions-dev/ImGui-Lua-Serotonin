@@ -1722,3 +1722,4 @@ local function get_picker_state(id, r, g_, b)
         return s
     end
 
+    local eps = 0.001
