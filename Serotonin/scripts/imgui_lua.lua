@@ -3806,3 +3806,4 @@ function ImGui.LoadIniSettings(path)
                 local k, v = line:match("^([%w_]+)=(.*)$")
                 if k and v then
                     local p = g._pending_window_settings[current_title]
+                    if k == "Pos" then
