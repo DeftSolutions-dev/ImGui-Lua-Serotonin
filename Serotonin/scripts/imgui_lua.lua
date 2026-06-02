@@ -4187,3 +4187,4 @@ end
 function ImGui.DragFloatRange2(label, vmin_cur, vmax_cur, speed, lo, hi, fmt)
     ImGui.PushID(label)
     local total_w = (g.current_window._content_x1 - g.current_window.cursor_x)
+    local tw_lbl = text_size(label)
