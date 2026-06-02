@@ -292,3 +292,4 @@ DesirePro.col_light = {
     child_stroke  = R(230, 230, 240, 180), page_active  = R(255, 255, 255, 200),
     page          = R(240, 240, 240, 200), page_text_hov = R(70, 100, 255, 255),
     page_text     = R(60, 90, 255, 255),  elem_hov      = R(220, 220, 220, 200),
+    elem          = R(210, 210, 210, 200), checkmark    = R(0, 120, 255, 255),
