@@ -721,3 +721,4 @@ local function ButtonBehavior(x, y, w, h, id)
     local hovered = ItemHoverable(x, y, w, h, id)
     local pressed = false
     local held = false
+    if hovered and g.mouse_left_clicked then
