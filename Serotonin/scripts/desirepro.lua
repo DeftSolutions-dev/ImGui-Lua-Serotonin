@@ -820,3 +820,4 @@ function DesirePro.checkbox(ctx, label)
     local hovered = point_in_rect(mx, my, x, y, box + 14 + lw, box)
     if hovered and clicked() then v = not v; DesirePro.vars[id] = v; DesirePro.spawn_particles(x + box / 2, y + box / 2, 16) end
 
+    s.check = DesirePro.ease_toggle(s, "checkE", v, 30)
