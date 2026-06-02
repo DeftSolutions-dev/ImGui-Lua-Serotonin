@@ -2720,3 +2720,4 @@ function ImGui.PopItemWidth()
     end
 end
 function ImGui.SetNextItemWidth(w) _next_item_width = w end
+local function get_item_width(default_w)
