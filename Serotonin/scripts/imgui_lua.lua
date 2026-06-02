@@ -3911,3 +3911,4 @@ ImGui.InputDouble = function(label, v, step, fmt)
 end
 
 function ImGui.SeparatorEx(thickness)
+    local win = g.current_window; if not win then return end
