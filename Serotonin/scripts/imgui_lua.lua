@@ -4148,3 +4148,4 @@ function ImGui.FileBrowser(str_id, state)
     if ok and type(lst) == "table" then
         for _, name in ipairs(lst) do insert(items, tostring(name)) end
 
+        table.sort(items, function(a, b) return tostring(a) < tostring(b) end)
