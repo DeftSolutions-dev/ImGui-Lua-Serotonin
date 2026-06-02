@@ -1041,3 +1041,4 @@ function DesirePro.multicombo(ctx, label, items)
     local y = ctx.cy
     local opened = (open_combo == id)
 
+    local names = {}
