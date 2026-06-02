@@ -307,3 +307,4 @@ function DesirePro.update_theme()
     if DesirePro.no_anim or step > 1 then step = 1 end
     for k, tgt in pairs(src) do
         local c = DesirePro.col[k]
+        c.r = c.r + (tgt.r - c.r) * step
