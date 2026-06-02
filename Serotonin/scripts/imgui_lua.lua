@@ -247,3 +247,4 @@ local Style = {
 }
 ImGui.Style = Style
 
+g = {
