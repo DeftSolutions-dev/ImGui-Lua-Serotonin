@@ -162,3 +162,4 @@ DesirePro.ICON = {
 function DesirePro.icon(layer, x, y, key, size, color, alpha)
     local im = META.icons[size]
     if not im then return 0 end
+    local cp = type(key) == "number" and key or DesirePro.ICON[key]
