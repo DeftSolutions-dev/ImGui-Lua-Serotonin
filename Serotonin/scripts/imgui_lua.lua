@@ -3372,3 +3372,4 @@ open_popup_window = function(me)
         cursor_start_y  = me.y + pad.y,
         cursor_x        = me.x + pad.x,
         cursor_y        = me.y + pad.y,
+        cursor_max_x    = me.x + pad.x,
