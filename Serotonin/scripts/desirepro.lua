@@ -699,3 +699,4 @@ local function right_clicked()
     if DesirePro._modal and not DesirePro._modal_active then return false end
     return true
 end
+local function in_popup(mx, my)
