@@ -4678,3 +4678,4 @@ local function flush_layer(layer)
             local c2, a2 = to_draw(c.c2)
             a1 = a1 * am
             a2 = a2 * am
+            if clip then
