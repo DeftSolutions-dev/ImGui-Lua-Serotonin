@@ -3433,3 +3433,4 @@ local function close_popup_window()
         if not point_in_rect(g.mouse_x, g.mouse_y, me.x, me.y, final_w, final_h) then
             for i = #g.popup_stack, 1, -1 do
                 if g.popup_stack[i].id == me.id then remove(g.popup_stack, i); break end
+            end
