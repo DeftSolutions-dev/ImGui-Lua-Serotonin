@@ -1757,3 +1757,4 @@ function DesirePro.menu()
     local dock = DesirePro.dock or 0
     local horiz = (dock == 0 or dock == 1)
 
+    if DesirePro._last_sw ~= sw or DesirePro._last_sh ~= sh then
