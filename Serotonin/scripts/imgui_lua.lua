@@ -1222,3 +1222,4 @@ function ImGui.Separator()
     dr_line(2, x, y, x + w, y, StyleColor(Col.Separator), 1)
     ItemSize(w, 4)
 end
+
