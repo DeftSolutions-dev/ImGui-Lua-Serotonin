@@ -1600,3 +1600,4 @@ function DesirePro.page(idx, px, py, ph)
         if c2.on then
             if DesirePro.button(c2, "SAVE CONFIG") then DesirePro.notify("Config saved", "NOTIFICATION_FILL") end
             if DesirePro.button(c2, "CHANGE THEME") then
+                DesirePro.theme = not DesirePro.theme
