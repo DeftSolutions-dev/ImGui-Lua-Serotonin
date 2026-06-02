@@ -3224,3 +3224,4 @@ function ImGui.TableHeader(label)
         local aw = text_size(label_str)
         dr_text(2, label_str, x + cw - aw - 4, y + Style.FramePadding.y, StyleColor(Col.Text))
     end
+    if t.cur_row_max_y < y + h then t.cur_row_max_y = y + h end
