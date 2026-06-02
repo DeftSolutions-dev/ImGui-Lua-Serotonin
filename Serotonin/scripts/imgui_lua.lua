@@ -4028,3 +4028,4 @@ end
 function ImGui.Console(str_id, state, on_submit, w, h)
     state         = state or {}
     state.lines   = state.lines   or {}
+    state.input   = state.input   or ""
