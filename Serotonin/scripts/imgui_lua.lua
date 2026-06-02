@@ -1656,3 +1656,4 @@ function ImGui.Combo(label, current_idx, items, flags)
     flags = flags or {}
     if ImGui.BeginCombo(label, items[current_idx] or "", flags) then
 
+        local visible_rows
