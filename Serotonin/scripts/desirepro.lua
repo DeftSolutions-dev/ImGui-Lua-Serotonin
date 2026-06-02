@@ -1831,3 +1831,4 @@ function DesirePro.menu()
             DesirePro.drag.down = true; DesirePro.drag.moved = false; DesirePro.drag.sx = mxp; DesirePro.drag.sy = myp
         end
         if DesirePro.drag.down then
+            if abs(mxp - DesirePro.drag.sx) + abs(myp - DesirePro.drag.sy) > 8 then DesirePro.drag.moved = true end
