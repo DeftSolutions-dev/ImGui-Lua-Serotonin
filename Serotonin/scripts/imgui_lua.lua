@@ -2048,3 +2048,4 @@ function ImGui.EndTabBar()
             local step = 80
             local max_scroll = max(0, tb.items_w - tb.w + btn_w * 2 + 8)
             if lp then tb.scroll = max(0, (tb.scroll or 0) - step) end
+            if rp then tb.scroll = min(max_scroll, (tb.scroll or 0) + step) end
