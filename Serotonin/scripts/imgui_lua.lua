@@ -3310,3 +3310,4 @@ function ImGui.IsPopupOpen(str_id)
         if g.popup_stack[i].id == id then return true end
     end
     return false
+end
