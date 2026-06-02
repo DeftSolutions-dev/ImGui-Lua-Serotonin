@@ -1865,3 +1865,4 @@ function DesirePro.menu()
             DesirePro.hdrag = true
         end
         if DesirePro.hdrag then
+            if ImGui.IsMouseDown() then
