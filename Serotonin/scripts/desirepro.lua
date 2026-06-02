@@ -757,3 +757,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     local id = "card:" .. name
     local cs = widget_state(id, { on = true, t = 1, h = body_h })
 
+    local _, al = DesirePro.appear(id, y + (CARD_HEADER + body_h) / 2)
