@@ -2796,3 +2796,4 @@ function ImGui.ColorButton(desc_id, col, w, h)
     end
     record_item(id, x, y, w, h, hovered, pressed, held)
     ItemSize(w, h)
+    return pressed
