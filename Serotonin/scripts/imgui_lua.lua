@@ -3221,3 +3221,4 @@ function ImGui.TableHeader(label)
         local sp = t.sort_specs[my_idx]
         local arrow = (sp.dir > 0) and "v" or "^"
         local label_str = (#t.sort_specs > 1) and (arrow .. tostring(my_idx)) or arrow
+        local aw = text_size(label_str)
