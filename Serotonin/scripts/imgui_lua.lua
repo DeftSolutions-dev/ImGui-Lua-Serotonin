@@ -3604,3 +3604,4 @@ local function _parse_shortcut(s)
     end
     return mods, key
 end
+
