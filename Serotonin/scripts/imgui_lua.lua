@@ -2565,3 +2565,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
         for i = 1, count do
             local v = values[i]
             if v < mn then mn = v end
+            if v > mx then mx = v end
