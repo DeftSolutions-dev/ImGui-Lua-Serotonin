@@ -8,3 +8,4 @@ if type(ImGui) ~= "table" then
     return nil
 end
 
+local DesirePro = { ImGui = ImGui }
