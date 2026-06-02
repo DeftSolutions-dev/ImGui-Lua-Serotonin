@@ -630,3 +630,4 @@ local function draw_header(mx, my, mw)
 
     DesirePro.icon_scaled(2, tx, sy, DesirePro.theme and "SUN_2_FILL" or "MOONLIGHT_FILL", 35, 20,
         h0 and DesirePro.col.label_active or DesirePro.col.desc, 1)
+    DesirePro.icon_scaled(2, sx, sy, "SETTINGS_4_FILL", 35, 22, h1 and DesirePro.col.label_active or DesirePro.col.desc, 1)
