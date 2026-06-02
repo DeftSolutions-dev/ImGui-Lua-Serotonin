@@ -2147,3 +2147,4 @@ function ImGui.TreeNode(label)
     ItemSize(total_w, h)
     if open then
         ImGui.Indent()
+    end
