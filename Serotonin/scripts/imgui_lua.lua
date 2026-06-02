@@ -3745,3 +3745,4 @@ function ImGui.InputIntStep(label, value, step)
     ImGui.Text(label)
     ImGui.PopID()
     return value
+end
