@@ -806,3 +806,4 @@ function ImGui.GetMouseDelta()
 end
 function ImGui.IsMouseDown()       return g.mouse_left_down end
 function ImGui.IsMouseClicked()    return g.mouse_left_clicked end
+function ImGui.IsMouseReleased()   return g.mouse_left_released end
