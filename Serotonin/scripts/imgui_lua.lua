@@ -3138,3 +3138,4 @@ function ImGui.TableSetupColumn(label, flags)
         local total = 0
         for i = 1, t.columns do total = total + t.col_widths[i] end
         local fixed_sum, stretch_sum = 0, 0
+        for _, s in ipairs(t.setups) do
