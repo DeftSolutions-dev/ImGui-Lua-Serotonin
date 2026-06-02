@@ -1698,3 +1698,4 @@ local function draw_settings()
     if DesirePro.settings_t < 0.01 then return end
     DesirePro._modal_active = true
     local t = DesirePro.settings_t
+    local mx, my = mouse_pos()
