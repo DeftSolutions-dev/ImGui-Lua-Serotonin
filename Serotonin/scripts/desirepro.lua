@@ -314,3 +314,4 @@ function DesirePro.update_theme()
     end
 end
 
+function DesirePro.accent_at(y)
