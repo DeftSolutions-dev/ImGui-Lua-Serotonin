@@ -1347,3 +1347,4 @@ local function draw_popup()
         end
         ImGui.SetDrawAlpha(1)
 
+        local b = popup.box
