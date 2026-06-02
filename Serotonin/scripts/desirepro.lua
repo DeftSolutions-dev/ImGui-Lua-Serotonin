@@ -1817,3 +1817,4 @@ function DesirePro.menu()
             if i == 4 then ry = ry + 8; DesirePro.text(2, tx + 14, ry, " Players & Vision", "poppins_medium_15", DesirePro.col.desc, 1); ry = ry + 26 end
             if i == 7 then ry = ry + 8; DesirePro.text(2, tx + 14, ry, " Utilities & Settings", "poppins_medium_15", DesirePro.col.desc, 1); ry = ry + 26 end
             draw_tab(i - 1, DesirePro.tabs[i], rowx, ry, roww, 42)
+            ry = ry + 46
