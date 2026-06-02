@@ -3739,3 +3739,4 @@ function ImGui.InputIntStep(label, value, step)
     ImGui.SameLine(nil, 2)
     local txt = ImGui.InputText("##v", tostring(value))
     value = tonumber(txt) or value
+    ImGui.SameLine(nil, 2)
