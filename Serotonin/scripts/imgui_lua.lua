@@ -443,3 +443,4 @@ local function update_io()
             if overlaps then clear = true end
         end
         if clear then clear_active_id() end
+    end
