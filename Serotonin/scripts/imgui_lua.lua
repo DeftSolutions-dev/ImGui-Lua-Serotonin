@@ -4759,3 +4759,4 @@ function ImGui._OnPaint()
             g.user_setup_fn()
         end
         ImGui.Render()
+    end)
