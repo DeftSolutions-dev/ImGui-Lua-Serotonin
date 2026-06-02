@@ -3505,3 +3505,4 @@ function ImGui.BeginMenuBar()
     local win = g.current_window; if not win then return false end
     local th = Style.FontHeight + Style.FramePadding.y * 2
     local mb = {
+        x      = win.x,
