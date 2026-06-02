@@ -4721,3 +4721,4 @@ function ImGui.Render()
         for i = 1, n do idx[i] = i end
         table.sort(idx, function(a, b)
             local pa = (layer[a].win_id and zpri[layer[a].win_id]) or 0
+            local pb = (layer[b].win_id and zpri[layer[b].win_id]) or 0
