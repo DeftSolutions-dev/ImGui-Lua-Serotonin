@@ -279,3 +279,4 @@ DesirePro.col_dark = {
     page          = R(31, 33, 40, 255),   page_text_hov = R(240, 240, 240, 255),
     page_text     = R(224, 224, 224, 255), elem_hov     = R(44, 46, 52, 255),
     elem          = R(39, 41, 47, 255),   checkmark     = R(59, 130, 246, 255),
+    label_active  = R(255, 255, 255, 255), label_hover  = R(235, 235, 240, 255),
