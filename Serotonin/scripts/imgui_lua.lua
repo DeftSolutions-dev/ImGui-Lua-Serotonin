@@ -3999,3 +3999,4 @@ function ImGui.Spinner(label, radius, thickness, color)
     color     = color or StyleColor(Col.CheckMark)
     local win = g.current_window; if not win then return end
     local sz  = radius * 2 + 4
+    auto_wrap(sz)
