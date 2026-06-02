@@ -704,3 +704,4 @@ local function in_popup(mx, my)
 end
 
 local function split_desc(s)
+    local c = s:find(":")
