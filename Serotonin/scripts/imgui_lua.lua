@@ -2436,3 +2436,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     cx, cy = win.cursor_x, win.cursor_y
 
     if border then
+        dr_rect_filled(2, cx, cy, cw, ch, StyleColor(Col.ChildBg), 0)
