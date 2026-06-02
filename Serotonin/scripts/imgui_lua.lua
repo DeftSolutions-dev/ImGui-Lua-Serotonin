@@ -3149,3 +3149,4 @@ function ImGui.TableSetupColumn(label, flags)
         for i, s in ipairs(t.setups) do
             if s.flags.fixed or s.flags.width then
                 t.col_widths[i] = s.flags.width or 80
+            else
