@@ -626,3 +626,4 @@ local function draw_header(mx, my, mw)
         DesirePro.notify(DesirePro.theme and "Light theme" or "Dark theme", DesirePro.theme and "SUN_2_FILL" or "MOONLIGHT_FILL")
     end
     if h1 and hclk then DesirePro.settings_open = not DesirePro.settings_open end
+    if h2 and hclk and not DesirePro._modal then ImGui.SetMenuOpen(false) end
