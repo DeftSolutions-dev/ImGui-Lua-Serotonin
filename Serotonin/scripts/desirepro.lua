@@ -897,3 +897,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
         v = v + step; if v > vmax then v = vmax end; if is_int then v = floor(v + 0.5) end; DesirePro.vars[id] = v
     end
 
+    local over = point_in_rect(mx, my, tmin_x - 6, tmin_y - 6, tw + 12, th + 12)
