@@ -2062,3 +2062,4 @@ function ImGui.EndTabBar()
 end
 
 function ImGui.TreeNodeEx(label, flags)
+    flags = flags or {}
