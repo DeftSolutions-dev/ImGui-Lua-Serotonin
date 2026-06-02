@@ -20,3 +20,4 @@ end
 
 local META = nil
 do
+    local ok, src = pcall(file.read, "desirepro/metrics.lua")
