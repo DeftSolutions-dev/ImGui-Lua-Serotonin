@@ -576,3 +576,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     local lab = tab_label(tab)
     local lcol, la
     if selected then lcol, la = DesirePro.col.label_active, 0
+    elseif hovered then lcol, la = DesirePro.col.label_hover, 1
