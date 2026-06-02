@@ -1943,3 +1943,4 @@ function ImGui.BeginTabItem(label, p_open)
             store_set(win, "tabbar_" .. tostring(tb.id), label)
 
             win.scroll_y = 0
+        end
