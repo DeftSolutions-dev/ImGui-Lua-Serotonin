@@ -2024,3 +2024,4 @@ function ImGui.EndTabBar()
         store_set(win, "tabbar_widths_" .. tostring(tb.id), tb.tab_widths)
     end
     if tb then
+
