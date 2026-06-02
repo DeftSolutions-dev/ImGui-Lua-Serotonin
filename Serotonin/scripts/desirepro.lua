@@ -870,3 +870,4 @@ function DesirePro.featurebox(ctx, label, content_fn)
 end
 
 function DesirePro.slider(ctx, label, vmin, vmax, is_int)
+    local id = "sl:" .. ctx.idp .. label
