@@ -645,3 +645,4 @@ DesirePro.vars = {}
 local function var(id, default)
     if DesirePro.vars[id] == nil then DesirePro.vars[id] = default end
     return DesirePro.vars[id]
+end
