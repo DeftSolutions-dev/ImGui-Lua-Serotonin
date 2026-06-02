@@ -3824,3 +3824,4 @@ function ImGui.LoadIniSettings(path)
         local p = g._pending_window_settings[win.title]
         if p then
             if p.x then win.x = p.x end
+            if p.y then win.y = p.y end
