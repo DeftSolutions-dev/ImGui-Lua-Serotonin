@@ -3575,3 +3575,4 @@ function ImGui.BeginMenu(label)
             else
                 g.popup_pending_open = { str_id = str_id, id = pid, x = x, y = y + h }
                 is_open = true
+            end
