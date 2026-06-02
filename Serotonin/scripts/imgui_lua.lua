@@ -1420,3 +1420,4 @@ function ImGui.Checkbox(label, value)
     if visible then
 
         local nav_focused = (g.nav_id == id)
+        local target = (held and hovered) and 2 or ((hovered or nav_focused) and 1 or 0)
