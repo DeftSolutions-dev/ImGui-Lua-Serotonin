@@ -4305,3 +4305,4 @@ function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
             if size2 < (min2 or 24) then size1 = size1 - ((min2 or 24) - size2); size2 = (min2 or 24) end
         else clear_active_id() end
     end
+    local col = StyleColor(Col.Border)
