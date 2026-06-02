@@ -4716,3 +4716,4 @@ function ImGui.Render()
     local function stable_sort_by_z(layer)
 
         local n = #layer
+        if n < 2 then return end
