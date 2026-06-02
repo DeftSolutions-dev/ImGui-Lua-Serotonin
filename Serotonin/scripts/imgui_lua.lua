@@ -3979,3 +3979,4 @@ function ImGui.TextLink(label)
         col = StyleColor(Col.ButtonHovered)
         dr_line(2, x, y + th, x + tw, y + th, col, 1)
     end
+    dr_text(2, label, x, y, col)
