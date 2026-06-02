@@ -4758,3 +4758,4 @@ function ImGui._OnPaint()
         if g.menu_open and g.user_setup_fn then
             g.user_setup_fn()
         end
+        ImGui.Render()
