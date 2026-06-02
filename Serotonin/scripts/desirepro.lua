@@ -1819,3 +1819,4 @@ function DesirePro.menu()
             draw_tab(i - 1, DesirePro.tabs[i], rowx, ry, roww, 42)
             ry = ry + 46
         end
+    end
