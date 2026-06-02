@@ -3196,3 +3196,4 @@ function ImGui.TableHeader(label)
 
             if existing_idx then
                 t.sort_specs[existing_idx].dir = -t.sort_specs[existing_idx].dir
+            else
