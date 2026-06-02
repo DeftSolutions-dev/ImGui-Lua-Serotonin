@@ -367,3 +367,4 @@ end
 
 local C1, C3 = 1.70158, 2.70158
 function DesirePro.ease_back(t)
+    if t < 0 then t = 0 elseif t > 1 then t = 1 end
