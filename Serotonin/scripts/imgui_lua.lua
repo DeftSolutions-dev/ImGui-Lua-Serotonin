@@ -3365,3 +3365,4 @@ open_popup_window = function(me)
     insert(g.clip_stack, me._clip_rect)
 
     local pwin = {
+        id              = me.id,
