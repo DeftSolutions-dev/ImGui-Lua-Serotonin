@@ -679,3 +679,4 @@ end
 
 clear_active_id = function()
     g.active_id = nil
+    g.active_id_window = nil
