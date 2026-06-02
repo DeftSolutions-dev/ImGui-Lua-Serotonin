@@ -1098,3 +1098,4 @@ function DesirePro.color(ctx, label)
     local y = ctx.cy
     DesirePro.text_in(2, x0, y, h, DesirePro.translate(label), "poppins_medium_16", DesirePro.col.label, 1)
 
+    local rgb = hsv2rgb(c.h, c.s, c.v, c.a)
