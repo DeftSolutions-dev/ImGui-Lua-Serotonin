@@ -4629,3 +4629,4 @@ local function flush_layer(layer)
             local col, a = to_draw(c.col)
             a = a * am
             if clip then
+                local tw, th = text_size(c.text, c.font)
