@@ -1321,3 +1321,4 @@ function ImGui.TextWrapped(text)
     for _, line in ipairs(lines) do
         local _, th = text_size(line, font)
         if ItemAdd(win.cursor_x, win.cursor_y, total_w, th) then
+            dr_text(2, line, win.cursor_x, win.cursor_y, StyleColor(Col.Text))
