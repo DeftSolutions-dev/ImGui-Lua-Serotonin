@@ -884,3 +884,4 @@ local function store_get(win, key, default_v)
 end
 
 local function store_set(win, key, value)
+    g.storage[win.id][key] = value
