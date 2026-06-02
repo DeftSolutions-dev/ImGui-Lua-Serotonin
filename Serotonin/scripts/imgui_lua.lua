@@ -4774,3 +4774,4 @@ function ImGui.SetMenuOpen(b) g.menu_open = b end
 function ImGui.SetToggleKey(k) g.toggle_key = k end
 
 function ImGui.GetIO()
+    return {
