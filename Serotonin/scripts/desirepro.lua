@@ -647,3 +647,4 @@ local function var(id, default)
     return DesirePro.vars[id]
 end
 
+local function col_lerp_rgb(a, b, t)
