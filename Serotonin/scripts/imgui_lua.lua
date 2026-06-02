@@ -3641,3 +3641,4 @@ function ImGui.MenuItem(label, shortcut, selected)
 
         local cm = StyleColor(Col.CheckMark)
         local cx = x + w - pad_x - 4
+        local cy = y + h * 0.5
