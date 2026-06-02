@@ -1539,3 +1539,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
         else
             t = (vmax > vmin) and ((value - vmin) / (vmax - vmin)) or 0
         end
+        t = clamp(t, 0, 1)
