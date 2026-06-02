@@ -2136,3 +2136,4 @@ function ImGui.TreeNode(label)
 
     local cx = x + 8
     local cy = y + h * 0.5
+    local arr = StyleColor(Col.Text)
