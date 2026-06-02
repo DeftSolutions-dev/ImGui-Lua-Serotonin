@@ -1576,3 +1576,4 @@ function DesirePro.esp_preview(ctx)
 end
 
 function DesirePro.page(idx, px, py, ph)
+    local CARD_W, GAP = floor(350 * DesirePro.US), floor(12 * DesirePro.US)
