@@ -822,3 +822,4 @@ function DesirePro.checkbox(ctx, label)
 
     s.check = DesirePro.ease_toggle(s, "checkE", v, 30)
     s.hovg = DesirePro.anim(s.hovg or 0, (hovered and v) and 1 or 0, 20)
+    s.lab = DesirePro.anim(s.lab, hovered and 1 or 0, 12)
