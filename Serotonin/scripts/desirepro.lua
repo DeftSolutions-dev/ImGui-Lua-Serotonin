@@ -1596,3 +1596,4 @@ function DesirePro.page(idx, px, py, ph)
         DesirePro.end_card(c)
         ry = ry + c.total + GAP
 
+        local c2 = DesirePro.begin_card("Menu settings:This decsription for child", px, ry, CARD_W, 262, "BOMB_FILL")
