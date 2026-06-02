@@ -1721,3 +1721,4 @@ local function get_picker_state(id, r, g_, b)
         store_set(win, key, s)
         return s
     end
+
