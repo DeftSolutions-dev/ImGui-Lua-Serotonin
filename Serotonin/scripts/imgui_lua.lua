@@ -1315,3 +1315,4 @@ function ImGui.TextWrapped(text)
         else
             cur = trial
         end
+    end
