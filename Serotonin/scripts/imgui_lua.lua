@@ -3211,3 +3211,4 @@ function ImGui.TableHeader(label)
     local bg = StyleColor(Col.TableHeaderBg)
     if hovered then bg = StyleColor(Col.HeaderHovered) end
     dr_rect_filled(2, x, y, cw, h, bg, 0)
+    dr_text(2, label, x + 4, y + Style.FramePadding.y, StyleColor(Col.Text))
