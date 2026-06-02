@@ -2735,3 +2735,4 @@ ImGui._GetItemWidth = get_item_width
 function ImGui.BeginDisabled(disabled)
     if disabled == nil then disabled = true end
     if disabled then
+        g._disabled_depth = (g._disabled_depth or 0) + 1
