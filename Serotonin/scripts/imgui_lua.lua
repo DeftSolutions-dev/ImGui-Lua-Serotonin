@@ -2340,3 +2340,4 @@ function ImGui.SetTooltip(text)
     dr_text(5, text, mx + pad, my + pad, StyleColor(Col.Text))
 end
 
+local function text_clip(s, max_w, font)
