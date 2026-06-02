@@ -509,3 +509,4 @@ local function update_io()
     local dt = utility.GetDeltaTime()
     g.dt = dt or 0
     g.time = g.time + g.dt
+    g.frame_count = g.frame_count + 1
