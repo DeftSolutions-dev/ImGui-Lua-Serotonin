@@ -341,3 +341,4 @@ function DesirePro.with_alpha(col, a)
     return { r = col.r, g = col.g, b = col.b, a = a }
 end
 
+function DesirePro.pill(layer, x, y, w, h, col)
