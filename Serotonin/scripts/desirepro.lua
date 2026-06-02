@@ -384,3 +384,4 @@ end
 
 local _seed = 2463534242
 local function random_unit()
+    local x = _seed
