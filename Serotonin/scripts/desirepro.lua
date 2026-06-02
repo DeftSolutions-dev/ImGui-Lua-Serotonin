@@ -1165,3 +1165,4 @@ function DesirePro.keybind(ctx, label)
     local pw, ph = st.size, 20
     local px = x1 - pw
     local py = y + (h - ph) / 2
+    local mx, my = mouse_pos()
