@@ -2503,3 +2503,4 @@ function ImGui.EndChild()
         store_set(win, win._child_scroll_key, win._child_scroll_y or 0)
     end
 
+    win.cursor_start_x = s.cursor_start_x
