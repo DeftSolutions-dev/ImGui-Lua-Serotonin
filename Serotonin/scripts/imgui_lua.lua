@@ -1197,3 +1197,4 @@ function ImGui.Spacing()
 end
 
 function ImGui.Dummy(w, h)
+    ItemSize(w, h)
