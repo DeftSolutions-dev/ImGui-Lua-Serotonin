@@ -2157,3 +2157,4 @@ end
 
 function ImGui.CollapsingHeader(label)
     local win = g.current_window; if not win then return false end
+    local id = GetID("hdr:" .. label)
