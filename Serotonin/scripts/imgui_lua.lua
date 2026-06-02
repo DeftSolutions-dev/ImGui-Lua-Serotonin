@@ -3644,3 +3644,4 @@ function ImGui.MenuItem(label, shortcut, selected)
         local cy = y + h * 0.5
         dr_line(2, cx - 6, cy, cx - 2, cy + 4, cm, 2)
         dr_line(2, cx - 2, cy + 4, cx + 4, cy - 4, cm, 2)
+    end
