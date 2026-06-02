@@ -730,3 +730,4 @@ local function ButtonBehavior(x, y, w, h, id)
             if hovered then pressed = true end
             clear_active_id()
         end
+    end
