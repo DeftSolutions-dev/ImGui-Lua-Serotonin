@@ -1832,3 +1832,4 @@ function DesirePro.menu()
         end
         if DesirePro.drag.down then
             if abs(mxp - DesirePro.drag.sx) + abs(myp - DesirePro.drag.sy) > 8 then DesirePro.drag.moved = true end
+            if not ImGui.IsMouseDown() then
