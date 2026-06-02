@@ -1038,3 +1038,4 @@ function DesirePro.multicombo(ctx, label, items)
     local s = widget_state(id, { lab = 0 })
     local h = floor(28 * DesirePro.US)
     local x0 = appear_xy(id, ctx, h)
+    local y = ctx.cy
