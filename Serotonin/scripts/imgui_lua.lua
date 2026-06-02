@@ -4514,3 +4514,4 @@ function ImGui.ShowStyleEditor()
     end
 end
 
+function ImGui.NewFrame()
