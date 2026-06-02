@@ -1150,3 +1150,4 @@ local function scan_key()
     return nil
 end
 
+local KEYBIND_MODES = { "Hold", "Toggle", "Always" }
