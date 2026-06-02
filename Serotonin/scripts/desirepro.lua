@@ -1296,3 +1296,4 @@ local function draw_popup()
                 DesirePro.vars[popup.varid] = i - 1
                 open_combo = nil
                 popup = nil
+                ImGui.SetDrawAlpha(1)
