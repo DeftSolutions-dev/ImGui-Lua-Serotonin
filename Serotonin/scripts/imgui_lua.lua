@@ -3734,3 +3734,4 @@ end
 
 function ImGui.InputIntStep(label, value, step)
     step = step or 1
+    ImGui.PushID(label)
