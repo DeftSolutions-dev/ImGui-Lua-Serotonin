@@ -3337,3 +3337,4 @@ end
 
 local function clamp_popup_to_screen(me, final_w, final_h)
     local sw, sh = draw.GetScreenSize()
+    if me.x + final_w > sw - 4 then me.x = max(4, sw - final_w - 4) end
