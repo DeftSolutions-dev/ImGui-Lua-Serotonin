@@ -2991,3 +2991,4 @@ function ImGui.PushStyleVar(name, value)
         Style[name] = value
     end
 end
+function ImGui.PushStyleVarVec(name, x, y)
