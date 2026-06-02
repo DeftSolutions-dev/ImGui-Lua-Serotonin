@@ -4301,3 +4301,4 @@ function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
             local d = is_vertical and g.mouse_dx or g.mouse_dy
             size1 = size1 + d
             size2 = size2 - d
+            if size1 < (min1 or 24) then size2 = size2 - ((min1 or 24) - size1); size1 = (min1 or 24) end
