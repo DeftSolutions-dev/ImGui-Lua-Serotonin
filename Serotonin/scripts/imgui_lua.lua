@@ -2052,3 +2052,4 @@ function ImGui.EndTabBar()
             store_set(win, "tabbar_scroll_" .. tostring(tb.id), tb.scroll)
         end
 
+        dr_line(2, tb.x, tb.bottom_y, tb.x + tb.w, tb.bottom_y, StyleColor(Col.Border), 1)
