@@ -3475,3 +3475,4 @@ function ImGui.BeginPopupContextWindow(str_id)
     return ImGui.BeginPopup(str_id)
 end
 
+function ImGui.BeginPopup(str_id, flags)
