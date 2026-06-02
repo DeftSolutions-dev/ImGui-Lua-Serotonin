@@ -1086,3 +1086,4 @@ function DesirePro.multicombo(ctx, label, items)
                   box = { x = box_min, y = y, w = bw, h = h } }
     end
 
+    ctx.cy = ctx.cy + h + floor(9 * DesirePro.US)
