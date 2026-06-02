@@ -765,3 +765,4 @@ local function record_item(id, x, y, w, h, hovered, clicked, active)
 end
 
 function ImGui.IsItemHovered() return g.last_item_hovered end
+function ImGui.IsItemClicked() return g.last_item_clicked end
