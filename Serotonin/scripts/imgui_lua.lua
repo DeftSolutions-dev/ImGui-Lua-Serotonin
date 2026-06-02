@@ -2617,3 +2617,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
     if lw > 0 then
         dr_text(2, label, x + plot_w + Style.ItemInnerSpacing.x, y + (plot_h - th) * 0.5, StyleColor(Col.Text))
     end
+    ItemSize(plot_w + ((lw > 0) and (Style.ItemInnerSpacing.x + lw) or 0), plot_h)
