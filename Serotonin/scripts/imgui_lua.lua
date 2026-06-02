@@ -1280,3 +1280,4 @@ function ImGui.Text(text)
     text = tostring(text or "")
     local tw, th = text_size(text)
     if ItemAdd(win.cursor_x, win.cursor_y, tw, th) then
+        dr_text(2, text, win.cursor_x, win.cursor_y, StyleColor(Col.Text))
