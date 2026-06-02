@@ -1603,3 +1603,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
         end
     end
     record_item(id, x, y, drag_w + label_part, frame_h, hovered, false, active)
+    ItemSize(drag_w + label_part, frame_h)
