@@ -921,3 +921,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local vs = is_int and tostring(floor(v)) or string.format("%.2f", v)
     local vw = DesirePro.text_size(vs, "poppins_medium_15")
     DesirePro.text(2, x + w - vw, y, vs, "poppins_medium_15", DesirePro.col.label_active, 1)
+
