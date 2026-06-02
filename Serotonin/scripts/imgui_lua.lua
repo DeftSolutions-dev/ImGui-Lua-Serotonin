@@ -665,3 +665,4 @@ local function text_size(s, font)
     return #s * 7, Style.FontHeight
 end
 ImGui.CalcTextSize = text_size
+
