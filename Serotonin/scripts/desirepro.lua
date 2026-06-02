@@ -1718,3 +1718,4 @@ local function draw_settings()
     DesirePro.icon_scaled(2, cxb, cyb, "CLOSE_FILL", 35, 14, hc and DesirePro.col.label_active or DesirePro.col.desc, 1)
 
     local ctx = { x = px + 13, cy = py + 58, w = pw - 26, x1 = px + pw - 13, on = true, idp = "settings" }
+    DesirePro.combo(ctx, "Font weight", { "Regular", "Medium", "SemiBold" })
