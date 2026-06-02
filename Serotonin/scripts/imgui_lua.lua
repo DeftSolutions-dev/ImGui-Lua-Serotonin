@@ -4513,3 +4513,4 @@ function ImGui.ShowStyleEditor()
         ImGui.EndTabBar()
     end
 end
+
