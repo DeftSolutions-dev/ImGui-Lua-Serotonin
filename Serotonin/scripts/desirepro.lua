@@ -329,3 +329,4 @@ local function delta_time() return ImGui.GetDeltaTime() or 0.016 end
 
 function DesirePro.lerp(a, b, t)
     if t > 1 then t = 1 elseif t < 0 then t = 0 end
+    return a + (b - a) * t
