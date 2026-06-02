@@ -1274,3 +1274,4 @@ local function draw_popup()
         local py = popup.y - (1 - t) * 8
         popup_rect = { x = px, y = py, w = pw, h = ph }
 
+        ImGui.SetDrawAlpha(t < 0.05 and 0.05 or t)
