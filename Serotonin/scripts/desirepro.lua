@@ -628,3 +628,4 @@ local function draw_header(mx, my, mw)
     if h1 and hclk then DesirePro.settings_open = not DesirePro.settings_open end
     if h2 and hclk and not DesirePro._modal then ImGui.SetMenuOpen(false) end
 
+    DesirePro.icon_scaled(2, tx, sy, DesirePro.theme and "SUN_2_FILL" or "MOONLIGHT_FILL", 35, 20,
