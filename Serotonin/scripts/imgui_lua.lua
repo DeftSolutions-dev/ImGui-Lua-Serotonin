@@ -4371,3 +4371,4 @@ function ImGui.StyleColorsLight()
 end
 function ImGui.StyleColorsClassic()
     local t = {}
+    t[Col.Text]                  = COL(0.90, 0.90, 0.90, 1.00)
