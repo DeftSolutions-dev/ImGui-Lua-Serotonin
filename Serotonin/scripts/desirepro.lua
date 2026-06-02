@@ -556,3 +556,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
         DesirePro.active_tab = i
     end
 
+    local f_target = selected and 0.30 or (hovered and 0.15 or 0.0)
