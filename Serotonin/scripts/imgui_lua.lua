@@ -3262,3 +3262,4 @@ function ImGui.EndTable()
                 local dx = g.mouse_dx
                 local nw_left  = max(20, t.col_widths[i]     + dx)
                 local nw_right = max(20, t.col_widths[i + 1] - dx)
+                t.col_widths[i]     = nw_left
