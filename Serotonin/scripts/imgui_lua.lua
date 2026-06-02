@@ -161,3 +161,4 @@ local C_NAMES = {
     "TableRowBg","TableRowBgAlt","TextSelectedBg","DragDropTarget","NavHighlight",
     "ModalWindowDimBg",
 }
+for i, n in ipairs(C_NAMES) do Col[n] = i end
