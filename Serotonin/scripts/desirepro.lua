@@ -1147,3 +1147,4 @@ local function scan_key()
     for _, n in ipairs(CAPTURE_KEYS) do
         if key_down(n) then return n end
     end
+    return nil
