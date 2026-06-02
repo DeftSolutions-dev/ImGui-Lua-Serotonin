@@ -2572,3 +2572,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
         if scale_max <= scale_min then scale_max = scale_min + 1 end
     end
 
+    local hovered = ItemHoverable(x, y, plot_w, plot_h, fnv1a("plot:" .. label))
