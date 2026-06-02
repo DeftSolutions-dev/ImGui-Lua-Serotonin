@@ -3769,3 +3769,4 @@ function ImGui.GetMainViewport()
              center_x = sw * 0.5, center_y = sh * 0.5 }
 end
 
+function ImGui.SaveIniSettings(path)
