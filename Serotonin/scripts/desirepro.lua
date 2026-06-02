@@ -1790,3 +1790,4 @@ function DesirePro.menu()
     local uh = ((my + mh > ty + th) and (my + mh) or (ty + th)) - uy
     ImGui.AddRectFilled(1, ux, uy, uw, uh, DesirePro.with_alpha(DesirePro.col.bg, 0.97), 9)
     ImGui.AddRectFilled(1, ux, uy, uw, uh, DesirePro.with_alpha(DesirePro.col.window_bg, 0.55), 9)
+    ImGui.AddRectFilled(1, mx, my + DesirePro.HEADER_H, mw, mh - DesirePro.HEADER_H, DesirePro.with_alpha(DesirePro.col.bg, 0.35), 0)
