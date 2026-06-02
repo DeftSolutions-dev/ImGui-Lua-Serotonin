@@ -2681,3 +2681,4 @@ function ImGui.SetWindowPos(x, y)
     w.x, w.y = x, y
 end
 function ImGui.SetWindowSize(w_, h_)
+    local w = g.current_window; if not w then return end
