@@ -811,3 +811,4 @@ function DesirePro.checkbox(ctx, label)
     local id = "cb:" .. ctx.idp .. label
     local v = var(id, false)
     local s = widget_state(id, { check = v and 1 or 0, lab = 0 })
+    local box = floor(20 * DesirePro.US)
