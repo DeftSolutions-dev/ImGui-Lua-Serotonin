@@ -164,3 +164,4 @@ function DesirePro.icon(layer, x, y, key, size, color, alpha)
     if not im then return 0 end
     local cp = type(key) == "number" and key or DesirePro.ICON[key]
     if not cp then return 0 end
+    local g = im.glyphs[cp]
