@@ -1627,3 +1627,4 @@ function DesirePro.page(idx, px, py, ph)
         local c = DesirePro.begin_card("Combat Settings:Esp features", px, py, CARD_W, 322, "PIC_AI_FILL")
         if c.on then
             DesirePro.slider(c, "Radar Range", 0, 500, true)
+            DesirePro.combo(c, "Radar Mode", { "Off", "Minimal", "Full" })
