@@ -8,3 +8,4 @@ if type(DesirePro) ~= "table" then
     return
 end
 
+local ImGui = DesirePro.ImGui
