@@ -234,3 +234,4 @@ function DesirePro.preload(spec)
 
     local fonts = spec and spec.fonts
     if not fonts then
+        fonts = {}
