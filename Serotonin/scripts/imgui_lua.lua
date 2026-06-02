@@ -2285,3 +2285,4 @@ function ImGui.InputText(label, value, callback)
         end
         for _, k in ipairs(INPUT_KEYS) do g.key_states_prev[k.key] = g.key_states[k.key] end
 
+        if callback and ImGui.IsKeyPressed("Tab") then
