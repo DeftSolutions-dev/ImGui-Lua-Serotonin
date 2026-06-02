@@ -3388,3 +3388,4 @@ open_popup_window = function(me)
         _title_h        = 0,
         _id_stack_save  = #g.id_stack,
         _is_popup       = true,
+        _popup          = me,
