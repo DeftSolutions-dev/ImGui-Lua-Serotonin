@@ -1947,3 +1947,4 @@ function ImGui.BeginTabItem(label, p_open)
         if tb.reorderable then
             set_active_id(id, win, { x = x, y = y, w = tab_w, h = tab_h })
         end
+    end
