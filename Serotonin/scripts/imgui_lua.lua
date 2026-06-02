@@ -3499,3 +3499,4 @@ function ImGui.BeginPopup(str_id, flags)
     return true
 end
 
+ImGui.EndPopup = close_popup_window
