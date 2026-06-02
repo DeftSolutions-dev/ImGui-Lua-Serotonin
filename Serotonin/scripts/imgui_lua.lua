@@ -152,3 +152,4 @@ local Col = {}
 local C_NAMES = {
     "Text","TextDisabled","WindowBg","ChildBg","PopupBg","Border","BorderShadow",
     "FrameBg","FrameBgHovered","FrameBgActive","TitleBg","TitleBgActive","TitleBgCollapsed",
+    "MenuBarBg","ScrollbarBg","ScrollbarGrab","ScrollbarGrabHovered","ScrollbarGrabActive",
