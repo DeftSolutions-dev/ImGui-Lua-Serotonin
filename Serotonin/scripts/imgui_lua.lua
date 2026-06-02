@@ -2628,3 +2628,4 @@ function ImGui.PlotHistogram(label, values, overlay, scale_min, scale_max, w, h)
 end
 
 function ImGui.GetCursorPos()
+    local win = g.current_window
