@@ -4463,3 +4463,4 @@ end
 
 function ImGui.EndDragDropTarget() end
 
+function ImGui.ShowStyleEditor()
