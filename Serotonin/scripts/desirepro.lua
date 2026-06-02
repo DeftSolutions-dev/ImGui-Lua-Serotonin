@@ -1634,3 +1634,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.slider(c, "Tracer Count", 1, 50, true)
             DesirePro.combo(c, "Recoil Level", { "Low", "Medium", "High" })
         end
+        DesirePro.end_card(c)
