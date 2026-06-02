@@ -60,3 +60,4 @@ DesirePro.LANG_NAMES = { "English", "\208\160\209\131\209\129\209\129\208\186\20
                  "\228\184\173\230\150\135", "\230\151\165\230\156\172\232\170\158",
                  "Ti\225\186\191ng Vi\225\187\135t", "Indonesia" }
 function DesirePro.translate(en)
+    if DesirePro.lang == 0 or not en or en == "" then return en end
