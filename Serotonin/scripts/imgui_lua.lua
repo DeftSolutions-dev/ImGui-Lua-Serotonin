@@ -3398,3 +3398,4 @@ open_popup_window = function(me)
     g.popup_rect   = { x = me.x, y = me.y, w = 1, h = 1 }
 end
 
+local function close_popup_window()
