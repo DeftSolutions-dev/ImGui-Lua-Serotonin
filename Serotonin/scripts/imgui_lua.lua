@@ -1185,3 +1185,4 @@ function ImGui.SameLine(offset_x, spacing)
     win.line_h = win.prev_line_h
 end
 
+function ImGui.NewLine()
