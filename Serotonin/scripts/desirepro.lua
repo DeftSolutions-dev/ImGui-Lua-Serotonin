@@ -816,3 +816,4 @@ function DesirePro.checkbox(ctx, label)
     local y = ctx.cy
     local disp = DesirePro.translate(label)
     local lw = DesirePro.text_size(disp, "poppins_medium_18")
+    local mx, my = mouse_pos()
