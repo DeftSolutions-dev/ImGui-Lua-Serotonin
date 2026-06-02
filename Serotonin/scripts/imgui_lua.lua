@@ -3190,3 +3190,4 @@ function ImGui.TableHeader(label)
 
         local existing_idx
         for i, sp in ipairs(t.sort_specs) do
+            if sp.col == t.cur_col then existing_idx = i; break end
