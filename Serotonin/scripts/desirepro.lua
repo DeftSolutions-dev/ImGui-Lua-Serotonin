@@ -39,3 +39,4 @@ local ROOT = "desirepro"
 do
     local nf = 0
     for _ in pairs(META.fonts) do nf = nf + 1 end
+    print(format("[desirepro] metrics ok: %d font sizes, icons + %d images", nf,
