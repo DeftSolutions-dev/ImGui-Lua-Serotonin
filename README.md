@@ -12,6 +12,7 @@ two things:
 1. install the files (see Install below)
 2. in the Serotonin scripting tab, run `desirepro_menu.lua`
 3. press `F8` to toggle the menu
+<img width="1654" height="1136" alt="image" src="https://github.com/user-attachments/assets/99df3f40-e4a9-4e83-9226-0fb98eaa1828" />
 
 ## Features (DesirePro)
 
