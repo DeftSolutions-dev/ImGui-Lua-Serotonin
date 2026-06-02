@@ -2009,3 +2009,4 @@ end
 function ImGui.EndTabItem()
 end
 
+function ImGui.EndTabBar()
