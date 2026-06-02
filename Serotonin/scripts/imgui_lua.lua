@@ -1456,3 +1456,4 @@ function ImGui.RadioButton(label, active)
     local id = GetID("radio:" .. label)
     insert(g.focus_list, id)
     local sz = Style.FontHeight + Style.FramePadding.y * 2
+    local tw, th = text_size(label)
