@@ -716,3 +716,4 @@ function DesirePro.appear(id, center_y)
     if DesirePro.no_appear or DesirePro.no_anim then return 0, 1 end
     local fc = ImGui.GetFrameCount() or 0
     local s = appear_state[id]
+    local restart = false
