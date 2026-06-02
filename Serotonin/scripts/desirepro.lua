@@ -1516,3 +1516,4 @@ function DesirePro.esp_preview(ctx)
     end
 
     if drag then
+        if mouse_down() then
