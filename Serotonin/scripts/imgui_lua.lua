@@ -782,3 +782,4 @@ end
 function ImGui.IsItemEdited()
 
     return g.last_item_clicked
+end
