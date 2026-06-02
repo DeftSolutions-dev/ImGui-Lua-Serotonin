@@ -963,3 +963,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             end
         end
 
+        if win._has_close then
