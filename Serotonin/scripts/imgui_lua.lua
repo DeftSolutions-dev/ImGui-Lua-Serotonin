@@ -1007,3 +1007,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         win._grip_hovered = hov
         win._grip_held = held
     end
+
