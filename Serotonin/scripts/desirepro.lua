@@ -1338,3 +1338,4 @@ local function draw_popup()
                 local cx, cy = bx + bs / 2, byy + bs / 2
                 ImGui.AddLine(3, cx - 4, cy + 0.5, cx - 1, cy + 3, DesirePro.col.label_active, 1.5)
                 ImGui.AddLine(3, cx - 1, cy + 3, cx + 4, cy - 3, DesirePro.col.label_active, 1.5)
+            end
