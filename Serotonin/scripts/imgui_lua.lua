@@ -4142,3 +4142,4 @@ function ImGui.FileBrowser(str_id, state)
         state.path = state.path:match("^(.*)/[^/]+$") or ""
     end
     ImGui.Separator()
+
