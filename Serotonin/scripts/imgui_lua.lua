@@ -3941,3 +3941,4 @@ function ImGui.InputTextWithHint(label, hint, value)
     local out = ImGui.InputText(label, value or "")
     if was_empty and out == "" then
 
+        local r = g.last_item_rect
