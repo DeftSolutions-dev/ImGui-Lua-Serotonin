@@ -778,3 +778,4 @@ end
 function ImGui.IsItemToggledOpen()
 
     return g._toggled_id == g.last_item_id
+end
