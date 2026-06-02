@@ -838,3 +838,4 @@ local function get_or_create_window(id, title)
         title        = title,
         x            = 60 + (#g.windows_order * 24),
         y            = 60 + (#g.windows_order * 24),
+        w            = 320,
