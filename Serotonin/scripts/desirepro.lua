@@ -375,3 +375,4 @@ function DesirePro.ease_toggle(st, key, on, speed)
     if DesirePro.no_anim then return on and 1 or 0 end
     local rec = st[key]
     if type(rec) ~= "table" then rec = { t = 1, on = on }; st[key] = rec end
+    if rec.on ~= on then rec.on = on; rec.t = 0 end
