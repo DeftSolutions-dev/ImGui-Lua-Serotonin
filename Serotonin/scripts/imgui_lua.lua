@@ -3660,3 +3660,4 @@ function ImGui.BeginTooltip()
     }
 
     g.storage[0] = g.storage[0] or {}
+    local a = g.storage[0]._tooltip_alpha or 0
