@@ -3108,3 +3108,4 @@ function ImGui.TableSetColumnIndex(col)
     if win.cursor_max_y > t.cur_row_max_y then t.cur_row_max_y = win.cursor_max_y end
     t.cur_col = col
     local x = t.x0
+    for i = 1, col do x = x + t.col_widths[i] end
