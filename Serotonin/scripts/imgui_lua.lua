@@ -3120,3 +3120,4 @@ function ImGui.TableNextColumn()
     local t = win._table; if not t then return false end
     if t.cur_col + 1 >= t.columns then
         ImGui.TableNextRow()
+        ImGui.TableSetColumnIndex(0)
