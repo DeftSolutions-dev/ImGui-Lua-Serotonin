@@ -112,3 +112,4 @@ function DesirePro.text(layer, x, y, str, font_key, color, alpha)
     local fm = META.fonts[font_key]
     if not fm then return 0 end
     local ascent = fm.ascent
+    local dir = ROOT .. "/" .. fm.dir .. "/"
