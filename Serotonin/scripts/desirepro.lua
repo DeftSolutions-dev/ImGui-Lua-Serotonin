@@ -253,3 +253,4 @@ function DesirePro.preload(spec)
         end
     end
 
+    local imgs = (spec and spec.images) or {}
