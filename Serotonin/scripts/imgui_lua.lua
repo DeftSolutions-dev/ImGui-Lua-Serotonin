@@ -3496,3 +3496,4 @@ function ImGui.BeginPopup(str_id, flags)
     end
     if not me then return false end
     open_popup_window(me)
+    return true
