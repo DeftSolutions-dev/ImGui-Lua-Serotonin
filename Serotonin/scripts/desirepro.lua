@@ -1257,3 +1257,4 @@ function DesirePro.input(ctx, label, placeholder)
     end
     ImGui.PopClipRect()
 
+    ctx.cy = ctx.cy + h + floor(9 * DesirePro.US)
