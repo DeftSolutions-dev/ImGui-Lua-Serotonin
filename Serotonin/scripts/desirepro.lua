@@ -1796,3 +1796,4 @@ function DesirePro.menu()
         local sy = (dock == 0) and my or (my + mh)
         ImGui.AddLine(2, mx + 1, sy, mx + mw - 1, sy, DesirePro.col.separator, 1)
     else
+        local sx = (dock == 2) and mx or (mx + mw)
