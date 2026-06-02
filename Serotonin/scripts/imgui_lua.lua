@@ -2351,3 +2351,4 @@ local function text_clip(s, max_w, font)
     local target = max_w - ew
     local lo, hi = 0, #s
     while lo < hi do
+        local mid = floor((lo + hi + 1) / 2)
