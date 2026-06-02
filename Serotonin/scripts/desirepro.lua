@@ -1221,3 +1221,4 @@ function DesirePro.input(ctx, label, placeholder)
     local focused = (DesirePro._focus_input == id)
 
     if focused and not raw_clicked() then
+        local shift = key_down("Shift")
