@@ -1759,3 +1759,4 @@ function DesirePro.menu()
 
     if DesirePro._last_sw ~= sw or DesirePro._last_sh ~= sh then
         DesirePro.box_x, DesirePro.box_y = nil, nil
+        DesirePro._last_sw, DesirePro._last_sh = sw, sh
