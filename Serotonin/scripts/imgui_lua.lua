@@ -3294,3 +3294,4 @@ function ImGui.BeginListBox(label, w, h)
 end
 function ImGui.EndListBox() ImGui.EndChild() end
 
+function ImGui.OpenPopup(str_id)
