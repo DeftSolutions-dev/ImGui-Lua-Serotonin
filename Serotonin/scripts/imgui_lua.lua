@@ -4223,3 +4223,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
         elseif hovered then bg = StyleColor(Col.FrameBgHovered) end
         dr_rect_filled(2, x, y, w, h, bg, Style.FrameRounding)
         local t = clamp((value - vmin) / (vmax - vmin), 0, 1)
+        local grab_h = max(Style.GrabMinSize, h * 0.05)
