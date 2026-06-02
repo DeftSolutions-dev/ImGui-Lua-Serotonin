@@ -4699,3 +4699,4 @@ local function flush_layer(layer)
                 pcall(draw.Image, c.texid, c.x, c.y, c.w, c.h, col, a)
             end
         end
+    end
