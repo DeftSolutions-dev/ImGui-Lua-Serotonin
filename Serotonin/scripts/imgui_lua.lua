@@ -3183,3 +3183,4 @@ function ImGui.TableHeader(label)
     local y  = t.row_y
 
     local click_x, click_w = x + 3, cw - 6
+    if click_w < 4 then click_x, click_w = x, cw end
