@@ -2291,3 +2291,4 @@ function ImGui.InputText(label, value, callback)
         end
 
         if callback then
+            if ImGui.IsKeyPressed("Up") then
