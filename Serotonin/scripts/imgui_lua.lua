@@ -460,3 +460,4 @@ local function update_io()
         return false
     end
     local u = any_pressed({ "PageUp",   "PgUp", "Prior", 0x21 })
+    local d = any_pressed({ "PageDown", "PgDn", "Next",  0x22 })
