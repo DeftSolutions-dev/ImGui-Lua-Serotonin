@@ -3788,3 +3788,4 @@ end
 
 function ImGui.LoadIniSettings(path)
     path = path or "imgui_lua.ini"
+    local ok, content = pcall(file.read, path)
