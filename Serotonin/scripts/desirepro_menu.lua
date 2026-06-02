@@ -22,3 +22,4 @@ DesirePro.preload({
         "SWORD_FILL", "TARGET_FILL", "PIC_AI_FILL", "EYE_FILL",
         "PALETTE_LINE", "KEYBOARD_FILL", "NOTIFICATION_FILL", "SUN_2_FILL", "MOONLIGHT_FILL",
     },
+    icon_sizes = { 16, 18, 23, 27, 35 },
