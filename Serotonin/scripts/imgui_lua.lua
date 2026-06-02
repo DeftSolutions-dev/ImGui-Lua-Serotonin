@@ -405,3 +405,4 @@ local function update_io()
         local w   = g.windows[wid]
         if w and point_in_rect(g.mouse_x, g.mouse_y, w.x, w.y, w.w, w.h) then
             g.hovered_window_id = wid
+            break
