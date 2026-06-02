@@ -3066,3 +3066,4 @@ function ImGui.BeginTable(str_id, columns, flags)
         resizable     = flags.resizable ~= false,
         row_index     = 0,
         header_drawn  = false,
+        cur_row_max_y = win.cursor_y,
