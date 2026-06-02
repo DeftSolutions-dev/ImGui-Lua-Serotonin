@@ -849,3 +849,4 @@ local function get_or_create_window(id, title)
         cursor_start_y = 0,
         cursor_max_x = 0,
         cursor_max_y = 0,
+        line_h       = Style.FontHeight,
