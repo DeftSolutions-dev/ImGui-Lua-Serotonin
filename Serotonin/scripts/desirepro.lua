@@ -1294,3 +1294,4 @@ local function draw_popup()
             DesirePro.text_in(3, px + (seld and 26 or 14), iy, ih, DesirePro.translate(popup.items[i]), "poppins_medium_16", tc, 1)
             if ih_hover and rc and can_click then
                 DesirePro.vars[popup.varid] = i - 1
+                open_combo = nil
