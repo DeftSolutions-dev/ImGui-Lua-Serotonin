@@ -2770,3 +2770,4 @@ end
 function ImGui.LabelText(label, fmt, ...)
     local win = g.current_window; if not win then return end
     local value = (select("#", ...) > 0) and string.format(fmt, ...) or tostring(fmt)
+    local th = Style.FontHeight
