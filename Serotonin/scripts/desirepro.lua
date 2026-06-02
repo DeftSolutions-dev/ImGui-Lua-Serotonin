@@ -1369,3 +1369,4 @@ local function draw_popup()
         local ph = (preset_y + 20) - py + pad
         popup_rect = { x = px, y = py, w = pw, h = ph }
 
+        DesirePro.shadow_rect(3, px, py, pw, ph, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.55, 24)
