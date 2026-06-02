@@ -1623,3 +1623,4 @@ function ImGui.ProgressBar(fraction, w, h, overlay)
         local label = overlay or format("%.0f%%", fraction * 100)
         local lw, _ = text_size(label)
         dr_text(2, label, x + (frame_w - lw) * 0.5, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
+    end
