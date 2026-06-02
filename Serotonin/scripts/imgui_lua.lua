@@ -1968,3 +1968,4 @@ function ImGui.BeginTabItem(label, p_open)
         end
     end
 
+    local is_selected = (tb.selected == label)
