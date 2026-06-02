@@ -1332,3 +1332,4 @@ function ImGui.HelpMarker(text)
     if ImGui.IsItemHovered() then
         ImGui.BeginTooltip()
         ImGui.TextWrapped(text)
+        ImGui.EndTooltip()
