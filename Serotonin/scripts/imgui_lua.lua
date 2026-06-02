@@ -481,3 +481,4 @@ local function update_io()
         local ok, v = pcall(keyboard.IsPressed, name); return ok and v
     end
     local function probe_any(names)
+        for _, n in ipairs(names) do if probe(n) then return true end end
