@@ -1756,3 +1756,4 @@ function DesirePro.menu()
     local band, side = DesirePro.TAB_BAND, floor(225 * DesirePro.US)
     local dock = DesirePro.dock or 0
     local horiz = (dock == 0 or dock == 1)
+
