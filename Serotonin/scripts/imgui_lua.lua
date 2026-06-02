@@ -2411,3 +2411,4 @@ render_scrollbar = function(win)
     end
     local active = (g.active_id == sid)
     if active then
+        if g.mouse_left_down then
