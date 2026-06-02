@@ -4644,3 +4644,4 @@ local function flush_layer(layer)
                 draw.Text(c.text, c.x, c.y, col, c.font, a)
             end
 
+        elseif k == "trif" then
