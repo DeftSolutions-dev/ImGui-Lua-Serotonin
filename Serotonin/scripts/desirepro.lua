@@ -789,3 +789,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     ImGui.AddRectFilled(2, floor(knob_cx - 7), floor(knob_cy - 7), 14, 14, ImGui.ColF(kc, kc, kc, 1), 7)
 
     local title, desc = split_desc(DesirePro.translate(name))
+    DesirePro.text(2, x + 55, y + 8, title, "poppins_semibold_18", DesirePro.col.label_active, 1)
