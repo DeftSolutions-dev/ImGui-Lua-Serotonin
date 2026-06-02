@@ -1323,3 +1323,4 @@ function ImGui.TextWrapped(text)
         if ItemAdd(win.cursor_x, win.cursor_y, total_w, th) then
             dr_text(2, line, win.cursor_x, win.cursor_y, StyleColor(Col.Text))
         end
+        ItemSize(total_w, th)
