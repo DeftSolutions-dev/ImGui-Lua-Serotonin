@@ -3419,3 +3419,4 @@ local function close_popup_window()
 
     clamp_popup_to_screen(me, final_w, final_h)
     me._bg_cmd.w = final_w; me._bg_cmd.h = h_anim
+    me._br_cmd.w = final_w; me._br_cmd.h = h_anim
