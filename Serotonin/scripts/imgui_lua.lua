@@ -754,3 +754,4 @@ local function anim_step(win, id, target, speed)
     anim_set(win, id, cur)
     return cur
 end
+
