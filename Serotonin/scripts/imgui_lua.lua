@@ -3507,3 +3507,4 @@ function ImGui.BeginMenuBar()
     local mb = {
         x      = win.x,
         y      = win.y + win._title_h,
+        w      = win.w,
