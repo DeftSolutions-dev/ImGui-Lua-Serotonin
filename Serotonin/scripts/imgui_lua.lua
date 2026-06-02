@@ -1744,3 +1744,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
     local win = g.current_window; if not win then return r, g_, b end
     local id = GetID("col:" .. label)
     local tw_lbl, th = text_size(label)
+    local frame_h = th + Style.FramePadding.y * 2
