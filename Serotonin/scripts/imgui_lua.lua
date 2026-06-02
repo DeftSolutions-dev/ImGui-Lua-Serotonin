@@ -1983,3 +1983,4 @@ function ImGui.BeginTabItem(label, p_open)
         dr_text(2, label, x + (tab_w - close_w - tw) * 0.5, y + (tab_h - th) * 0.5, StyleColor(Col.Text))
 
         if p_open ~= nil then
+            local cid = GetID("tabclose:" .. label)
