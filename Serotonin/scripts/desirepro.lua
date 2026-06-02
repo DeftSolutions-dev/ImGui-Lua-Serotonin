@@ -1113,3 +1113,4 @@ function DesirePro.color(ctx, label)
         popup = { kind = "color", varid = id, x = x1 - 218, y = y + h + 6,
                   sw = { x = cx - 11, y = cy - 11, w = 22, h = 22 } }
     end
+    ctx.cy = ctx.cy + h + floor(9 * DesirePro.US)
