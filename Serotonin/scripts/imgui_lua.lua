@@ -1685,3 +1685,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
     local row_h = th + 4
     local visible_rows = height_in_items or min(#items, 6)
     local total_w = win._content_x1 - win.cursor_x
+    local box_h = visible_rows * row_h + 4
