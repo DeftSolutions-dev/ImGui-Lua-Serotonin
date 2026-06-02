@@ -1028,3 +1028,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     if abs(win._collapse_t - target_ct) < 0.005 then win._collapse_t = target_ct end
     local body_full_h = max(0, win.h - title_h)
     local body_anim_h = body_full_h * (1 - win._collapse_t)
+    local effective_h = title_h + body_anim_h
