@@ -463,3 +463,4 @@ local function update_io()
     local d = any_pressed({ "PageDown", "PgDn", "Next",  0x22 })
     g._pg_up_edge   = u and not g._pg_up_prev
     g._pg_down_edge = d and not g._pg_down_prev
+    g._pg_up_prev, g._pg_down_prev = u, d
