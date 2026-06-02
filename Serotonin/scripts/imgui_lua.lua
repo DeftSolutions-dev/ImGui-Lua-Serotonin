@@ -1172,3 +1172,4 @@ local function auto_wrap(w)
         win.line_h   = Style.FontHeight
     end
 end
+
