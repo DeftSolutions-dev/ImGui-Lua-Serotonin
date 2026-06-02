@@ -1242,3 +1242,4 @@ function ImGui.BeginGroup()
     local win = g.current_window; if not win then return end
     insert(win.groups, {
         cursor_x_save = win.cursor_x,
+        cursor_y_save = win.cursor_y,
