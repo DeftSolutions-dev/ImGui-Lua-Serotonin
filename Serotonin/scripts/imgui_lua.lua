@@ -361,3 +361,4 @@ local function check_rmouse_down_now()
         if ok and v == true then
             _working_rmouse_probe = cand
             print("[imgui_lua] rmouse-down probe locked: " .. tostring(cand))
+            return true
