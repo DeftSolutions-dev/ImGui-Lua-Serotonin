@@ -2491,3 +2491,4 @@ function ImGui.BeginChild(str_id, w, h, border)
 end
 
 function ImGui.EndChild()
+    local win = g.current_window; if not win then return end
