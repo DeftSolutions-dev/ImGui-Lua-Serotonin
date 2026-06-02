@@ -367,3 +367,4 @@ local function check_rmouse_down_now()
     return false
 end
 
+local function update_io()
