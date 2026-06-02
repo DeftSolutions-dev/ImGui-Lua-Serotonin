@@ -2281,3 +2281,4 @@ function ImGui.InputText(label, value, callback)
                 if accept then value = value .. ch end
             else
                 value = value .. ch
+            end
