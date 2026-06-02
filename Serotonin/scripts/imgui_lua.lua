@@ -2708,3 +2708,4 @@ function ImGui.CalcItemWidth()
 end
 
 local _next_item_width = nil
+function ImGui.PushItemWidth(w)
