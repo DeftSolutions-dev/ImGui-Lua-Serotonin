@@ -91,3 +91,4 @@ DesirePro.load_tex = load_tex
 local function utf8_iter(s)
     local i, n = 1, #s
     return function()
+        if i > n then return nil end
