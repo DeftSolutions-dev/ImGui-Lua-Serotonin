@@ -3611,3 +3611,4 @@ function ImGui.MenuItem(label, shortcut, selected)
     local tw, th = text_size(label)
     local sw = shortcut and text_size(shortcut) or 0
     local pad_x = 8
+    local w = max(120, tw + pad_x * 2 + (sw > 0 and (sw + 16) or 0))
