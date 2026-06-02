@@ -4585,3 +4585,4 @@ local function flush_layer(layer)
                 if x then
 
                     local rd = c.rounding
+                    if x ~= c.x or y ~= c.y or w ~= c.w or h ~= c.h then rd = 0 end
