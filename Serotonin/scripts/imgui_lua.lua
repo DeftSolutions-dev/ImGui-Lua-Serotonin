@@ -1019,3 +1019,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
                 win.scroll_y = (win.scroll_y or 0) - g.mouse_dy
             end
         end
+    end
