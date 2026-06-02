@@ -2652,3 +2652,4 @@ end
 function ImGui.SetCursorPosY(y)
     local win = g.current_window; if not win then return end
     win.cursor_y = win.y + y
+end
