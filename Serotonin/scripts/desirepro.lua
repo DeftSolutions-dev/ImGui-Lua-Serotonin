@@ -521,7 +521,7 @@ function DesirePro.text_centered(layer, cx, y, str, font_key, color, alpha)
 end
 
 function DesirePro.text_in(layer, x, box_top, box_h, str, font_key, color, alpha)
-    local fm = META.fonts[font_key]
+    local fm = META.fonts[resolve_font(font_key)]
     local cap = fm and fm.cap_height or 12
     local asc = fm and fm.ascent or 14
     local top = box_top + (box_h + cap) / 2 - asc
