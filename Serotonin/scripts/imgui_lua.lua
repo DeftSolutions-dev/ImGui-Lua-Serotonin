@@ -1271,3 +1271,4 @@ function ImGui.EndGroup()
     local gid = fnv1a("group", #win.groups)
     record_item(gid, s.cursor_x_save, s.cursor_y_save, gw, gh,
                 point_in_rect(g.mouse_x, g.mouse_y, s.cursor_x_save, s.cursor_y_save, gw, gh),
+                false, false)
