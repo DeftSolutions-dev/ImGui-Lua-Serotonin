@@ -2121,3 +2121,4 @@ function ImGui.TreeNode(label)
     local id = GetID("tree:" .. label)
     local key = "tree_" .. tostring(id)
     local open = store_get(win, key, false)
+    local th = Style.FontHeight
