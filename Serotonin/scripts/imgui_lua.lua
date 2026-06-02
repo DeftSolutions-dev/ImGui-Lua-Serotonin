@@ -2527,3 +2527,4 @@ function ImGui.Image(tex_id, w, h, tint)
     auto_wrap(w)
     local x, y = win.cursor_x, win.cursor_y
     if ItemAdd(x, y, w, h) then
+        dr_image(2, x, y, w, h, tex_id, tint or COL(1, 1, 1, 1), 1)
