@@ -1474,3 +1474,4 @@ function ImGui.RadioButton(label, active)
         end
         dr_text(2, label, x + sz + Style.ItemInnerSpacing.x, y + (sz - th) * 0.5, StyleColor(Col.Text))
     end
+    record_item(id, x, y, total_w, sz, hovered, pressed, held)
