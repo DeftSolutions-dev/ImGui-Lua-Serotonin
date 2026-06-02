@@ -3488,3 +3488,4 @@ function ImGui.BeginPopup(str_id, flags)
             opened_this_frame = true,
         })
         g.popup_pending_open = nil
+    end
