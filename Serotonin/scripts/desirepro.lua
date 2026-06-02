@@ -485,3 +485,4 @@ function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
     if not im then return end
     local g = im.glyphs[cp]
     if not g or not g.f then return end
+    local tex = load_tex(ROOT .. "/icon_grad/" .. best .. "/" .. g.f)
