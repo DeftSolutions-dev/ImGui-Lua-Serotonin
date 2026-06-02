@@ -589,3 +589,4 @@ local function draw_tab(i, tab, bx, by, bw, bh)
     local mx, my = ImGui.GetMousePos()
     local dragging = DesirePro.drag and DesirePro.drag.moved
     local hovered = point_in_rect(mx, my, bx, by, bw, bh) and not dragging
+    local selected = (DesirePro.active_tab == i)
