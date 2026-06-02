@@ -498,3 +498,4 @@ local function update_io()
             if id == g.nav_id then idx = i; break end
         end
         idx = idx + g.nav_dir
+        if idx < 1                  then idx = #g.focus_list_prev end
