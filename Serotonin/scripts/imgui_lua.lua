@@ -3933,3 +3933,4 @@ function ImGui.PushFont(font_name)
     Style.Font = font_name
 end
 function ImGui.PopFont()
+    if #_font_stack > 0 then Style.Font = remove(_font_stack) end
