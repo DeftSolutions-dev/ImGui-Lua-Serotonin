@@ -207,3 +207,4 @@ function DesirePro.shadow_circle(layer, cx, cy, r, color, alpha)
     ImGui.AddImage(layer, cx - s, cy - s, s * 2, s * 2, tex,
                    color or ImGui.RGBA(0, 0, 0, 255), alpha or 0.5)
 end
+
