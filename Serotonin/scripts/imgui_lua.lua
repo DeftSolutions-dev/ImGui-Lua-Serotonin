@@ -2253,3 +2253,4 @@ function ImGui.InputText(label, value, callback)
     if hovered and g.mouse_left_clicked then
         set_active_id(id, win, { x = x, y = y, w = input_w, h = frame_h })
     end
+    if g.mouse_left_clicked and not hovered and g.active_id == id then clear_active_id() end
