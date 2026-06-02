@@ -3513,3 +3513,4 @@ function ImGui.BeginMenuBar()
     }
     win._menubar = mb
 
+    insert(g.draw_layers[1], {
