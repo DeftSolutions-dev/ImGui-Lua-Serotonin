@@ -1046,3 +1046,4 @@ function DesirePro.multicombo(ctx, label, items)
     local preview = (#names == 0) and DesirePro.translate("None") or table.concat(names, ", ")
 
     local box_max = x0 + ctx.w
+    local bw = floor(DesirePro.text_size(preview, "poppins_medium_16") + 36)
