@@ -4172,3 +4172,4 @@ function ImGui.LogTextBox(str_id, lines, w, h)
         for _, line in ipairs(lines) do ImGui.Text(line) end
     end
     ImGui.EndChild()
+end
