@@ -350,3 +350,4 @@ function DesirePro.rrect(layer, x, y, w, h, r, col)
     ImGui.AddRectFilled(layer, x, y, w, h, col, r or 0)
 end
 
+function DesirePro.grad_rrect(layer, x, y, w, h, r, c1, c2)
