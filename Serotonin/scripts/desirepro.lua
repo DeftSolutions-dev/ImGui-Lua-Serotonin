@@ -1688,3 +1688,4 @@ local function draw_feature()
         and not in_popup(mx, my) then
         DesirePro._feature = nil
     end
+    DesirePro._modal_active = false
