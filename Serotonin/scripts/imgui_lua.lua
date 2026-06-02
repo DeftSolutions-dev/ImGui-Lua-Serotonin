@@ -434,3 +434,4 @@ local function update_io()
                             and g.mouse_y >= p.y and g.mouse_y < p.y + p.h)
         local clear = false
         if mouse_in_popup then
+            local fully_inside = (r.x >= p.x and r.y >= p.y
