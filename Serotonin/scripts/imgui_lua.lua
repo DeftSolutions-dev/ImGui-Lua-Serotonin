@@ -1340,3 +1340,4 @@ function ImGui.BulletText(text)
     local win = g.current_window; if not win then return end
     text = tostring(text or "")
     local tw, th = text_size(text)
+    local cx = win.cursor_x + 4
