@@ -153,3 +153,4 @@ local C_NAMES = {
     "Text","TextDisabled","WindowBg","ChildBg","PopupBg","Border","BorderShadow",
     "FrameBg","FrameBgHovered","FrameBgActive","TitleBg","TitleBgActive","TitleBgCollapsed",
     "MenuBarBg","ScrollbarBg","ScrollbarGrab","ScrollbarGrabHovered","ScrollbarGrabActive",
+    "CheckMark","SliderGrab","SliderGrabActive","Button","ButtonHovered","ButtonActive",
