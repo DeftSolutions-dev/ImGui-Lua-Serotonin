@@ -1342,3 +1342,4 @@ local function draw_popup()
             local tc = on and DesirePro.col.label_active or (ih_hover and DesirePro.col.label_hover or DesirePro.col.label)
             DesirePro.text_in(3, px + 34, iy, ih, DesirePro.translate(popup.items[i]), "poppins_medium_16", tc, 1)
             if ih_hover and rc and can_click then
+                sel[i] = (not on) and true or nil
