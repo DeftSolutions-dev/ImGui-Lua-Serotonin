@@ -3449,3 +3449,4 @@ local function close_popup_window()
     if #g.draw_layer_stack > 0 then remove(g.draw_layer_stack) end
 
     if me._clip_rect then
+        for i = #g.clip_stack, 1, -1 do
