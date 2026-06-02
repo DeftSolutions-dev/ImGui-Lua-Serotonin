@@ -3124,3 +3124,4 @@ function ImGui.TableNextColumn()
     else
         ImGui.TableSetColumnIndex(t.cur_col + 1)
     end
+    return true
