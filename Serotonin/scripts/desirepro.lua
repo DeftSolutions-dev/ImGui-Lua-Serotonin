@@ -221,3 +221,4 @@ end
 
 function DesirePro.preload_icons(size)
     local im = META.icons[size]
+    if not im then return 0 end
