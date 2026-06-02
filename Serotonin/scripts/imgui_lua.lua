@@ -1772,3 +1772,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         else
             local pid = fnv1a("popup:" .. popup_str)
             g.popup_pending_open = { str_id = popup_str, id = pid, x = x, y = y + frame_h + 2 }
+        end
