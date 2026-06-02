@@ -1253,3 +1253,4 @@ function DesirePro.input(ctx, label, placeholder)
     DesirePro.text_in(2, fx + 10 - scroll, y, h, shown, "poppins_medium_16", tcol, 1)
     if focused then
         local caret = fx + 10 + (tw - scroll) + 1
+        ImGui.AddLine(2, caret, y + 10, caret, y + h - 10, DesirePro.col.label_active, 1)
