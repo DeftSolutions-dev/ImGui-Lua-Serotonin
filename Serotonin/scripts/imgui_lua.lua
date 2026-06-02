@@ -4541,3 +4541,4 @@ function ImGui.NewFrame()
     g.active_id_was_just_activated = false
 
     for i = 1, #g.draw_layers do
+        local layer = g.draw_layers[i]
