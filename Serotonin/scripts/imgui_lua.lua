@@ -292,3 +292,4 @@ g = {
     popup_pending_open= nil,
 
     draw_layer_stack  = {},
+
