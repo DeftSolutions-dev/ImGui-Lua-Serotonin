@@ -4528,3 +4528,4 @@ function ImGui.NewFrame()
         if a < 0.01 then a = 0 end
         g.storage[0]._tooltip_alpha = a
     end
+    g._tooltip_was_shown = false
