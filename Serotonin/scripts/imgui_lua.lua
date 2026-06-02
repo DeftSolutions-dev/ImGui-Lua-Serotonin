@@ -831,3 +831,4 @@ local function focus_window(win)
 end
 
 local function get_or_create_window(id, title)
+    local w = g.windows[id]
