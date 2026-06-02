@@ -1585,3 +1585,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
             value = value + g.mouse_dx * (speed or 1)
             if vmin and vmax then value = clamp(value, vmin, vmax) end
             if is_int then value = floor(value + 0.5) end
+        else
