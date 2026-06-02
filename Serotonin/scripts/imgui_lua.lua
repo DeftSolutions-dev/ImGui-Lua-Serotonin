@@ -1025,3 +1025,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win._collapse_t = win._collapse_t or target_ct
     local _dt = g.dt or 0.016
     win._collapse_t = win._collapse_t + (target_ct - win._collapse_t) * min(1, _dt * 14)
+    if abs(win._collapse_t - target_ct) < 0.005 then win._collapse_t = target_ct end
