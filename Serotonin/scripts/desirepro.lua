@@ -831,3 +831,4 @@ function DesirePro.checkbox(ctx, label)
     local cc = s.check; if cc > 1 then cc = 1 elseif cc < 0 then cc = 0 end
     ImGui.AddRectFilled(2, bxx, byy, bs, bs, DesirePro.col.anim_default, r)
     if cc > 0.01 then
+        DesirePro.grad_rrect(2, bxx, byy, bs, bs, r, DesirePro.with_alpha(DesirePro.col.dark, cc), DesirePro.with_alpha(DesirePro.col.active, cc))
