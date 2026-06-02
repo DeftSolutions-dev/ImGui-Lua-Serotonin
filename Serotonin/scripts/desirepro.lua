@@ -564,3 +564,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     st.ia  = DesirePro.anim(st.ia, i_target, 12)
     st.isz = 25 + DesirePro.ease_toggle(st, "iszE", selected, 15) * 10
     st.toff = DesirePro.anim(st.toff, o_target, 12)
+
