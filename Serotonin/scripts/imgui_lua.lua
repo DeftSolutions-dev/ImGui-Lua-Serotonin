@@ -2468,3 +2468,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     local sy = store_get(win, sk, 0)
 
     win.cursor_start_x = cx + 4
+    win.cursor_start_y = cy + 4 - sy
