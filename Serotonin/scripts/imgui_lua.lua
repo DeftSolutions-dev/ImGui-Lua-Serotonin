@@ -2467,3 +2467,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     local sk = "child_scroll_" .. tostring(pid)
     local sy = store_get(win, sk, 0)
 
+    win.cursor_start_x = cx + 4
