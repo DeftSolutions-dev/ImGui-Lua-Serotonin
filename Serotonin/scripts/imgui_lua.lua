@@ -3544,3 +3544,4 @@ function ImGui.EndMenuBar()
     end
 
     win.cursor_y = mb._save_cursor_y + mb.h + Style.ItemSpacing.y
+    win.cursor_x = win.cursor_start_x + win.indent_x
