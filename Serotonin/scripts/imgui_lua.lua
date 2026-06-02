@@ -2217,3 +2217,4 @@ local function poll_typed_chars()
         return {}, false, false
     end
     local out = {}
+    for _, k in ipairs(INPUT_KEYS) do
