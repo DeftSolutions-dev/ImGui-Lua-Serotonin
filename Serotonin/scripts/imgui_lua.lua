@@ -1331,3 +1331,4 @@ function ImGui.HelpMarker(text)
     ImGui.TextDisabled("(?)")
     if ImGui.IsItemHovered() then
         ImGui.BeginTooltip()
+        ImGui.TextWrapped(text)
