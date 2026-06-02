@@ -2981,3 +2981,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     return true
 end
 
+local _style_var_stack = {}
