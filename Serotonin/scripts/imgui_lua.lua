@@ -450,3 +450,4 @@ local function update_io()
     if tk and not g.toggle_key_prev then
         g.menu_open = not g.menu_open
     end
+    g.toggle_key_prev = tk
