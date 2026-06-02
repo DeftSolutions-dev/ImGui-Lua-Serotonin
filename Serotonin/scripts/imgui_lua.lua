@@ -3617,3 +3617,4 @@ function ImGui.MenuItem(label, shortcut, selected)
     local hovered = ItemHoverable(x, y, w, h, id)
     local pressed = hovered and g.mouse_left_clicked
 
+    if shortcut and shortcut ~= "" then
