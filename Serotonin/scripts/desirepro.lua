@@ -1684,3 +1684,4 @@ local function draw_feature()
     ImGui.SetDrawAlpha(1)
 
     if feat and t > 0.85 and clicked()
+        and not point_in_rect(mx, my, px, py, pw, ph)
