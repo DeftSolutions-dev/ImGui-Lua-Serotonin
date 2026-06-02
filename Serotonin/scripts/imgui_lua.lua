@@ -3776,3 +3776,4 @@ function ImGui.SaveIniSettings(path)
         local win = g.windows[wid]
         if win and win.title then
             insert(lines, "")
+            insert(lines, "[Window:" .. win.title .. "]")
