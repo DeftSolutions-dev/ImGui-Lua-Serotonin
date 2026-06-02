@@ -82,3 +82,4 @@ local function load_tex(rel)
     if not ok2 or type(id) ~= "number" then
         tex_cache[rel] = false
         return nil
+    end
