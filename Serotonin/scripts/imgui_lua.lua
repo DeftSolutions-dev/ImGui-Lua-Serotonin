@@ -4315,3 +4315,4 @@ end
 
 function ImGui.StyleColorsDark()    Style.Colors = default_dark_theme() end
 function ImGui.StyleColorsLight()
+    local t = {}
