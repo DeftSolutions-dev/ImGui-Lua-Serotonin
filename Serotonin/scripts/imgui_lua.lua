@@ -1096,3 +1096,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         local gy = win.y + win.h
         local grip_col = StyleColor(Col.ResizeGrip)
         if win._grip_held then grip_col = StyleColor(Col.ResizeGripActive)
+        elseif win._grip_hovered then grip_col = StyleColor(Col.ResizeGripHovered) end
