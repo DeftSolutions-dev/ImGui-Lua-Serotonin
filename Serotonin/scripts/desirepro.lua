@@ -451,3 +451,4 @@ function DesirePro.update_notifications()
             y = y + h + 12
         end
     end
+end
