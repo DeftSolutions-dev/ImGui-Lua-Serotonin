@@ -499,3 +499,4 @@ local function update_io()
         end
         idx = idx + g.nav_dir
         if idx < 1                  then idx = #g.focus_list_prev end
+        if idx > #g.focus_list_prev then idx = 1 end
