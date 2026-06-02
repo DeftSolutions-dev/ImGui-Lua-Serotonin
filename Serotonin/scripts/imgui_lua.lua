@@ -3456,3 +3456,4 @@ local function close_popup_window()
 end
 
 function ImGui.BeginPopupContextItem(str_id)
+    str_id = str_id or "##itemcontext"
