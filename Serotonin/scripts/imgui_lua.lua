@@ -435,3 +435,4 @@ local function update_io()
         local clear = false
         if mouse_in_popup then
             local fully_inside = (r.x >= p.x and r.y >= p.y
+                              and r.x + r.w <= p.x + p.w and r.y + r.h <= p.y + p.h)
