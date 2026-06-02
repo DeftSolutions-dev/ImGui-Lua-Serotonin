@@ -1219,3 +1219,4 @@ function DesirePro.input(ctx, label, placeholder)
         elseif DesirePro._focus_input == id then DesirePro._focus_input = nil end
     end
     local focused = (DesirePro._focus_input == id)
+
