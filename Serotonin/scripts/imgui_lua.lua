@@ -907,3 +907,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         p_open, opts = opts_or_p_open, maybe_opts or {}
     elseif type(opts_or_p_open) == "table" then
         p_open, opts = nil, opts_or_p_open
+    else
