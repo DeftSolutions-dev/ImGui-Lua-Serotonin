@@ -1285,3 +1285,4 @@ function ImGui.Text(text)
     ItemSize(tw, th)
 end
 
+function ImGui.TextColored(col, text)
