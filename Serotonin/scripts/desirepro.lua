@@ -1318,3 +1318,4 @@ local function draw_popup()
         popup_rect = { x = px, y = py, w = pw, h = ph }
         local sel = DesirePro.vars[popup.varid]
 
+        ImGui.SetDrawAlpha(t < 0.05 and 0.05 or t)
