@@ -773,3 +773,4 @@ function ImGui.IsItemDeactivated()
     return g.last_item_id == g.hovered_id_prev and g.last_item_id ~= g.active_id
 end
 function ImGui.IsItemActivated()
+    return g.last_item_id == g.active_id and g.active_id_was_just_activated
