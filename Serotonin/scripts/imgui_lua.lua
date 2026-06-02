@@ -4066,3 +4066,4 @@ local function days_in_month(y, m)
     return d
 end
 
+local function dow_first(y, m)
