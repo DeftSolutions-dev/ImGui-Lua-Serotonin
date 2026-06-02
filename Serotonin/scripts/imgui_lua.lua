@@ -2180,3 +2180,4 @@ function ImGui.CollapsingHeader(label)
     local arr = StyleColor(Col.Text)
     if open then
         dr_triangle_filled(2, cx - 4, cy - 2, cx + 4, cy - 2, cx, cy + 4, arr)
+    else
