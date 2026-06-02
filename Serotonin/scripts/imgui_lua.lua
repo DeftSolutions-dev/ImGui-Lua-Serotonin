@@ -2698,3 +2698,4 @@ function ImGui.GetFontSize()                 return Style.FontHeight end
 function ImGui.GetFrameHeight()              return Style.FontHeight + Style.FramePadding.y * 2 end
 function ImGui.GetTextLineHeight()           return Style.FontHeight end
 function ImGui.GetTextLineHeightWithSpacing()return Style.FontHeight + Style.ItemSpacing.y end
+function ImGui.GetFrameHeightWithSpacing()   return Style.FontHeight + Style.FramePadding.y * 2 + Style.ItemSpacing.y end
