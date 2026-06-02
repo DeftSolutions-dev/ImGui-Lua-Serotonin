@@ -2714,3 +2714,4 @@ function ImGui.PushItemWidth(w)
     insert(win._item_width_stack, w)
 end
 function ImGui.PopItemWidth()
+    local win = g.current_window; if not win then return end
