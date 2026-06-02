@@ -2581,3 +2581,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
             local function ty(v) return y + plot_h - ((v - scale_min) / (scale_max - scale_min)) * plot_h end
             if kind == "hist" then
                 local bar_w = plot_w / count
+                for i = 1, count do
