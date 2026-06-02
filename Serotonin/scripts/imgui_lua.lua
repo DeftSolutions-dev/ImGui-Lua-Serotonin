@@ -392,3 +392,4 @@ local function update_io()
     g.mouse_right_clicked = r_now and not g.mouse_right_down_prev
     g.mouse_right_down_prev = r_now
 
+    g.mouse_left_down_prev = g.mouse_left_down
