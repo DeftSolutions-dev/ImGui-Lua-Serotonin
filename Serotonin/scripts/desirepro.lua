@@ -1363,3 +1363,4 @@ local function draw_popup()
         local sv_x, sv_y = px + pad, py + pad
         local hue_x = sv_x + sv_w + 8
         local alpha_y = sv_y + sv_h + 10
+        local alpha_h = 12
