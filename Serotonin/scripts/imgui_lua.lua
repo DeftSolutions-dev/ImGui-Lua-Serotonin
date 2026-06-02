@@ -2494,3 +2494,4 @@ function ImGui.EndChild()
     local win = g.current_window; if not win then return end
     local stack = win._child_stack
     if not stack or #stack == 0 then return end
+    local s = remove(stack)
