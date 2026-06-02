@@ -569,3 +569,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
         ImGui.AddRectFilled(2, bx, by, bw, bh, DesirePro.with_alpha(DesirePro.col.active, st.fa), 6)
     end
 
+    local cx = bx + bw / 2
