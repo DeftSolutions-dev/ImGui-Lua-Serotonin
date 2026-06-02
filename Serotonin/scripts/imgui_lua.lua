@@ -3199,3 +3199,4 @@ function ImGui.TableHeader(label)
             else
                 insert(t.sort_specs, { col = t.cur_col, dir = 1 })
             end
+        else
