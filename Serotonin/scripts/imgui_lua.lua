@@ -3756,3 +3756,4 @@ function ImGui.InputFloatStep(label, value, step, fmt)
     local txt = ImGui.InputText("##v", string.format(fmt, value))
     value = tonumber(txt) or value
     ImGui.SameLine(nil, 2)
+    if ImGui.SmallButton("+") then value = value + step end
