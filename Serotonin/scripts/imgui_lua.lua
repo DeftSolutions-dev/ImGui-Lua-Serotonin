@@ -501,3 +501,4 @@ local function update_io()
         if idx < 1                  then idx = #g.focus_list_prev end
         if idx > #g.focus_list_prev then idx = 1 end
         g.nav_id = g.focus_list_prev[idx]
+    end
