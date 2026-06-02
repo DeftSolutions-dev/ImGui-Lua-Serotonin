@@ -1422,3 +1422,4 @@ local function draw_popup()
         end
 
         local sw = popup.sw
+        if rc and not point_in_rect(mx, my, px, py, pw, ph)
