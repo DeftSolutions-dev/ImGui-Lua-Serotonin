@@ -1497,3 +1497,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     local visible = ItemAdd(x, y, slider_w, frame_h)
     local hovered = (not flags.no_input) and ItemHoverable(x, y, slider_w, frame_h, id) or false
     if hovered and g.mouse_left_clicked then
+        set_active_id(id, win, { x = x, y = y, w = slider_w, h = frame_h })
