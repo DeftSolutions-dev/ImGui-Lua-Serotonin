@@ -501,3 +501,4 @@ function DesirePro.text_centered(layer, cx, y, str, font_key, color, alpha)
 end
 
 function DesirePro.text_in(layer, x, box_top, box_h, str, font_key, color, alpha)
+    local fm = META.fonts[font_key]
