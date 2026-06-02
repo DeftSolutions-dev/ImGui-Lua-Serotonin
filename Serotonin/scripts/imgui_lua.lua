@@ -1822,3 +1822,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         if g.active_id == hue_id then
             if g.mouse_left_down then
                 s.h = clamp((g.mouse_y - hb_y) / hb_h, 0, 1)
+            else
