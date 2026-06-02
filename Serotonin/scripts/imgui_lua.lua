@@ -2725,3 +2725,4 @@ local function get_item_width(default_w)
         local w = _next_item_width; _next_item_width = nil; return w
     end
     local win = g.current_window
+    if win and win._item_width_stack and #win._item_width_stack > 0 then
