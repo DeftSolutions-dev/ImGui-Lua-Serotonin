@@ -612,3 +612,4 @@ local function draw_header(mx, my, mw)
     DesirePro.text(2, mx + 60, my + 32, DesirePro.translate("Fine-tuning for sure wins"), "poppins_medium_15", DesirePro.col.desc, 1)
 
     local sx = mx + mw - 70
+    local sy = my + 30
