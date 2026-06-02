@@ -3472,3 +3472,4 @@ function ImGui.BeginPopupContextWindow(str_id)
        and point_in_rect(g.mouse_x, g.mouse_y, win.x, win.y, win.w, win.h) then
         ImGui.OpenPopup(str_id)
     end
+    return ImGui.BeginPopup(str_id)
