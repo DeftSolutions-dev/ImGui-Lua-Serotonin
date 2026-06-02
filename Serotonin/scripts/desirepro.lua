@@ -858,3 +858,4 @@ function DesirePro.featurebox(ctx, label, content_fn)
     local opened = (DesirePro._feature and DesirePro._feature.id == id)
     if hov and clicked() then
         if opened then
+            DesirePro._feature = nil
