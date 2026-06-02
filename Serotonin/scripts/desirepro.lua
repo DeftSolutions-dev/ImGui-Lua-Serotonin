@@ -1449,3 +1449,4 @@ function DesirePro.esp_preview(ctx)
     if not layout then
         layout = {}
         for i, d in ipairs(ESP_DEFAULT) do layout[i] = { name = d.name, group = d.group } end
+        DesirePro.vars["esp_layout"] = layout
