@@ -433,3 +433,4 @@ function DesirePro.update_notifications()
     local d = delta_time()
     local y = 24
     for i = #DesirePro.notifs, 1, -1 do
+        local n = DesirePro.notifs[i]
