@@ -543,3 +543,4 @@ local function tab_label(tab)
 end
 
 local function draw_square_tab(i, tab, bx, by, bw, bh)
+    local st = tab_anim[i]
