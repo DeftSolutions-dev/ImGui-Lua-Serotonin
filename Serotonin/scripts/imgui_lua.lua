@@ -2879,3 +2879,4 @@ function ImGui.Hotkey(label, key)
     local hk_w = get_item_width(max(80, total_w - label_part))
     local x, y = win.cursor_x, win.cursor_y
     auto_wrap(hk_w + label_part)
+    x, y = win.cursor_x, win.cursor_y
