@@ -1533,3 +1533,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
             local denom = math.log(vmax / vmin)
             if abs(denom) > 1e-9 then
                 t = math.log(value / vmin) / denom
+            else
