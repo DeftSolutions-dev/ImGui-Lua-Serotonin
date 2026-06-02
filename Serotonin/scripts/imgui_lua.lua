@@ -4174,3 +4174,4 @@ function ImGui.LogTextBox(str_id, lines, w, h)
     ImGui.EndChild()
 end
 
+function ImGui.CheckboxFlags(label, flags_int, flag_bit)
