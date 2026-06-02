@@ -888,3 +888,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local step = is_int and 1 or ((vmax - vmin) / 100)
 
     local mx, my = mouse_pos()
+    local minus_hit = point_in_rect(mx, my, x, mid_y - btn / 2, btn, btn)
