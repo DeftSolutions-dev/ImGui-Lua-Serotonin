@@ -1837,3 +1837,4 @@ function DesirePro.menu()
                     local slots = { { 0, mx + mw / 2, my - band / 2 }, { 1, mx + mw / 2, my + mh + band / 2 },
                                     { 2, mx - side / 2, my + mh / 2 }, { 3, mx + mw + side / 2, my + mh / 2 } }
                     local best, bd = dock, 1e9
+                    for _, s in ipairs(slots) do
