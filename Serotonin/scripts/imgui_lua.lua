@@ -4698,3 +4698,4 @@ local function flush_layer(layer)
             if draw_it then
                 pcall(draw.Image, c.texid, c.x, c.y, c.w, c.h, col, a)
             end
+        end
