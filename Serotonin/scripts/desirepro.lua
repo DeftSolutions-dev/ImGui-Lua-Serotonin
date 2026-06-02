@@ -1810,3 +1810,4 @@ function DesirePro.menu()
         for i = 1, #DesirePro.tabs do
             draw_square_tab(i - 1, DesirePro.tabs[i], tbx + (i - 1) * (tab_w + gap), tby, tab_w, tbh)
         end
+    else
