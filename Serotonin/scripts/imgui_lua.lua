@@ -2873,3 +2873,4 @@ function ImGui.Hotkey(label, key)
     local th = Style.FontHeight
     local pad = Style.FramePadding
     local frame_h = th + pad.y * 2
+    local total_w = win._content_x1 - win.cursor_x
