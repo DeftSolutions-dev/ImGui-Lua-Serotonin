@@ -480,3 +480,4 @@ local function update_io()
     local function probe(name)
         local ok, v = pcall(keyboard.IsPressed, name); return ok and v
     end
+    local function probe_any(names)
