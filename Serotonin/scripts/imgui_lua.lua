@@ -3272,3 +3272,4 @@ function ImGui.EndTable()
                 dr_line(3, edge_x, t.y0, edge_x, t.cur_row_max_y,
                         StyleColor(Col.TableBorderLight), 1)
             end
+        end
