@@ -768,3 +768,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     if point_in_rect(mx, my, pill_l, pill_t, pw, ph) and clicked() then cs.on = not cs.on end
     cs.t = DesirePro.anim(cs.t, cs.on and 1 or 0, 12)
     cs.h = DesirePro.anim(cs.h, cs.on and body_h or 0, 12)
+    local total = CARD_HEADER + cs.h
