@@ -977,3 +977,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     end
 
     if not opts.no_resize and not win.collapsed then
+        local grip_size = 14
