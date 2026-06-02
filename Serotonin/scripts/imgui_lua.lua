@@ -926,3 +926,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         g.next_window_pos = nil
     end
     if g.next_window_size then
+        local h = g.next_window_size
