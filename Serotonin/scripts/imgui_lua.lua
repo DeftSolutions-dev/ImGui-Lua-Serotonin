@@ -4112,3 +4112,4 @@ function ImGui.DatePicker(label, y, m, d)
     for row = 0, 5 do
         for col = 0, 6 do
             if col > 0 then ImGui.SameLine(nil, 2) end
+            local cell_idx = row * 7 + col
