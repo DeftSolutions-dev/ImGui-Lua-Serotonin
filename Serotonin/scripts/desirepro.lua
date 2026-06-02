@@ -1395,3 +1395,4 @@ local function draw_popup()
         ImGui.AddRect(3, acx - 2, alpha_y - 1, 4, alpha_h + 2, ImGui.ColF(1, 1, 1, 1), 1, 1)
 
         local R, G, Bb = floor(full.r * 255 + 0.5), floor(full.g * 255 + 0.5), floor(full.b * 255 + 0.5)
+        DesirePro.text(3, sv_x, hex_y, string.format("#%02X%02X%02X", R, G, Bb), "poppins_medium_15", DesirePro.col.label_active, 1)
