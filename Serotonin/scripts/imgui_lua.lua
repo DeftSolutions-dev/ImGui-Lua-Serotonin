@@ -4055,3 +4055,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
         state.input = ""
     end
     return state
+end
