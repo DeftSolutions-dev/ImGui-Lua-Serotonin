@@ -48,3 +48,4 @@ local function clip_intersect(x, y, w, h, c)
 end
 
 local function clip_line_cs(x1, y1, x2, y2, c)
+    local cx1, cy1, cx2, cy2 = c.x, c.y, c.x + c.w, c.y + c.h
