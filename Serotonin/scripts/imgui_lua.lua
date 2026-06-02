@@ -1975,3 +1975,4 @@ function ImGui.BeginTabItem(label, p_open)
 
         local target = is_selected and 2 or (hovered and 1 or 0)
         local t = anim_step(win, id, target, 14)
+        local cA = StyleColor(Col.Tab)
