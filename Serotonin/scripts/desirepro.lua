@@ -1502,3 +1502,4 @@ function DesirePro.esp_preview(ctx)
         local lx = (it.align == "center") and (it.sx - w / 2)
                 or (it.align == "right") and (it.sx - w) or it.sx
         if lx < px + 2 then lx = px + 2 elseif lx + w > px + pw - 2 then lx = px + pw - 2 - w end
+        it._lx, it._w = lx, w
