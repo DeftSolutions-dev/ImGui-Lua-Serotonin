@@ -541,3 +541,4 @@ local function StyleColor(idx)
 end
 ImGui.GetStyleColor = StyleColor
 
+function ImGui.PushStyleColor(idx, col)
