@@ -2460,3 +2460,4 @@ function ImGui.BeginChild(str_id, w, h, border)
         cw             = cw,
         ch             = ch,
         cx             = cx,
+        cy             = cy,
