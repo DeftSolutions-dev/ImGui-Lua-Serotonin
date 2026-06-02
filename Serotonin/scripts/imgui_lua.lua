@@ -279,3 +279,4 @@ g = {
     active_id         = nil,
     active_id_window  = nil,
     active_id_rect    = nil,
+    active_id_was_just_activated = false,
