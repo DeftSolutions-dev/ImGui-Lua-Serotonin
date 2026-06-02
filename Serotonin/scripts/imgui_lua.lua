@@ -3430,3 +3430,4 @@ local function close_popup_window()
     g.popup_rect = { x = me.x, y = me.y, w = final_w, h = h_anim }
 
     if not me.opened_this_frame and g.mouse_left_clicked then
+        if not point_in_rect(g.mouse_x, g.mouse_y, me.x, me.y, final_w, final_h) then
