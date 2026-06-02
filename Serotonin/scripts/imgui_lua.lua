@@ -3542,3 +3542,4 @@ function ImGui.EndMenuBar()
             x = c.x, y = new_y, w = c.w, h = max(0, c.h - diff),
         }
     end
+
