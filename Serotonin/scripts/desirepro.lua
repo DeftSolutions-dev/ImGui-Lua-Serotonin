@@ -204,3 +204,4 @@ function DesirePro.shadow_circle(layer, cx, cy, r, color, alpha)
     local tex = load_tex(ROOT .. "/shadow/circle.png")
     if not tex then return end
     local s = r * 2.2
+    ImGui.AddImage(layer, cx - s, cy - s, s * 2, s * 2, tex,
