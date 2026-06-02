@@ -383,3 +383,4 @@ local function update_io()
     g.mouse_y = my
 
     local just_clicked = false
+    local ok_click, clicked = pcall(mouse.IsClicked, "left")
