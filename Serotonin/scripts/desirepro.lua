@@ -1354,3 +1354,4 @@ local function draw_popup()
             popup = nil
         end
 
+    elseif popup.kind == "color" then
