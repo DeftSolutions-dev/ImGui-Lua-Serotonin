@@ -2998,3 +2998,4 @@ function ImGui.PopStyleVar(n)
     n = n or 1
     for i = 1, n do
         local s = remove(_style_var_stack); if not s then break end
+        Style[s.name] = s.prev
