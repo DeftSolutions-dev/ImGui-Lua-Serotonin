@@ -423,3 +423,4 @@ local function update_io()
 
     if g.mouse_left_clicked and g.active_id and g.active_id_rect then
         local r = g.active_id_rect
+        if not point_in_rect(g.mouse_x, g.mouse_y, r.x, r.y, r.w, r.h) then
