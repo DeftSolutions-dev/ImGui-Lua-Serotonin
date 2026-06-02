@@ -1638,3 +1638,4 @@ function ImGui.Selectable(label, selected, w_override, h_override)
     local visible = ItemAdd(x, y, w, h)
     local pressed, hovered, held = ButtonBehavior(x, y, w, h, id)
     if visible then
+        local col
