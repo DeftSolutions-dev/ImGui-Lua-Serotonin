@@ -3994,3 +3994,4 @@ function ImGui.Bullet()
 end
 
 function ImGui.Spinner(label, radius, thickness, color)
+    radius    = radius or 8
