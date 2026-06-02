@@ -260,3 +260,4 @@ function DesirePro.preload(spec)
     end
 
     if load_tex(ROOT .. "/shadow/rect.png") then total = total + 1 end
+    if load_tex(ROOT .. "/shadow/circle.png") then total = total + 1 end
