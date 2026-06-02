@@ -263,3 +263,4 @@ function DesirePro.preload(spec)
     if load_tex(ROOT .. "/shadow/circle.png") then total = total + 1 end
     if load_tex(ROOT .. "/img/grad_pill.png") then total = total + 1 end
 
+    print("[desirepro] preloaded " .. total .. " textures")
