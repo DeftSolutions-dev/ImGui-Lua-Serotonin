@@ -1814,3 +1814,4 @@ function DesirePro.menu()
         local rowx, roww, ry = tx + 12, tw - 24, ty + 16
         for i = 1, #DesirePro.tabs do
             if i == 1 then DesirePro.text(2, tx + 14, ry, " Environment & Transport", "poppins_medium_15", DesirePro.col.desc, 1); ry = ry + 26 end
+            if i == 4 then ry = ry + 8; DesirePro.text(2, tx + 14, ry, " Players & Vision", "poppins_medium_15", DesirePro.col.desc, 1); ry = ry + 26 end
