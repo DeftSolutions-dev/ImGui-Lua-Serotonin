@@ -470,3 +470,4 @@ local function update_io()
     if ok_w and type(content) == "string" and #content > 0 then
         local delta = 0
         for line in content:gmatch("[^\r\n]+") do
+            local d2 = tonumber(line)
