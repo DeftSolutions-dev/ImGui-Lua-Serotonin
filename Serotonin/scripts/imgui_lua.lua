@@ -3577,3 +3577,4 @@ function ImGui.BeginMenu(label)
                 is_open = true
             end
         end
+        local col
