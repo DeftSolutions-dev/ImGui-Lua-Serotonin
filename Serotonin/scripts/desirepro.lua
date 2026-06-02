@@ -853,3 +853,4 @@ function DesirePro.featurebox(ctx, label, content_fn)
 
     local st = widget_state(id, { gh = 0 })
     local gx, gy = ctx.x1 - 11, row_y + 10
+    local mx, my = mouse_pos()
