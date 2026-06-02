@@ -1109,3 +1109,4 @@ function DesirePro.color(ctx, label)
     ImGui.AddCircleFilled(2, cx, cy, 9, DesirePro.col.elem, 24)
     ImGui.AddCircleFilled(2, cx, cy, 9, rgb, 24)
 
+    if open_color == id then
