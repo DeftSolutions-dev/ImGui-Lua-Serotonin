@@ -4452,3 +4452,4 @@ function ImGui.AcceptDragDropPayload(type_str)
     if not g.dragdrop_active or not g.dragdrop_payload then return nil end
     if g.dragdrop_payload.type ~= type_str then return nil end
 
+    local r = g.last_item_rect
