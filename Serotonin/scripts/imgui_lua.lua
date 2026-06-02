@@ -2547,3 +2547,4 @@ function ImGui.ImageButton(str_id, tex_id, w, h, tint, bg)
         dr_image(2, x + 2, y + 2, w, h, tex_id, tint or COL(1, 1, 1, 1), 1)
     end
     record_item(id, x, y, w + 4, h + 4, hovered, pressed, held)
+    ItemSize(w + 4, h + 4)
