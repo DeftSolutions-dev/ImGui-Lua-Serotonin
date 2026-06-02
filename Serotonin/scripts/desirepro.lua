@@ -1183,3 +1183,4 @@ function DesirePro.keybind(ctx, label)
         DesirePro.text(2, x1 - mw, py + ph + 1, mt, "poppins_medium_15", DesirePro.col.desc, 0.85)
     end
 
+    if st.waiting then
