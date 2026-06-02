@@ -83,6 +83,7 @@ cheat.Register("onPaint", ImGui._OnPaint)
 ```
 
 Press `F8` to toggle the window. Full API in [docs/imgui_lua.md](docs/imgui_lua.md).
+<img width="1825" height="1258" alt="image" src="https://github.com/user-attachments/assets/329f8e0e-ad5e-460a-817f-3c4036eeded5" />
 
 ## Credits
 
