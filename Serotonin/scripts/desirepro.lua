@@ -901,3 +901,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     if over and clicked() then active_drag = id end
     if active_drag == id then
         if mouse_down() then
+            local frac = (mx - tmin_x) / tw
