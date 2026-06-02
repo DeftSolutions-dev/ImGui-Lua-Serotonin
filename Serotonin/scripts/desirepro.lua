@@ -195,3 +195,4 @@ function DesirePro.image_info(name) return META.images[name] end
 function DesirePro.shadow_rect(layer, x, y, w, h, color, alpha, spread)
     local tex = load_tex(ROOT .. "/shadow/rect.png")
     if not tex then return end
+    local m = spread or 18
