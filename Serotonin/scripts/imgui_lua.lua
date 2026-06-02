@@ -1671,3 +1671,4 @@ function ImGui.Combo(label, current_idx, items, flags)
                 current_idx = i
                 ImGui.CloseCurrentPopup()
             end
+        end
