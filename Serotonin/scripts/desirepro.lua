@@ -1801,3 +1801,4 @@ function DesirePro.menu()
     end
     ImGui.AddLine(2, mx + 14, my + DesirePro.HEADER_H, mx + mw - 14, my + DesirePro.HEADER_H, DesirePro.col.separator, 1)
 
+    if horiz then
