@@ -696,3 +696,4 @@ local function ItemHoverable(x, y, w, h, id)
 
     if g.popup_active_prev and g.popup_rect_prev then
         local p = g.popup_rect_prev
+        local mouse_in_popup = (g.mouse_x >= p.x and g.mouse_x < p.x + p.w
