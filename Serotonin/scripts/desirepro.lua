@@ -1749,3 +1749,4 @@ function DesirePro.menu()
     local pmx, pmy = ImGui.GetMousePos()
     DesirePro._input_block = in_popup(pmx, pmy)
     DesirePro._modal = DesirePro.settings_open
+    popup = nil
