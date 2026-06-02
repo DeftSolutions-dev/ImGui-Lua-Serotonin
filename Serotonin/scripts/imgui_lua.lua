@@ -1469,3 +1469,4 @@ function ImGui.RadioButton(label, active)
         local cy = y + sz * 0.5
         local r = sz * 0.5 - 1
         dr_circle_filled(2, cx, cy, r, bg, 16)
+        if active then
