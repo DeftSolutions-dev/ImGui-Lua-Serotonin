@@ -1858,3 +1858,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
 end
 
 function ImGui.ColorEdit4(label, r, g_, b, a, flags)
+    flags = flags or {}
