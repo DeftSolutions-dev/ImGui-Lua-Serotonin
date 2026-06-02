@@ -2701,3 +2701,4 @@ function ImGui.GetTextLineHeightWithSpacing()return Style.FontHeight + Style.Ite
 function ImGui.GetFrameHeightWithSpacing()   return Style.FontHeight + Style.FramePadding.y * 2 + Style.ItemSpacing.y end
 function ImGui.CalcItemWidth()
     local win = g.current_window
+    if win and win._item_width_stack and #win._item_width_stack > 0 then
