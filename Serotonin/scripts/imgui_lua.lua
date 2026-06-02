@@ -1448,3 +1448,4 @@ function ImGui.Checkbox(label, value)
     end
     record_item(id, x, y, total_w, box_sz, hovered, pressed, held)
     ItemSize(total_w, box_sz)
+    return value, pressed
