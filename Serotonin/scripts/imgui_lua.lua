@@ -2215,3 +2215,4 @@ local function poll_typed_chars()
     if g.mouse_left_clicked then
         for _, k in ipairs(INPUT_KEYS) do g.key_states_prev[k.key] = g.key_states[k.key] end
         return {}, false, false
+    end
