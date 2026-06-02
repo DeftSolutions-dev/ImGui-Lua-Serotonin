@@ -2170,3 +2170,4 @@ function ImGui.CollapsingHeader(label)
         open = not open
         store_set(win, key, open)
         g._toggled_id = id
+    end
