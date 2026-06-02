@@ -4318,3 +4318,4 @@ function ImGui.StyleColorsLight()
     local t = {}
     t[Col.Text]                  = COL(0.00, 0.00, 0.00, 1.00)
     t[Col.TextDisabled]          = COL(0.60, 0.60, 0.60, 1.00)
+    t[Col.WindowBg]              = COL(0.94, 0.94, 0.94, 1.00)
