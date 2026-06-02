@@ -4261,3 +4261,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
             if paste then
                 local ok, cb = pcall(utility.GetClipboard)
                 if ok and type(cb) == "string" then text = text .. cb end
+            end
