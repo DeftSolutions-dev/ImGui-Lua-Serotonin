@@ -1592,3 +1592,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.combo(c, "Radar Mode", { "Off", "Minimal", "Full" })
             DesirePro.checkbox(c, "Footprints")
             DesirePro.color(c, "Tracer Color")
+        end
