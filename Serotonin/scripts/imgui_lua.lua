@@ -570,3 +570,4 @@ local function push_cmd(layer, cmd)
         layer = g.draw_layer_stack[#g.draw_layer_stack]
     end
     if original_layer == 2 then
+        cmd.clip = g.clip_stack[#g.clip_stack]
