@@ -1154,3 +1154,4 @@ local function ItemSize(w, h)
 end
 ImGui._ItemSize = ItemSize
 
+local function ItemAdd(x, y, w, h)
