@@ -616,3 +616,4 @@ local function draw_header(mx, my, mw)
     local msx, msy = ImGui.GetMousePos()
     DesirePro._gear_rect = { x = sx - 17, y = sy - 17, w = 34, h = 34 }
     local tx = sx - 40
+    local h0 = point_in_rect(msx, msy, tx - 17, sy - 17, 34, 34)
