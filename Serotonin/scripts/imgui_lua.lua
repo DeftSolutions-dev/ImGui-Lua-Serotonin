@@ -2417,3 +2417,4 @@ render_scrollbar = function(win)
         else
             clear_active_id()
         end
+    end
