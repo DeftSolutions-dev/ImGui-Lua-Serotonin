@@ -25,3 +25,4 @@ do
         local chunk = loadstring(src, "desirepro_metrics")
         if chunk then
             local ok2, tbl = pcall(chunk)
+            if ok2 and type(tbl) == "table" then META = tbl end
