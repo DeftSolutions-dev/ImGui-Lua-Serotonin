@@ -84,3 +84,4 @@ local function load_tex(rel)
         return nil
     end
     tex_cache[rel] = id
+    return id
