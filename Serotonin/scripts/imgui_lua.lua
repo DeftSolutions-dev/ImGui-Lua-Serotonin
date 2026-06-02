@@ -1529,3 +1529,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
         dr_rect_filled(2, x, y, slider_w, frame_h, bg, Style.FrameRounding)
 
         local t
+        if logarithmic and vmin > 0 and value > 0 and vmax > vmin then
