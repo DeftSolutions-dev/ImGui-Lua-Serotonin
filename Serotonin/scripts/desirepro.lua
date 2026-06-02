@@ -1515,3 +1515,4 @@ function DesirePro.esp_preview(ctx)
         end
     end
 
+    if drag then
