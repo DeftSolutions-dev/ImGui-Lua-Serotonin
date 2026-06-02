@@ -2713,3 +2713,4 @@ function ImGui.PushItemWidth(w)
     win._item_width_stack = win._item_width_stack or {}
     insert(win._item_width_stack, w)
 end
+function ImGui.PopItemWidth()
