@@ -830,3 +830,4 @@ local function focus_window(win)
     insert(g.windows_z_order, win.id)
 end
 
+local function get_or_create_window(id, title)
