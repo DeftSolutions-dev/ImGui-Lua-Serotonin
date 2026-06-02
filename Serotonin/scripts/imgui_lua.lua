@@ -3793,3 +3793,4 @@ function ImGui.LoadIniSettings(path)
     g._pending_window_settings = g._pending_window_settings or {}
     local current_title
     for line in content:gmatch("[^\r\n]+") do
+        if line:sub(1, 1) ~= ";" then
