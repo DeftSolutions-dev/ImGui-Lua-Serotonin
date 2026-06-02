@@ -753,3 +753,4 @@ end
 
 local CARD_HEADER = floor(55 * DesirePro.US)
 function DesirePro.begin_card(name, x, y, w, body_h, icon)
+    body_h = floor(body_h * DesirePro.US)
