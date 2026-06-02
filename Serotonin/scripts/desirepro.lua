@@ -1426,3 +1426,4 @@ local function draw_popup()
             and not point_in_rect(mx, my, sw.x, sw.y, sw.w, sw.h) then
             open_color = nil
             popup = nil
+        end
