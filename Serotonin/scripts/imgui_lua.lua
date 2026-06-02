@@ -820,3 +820,4 @@ function ImGui.GetItemRectMax()
 end
 function ImGui.GetItemRectSize()
     local r = g.last_item_rect; return r.w, r.h
+end
