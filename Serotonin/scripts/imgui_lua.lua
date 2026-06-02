@@ -1406,3 +1406,4 @@ function ImGui.InvisibleButton(label, w, h)
 end
 
 function ImGui.Checkbox(label, value)
+    local win = g.current_window; if not win then return value end
