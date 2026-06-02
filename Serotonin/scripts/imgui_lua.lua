@@ -3553,3 +3553,4 @@ function ImGui.BeginMenu(label)
     local mb = win._menubar
 
     if mb then
+        local id = GetID("menu:" .. label)
