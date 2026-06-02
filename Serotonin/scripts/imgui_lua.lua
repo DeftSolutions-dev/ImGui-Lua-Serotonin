@@ -989,3 +989,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         end
 
         local bid = fnv1a("resize_b", id)
+        local _, _, held_b = ButtonBehavior(
