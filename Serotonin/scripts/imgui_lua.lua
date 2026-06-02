@@ -4505,3 +4505,4 @@ function ImGui.ShowStyleEditor()
                     local c = Style.Colors[i]
                     local r, g_, b, a = c.r, c.g, c.b, c.a
                     r, g_, b, a = ImGui.ColorEdit4(name, r, g_, b, a)
+                    c.r, c.g, c.b, c.a = r, g_, b, a
