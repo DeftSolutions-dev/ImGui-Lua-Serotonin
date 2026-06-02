@@ -1663,3 +1663,4 @@ function ImGui.Combo(label, current_idx, items, flags)
         else visible_rows = 8 end
         local row_h = ImGui.GetFrameHeight() + 1
         local need_scroll = #items > visible_rows
+        if need_scroll then
