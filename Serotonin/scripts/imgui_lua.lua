@@ -538,3 +538,4 @@ local function StyleColor(idx)
         if s.idx == idx then return s.col end
     end
     return Style.Colors[idx]
+end
