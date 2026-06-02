@@ -1036,3 +1036,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         dr_rect_filled(1, win.x, win.y + title_h, win.w, body_anim_h, bg_col, Style.WindowRounding)
     end
     if not opts.no_title then
+        local title_col = (win == g.window_stack[#g.window_stack]) and StyleColor(Col.TitleBgActive) or StyleColor(Col.TitleBg)
