@@ -3316,3 +3316,4 @@ function ImGui.IsAnyPopupOpen() return #g.popup_stack > 0 end
 
 function ImGui.OpenPopupContextItem(str_id, button)
     return ImGui.OpenPopupOnItemClick(str_id, button)
+end
