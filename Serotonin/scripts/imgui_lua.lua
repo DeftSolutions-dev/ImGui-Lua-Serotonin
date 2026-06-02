@@ -2341,3 +2341,4 @@ function ImGui.SetTooltip(text)
 end
 
 local function text_clip(s, max_w, font)
+    if max_w <= 0 then return "" end
