@@ -4054,3 +4054,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
         if #state.history > 32 then remove(state.history) end
         state.input = ""
     end
+    return state
