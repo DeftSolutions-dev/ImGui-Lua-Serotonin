@@ -360,3 +360,4 @@ local function check_rmouse_down_now()
         local ok, v = pcall(keyboard.IsPressed, cand)
         if ok and v == true then
             _working_rmouse_probe = cand
+            print("[imgui_lua] rmouse-down probe locked: " .. tostring(cand))
