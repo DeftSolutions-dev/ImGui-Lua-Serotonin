@@ -1430,3 +1430,4 @@ local function draw_popup()
     end
 end
 
+local ESP_DEFAULT = {
