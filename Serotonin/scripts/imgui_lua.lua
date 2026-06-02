@@ -160,3 +160,4 @@ local C_NAMES = {
     "PlotHistogramHovered","TableHeaderBg","TableBorderStrong","TableBorderLight",
     "TableRowBg","TableRowBgAlt","TextSelectedBg","DragDropTarget","NavHighlight",
     "ModalWindowDimBg",
+}
