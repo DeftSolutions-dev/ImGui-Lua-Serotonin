@@ -945,3 +945,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     local title_h = (opts.no_title and 0) or Style.WindowTitleHeight
 
     if not opts.no_title then
+        local tx, ty, tw, th = win.x, win.y, win.w, title_h
