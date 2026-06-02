@@ -1803,3 +1803,4 @@ function DesirePro.menu()
 
     if horiz then
         local gap = floor(8 * DesirePro.US)
+        local tbh = band - floor(18 * DesirePro.US)
