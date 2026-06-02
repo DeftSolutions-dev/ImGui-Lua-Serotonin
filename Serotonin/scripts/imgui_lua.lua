@@ -2858,3 +2858,4 @@ do
 
     for i = 1, 12 do insert(HOTKEY_PROBE_NAMES, "F" .. i) end
 
+    local extras = {
