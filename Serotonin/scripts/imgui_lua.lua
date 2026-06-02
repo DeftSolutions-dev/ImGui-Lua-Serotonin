@@ -4059,3 +4059,4 @@ end
 
 local DOW_NAMES = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" }
 local MON_NAMES = { "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
