@@ -4476,3 +4476,4 @@ function ImGui.ShowStyleEditor()
                 s.x, s.y = pair[1], pair[2]
             end
             f("Alpha",            0,  1, "%.2f")
+            v("WindowPadding",    0, 20)
