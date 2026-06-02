@@ -2405,3 +2405,4 @@ render_scrollbar = function(win)
     end
 
     local sid = fnv1a("scroll", win.id)
+    local hov = ItemHoverable(sb_x, grab_y, sb_w, grab_h, sid)
