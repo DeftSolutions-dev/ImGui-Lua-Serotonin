@@ -1938,3 +1938,4 @@ function ImGui.BeginTabItem(label, p_open)
 
     local hovered = on_screen and ItemHoverable(x, y, tab_w - close_w, tab_h, id) or false
     if hovered and g.mouse_left_clicked then
+        if tb.selected ~= label then
