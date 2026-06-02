@@ -386,3 +386,4 @@ local function update_io()
     local ok_click, clicked = pcall(mouse.IsClicked, "left")
     if ok_click and clicked then just_clicked = true end
 
+    local r_now = check_rmouse_down_now()
