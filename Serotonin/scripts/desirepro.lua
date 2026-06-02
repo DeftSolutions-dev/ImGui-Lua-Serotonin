@@ -325,3 +325,4 @@ function DesirePro.accent_at(y)
     return { r = a.r + (d.r - a.r) * t, g = a.g + (d.g - a.g) * t, b = a.b + (d.b - a.b) * t, a = 1 }
 end
 
+local function delta_time() return ImGui.GetDeltaTime() or 0.016 end
