@@ -4742,3 +4742,4 @@ function ImGui.Setup(user_fn)
     print("[imgui_lua] Setup() user_fn stored")
 end
 
+local _frame_ctr = 0
