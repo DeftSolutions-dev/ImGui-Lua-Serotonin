@@ -1514,3 +1514,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
             if is_int then newv = floor(newv + 0.5) end
             value = newv
         else
+            clear_active_id()
