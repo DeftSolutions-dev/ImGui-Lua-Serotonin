@@ -1860,3 +1860,4 @@ function DesirePro.menu()
     do
         local mxp, myp = ImGui.GetMousePos()
         DesirePro.hdrag = DesirePro.hdrag or false
+        if ImGui.IsMouseClicked() and point_in_rect(mxp, myp, mx, my, mw - 150, DesirePro.HEADER_H)
