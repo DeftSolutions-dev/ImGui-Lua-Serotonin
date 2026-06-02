@@ -4201,3 +4201,4 @@ function ImGui.DragFloatRange2(label, vmin_cur, vmax_cur, speed, lo, hi, fmt)
 end
 
 function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
+    local win = g.current_window; if not win then return value end
