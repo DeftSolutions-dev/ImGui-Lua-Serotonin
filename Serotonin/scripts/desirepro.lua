@@ -1435,3 +1435,4 @@ local ESP_DEFAULT = {
     { name = "Distance", group = "left" }, { name = "Flashed", group = "left" },
     { name = "Scoped", group = "left" },
     { name = "Money", group = "right" }, { name = "Zoom", group = "right" },
+    { name = "Hit", group = "right" },
