@@ -2034,3 +2034,4 @@ function ImGui.EndTabBar()
 
             local lid = fnv1a("tab_left", tb.id)
             local lp, lh = ButtonBehavior(pair_x, tb.y, btn_w, tb.tab_h, lid)
+            local lc = lh and StyleColor(Col.ButtonHovered) or StyleColor(Col.Tab)
