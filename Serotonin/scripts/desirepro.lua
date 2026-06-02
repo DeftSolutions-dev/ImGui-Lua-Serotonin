@@ -1541,3 +1541,4 @@ function DesirePro.esp_preview(ctx)
 
     if drag and DesirePro._esp_target then
         local tg = DesirePro._esp_target
+        local hx, hy, hw2, hh2
