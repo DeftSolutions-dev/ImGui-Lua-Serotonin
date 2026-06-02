@@ -3995,3 +3995,4 @@ end
 
 function ImGui.Spinner(label, radius, thickness, color)
     radius    = radius or 8
+    thickness = thickness or 2
