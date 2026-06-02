@@ -2885,3 +2885,4 @@ function ImGui.Hotkey(label, key)
     if hovered and g.mouse_left_clicked then
         set_active_id(id, win, { x = x, y = y, w = hk_w, h = frame_h })
     end
+    local active = (g.active_id == id)
