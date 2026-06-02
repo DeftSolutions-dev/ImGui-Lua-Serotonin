@@ -1160,3 +1160,4 @@ function DesirePro.keybind(ctx, label)
     DesirePro.text_in(2, x0, y, h, DesirePro.translate(label), "poppins_medium_16", DesirePro.col.label, 1)
 
     local name = st.waiting and "..." or st.key
+    local kw = DesirePro.text_size(name, "poppins_medium_15")
