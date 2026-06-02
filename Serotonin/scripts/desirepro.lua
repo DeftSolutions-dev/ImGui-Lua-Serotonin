@@ -932,3 +932,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     end
 
     local grow = s.grab * 3
+    local gw = floor(18 * US + grow)
