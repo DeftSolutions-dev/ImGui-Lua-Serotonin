@@ -1282,3 +1282,4 @@ local function draw_popup()
         local can_click = t > 0.85
         for i = 1, n do
             local iy = py + 6 + (i - 1) * ih
+            local ih_hover = point_in_rect(mx, my, px, iy, pw, ih)
