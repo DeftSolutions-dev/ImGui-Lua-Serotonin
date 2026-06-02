@@ -3759,3 +3759,4 @@ function ImGui.InputFloatStep(label, value, step, fmt)
     if ImGui.SmallButton("+") then value = value + step end
     ImGui.SameLine()
     ImGui.Text(label)
+    ImGui.PopID()
