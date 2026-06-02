@@ -240,3 +240,4 @@ local Style = {
     TabRounding         = 4,
     PopupRounding       = 0,
     PopupBorderSize     = 1,
+    CellPadding         = { x = 4, y = 2 },
