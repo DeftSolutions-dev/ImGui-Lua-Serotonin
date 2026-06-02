@@ -685,3 +685,4 @@ local popup_rect = nil
 DesirePro._input_block = false
 
 local function mouse_pos() return ImGui.GetMousePos() end
+local function raw_clicked() return ImGui.IsMouseClicked() end
