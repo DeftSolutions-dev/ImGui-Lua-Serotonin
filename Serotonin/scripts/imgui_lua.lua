@@ -4569,3 +4569,4 @@ local function clip_text_chars(s, max_w, font)
     end
     return sub(s, 1, lo)
 end
+
