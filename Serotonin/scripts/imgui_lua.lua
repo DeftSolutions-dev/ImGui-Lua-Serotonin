@@ -67,3 +67,4 @@ local function clip_line_cs(x1, y1, x2, y2, c)
             nx = x1 + (x2 - x1) * (cy2 - y1) / (y2 - y1); ny = cy2
         elseif bit.band(out, 4) ~= 0 then
             nx = x1 + (x2 - x1) * (cy1 - y1) / (y2 - y1); ny = cy1
+        elseif bit.band(out, 2) ~= 0 then
