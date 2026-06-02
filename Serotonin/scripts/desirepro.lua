@@ -139,3 +139,4 @@ function DesirePro.text_size(str, font_key)
         if g then w = w + (g.adv or 0) end
     end
     return w, fm.line_height
+end
