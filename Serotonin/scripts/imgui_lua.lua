@@ -166,3 +166,4 @@ ImGui.Col = Col
 
 local function default_dark_theme()
     local t = {}
+    t[Col.Text]                  = COL(1.00, 1.00, 1.00, 1.00)
