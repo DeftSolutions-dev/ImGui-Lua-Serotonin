@@ -4743,3 +4743,4 @@ function ImGui.Setup(user_fn)
 end
 
 local _frame_ctr = 0
+local _last_err  = nil
