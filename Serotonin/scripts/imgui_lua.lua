@@ -741,3 +741,4 @@ local function anim_get(win, id)
     return s["anim_" .. tostring(id)] or 0
 end
 local function anim_set(win, id, v)
+    if not win then return end
