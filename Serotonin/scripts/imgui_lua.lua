@@ -471,3 +471,4 @@ local function update_io()
         local delta = 0
         for line in content:gmatch("[^\r\n]+") do
             local d2 = tonumber(line)
+            if d2 then delta = delta + d2 end
