@@ -3171,3 +3171,4 @@ function ImGui.TableHeadersRow()
     dr_rect_filled(2, t.x0, r0_y, table_total_w(t), Style.FontHeight + Style.FramePadding.y * 2,
                    StyleColor(Col.TableHeaderBg), 0)
 end
+
