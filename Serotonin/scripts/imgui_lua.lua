@@ -1239,3 +1239,4 @@ function ImGui.SeparatorText(text)
 end
 
 function ImGui.BeginGroup()
+    local win = g.current_window; if not win then return end
