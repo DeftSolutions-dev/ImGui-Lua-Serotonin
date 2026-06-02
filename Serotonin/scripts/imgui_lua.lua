@@ -496,3 +496,4 @@ local function update_io()
         local idx = 0
         for i, id in ipairs(g.focus_list_prev) do
             if id == g.nav_id then idx = i; break end
+        end
