@@ -3466,3 +3466,4 @@ function ImGui.BeginPopupContextItem(str_id)
 end
 
 function ImGui.BeginPopupContextWindow(str_id)
+    str_id = str_id or "##wincontext"
