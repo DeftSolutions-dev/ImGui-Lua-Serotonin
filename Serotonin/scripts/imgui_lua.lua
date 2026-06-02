@@ -4207,3 +4207,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
     local x, y = win.cursor_x, win.cursor_y
     local visible = ItemAdd(x, y, w, h)
     local hovered = ItemHoverable(x, y, w, h, id)
+    if hovered and g.mouse_left_clicked then
