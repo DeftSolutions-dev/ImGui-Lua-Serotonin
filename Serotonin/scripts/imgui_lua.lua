@@ -4012,3 +4012,4 @@ function ImGui.Spinner(label, radius, thickness, color)
             local a1 = phase + t1 * arc
             local a2 = phase + t2 * arc
             local x1 = cx + cos(a1) * radius
+            local y1 = cy + sin(a1) * radius
