@@ -2027,3 +2027,4 @@ function ImGui.EndTabBar()
 
         if tb.items_w > tb.w then
             local btn_w   = 24
+            local pair_x  = tb.x + tb.w - btn_w * 2 - 4
