@@ -2540,3 +2540,4 @@ function ImGui.ImageButton(str_id, tex_id, w, h, tint, bg)
     local visible = ItemAdd(x, y, w + 4, h + 4)
     local pressed, hovered, held = ButtonBehavior(x, y, w + 4, h + 4, id)
     if visible then
+        local frame = bg or StyleColor(Col.Button)
