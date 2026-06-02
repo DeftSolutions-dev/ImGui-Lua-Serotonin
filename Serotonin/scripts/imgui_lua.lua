@@ -3523,3 +3523,4 @@ function ImGui.BeginMenuBar()
         g.clip_stack[#g.clip_stack] = { x = win.x, y = mb.y, w = win.w, h = th }
     end
 
+    mb._save_cursor_y = win.cursor_y
