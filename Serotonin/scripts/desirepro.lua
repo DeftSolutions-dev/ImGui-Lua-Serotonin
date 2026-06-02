@@ -101,3 +101,4 @@ local function utf8_iter(s)
         for k = 1, size - 1 do
             local cc = byte(s, i + k) or 0
             cp = cp * 0x40 + (cc % 0x40)
+        end
