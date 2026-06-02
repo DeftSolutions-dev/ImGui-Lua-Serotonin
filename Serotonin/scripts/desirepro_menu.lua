@@ -30,3 +30,4 @@ ImGui.Setup(function()
     DesirePro.menu()
 end)
 
+cheat.Register("onPaint", ImGui._OnPaint)
