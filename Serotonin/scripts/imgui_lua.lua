@@ -233,3 +233,4 @@ local Style = {
     ItemSpacing         = { x = 8,  y = 4  },
     ItemInnerSpacing    = { x = 4,  y = 4  },
     IndentSpacing       = 21,
+    ScrollbarSize       = 16,
