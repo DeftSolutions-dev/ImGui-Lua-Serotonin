@@ -3826,3 +3826,4 @@ function ImGui.LoadIniSettings(path)
             if p.x then win.x = p.x end
             if p.y then win.y = p.y end
             if p.w then win.w = p.w end
+            if p.h then win.h = p.h end
