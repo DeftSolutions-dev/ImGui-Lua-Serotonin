@@ -4738,3 +4738,4 @@ function ImGui.Render()
 end
 
 function ImGui.Setup(user_fn)
+    g.user_setup_fn = user_fn
