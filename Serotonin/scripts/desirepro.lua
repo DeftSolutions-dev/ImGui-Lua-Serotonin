@@ -453,3 +453,4 @@ function DesirePro.update_notifications()
     end
 end
 
+DesirePro.ICON_SIZES = { 16, 18, 23, 27, 35 }
