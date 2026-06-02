@@ -1750,3 +1750,4 @@ function DesirePro.menu()
     DesirePro._input_block = in_popup(pmx, pmy)
     DesirePro._modal = DesirePro.settings_open
     popup = nil
+    DesirePro.update_theme()
