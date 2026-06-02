@@ -4272,3 +4272,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
             end
 
             local ok_e, e = pcall(keyboard.IsPressed, "Enter")
+            if ok_e and e and not g._mtxt_enter_prev then text = text .. "\n" end
