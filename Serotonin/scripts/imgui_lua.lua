@@ -1460,3 +1460,4 @@ function ImGui.RadioButton(label, active)
     local x, y = win.cursor_x, win.cursor_y
     local total_w = sz + Style.ItemInnerSpacing.x + tw
     local visible = ItemAdd(x, y, total_w, sz)
+    local pressed, hovered, held = ButtonBehavior(x, y, total_w, sz, id)
