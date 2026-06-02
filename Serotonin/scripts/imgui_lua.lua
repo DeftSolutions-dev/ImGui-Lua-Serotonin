@@ -469,3 +469,4 @@ local function update_io()
     local ok_w, content = pcall(file.read, "wheel.txt")
     if ok_w and type(content) == "string" and #content > 0 then
         local delta = 0
+        for line in content:gmatch("[^\r\n]+") do
