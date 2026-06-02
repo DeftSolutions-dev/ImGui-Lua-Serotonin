@@ -2969,3 +2969,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     insert(g.draw_layers[4], { kind = "line", x1 = cx - 4, y1 = cy - 4, x2 = cx + 4, y2 = cy + 4,
                                col = lc, thick = 2 })
     insert(g.draw_layers[4], { kind = "line", x1 = cx + 4, y1 = cy - 4, x2 = cx - 4, y2 = cy + 4,
+                               col = lc, thick = 2 })
