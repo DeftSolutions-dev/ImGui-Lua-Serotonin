@@ -2975,3 +2975,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
         return false
     end
 
+    local win = g.current_window
