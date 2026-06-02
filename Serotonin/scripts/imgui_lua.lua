@@ -4062,3 +4062,4 @@ local MON_NAMES = { "Jan", "Feb", "Mar", "Apr", "May", "Jun",
                     "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
 local function days_in_month(y, m)
     local d = ({ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 })[m]
+    if m == 2 and ((y % 4 == 0 and y % 100 ~= 0) or y % 400 == 0) then d = 29 end
