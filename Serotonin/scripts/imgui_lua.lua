@@ -529,3 +529,4 @@ end
 
 function ImGui.PopID()
     remove(g.id_stack)
+end
