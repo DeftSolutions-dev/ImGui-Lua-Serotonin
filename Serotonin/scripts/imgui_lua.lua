@@ -2729,3 +2729,4 @@ local function get_item_width(default_w)
         return win._item_width_stack[#win._item_width_stack]
     end
     return default_w
+end
