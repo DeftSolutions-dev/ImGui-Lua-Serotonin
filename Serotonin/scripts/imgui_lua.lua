@@ -1990,3 +1990,4 @@ function ImGui.BeginTabItem(label, p_open)
             local lc = cb_hov and StyleColor(Col.ButtonHovered) or StyleColor(Col.Text)
             dr_line(2, cx - 4, cy - 4, cx + 4, cy + 4, lc, 1)
             dr_line(2, cx + 4, cy - 4, cx - 4, cy + 4, lc, 1)
+            if cb_pressed then closed_now = true end
