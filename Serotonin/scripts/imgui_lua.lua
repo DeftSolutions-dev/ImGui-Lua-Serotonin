@@ -1067,3 +1067,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win.line_h         = Style.FontHeight
     win.prev_line_h    = Style.FontHeight
     win.indent_x       = 0
+    win._title_h       = title_h
