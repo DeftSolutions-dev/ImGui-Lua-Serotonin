@@ -4625,3 +4625,4 @@ local function flush_layer(layer)
                 draw.Line(c.x1, c.y1, c.x2, c.y2, col, c.thick, a)
             end
 
+        elseif k == "text" or k == "text_clip" then
