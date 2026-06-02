@@ -1223,3 +1223,4 @@ function ImGui.Separator()
     ItemSize(w, 4)
 end
 
+function ImGui.SeparatorText(text)
