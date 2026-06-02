@@ -255,3 +255,4 @@ g = {
 
     mouse_x           = 0,
     mouse_y           = 0,
+    mouse_dx          = 0,
