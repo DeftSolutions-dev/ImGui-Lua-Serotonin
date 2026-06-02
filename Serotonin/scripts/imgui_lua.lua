@@ -4037,3 +4037,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
         for _, line in ipairs(state.lines) do
             if type(line) == "table" then
                 ImGui.TextColored(line.color or StyleColor(Col.Text), line.text or "")
+            else
