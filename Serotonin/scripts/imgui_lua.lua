@@ -1452,3 +1452,4 @@ function ImGui.Checkbox(label, value)
 end
 
 function ImGui.RadioButton(label, active)
+    local win = g.current_window; if not win then return false end
