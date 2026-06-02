@@ -3233,3 +3233,4 @@ function ImGui.TableGetSortSpec()
     return t.sort_col, t.sort_dir
 end
 
+function ImGui.TableGetSortSpecs()
