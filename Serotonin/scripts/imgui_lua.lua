@@ -3714,3 +3714,4 @@ function ImGui.EndTooltip()
     local pad = Style.WindowPadding
     local fw = (win.cursor_max_x - me.x) + pad.x
     local fh = (win.cursor_max_y - me.y) + pad.y
+    me._bg_cmd.w = fw; me._bg_cmd.h = fh
