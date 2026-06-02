@@ -3050,3 +3050,4 @@ function ImGui.BeginTable(str_id, columns, flags)
         for i = 1, columns do widths[i] = widths[i] * k end
     end
 
+    local saved_specs = store_get(win, "tbl_specs_" .. tostring(id), nil)
