@@ -3728,3 +3728,4 @@ function ImGui.MenuSeparator()
     local x = win.cursor_x
     local y = win.cursor_y + 2
     local w = win._content_x1 - x
+    dr_line(2, x, y, x + w, y, StyleColor(Col.Separator), 1)
