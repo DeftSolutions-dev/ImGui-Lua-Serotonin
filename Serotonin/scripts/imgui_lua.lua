@@ -1159,3 +1159,4 @@ local function ItemAdd(x, y, w, h)
     if not win then return false end
     if y + h < win._inner_y0 then return false end
     if y > win._inner_y1 then return false end
+    return true
