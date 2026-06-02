@@ -1329,3 +1329,4 @@ end
 
 function ImGui.HelpMarker(text)
     ImGui.TextDisabled("(?)")
+    if ImGui.IsItemHovered() then
