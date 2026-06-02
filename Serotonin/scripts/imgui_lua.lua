@@ -1940,3 +1940,4 @@ function ImGui.BeginTabItem(label, p_open)
     if hovered and g.mouse_left_clicked then
         if tb.selected ~= label then
             tb.selected = label
+            store_set(win, "tabbar_" .. tostring(tb.id), label)
