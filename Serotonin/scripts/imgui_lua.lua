@@ -9,3 +9,4 @@ local floor, ceil, abs, min, max, sqrt = math.floor, math.ceil, math.abs, math.m
 local sin, cos, pi, huge = math.sin, math.cos, math.pi, math.huge
 local format, sub, len, byte, char = string.format, string.sub, string.len, string.byte, string.char
 local insert, remove, concat = table.insert, table.remove, table.concat
+local Color3_fromRGB = Color3.fromRGB
