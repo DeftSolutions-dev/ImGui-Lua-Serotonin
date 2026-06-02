@@ -524,3 +524,4 @@ end
 ImGui.GetID = GetID
 
 function ImGui.PushID(v)
+    insert(g.id_stack, v)
