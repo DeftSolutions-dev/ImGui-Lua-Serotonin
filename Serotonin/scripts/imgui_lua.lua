@@ -3962,3 +3962,4 @@ function ImGui.SelectableEx(label, selected, flags, w_override, h_override)
         local last = g._sel_dbl_t or -1e9
         g._sel_dbl_t = now
         if (now - last) < 0.35 then return pressed, true end
+        return pressed, false
