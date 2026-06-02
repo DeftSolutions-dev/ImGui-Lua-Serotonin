@@ -887,3 +887,4 @@ local function store_set(win, key, value)
     g.storage[win.id][key] = value
 end
 ImGui._store_get = store_get
+ImGui._store_set = store_set
