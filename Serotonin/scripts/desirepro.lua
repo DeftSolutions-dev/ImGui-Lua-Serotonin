@@ -1863,3 +1863,4 @@ function DesirePro.menu()
         if ImGui.IsMouseClicked() and point_in_rect(mxp, myp, mx, my, mw - 150, DesirePro.HEADER_H)
             and not DesirePro._modal and not DesirePro._input_block then
             DesirePro.hdrag = true
+        end
