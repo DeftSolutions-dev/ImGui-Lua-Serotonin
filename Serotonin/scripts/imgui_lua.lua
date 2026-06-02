@@ -3271,3 +3271,4 @@ function ImGui.EndTable()
             elseif t.borders then
                 dr_line(3, edge_x, t.y0, edge_x, t.cur_row_max_y,
                         StyleColor(Col.TableBorderLight), 1)
+            end
