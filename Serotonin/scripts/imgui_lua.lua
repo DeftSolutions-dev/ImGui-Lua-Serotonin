@@ -881,3 +881,4 @@ local function store_get(win, key, default_v)
     local v = s[key]
     if v == nil then return default_v end
     return v
+end
