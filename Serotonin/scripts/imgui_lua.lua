@@ -3625,3 +3625,4 @@ function ImGui.MenuItem(label, shortcut, selected)
                         and (not mods.alt   or ImGui.IsKeyDown("Alt"))
             if mods_ok then pressed = true end
         end
+    end
