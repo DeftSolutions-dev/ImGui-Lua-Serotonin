@@ -77,3 +77,4 @@ local function clip_line_cs(x1, y1, x2, y2, c)
     end
     return nil
 end
+
