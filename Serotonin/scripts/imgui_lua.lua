@@ -3561,3 +3561,4 @@ function ImGui.BeginMenu(label)
         local x = mb.next_x
         local y = mb.y
         mb.next_x = mb.next_x + w
+        local hovered = ItemHoverable(x, y, w, h, id)
