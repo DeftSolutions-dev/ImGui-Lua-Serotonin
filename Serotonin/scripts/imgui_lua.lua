@@ -3484,3 +3484,4 @@ function ImGui.BeginPopup(str_id, flags)
             str_id            = str_id,
             x                 = g.popup_pending_open.x,
             y                 = g.popup_pending_open.y,
+            w                 = 0, h = 0,
