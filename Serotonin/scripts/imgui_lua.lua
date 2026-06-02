@@ -2850,3 +2850,4 @@ end
 
 function ImGui.EndCombo() ImGui.EndPopup() end
 
+local HOTKEY_PROBE_NAMES = {}
