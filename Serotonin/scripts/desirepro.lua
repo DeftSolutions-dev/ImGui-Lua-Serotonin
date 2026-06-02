@@ -407,3 +407,4 @@ function DesirePro.spawn_particles(cx, cy, n)
 end
 
 function DesirePro.update_particles()
+    local d = delta_time()
