@@ -2196,3 +2196,4 @@ do
     end
 
     for i = 0, 9 do
+        INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Numpad" .. i, emit = tostring(i) }
