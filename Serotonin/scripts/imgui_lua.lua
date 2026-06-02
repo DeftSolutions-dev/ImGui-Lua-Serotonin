@@ -2004,3 +2004,4 @@ function ImGui.BeginTabItem(label, p_open)
         return sel, (not closed_now) and p_open
     end
     return sel
+end
