@@ -1108,3 +1108,4 @@ local render_scrollbar
 local open_popup_window
 
 function ImGui.End()
+    local win = g.current_window
