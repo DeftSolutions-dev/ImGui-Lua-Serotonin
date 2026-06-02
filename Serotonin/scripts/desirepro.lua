@@ -259,3 +259,4 @@ function DesirePro.preload(spec)
         if info and load_tex(ROOT .. "/" .. info.f) then total = total + 1 end
     end
 
+    if load_tex(ROOT .. "/shadow/rect.png") then total = total + 1 end
