@@ -196,3 +196,4 @@ function DesirePro.shadow_rect(layer, x, y, w, h, color, alpha, spread)
     local tex = load_tex(ROOT .. "/shadow/rect.png")
     if not tex then return end
     local m = spread or 18
+    ImGui.AddImage(layer, x - m, y - m, w + 2 * m, h + 2 * m, tex,
