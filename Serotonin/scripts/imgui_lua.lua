@@ -2984,3 +2984,4 @@ end
 local _style_var_stack = {}
 function ImGui.PushStyleVar(name, value)
     if Style[name] == nil then return end
+    insert(_style_var_stack, { name = name, prev = Style[name] })
