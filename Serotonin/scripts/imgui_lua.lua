@@ -4432,3 +4432,4 @@ function ImGui.BeginDragDropSource(flags)
 end
 
 function ImGui.SetDragDropPayload(type_str, data)
+    if not g.dragdrop_active then return false end
