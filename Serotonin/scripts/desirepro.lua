@@ -773,3 +773,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     ImGui.AddRectFilled(2, x, y, w, total + 2, DesirePro.col.child_bg, r)
     ImGui.AddRectFilled(2, x, y, w, CARD_HEADER, DesirePro.col.anim_default, r)
     ImGui.AddRect(2, x, y, w, total + 2, DesirePro.col.child_stroke, 1, r)
+
