@@ -397,3 +397,4 @@ local function update_io()
     local probe_down = check_mouse_down_now()
     g.mouse_left_down = probe_down or just_clicked
     g.mouse_left_clicked  = (not g.mouse_left_down_prev) and g.mouse_left_down
+    g.mouse_left_released = g.mouse_left_down_prev and (not g.mouse_left_down)
