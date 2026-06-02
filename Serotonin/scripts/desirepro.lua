@@ -1421,3 +1421,4 @@ local function draw_popup()
             c.a = clamp01((mx - sv_x) / sv_w)
         end
 
+        local sw = popup.sw
