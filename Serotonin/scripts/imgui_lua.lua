@@ -2848,3 +2848,4 @@ function ImGui.BeginCombo(label, preview, flags)
     return false
 end
 
+function ImGui.EndCombo() ImGui.EndPopup() end
