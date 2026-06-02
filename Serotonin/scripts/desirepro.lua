@@ -1741,6 +1741,7 @@ local function draw_settings()
     local fw_id = "co:" .. ctx.idp .. "Font weight"
     if DesirePro.vars[fw_id] == nil then DesirePro.vars[fw_id] = 1 end
     DesirePro.font_weight_shift = DesirePro.combo(ctx, "Font weight", { "Regular", "Medium", "SemiBold" }) - 1
+    DesirePro.anim_side = (DesirePro.combo(ctx, "Animation side", { "Left", "Right" }) == 1) and 1 or -1
     DesirePro.no_anim = DesirePro.checkbox(ctx, "Disable animations")
     DesirePro.no_appear = DesirePro.checkbox(ctx, "Disable appear anim")
     ImGui.SetDrawAlpha(1)
