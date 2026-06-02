@@ -902,3 +902,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     if active_drag == id then
         if mouse_down() then
             local frac = (mx - tmin_x) / tw
+            if frac < 0 then frac = 0 elseif frac > 1 then frac = 1 end
