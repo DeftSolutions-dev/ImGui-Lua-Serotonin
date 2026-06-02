@@ -1758,3 +1758,4 @@ function DesirePro.menu()
     local horiz = (dock == 0 or dock == 1)
 
     if DesirePro._last_sw ~= sw or DesirePro._last_sh ~= sh then
+        DesirePro.box_x, DesirePro.box_y = nil, nil
