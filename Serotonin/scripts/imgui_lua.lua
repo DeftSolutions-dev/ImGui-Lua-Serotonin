@@ -650,3 +650,4 @@ function ImGui.AddLine(layer, x1, y1, x2, y2, col, thick) dr_line(layer or 2, x1
 function ImGui.AddGradient(layer, x, y, w, h, c1, c2, horiz) dr_gradient(layer or 2, x, y, w, h, c1, c2, horiz) end
 function ImGui.AddCircleFilled(layer, cx, cy, r, col, segs) dr_circle_filled(layer or 2, cx, cy, r, col, segs) end
 function ImGui.AddTriangleFilled(layer, x1, y1, x2, y2, x3, y3, col) dr_triangle_filled(layer or 2, x1, y1, x2, y2, x3, y3, col) end
+function ImGui.AddImage(layer, x, y, w, h, texid, col, alpha) dr_image(layer or 2, x, y, w, h, texid, col, alpha) end
