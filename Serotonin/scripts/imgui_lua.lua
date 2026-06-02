@@ -4477,3 +4477,4 @@ function ImGui.ShowStyleEditor()
             end
             f("Alpha",            0,  1, "%.2f")
             v("WindowPadding",    0, 20)
+            f("WindowRounding",   0, 16)
