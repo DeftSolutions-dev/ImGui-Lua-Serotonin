@@ -1553,3 +1553,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
             dr_text(2, label, x + slider_w + Style.ItemInnerSpacing.x, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
         end
     end
+    record_item(id, x, y, slider_w + label_part, frame_h, hovered, false, active)
