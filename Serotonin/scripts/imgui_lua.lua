@@ -2533,3 +2533,4 @@ function ImGui.Image(tex_id, w, h, tint)
 end
 
 function ImGui.ImageButton(str_id, tex_id, w, h, tint, bg)
+    local win = g.current_window; if not win then return false end
