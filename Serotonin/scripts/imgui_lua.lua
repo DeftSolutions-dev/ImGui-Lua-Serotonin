@@ -39,3 +39,4 @@ local function current_clip()
 end
 
 local function clip_intersect(x, y, w, h, c)
+    local x1 = (x > c.x) and x or c.x
