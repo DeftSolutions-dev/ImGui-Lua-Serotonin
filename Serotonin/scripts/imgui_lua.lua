@@ -3866,3 +3866,4 @@ function ImGui.GetMouseDragDelta()
     if g.mouse_left_clicked then
         g._drag_start_x = g.mouse_x
         g._drag_start_y = g.mouse_y
+    end
