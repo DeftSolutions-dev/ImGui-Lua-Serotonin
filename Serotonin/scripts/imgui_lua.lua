@@ -634,3 +634,4 @@ local function dr_gradient(layer, x, y, w, h, c1, c2, horizontal)
 end
 
 local function to_image_tint(col, alpha)
+
