@@ -1049,3 +1049,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             dr_triangle_filled(2, ax - 3, ay - 2, ax + 5, ay - 2, ax + 1, ay + 4, arrow_col)
         end
 
+        dr_text(2, title, win.x + 22, win.y + (title_h - Style.FontHeight) * 0.5, StyleColor(Col.Text))
