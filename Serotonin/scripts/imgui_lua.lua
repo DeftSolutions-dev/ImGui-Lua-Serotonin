@@ -2084,3 +2084,4 @@ function ImGui.TreeNodeEx(label, flags)
     end
 
     if flags.framed then
+        local col
