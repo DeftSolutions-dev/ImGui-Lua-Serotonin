@@ -585,3 +585,4 @@ end
 
 local function draw_tab(i, tab, bx, by, bw, bh)
     local st = tab_anim["v" .. i]
+    if not st then st = { fa = 0, ia = 0.5, toff = 5 }; tab_anim["v" .. i] = st end
