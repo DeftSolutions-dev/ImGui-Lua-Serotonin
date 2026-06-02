@@ -952,3 +952,4 @@ end
 function DesirePro.button(ctx, label, h)
     h = floor((h or 35) * DesirePro.US)
     local id = "bt:" .. ctx.idp .. label
+    local s = widget_state(id, { hov = 0, press = 0, text = 0 })
