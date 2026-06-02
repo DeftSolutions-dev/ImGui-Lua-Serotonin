@@ -3983,3 +3983,4 @@ function ImGui.TextLink(label)
     record_item(id, x, y, tw, th, hovered, pressed, held)
     ItemSize(tw, th)
     return pressed
+end
