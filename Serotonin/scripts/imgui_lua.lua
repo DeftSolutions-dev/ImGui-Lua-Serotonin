@@ -824,3 +824,4 @@ end
 
 local function focus_window(win)
 
+    for i, wid in ipairs(g.windows_z_order) do
