@@ -1262,3 +1262,4 @@ end
 
 local function draw_popup()
     popup_rect = nil
+    if not popup then return end
