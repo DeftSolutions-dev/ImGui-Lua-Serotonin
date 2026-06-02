@@ -1126,3 +1126,4 @@ do
     end
 end
 
+local function key_down(name)
