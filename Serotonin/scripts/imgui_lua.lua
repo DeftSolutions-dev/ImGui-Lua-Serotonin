@@ -281,3 +281,4 @@ g = {
     active_id_rect    = nil,
     active_id_was_just_activated = false,
 
+    clip_stack        = {},
