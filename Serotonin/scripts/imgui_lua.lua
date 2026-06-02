@@ -2370,3 +2370,4 @@ render_scrollbar = function(win)
         if g._pg_up_edge   then win.scroll_y = max(0, win.scroll_y - visible_h * 0.9) end
         if g._pg_down_edge then win.scroll_y = win.scroll_y + visible_h * 0.9 end
 
+        if g.mouse_wheel and g.mouse_wheel ~= 0 and not g._wheel_consumed then
