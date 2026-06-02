@@ -775,3 +775,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     ImGui.AddRect(2, x, y, w, total + 2, DesirePro.col.child_stroke, 1, r)
 
     local ptex = load_tex(ROOT .. "/img/grad_pill.png")
+    if ptex then
