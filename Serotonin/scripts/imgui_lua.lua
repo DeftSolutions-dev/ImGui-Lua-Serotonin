@@ -1735,3 +1735,4 @@ local function get_picker_state(id, r, g_, b)
     return s
 end
 
+local function picker_state_commit(s, r, g_, b)
