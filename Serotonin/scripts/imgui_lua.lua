@@ -2916,3 +2916,4 @@ function ImGui.Hotkey(label, key)
 end
 
 function ImGui.BeginPopupModal(name, p_open, flags)
+    local id = fnv1a("popup:" .. tostring(name))
