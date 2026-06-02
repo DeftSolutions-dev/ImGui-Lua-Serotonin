@@ -324,3 +324,4 @@ g = {
 }
 ImGui._g = g
 
+local MOUSE_DOWN_CANDIDATES = {
