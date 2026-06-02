@@ -2390,3 +2390,4 @@ render_scrollbar = function(win)
 
     local grab_h = max(Style.GrabMinSize, sb_h * (visible_h / content_h))
     local grab_y_range = sb_h - grab_h
+    local t = (win.scroll_y / win.scroll_max_y)
