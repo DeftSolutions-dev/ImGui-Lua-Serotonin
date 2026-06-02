@@ -624,3 +624,4 @@ local function draw_header(mx, my, mw)
     if h0 and hclk and not DesirePro._modal then
         DesirePro.theme = not DesirePro.theme
         DesirePro.notify(DesirePro.theme and "Light theme" or "Dark theme", DesirePro.theme and "SUN_2_FILL" or "MOONLIGHT_FILL")
+    end
