@@ -3720,3 +3720,4 @@ function ImGui.EndTooltip()
     g.current_window = g.window_stack[#g.window_stack]
     if #g.draw_layer_stack > 0 then remove(g.draw_layer_stack) end
 
+    if #g.clip_stack > 0 then remove(g.clip_stack) end
