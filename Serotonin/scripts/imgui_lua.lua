@@ -3786,3 +3786,4 @@ function ImGui.SaveIniSettings(path)
     return ok, err
 end
 
+function ImGui.LoadIniSettings(path)
