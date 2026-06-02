@@ -1653,3 +1653,4 @@ function ImGui.Selectable(label, selected, w_override, h_override)
 end
 
 function ImGui.Combo(label, current_idx, items, flags)
+    flags = flags or {}
