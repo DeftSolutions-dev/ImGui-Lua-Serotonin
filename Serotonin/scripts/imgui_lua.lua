@@ -3148,3 +3148,4 @@ function ImGui.TableSetupColumn(label, flags)
         local stretch_avail = max(0, total - fixed_sum)
         for i, s in ipairs(t.setups) do
             if s.flags.fixed or s.flags.width then
+                t.col_widths[i] = s.flags.width or 80
