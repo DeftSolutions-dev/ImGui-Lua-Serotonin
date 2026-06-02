@@ -3648,3 +3648,4 @@ function ImGui.MenuItem(label, shortcut, selected)
     record_item(id, x, y, w, h, hovered, pressed, false)
     ItemSize(w, h)
     return pressed
+end
