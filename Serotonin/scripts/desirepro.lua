@@ -274,3 +274,4 @@ DesirePro.col_dark = {
     second        = R(22, 22, 24, 255),   background    = R(22, 22, 27, 255),
     window_bg     = R(14, 14, 16, 200),   bg            = R(14, 14, 16, 255),
     separator     = R(40, 42, 52, 255),   anim_default  = R(27, 27, 32, 200),
+    child_top     = R(28, 30, 36, 200),   child_bg      = R(19, 19, 23, 200),
