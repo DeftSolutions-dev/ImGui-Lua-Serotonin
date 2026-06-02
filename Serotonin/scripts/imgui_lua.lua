@@ -2774,3 +2774,4 @@ function ImGui.LabelText(label, fmt, ...)
     local frame_h = th + Style.FramePadding.y * 2
     local total_w = win._content_x1 - win.cursor_x
     local label_w = text_size(label)
+    local x, y = win.cursor_x, win.cursor_y
