@@ -1666,3 +1666,4 @@ local function draw_feature()
     local ph = DesirePro._feature_h
     local px = (feat and feat.ax or DesirePro._feature_lastx or 0) - pw
     local py = (feat and feat.ay or DesirePro._feature_lasty or 0) + 26 - (1 - t) * 14
+    DesirePro._feature_lastx = feat and feat.ax or DesirePro._feature_lastx
