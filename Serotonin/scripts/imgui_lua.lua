@@ -4468,3 +4468,4 @@ function ImGui.ShowStyleEditor()
         if ImGui.BeginTabItem("Sizes") then
             local function f(name, mn, mx, fmt)
                 ImGui.Style[name] = ImGui.SliderFloat(name, ImGui.Style[name] or 0, mn, mx, fmt or "%.0f")
+            end
