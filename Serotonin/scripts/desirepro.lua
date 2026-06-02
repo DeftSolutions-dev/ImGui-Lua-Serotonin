@@ -1785,3 +1785,4 @@ function DesirePro.menu()
     end
 
     local ux = (mx < tx) and mx or tx
+    local uy = (my < ty) and my or ty
