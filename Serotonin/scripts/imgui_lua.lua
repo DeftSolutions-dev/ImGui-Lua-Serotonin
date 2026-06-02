@@ -2917,3 +2917,4 @@ end
 
 function ImGui.BeginPopupModal(name, p_open, flags)
     local id = fnv1a("popup:" .. tostring(name))
+    if g.popup_pending_open and g.popup_pending_open.id == id then
