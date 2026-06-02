@@ -1784,3 +1784,4 @@ function DesirePro.menu()
         mx, my = ox, oy;                           tx, ty, tw, th = ox + mw, oy, side, mh
     end
 
+    local ux = (mx < tx) and mx or tx
