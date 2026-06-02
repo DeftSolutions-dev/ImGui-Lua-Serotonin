@@ -3319,3 +3319,4 @@ function ImGui.OpenPopupContextItem(str_id, button)
 end
 
 function ImGui.BeginPopupContextVoid(str_id)
+    str_id = str_id or "##voidcontext"
