@@ -672,3 +672,4 @@ local function clamp01(x) if x < 0 then return 0 elseif x > 1 then return 1 end 
 
 local function rotate_point(cx, cy, px, py, a)
     local sn, cs = math.sin(a), math.cos(a)
+    local dx, dy = px - cx, py - cy
