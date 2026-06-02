@@ -3620,3 +3620,4 @@ function ImGui.MenuItem(label, shortcut, selected)
     if shortcut and shortcut ~= "" then
         local mods, key = _parse_shortcut(shortcut)
         if key and ImGui.IsKeyPressed(key) then
+            local mods_ok = (not mods.ctrl  or ImGui.IsKeyDown("Control"))
