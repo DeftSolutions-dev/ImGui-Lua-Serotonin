@@ -1384,3 +1384,4 @@ local function button_internal(label, w_override, h_override)
             dr_rect(2, x - 2, y - 2, w + 4, h + 4, StyleColor(Col.NavHighlight), 2, Style.FrameRounding)
         end
         local tx = x + (w - tw) * 0.5
+        local ty = y + (h - th) * 0.5
