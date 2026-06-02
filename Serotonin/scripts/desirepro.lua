@@ -675,3 +675,4 @@ local function rotate_point(cx, cy, px, py, a)
     local dx, dy = px - cx, py - cy
     return cx + dx * cs - dy * sn, cy + dx * sn + dy * cs
 end
+
