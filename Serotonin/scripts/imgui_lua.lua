@@ -1896,3 +1896,4 @@ function ImGui.BeginTabBar(name, flags)
     return true
 end
 
+function ImGui.BeginTabItem(label, p_open)
