@@ -3600,3 +3600,4 @@ local function _parse_shortcut(s)
         if     lp == "ctrl" or lp == "control" then mods.ctrl  = true
         elseif lp == "shift"                   then mods.shift = true
         elseif lp == "alt"                     then mods.alt   = true
+        else key = part:gsub("%s", "") end
