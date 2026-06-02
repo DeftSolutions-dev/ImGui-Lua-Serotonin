@@ -2605,3 +2605,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
                 ImGui.BeginTooltip()
                 ImGui.Text(string.format("[%d] = %.3f", idx, values[idx]))
                 ImGui.EndTooltip()
+            end
