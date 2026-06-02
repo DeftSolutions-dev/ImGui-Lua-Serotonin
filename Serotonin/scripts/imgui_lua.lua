@@ -2003,3 +2003,4 @@ function ImGui.BeginTabItem(label, p_open)
     if p_open ~= nil then
         return sel, (not closed_now) and p_open
     end
+    return sel
