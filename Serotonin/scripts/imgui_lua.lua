@@ -2469,3 +2469,4 @@ function ImGui.BeginChild(str_id, w, h, border)
 
     win.cursor_start_x = cx + 4
     win.cursor_start_y = cy + 4 - sy
+    win.cursor_x       = win.cursor_start_x
