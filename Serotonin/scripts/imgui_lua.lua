@@ -1875,3 +1875,4 @@ function ImGui.BeginTabBar(name, flags)
     local tab_h = Style.FontHeight + Style.FramePadding.y * 2
     win._tabbar = {
         id          = id,
+        x           = win.cursor_x,
