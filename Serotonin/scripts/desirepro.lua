@@ -1044,3 +1044,4 @@ function DesirePro.multicombo(ctx, label, items)
     local names = {}
     for i = 1, #items do if sel[i] then names[#names + 1] = DesirePro.translate(items[i]) end end
     local preview = (#names == 0) and DesirePro.translate("None") or table.concat(names, ", ")
+
