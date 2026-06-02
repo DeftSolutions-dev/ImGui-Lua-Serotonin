@@ -254,3 +254,4 @@ function DesirePro.preload(spec)
     end
 
     local imgs = (spec and spec.images) or {}
+    for _, name in ipairs(imgs) do
