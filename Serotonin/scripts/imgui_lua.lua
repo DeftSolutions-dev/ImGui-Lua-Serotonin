@@ -1517,3 +1517,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
             clear_active_id()
         end
     end
+
