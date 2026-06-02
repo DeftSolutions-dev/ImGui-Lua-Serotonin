@@ -3609,3 +3609,4 @@ function ImGui.MenuItem(label, shortcut, selected)
     local win = g.current_window; if not win then return false end
     local id = GetID("mi:" .. label)
     local tw, th = text_size(label)
+    local sw = shortcut and text_size(shortcut) or 0
