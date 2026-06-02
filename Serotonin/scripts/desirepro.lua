@@ -1674,3 +1674,4 @@ local function draw_feature()
     ImGui.AddRectFilled(2, px, py, pw, ph, DesirePro.col.bg, 6)
     ImGui.AddRect(2, px, py, pw, ph, DesirePro.col.child_stroke, 1, 6)
 
+    ImGui.PushClipRect(px, py, pw, ph + 4)
