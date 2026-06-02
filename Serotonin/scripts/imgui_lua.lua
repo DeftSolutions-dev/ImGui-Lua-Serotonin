@@ -3627,3 +3627,4 @@ function ImGui.MenuItem(label, shortcut, selected)
         end
     end
     if pressed then
+        ImGui.CloseCurrentPopup()
