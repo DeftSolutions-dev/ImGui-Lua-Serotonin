@@ -2229,3 +2229,4 @@ local function poll_typed_chars()
 
     local paste = false
     local ok_v, v = pcall(keyboard.IsPressed, "V")
+    if (ok_ctrl and ctrl) and (ok_v and v) and not g._paste_prev then
