@@ -3015,3 +3015,4 @@ local function vec_widget(label, v, n, draw_fn, ...)
         v[i] = draw_fn("##" .. (i - 1), v[i], ...)
         ImGui.SameLine(nil, (i < n) and inner or Style.ItemInnerSpacing.x)
     end
+    ImGui.Text(label)
