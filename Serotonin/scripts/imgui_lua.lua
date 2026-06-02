@@ -699,3 +699,4 @@ local function ItemHoverable(x, y, w, h, id)
         local mouse_in_popup = (g.mouse_x >= p.x and g.mouse_x < p.x + p.w
                             and g.mouse_y >= p.y and g.mouse_y < p.y + p.h)
         if mouse_in_popup then
+            local fully_inside = (x >= p.x and y >= p.y
