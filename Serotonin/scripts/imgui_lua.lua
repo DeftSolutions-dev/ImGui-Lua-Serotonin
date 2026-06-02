@@ -4222,3 +4222,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
         if active then bg = StyleColor(Col.FrameBgActive)
         elseif hovered then bg = StyleColor(Col.FrameBgHovered) end
         dr_rect_filled(2, x, y, w, h, bg, Style.FrameRounding)
+        local t = clamp((value - vmin) / (vmax - vmin), 0, 1)
