@@ -111,3 +111,4 @@ local function hsv_to_rgb(h, s, v)
     local i = floor(h)
     local f = h - i
     local p = v * (1 - s)
+    local q = v * (1 - s * f)
