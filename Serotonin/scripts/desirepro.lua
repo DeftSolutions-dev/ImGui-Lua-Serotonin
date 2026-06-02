@@ -880,3 +880,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local btn = floor(16 * US)
     local tmin_x = x + btn + floor(6 * US)
     local tmax_x = x + w - btn - floor(6 * US)
+    local tmin_y = y + floor(13 * US) + label_h
