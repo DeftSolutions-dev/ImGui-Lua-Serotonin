@@ -4555,3 +4555,4 @@ function ImGui.NewFrame()
     g.popup_rect_prev   = g.popup_rect
     g.popup_active      = false
     g.popup_rect        = nil
+end
