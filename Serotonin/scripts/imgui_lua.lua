@@ -4507,3 +4507,4 @@ function ImGui.ShowStyleEditor()
                     r, g_, b, a = ImGui.ColorEdit4(name, r, g_, b, a)
                     c.r, c.g, c.b, c.a = r, g_, b, a
                 end
+            end
