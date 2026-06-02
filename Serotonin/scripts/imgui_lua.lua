@@ -3680,3 +3680,4 @@ function ImGui.BeginTooltip()
     me._br_cmd = br_cmd
     insert(g.draw_layer_stack, 5)
 
+    insert(g.clip_stack, { x = -1e9, y = -1e9, w = 2e9, h = 2e9 })
