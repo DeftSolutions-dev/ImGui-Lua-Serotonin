@@ -1186,3 +1186,4 @@ function ImGui.SameLine(offset_x, spacing)
 end
 
 function ImGui.NewLine()
+    ItemSize(0, Style.FontHeight)
