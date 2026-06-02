@@ -885,3 +885,4 @@ end
 
 local function store_set(win, key, value)
     g.storage[win.id][key] = value
+end
