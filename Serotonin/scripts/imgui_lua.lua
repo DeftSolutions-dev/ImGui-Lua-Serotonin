@@ -2207,3 +2207,4 @@ do
     INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Backspace", emit = "\b" }
     INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Period",    emit = "." }
     INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Decimal",   emit = "." }
+    INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Minus",     emit = "-" }
