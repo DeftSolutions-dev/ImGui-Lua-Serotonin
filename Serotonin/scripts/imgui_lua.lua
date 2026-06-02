@@ -3452,3 +3452,4 @@ local function close_popup_window()
         for i = #g.clip_stack, 1, -1 do
             if g.clip_stack[i] == me._clip_rect then remove(g.clip_stack, i); break end
         end
+    end
