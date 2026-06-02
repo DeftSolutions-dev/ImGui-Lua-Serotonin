@@ -4557,3 +4557,4 @@ function ImGui.NewFrame()
     g.popup_rect        = nil
 end
 
+local function clip_text_chars(s, max_w, font)
