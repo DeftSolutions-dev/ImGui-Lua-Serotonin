@@ -2273,3 +2273,4 @@ function ImGui.InputText(label, value, callback)
                     ch = string.lower(ch)
                 end
 
+                local accept = true
