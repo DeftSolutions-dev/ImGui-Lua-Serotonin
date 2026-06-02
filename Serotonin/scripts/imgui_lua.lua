@@ -3424,3 +3424,4 @@ local function close_popup_window()
     if me._clip_rect then
         me._clip_rect.x = me.x
         me._clip_rect.y = me.y
+        me._clip_rect.w = final_w
