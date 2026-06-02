@@ -1203,3 +1203,4 @@ end
 function DesirePro.input(ctx, label, placeholder)
     local id = "in:" .. ctx.idp .. label
     local v = var(id, "")
+    local st = widget_state(id, { border = 0 })
