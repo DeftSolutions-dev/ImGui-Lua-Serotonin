@@ -118,3 +118,4 @@ local function hsv_to_rgb(h, s, v)
     elseif i == 2 then return p, v, t
     elseif i == 3 then return p, q, v
     elseif i == 4 then return t, p, v
+    else return v, p, q end
