@@ -1640,3 +1640,4 @@ function DesirePro.page(idx, px, py, ph)
         local c2 = DesirePro.begin_card("ESP Preview:Esp visible items change", rx, py, CARD_W, 502, "EYE_FILL")
         if c2.on then
             DesirePro.esp_preview(c2)
+        end
