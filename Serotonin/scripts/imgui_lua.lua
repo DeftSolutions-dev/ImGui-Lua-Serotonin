@@ -3046,3 +3046,4 @@ function ImGui.BeginTable(str_id, columns, flags)
 
     local sum = 0; for i = 1, columns do sum = sum + widths[i] end
     if math.abs(sum - total_w) > 1 then
+        local k = total_w / sum
