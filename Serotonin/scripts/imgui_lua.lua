@@ -3340,3 +3340,4 @@ local function clamp_popup_to_screen(me, final_w, final_h)
     if me.x + final_w > sw - 4 then me.x = max(4, sw - final_w - 4) end
     if me.y + final_h > sh - 4 then me.y = max(4, sh - final_h - 4) end
     if me.x < 0 then me.x = 4 end
+    if me.y < 0 then me.y = 4 end
