@@ -24,3 +24,4 @@ end
 
 local g
 local set_active_id
+local clear_active_id
