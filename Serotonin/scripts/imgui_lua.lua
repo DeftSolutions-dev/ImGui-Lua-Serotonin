@@ -3991,3 +3991,4 @@ function ImGui.Bullet()
     local x, y = win.cursor_x + 4, win.cursor_y + th * 0.5
     dr_circle_filled(2, x, y, 2.5, StyleColor(Col.Text), 8)
     ItemSize(12, th)
+end
