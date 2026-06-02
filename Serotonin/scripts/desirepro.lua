@@ -653,3 +653,4 @@ end
 
 local function hsv2rgb(h, s, v, a)
     if s <= 0 then return { r = v, g = v, b = v, a = a or 1 } end
+    h = (h - floor(h)) * 6
