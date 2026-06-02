@@ -220,3 +220,4 @@ function DesirePro.preload_font(font_key)
 end
 
 function DesirePro.preload_icons(size)
+    local im = META.icons[size]
