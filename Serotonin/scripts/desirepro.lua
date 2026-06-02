@@ -711,3 +711,4 @@ local function split_desc(s)
     return a, b
 end
 
+local appear_state = {}
