@@ -449,3 +449,4 @@ function DesirePro.update_notifications()
             DesirePro.icon_scaled(3, nx + 32, y + h / 2, n.icon, 35, 24, DesirePro.col.active, 1)
             DesirePro.text_in(3, nx + 58, y, h, n.text, "poppins_medium_16", DesirePro.col.label_active, 1)
             y = y + h + 12
+        end
