@@ -2728,3 +2728,4 @@ local function get_item_width(default_w)
     if win and win._item_width_stack and #win._item_width_stack > 0 then
         return win._item_width_stack[#win._item_width_stack]
     end
+    return default_w
