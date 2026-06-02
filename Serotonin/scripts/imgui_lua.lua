@@ -3796,3 +3796,4 @@ function ImGui.LoadIniSettings(path)
         if line:sub(1, 1) ~= ";" then
             local section = line:match("^%[([^%]]+)%]$")
             if section then
+                local title = section:match("^Window:(.+)$")
