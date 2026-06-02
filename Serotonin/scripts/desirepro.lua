@@ -535,3 +535,4 @@ DesirePro.tabs = {
 }
 
 DesirePro.active_tab = 0
+DesirePro.dock = 0
