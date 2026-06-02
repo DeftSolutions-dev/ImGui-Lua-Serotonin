@@ -2014,3 +2014,4 @@ function ImGui.EndTabBar()
     local tb = win._tabbar
     if tb and tb.reorderable then
 
+        for i = #tb.label_order, 1, -1 do
