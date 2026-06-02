@@ -898,3 +898,4 @@ end
 function ImGui.SetNextWindowCollapsed(b, cond)
     g.next_window_collapsed = { value = b, cond = cond or "always" }
 end
+function ImGui.SetNextWindowFocus() g.next_window_focus = true end
