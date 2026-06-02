@@ -259,3 +259,4 @@ g = {
     mouse_dy          = 0,
     mouse_left_down   = false,
     mouse_left_clicked= false,
+    mouse_left_released = false,
