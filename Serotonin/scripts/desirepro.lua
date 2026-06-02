@@ -74,3 +74,4 @@ local function load_tex(rel)
         return v
     end
     local ok, data = pcall(file.read, rel)
+    if not ok or type(data) ~= "string" or #data == 0 then
