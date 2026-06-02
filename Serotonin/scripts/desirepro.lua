@@ -1706,3 +1706,4 @@ local function draw_settings()
     local py = win.y + DesirePro.HEADER_H + 6 - (1 - t) * 16
     ImGui.SetDrawAlpha(t)
     DesirePro.shadow_rect(2, px, py, pw, ph, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.55, 26)
+    ImGui.AddRectFilled(2, px, py, pw, ph, DesirePro.with_alpha(DesirePro.col.bg, 0.98), 9)
