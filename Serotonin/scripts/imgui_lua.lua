@@ -4417,3 +4417,4 @@ function ImGui.StyleColorsClassic()
     Style.Colors = t
 end
 
+function ImGui.BeginDragDropSource(flags)
