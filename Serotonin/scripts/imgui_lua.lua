@@ -1672,3 +1672,4 @@ function ImGui.Combo(label, current_idx, items, flags)
                 ImGui.CloseCurrentPopup()
             end
         end
+        if need_scroll then ImGui.EndChild() end
