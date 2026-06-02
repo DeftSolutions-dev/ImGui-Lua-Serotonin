@@ -3993,3 +3993,4 @@ function ImGui.Bullet()
     ItemSize(12, th)
 end
 
+function ImGui.Spinner(label, radius, thickness, color)
