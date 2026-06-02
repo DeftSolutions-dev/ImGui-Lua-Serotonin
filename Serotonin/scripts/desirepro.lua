@@ -852,3 +852,4 @@ function DesirePro.featurebox(ctx, label, content_fn)
     local v = DesirePro.checkbox(ctx, label)
 
     local st = widget_state(id, { gh = 0 })
+    local gx, gy = ctx.x1 - 11, row_y + 10
