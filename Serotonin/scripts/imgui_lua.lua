@@ -2275,3 +2275,4 @@ function ImGui.InputText(label, value, callback)
 
                 local accept = true
                 if callback then
+                    local r = callback("char", { char = ch, value = value })
