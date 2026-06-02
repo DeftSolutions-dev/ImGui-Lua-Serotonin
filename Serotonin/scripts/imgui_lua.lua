@@ -3252,3 +3252,4 @@ function ImGui.EndTable()
     local total_w = table_total_w(t)
     local total_h = t.cur_row_max_y - t.y0
 
+    if t.resizable then
