@@ -2799,3 +2799,4 @@ function ImGui.ColorButton(desc_id, col, w, h)
     return pressed
 end
 
+function ImGui.BeginCombo(label, preview, flags)
