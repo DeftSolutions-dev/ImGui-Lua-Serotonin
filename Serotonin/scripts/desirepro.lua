@@ -1805,3 +1805,4 @@ function DesirePro.menu()
         local gap = floor(8 * DesirePro.US)
         local tbh = band - floor(18 * DesirePro.US)
         local tby = ty + (th - tbh) / 2
+        local tbx = tx + 8
