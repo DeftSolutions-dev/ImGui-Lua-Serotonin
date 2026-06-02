@@ -3889,3 +3889,4 @@ function ImGui.SetKeyboardFocusHere()
     g._focus_next_idx = #g.focus_list
 end
 
+function ImGui.OpenPopupOnItemClick(str_id, button)
