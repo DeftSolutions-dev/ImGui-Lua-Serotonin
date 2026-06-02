@@ -4546,3 +4546,4 @@ function ImGui.NewFrame()
     end
 
     for i = #g.color_stack, 1, -1 do g.color_stack[i] = nil end
+    for i = #g.id_stack,    1, -1 do g.id_stack[i]    = nil end
