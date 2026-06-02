@@ -944,3 +944,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     for i = 0, 2 do
         ImGui.AddRectFilled(2, floor(sx + i * (lw + sp)), gy + pad, lw, gh - 2 * pad, ImGui.ColF(0, 0, 0, 0.35), 1)
     end
+
