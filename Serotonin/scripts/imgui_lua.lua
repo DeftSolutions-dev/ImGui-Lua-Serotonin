@@ -1436,3 +1436,4 @@ function ImGui.Checkbox(label, value)
             local cm = col_mul_alpha(StyleColor(Col.CheckMark), check_t)
             local pad_in = box_sz * 0.2
             local x0 = x + pad_in
+            local y0 = y + box_sz * 0.55
