@@ -2361,3 +2361,4 @@ end
 ImGui.TextClip = text_clip
 
 render_scrollbar = function(win)
+    if not win or win.collapsed then return end
