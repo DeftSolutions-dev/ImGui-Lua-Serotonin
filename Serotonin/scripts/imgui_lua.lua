@@ -4520,3 +4520,4 @@ function ImGui.NewFrame()
     g.focus_list      = {}
 
     g._toggled_id     = nil
+
