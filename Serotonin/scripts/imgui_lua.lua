@@ -2321,3 +2321,4 @@ function ImGui.InputInt(label, value, step)
     step = step or 1
     local v_str = tostring(value or 0)
     local new_str = ImGui.InputText(label, v_str)
+    return tonumber(new_str) or value
