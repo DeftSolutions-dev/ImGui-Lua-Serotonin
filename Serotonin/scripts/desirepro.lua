@@ -1743,3 +1743,4 @@ function DesirePro.menu()
     end
 
     local sw, sh = ImGui.GetScreenSize()
+    DesirePro.scale = 1
