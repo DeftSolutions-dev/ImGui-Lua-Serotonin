@@ -1740,3 +1740,4 @@ function DesirePro.menu()
         open_color = nil
         DesirePro._focus_input = nil
         DesirePro._last_tab = DesirePro.active_tab
+    end
