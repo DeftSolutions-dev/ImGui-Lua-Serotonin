@@ -902,3 +902,4 @@ function ImGui.SetNextWindowFocus() g.next_window_focus = true end
 
 function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
+    local p_open, opts
