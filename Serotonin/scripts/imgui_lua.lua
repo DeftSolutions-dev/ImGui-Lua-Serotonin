@@ -2092,3 +2092,4 @@ function ImGui.TreeNodeEx(label, flags)
     elseif flags.selected or (hov and (g.mouse_left_down or g.mouse_left_clicked)) or hov then
         local col = flags.selected and StyleColor(Col.Header)
                   or (hov and g.mouse_left_down) and StyleColor(Col.HeaderActive)
+                  or StyleColor(Col.HeaderHovered)
