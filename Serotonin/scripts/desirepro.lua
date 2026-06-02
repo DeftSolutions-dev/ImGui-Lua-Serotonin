@@ -505,3 +505,4 @@ function DesirePro.text_in(layer, x, box_top, box_h, str, font_key, color, alpha
     local cap = fm and fm.cap_height or 12
     local asc = fm and fm.ascent or 14
     local top = box_top + (box_h + cap) / 2 - asc
+    return DesirePro.text(layer, x, floor(top + 0.5), str, font_key, color, alpha)
