@@ -243,3 +243,4 @@ local Style = {
     CellPadding         = { x = 4, y = 2 },
     Font                = "Verdana",
     FontHeight          = 14,
+    Colors              = default_dark_theme(),
