@@ -4289,3 +4289,4 @@ function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
     local id = GetID("splitter")
     local x, y = win.cursor_x, win.cursor_y
     local w, h
+    if is_vertical then w, h = thickness, win._content_y1 - y
