@@ -3747,3 +3747,4 @@ function ImGui.InputIntStep(label, value, step)
     return value
 end
 
+function ImGui.InputFloatStep(label, value, step, fmt)
