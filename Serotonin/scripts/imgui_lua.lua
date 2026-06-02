@@ -4421,3 +4421,4 @@ function ImGui.BeginDragDropSource(flags)
     flags = flags or {}
     if g.last_item_id == nil then return false end
 
+    if g.active_id ~= g.last_item_id then return false end
