@@ -766,3 +766,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     local pw, ph = 36, 20
     local pill_l, pill_t = floor(x + w - 48), floor(y + CARD_HEADER / 2 - 10)
     if point_in_rect(mx, my, pill_l, pill_t, pw, ph) and clicked() then cs.on = not cs.on end
+    cs.t = DesirePro.anim(cs.t, cs.on and 1 or 0, 12)
