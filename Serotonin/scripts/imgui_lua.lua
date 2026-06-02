@@ -1944,3 +1944,4 @@ function ImGui.BeginTabItem(label, p_open)
 
             win.scroll_y = 0
         end
+        if tb.reorderable then
