@@ -4606,3 +4606,4 @@ local function flush_layer(layer)
                         local lx1, ly1, lx2, ly2 = clip_line_cs(x1, y1, x2, y2, clip)
                         if lx1 then draw.Line(lx1, ly1, lx2, ly2, col, c.thick, a) end
                     end
+                    L(c.x,         c.y,         c.x + c.w, c.y)
