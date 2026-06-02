@@ -3226,3 +3226,4 @@ function ImGui.TableHeader(label)
     end
     if t.cur_row_max_y < y + h then t.cur_row_max_y = y + h end
 end
+
