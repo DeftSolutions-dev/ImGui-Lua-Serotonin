@@ -669,3 +669,4 @@ ImGui.CalcTextSize = text_size
 set_active_id = function(id, win, rect)
     g.active_id = id
     g.active_id_window = win
+    g.active_id_was_just_activated = true
