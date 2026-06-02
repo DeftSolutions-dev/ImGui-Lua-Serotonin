@@ -4413,3 +4413,4 @@ function ImGui.StyleColorsClassic()
     t[Col.ModalWindowDimBg]      = COL(0.20, 0.20, 0.20, 0.35)
 
     local d = default_dark_theme()
+    for i = 1, #C_NAMES do if t[i] == nil then t[i] = d[i] end end
