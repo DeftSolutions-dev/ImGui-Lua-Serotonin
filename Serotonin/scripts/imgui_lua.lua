@@ -1130,3 +1130,4 @@ function ImGui.End()
     if not win.collapsed then pop_clip() end
 
     render_scrollbar(win)
+
