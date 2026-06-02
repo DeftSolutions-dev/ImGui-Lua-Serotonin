@@ -398,3 +398,4 @@ function DesirePro.spawn_particles(cx, cy, n)
     for i = 1, n do
         local a = random_unit() * 6.28318
         local sp = 25 + random_unit() * 95
+        DesirePro.particles[#DesirePro.particles + 1] = {
