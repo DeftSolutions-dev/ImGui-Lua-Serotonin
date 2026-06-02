@@ -3323,3 +3323,4 @@ function ImGui.BeginPopupContextVoid(str_id)
     if g.mouse_right_clicked and not g.hovered_window_id then
         ImGui.OpenPopup(str_id)
     end
+    return ImGui.BeginPopup(str_id)
