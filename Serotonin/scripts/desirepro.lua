@@ -747,7 +747,7 @@ function DesirePro.appear(id, center_y)
     end
     s.seen = fc
     if restart then
-        s.off = -((DesirePro._win and DesirePro._win.w) or 400)
+        s.off = (DesirePro.anim_side or -1) * ((DesirePro._win and DesirePro._win.w) or 400)
         s.alpha = 0
         s.timer = 0
     end
