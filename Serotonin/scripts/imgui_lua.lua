@@ -1395,3 +1395,4 @@ end
 function ImGui.Button(label, w, h)        return button_internal(label, w, h) end
 function ImGui.SmallButton(label)         return button_internal(label, nil, Style.FontHeight + 2) end
 
+function ImGui.InvisibleButton(label, w, h)
