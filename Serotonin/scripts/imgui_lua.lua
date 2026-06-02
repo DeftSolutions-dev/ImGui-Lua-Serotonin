@@ -1996,3 +1996,4 @@ function ImGui.BeginTabItem(label, p_open)
 
     local sel = false
     if is_selected and not closed_now then
+        win.cursor_x = win.cursor_start_x + win.indent_x
