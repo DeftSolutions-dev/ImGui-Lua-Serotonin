@@ -1284,3 +1284,4 @@ local function draw_popup()
             local iy = py + 6 + (i - 1) * ih
             local ih_hover = point_in_rect(mx, my, px, iy, pw, ih)
             local seld = (DesirePro.vars[popup.varid] == i - 1)
+            if ih_hover then
