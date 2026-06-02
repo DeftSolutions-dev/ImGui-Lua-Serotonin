@@ -2768,3 +2768,4 @@ function ImGui.AlignTextToFramePadding()
 end
 
 function ImGui.LabelText(label, fmt, ...)
+    local win = g.current_window; if not win then return end
