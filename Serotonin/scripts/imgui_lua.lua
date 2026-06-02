@@ -2224,3 +2224,4 @@ local function poll_typed_chars()
         end
         g.key_states[k.key] = ok and pressed or false
     end
+    local ok_shift, shift = pcall(keyboard.IsPressed, "Shift")
