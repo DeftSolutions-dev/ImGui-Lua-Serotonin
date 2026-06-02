@@ -483,3 +483,4 @@ function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
     end
     local im = META.icons[best]
     if not im then return end
+    local g = im.glyphs[cp]
