@@ -3506,3 +3506,4 @@ function ImGui.BeginMenuBar()
     local th = Style.FontHeight + Style.FramePadding.y * 2
     local mb = {
         x      = win.x,
+        y      = win.y + win._title_h,
