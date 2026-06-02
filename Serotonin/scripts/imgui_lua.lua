@@ -271,3 +271,4 @@ g = {
     last_item_id      = nil,
     last_item_rect    = { x = 0, y = 0, w = 0, h = 0 },
     last_item_hovered = false,
+    last_item_clicked = false,
