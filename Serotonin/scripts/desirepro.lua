@@ -88,3 +88,4 @@ local function load_tex(rel)
 end
 DesirePro.load_tex = load_tex
 
+local function utf8_iter(s)
