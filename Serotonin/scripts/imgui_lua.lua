@@ -3326,3 +3326,4 @@ function ImGui.BeginPopupContextVoid(str_id)
     return ImGui.BeginPopup(str_id)
 end
 
+function ImGui.CloseCurrentPopup()
