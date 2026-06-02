@@ -496,3 +496,4 @@ function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
 end
 
 function DesirePro.text_centered(layer, cx, y, str, font_key, color, alpha)
+    local w = DesirePro.text_size(str, font_key)
