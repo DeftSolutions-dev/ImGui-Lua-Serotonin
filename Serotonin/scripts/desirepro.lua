@@ -1348,3 +1348,4 @@ local function draw_popup()
         ImGui.SetDrawAlpha(1)
 
         local b = popup.box
+        if rc and can_click and not point_in_rect(mx, my, px, py, pw, ph)
