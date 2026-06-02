@@ -1217,3 +1217,4 @@ function DesirePro.input(ctx, label, placeholder)
     if clicked() then
         if hovered then DesirePro._focus_input = id
         elseif DesirePro._focus_input == id then DesirePro._focus_input = nil end
+    end
