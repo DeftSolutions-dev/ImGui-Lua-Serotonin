@@ -725,3 +725,4 @@ function DesirePro.appear(id, center_y)
 
         restart = true
     end
+    s.seen = fc
