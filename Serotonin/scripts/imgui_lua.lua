@@ -3411,3 +3411,4 @@ local function close_popup_window()
 
     me._open_anim = me._open_anim or 0
     local _dt = g.dt or 0.016
+    me._open_anim = me._open_anim + (1 - me._open_anim) * min(1, _dt * 18)
