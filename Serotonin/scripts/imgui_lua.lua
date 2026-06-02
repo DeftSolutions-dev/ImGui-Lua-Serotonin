@@ -253,3 +253,4 @@ g = {
     time              = 0,
     dt                = 0,
 
+    mouse_x           = 0,
