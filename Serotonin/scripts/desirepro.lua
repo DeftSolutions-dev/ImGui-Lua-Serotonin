@@ -909,3 +909,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
         else
             active_drag = nil
         end
+    end
