@@ -4277,3 +4277,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
             value = text
         end
         for line in (text .. "\n"):gmatch("([^\n]*)\n") do
+            ImGui.Text(line)
