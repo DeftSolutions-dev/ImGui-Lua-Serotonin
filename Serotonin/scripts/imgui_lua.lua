@@ -2441,3 +2441,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     end
 
     win._child_stack = win._child_stack or {}
+    insert(win._child_stack, {
