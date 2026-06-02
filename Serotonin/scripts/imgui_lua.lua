@@ -4219,3 +4219,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
     end
     if visible then
         local bg = StyleColor(Col.FrameBg)
+        if active then bg = StyleColor(Col.FrameBgActive)
