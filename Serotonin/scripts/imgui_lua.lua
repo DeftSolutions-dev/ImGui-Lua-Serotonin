@@ -2935,3 +2935,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     end
     if not me then return false end
 
+    local sw, sh = draw.GetScreenSize()
