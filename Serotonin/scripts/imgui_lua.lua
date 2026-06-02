@@ -3645,3 +3645,4 @@ function ImGui.MenuItem(label, shortcut, selected)
         dr_line(2, cx - 6, cy, cx - 2, cy + 4, cm, 2)
         dr_line(2, cx - 2, cy + 4, cx + 4, cy - 4, cm, 2)
     end
+    record_item(id, x, y, w, h, hovered, pressed, false)
