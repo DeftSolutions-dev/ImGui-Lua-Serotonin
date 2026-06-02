@@ -860,3 +860,4 @@ local function get_or_create_window(id, title)
         groups       = {},
     }
     g.windows[id] = w
+    insert(g.windows_order, id)
