@@ -2754,3 +2754,4 @@ function ImGui.EndDisabled()
     if s and #s > 0 then
         local was = remove(s)
         if was then
+            g._disabled_depth = max(0, (g._disabled_depth or 0) - 1)
