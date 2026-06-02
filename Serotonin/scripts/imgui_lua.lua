@@ -3850,3 +3850,4 @@ function ImGui.GetKeyName(name) return tostring(name) end
 function ImGui.IsMouseDoubleClicked()
     local now = g.mouse_left_clicked
     if not now then return false end
+    local last = g._last_click_time or -1e9
