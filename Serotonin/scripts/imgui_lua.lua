@@ -4247,3 +4247,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
     h = h or 80
     if ImGui.BeginChild("##mtxt_" .. label, w, h, true) then
         local id = GetID("mtxt:" .. label)
+        local th = Style.FontHeight
