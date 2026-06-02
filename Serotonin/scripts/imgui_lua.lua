@@ -1870,3 +1870,4 @@ ImGui.ColorPicker4 = ImGui.ColorEdit4
 function ImGui.BeginTabBar(name, flags)
     flags = flags or {}
     local win = g.current_window; if not win then return false end
+    local id = GetID("tabbar:" .. name)
