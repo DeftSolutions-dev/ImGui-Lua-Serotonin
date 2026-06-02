@@ -2645,3 +2645,4 @@ function ImGui.SetCursorPos(x, y)
     win.cursor_x = win.x + x
     win.cursor_y = win.y + y
 end
+function ImGui.SetCursorPosX(x)
