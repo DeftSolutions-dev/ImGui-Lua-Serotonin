@@ -16,3 +16,4 @@ DesirePro.preload({
         "poppins_medium_16", "poppins_medium_15",
     },
     icon_names = {
+        "CAR_FILL", "EYE_2_FILL", "TRANSLATE_2_AI_LINE", "GROUP_3_FILL",
