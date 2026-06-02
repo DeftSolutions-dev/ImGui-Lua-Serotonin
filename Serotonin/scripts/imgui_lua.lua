@@ -2973,3 +2973,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     if cb_pressed then
         ImGui.CloseCurrentPopup()
         return false
+    end
