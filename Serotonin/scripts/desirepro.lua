@@ -130,3 +130,4 @@ function DesirePro.text(layer, x, y, str, font_key, color, alpha)
     return pen - x
 end
 
+function DesirePro.text_size(str, font_key)
