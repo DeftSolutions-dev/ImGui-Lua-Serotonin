@@ -1227,3 +1227,4 @@ function DesirePro.input(ctx, label, placeholder)
             if key_edge(ch) then v = v .. (shift and ch or ch:lower()); DesirePro.vars[id] = v end
         end
 
+        for d = 0, 9 do
