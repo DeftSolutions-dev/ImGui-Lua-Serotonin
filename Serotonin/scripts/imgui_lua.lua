@@ -1665,3 +1665,4 @@ function ImGui.Combo(label, current_idx, items, flags)
         local need_scroll = #items > visible_rows
         if need_scroll then
             ImGui.BeginChild("##cmb_scroll_" .. label, 0, visible_rows * row_h, false)
+        end
