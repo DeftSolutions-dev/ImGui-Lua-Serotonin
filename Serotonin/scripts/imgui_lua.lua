@@ -2569,3 +2569,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
         end
         scale_min = scale_min or mn
         scale_max = scale_max or mx
+        if scale_max <= scale_min then scale_max = scale_min + 1 end
