@@ -1777,3 +1777,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
     if ImGui.BeginPopup(popup_str) then
         local pwin = g.current_window
         local sv_size = 140
+        local hue_w   = 16
