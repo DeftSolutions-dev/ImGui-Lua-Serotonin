@@ -2410,3 +2410,4 @@ render_scrollbar = function(win)
         set_active_id(sid, win, { x = sb_x, y = sb_y, w = sb_w, h = sb_h })
     end
     local active = (g.active_id == sid)
+    if active then
