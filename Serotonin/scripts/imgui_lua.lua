@@ -3530,3 +3530,4 @@ function ImGui.BeginMenuBar()
     return true
 end
 
+function ImGui.EndMenuBar()
