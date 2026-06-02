@@ -3985,3 +3985,4 @@ function ImGui.TextLink(label)
     return pressed
 end
 
+function ImGui.Bullet()
