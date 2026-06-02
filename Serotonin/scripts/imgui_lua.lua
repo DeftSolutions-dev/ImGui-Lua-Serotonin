@@ -376,3 +376,4 @@ local function update_io()
         my = pos[2] or pos.y or 0
     else
         mx, my = 0, 0
+    end
