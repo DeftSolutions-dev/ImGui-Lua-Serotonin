@@ -733,3 +733,4 @@ function DesirePro.appear(id, center_y)
     end
     s.timer = s.timer + delta_time()
     local wy = (DesirePro._win and DesirePro._win.y) or 0
+    local wh = (DesirePro._win and DesirePro._win.h) or 700
