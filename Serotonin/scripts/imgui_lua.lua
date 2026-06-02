@@ -4705,3 +4705,4 @@ end
 function ImGui.Render()
     if not g.menu_open then return end
 
+    if g._focus_next_idx and g.focus_list[g._focus_next_idx + 1] then
