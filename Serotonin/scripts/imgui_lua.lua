@@ -4682,3 +4682,4 @@ local function flush_layer(layer)
                 local x, y, w, h = clip_intersect(c.x, c.y, c.w, c.h, clip)
                 if x then
 
+                    draw.Gradient(x, y, w, h, c1, c2, c.horiz, a1, a2)
