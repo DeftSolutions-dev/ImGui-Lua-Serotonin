@@ -2059,3 +2059,4 @@ function ImGui.EndTabBar()
     end
     win._tabbar = nil
     remove(g.id_stack)
+end
