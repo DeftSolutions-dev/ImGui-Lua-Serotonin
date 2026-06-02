@@ -966,3 +966,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         if win._has_close then
             local close_id = fnv1a("close", id)
             local cx = tx + tw - 14
+            local cy = ty + th * 0.5
