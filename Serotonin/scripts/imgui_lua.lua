@@ -1178,3 +1178,4 @@ function ImGui.SameLine(offset_x, spacing)
     win.cursor_y = win.cursor_y - win.prev_line_h - Style.ItemSpacing.y
     if offset_x and offset_x > 0 then
         win.cursor_x = win.cursor_start_x + offset_x
+    else
