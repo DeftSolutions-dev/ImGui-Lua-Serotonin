@@ -2025,3 +2025,4 @@ function ImGui.EndTabBar()
     end
     if tb then
 
+        if tb.items_w > tb.w then
