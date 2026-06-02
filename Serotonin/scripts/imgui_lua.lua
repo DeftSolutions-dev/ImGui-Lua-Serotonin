@@ -605,3 +605,4 @@ local function dr_rect_filled(layer, x, y, w, h, col, rounding)
     push_cmd(layer, { kind = "rectf", x = x, y = y, w = w, h = h, col = col, rounding = rounding or 0 })
 end
 
+local function dr_rect(layer, x, y, w, h, col, thick, rounding)
