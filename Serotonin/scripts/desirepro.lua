@@ -1186,3 +1186,4 @@ function DesirePro.keybind(ctx, label)
     if st.waiting then
 
         if not st.armed then
+            if not mouse_down() then st.armed = true end
