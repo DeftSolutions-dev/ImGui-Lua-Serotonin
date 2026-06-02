@@ -1457,3 +1457,4 @@ function ImGui.RadioButton(label, active)
     insert(g.focus_list, id)
     local sz = Style.FontHeight + Style.FramePadding.y * 2
     local tw, th = text_size(label)
+    local x, y = win.cursor_x, win.cursor_y
