@@ -1821,3 +1821,4 @@ function DesirePro.menu()
         end
     end
 
+    draw_header(mx, my, mw)
