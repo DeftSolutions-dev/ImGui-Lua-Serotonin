@@ -4114,3 +4114,4 @@ function ImGui.DatePicker(label, y, m, d)
             if col > 0 then ImGui.SameLine(nil, 2) end
             local cell_idx = row * 7 + col
             if cell_idx < first or idx > total then
+                ImGui.Dummy(cell_w, cell_h)
