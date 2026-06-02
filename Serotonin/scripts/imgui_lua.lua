@@ -3426,3 +3426,4 @@ local function close_popup_window()
         me._clip_rect.y = me.y
         me._clip_rect.w = final_w
         me._clip_rect.h = h_anim
+    end
