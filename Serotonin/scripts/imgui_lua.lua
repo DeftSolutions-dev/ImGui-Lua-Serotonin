@@ -1730,3 +1730,4 @@ local function get_picker_state(id, r, g_, b)
 
         if ns > 0 then s.h = nh end
         s.s, s.v = ns, nv
+        s.last_r, s.last_g, s.last_b = r, g_, b
