@@ -4747,3 +4747,4 @@ local _last_err  = nil
 local _first_paint = true
 function ImGui._OnPaint()
     if _first_paint then
+        _first_paint = false
