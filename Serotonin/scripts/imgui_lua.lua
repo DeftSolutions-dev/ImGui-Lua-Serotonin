@@ -2269,3 +2269,4 @@ function ImGui.InputText(label, value, callback)
             if ch == "\b" then
                 value = sub(value, 1, -2)
             elseif #ch == 1 then
+                if ch >= "A" and ch <= "Z" and not shift then
