@@ -1378,3 +1378,4 @@ local function button_internal(label, w_override, h_override)
         end
         dr_rect_filled(2, x, y, w, h, col, Style.FrameRounding)
         if Style.FrameBorderSize > 0 then
+            dr_rect(2, x, y, w, h, StyleColor(Col.Border), Style.FrameBorderSize, Style.FrameRounding)
