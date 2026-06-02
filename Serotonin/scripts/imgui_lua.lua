@@ -249,3 +249,4 @@ ImGui.Style = Style
 
 g = {
 
+    frame_count       = 0,
