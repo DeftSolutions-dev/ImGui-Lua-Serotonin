@@ -950,3 +950,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
         local arrow_id = fnv1a("collapse", id)
         local ax, ay, aw, ah = tx + 4, ty + 3, 16, 16
+        local pressed_arrow, hov_arrow = ButtonBehavior(ax, ay, aw, ah, arrow_id)
