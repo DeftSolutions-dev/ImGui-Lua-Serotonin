@@ -890,3 +890,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local mx, my = mouse_pos()
     local minus_hit = point_in_rect(mx, my, x, mid_y - btn / 2, btn, btn)
     local plus_hit = point_in_rect(mx, my, x + w - btn, mid_y - btn / 2, btn, btn)
+    if minus_hit and clicked() then
