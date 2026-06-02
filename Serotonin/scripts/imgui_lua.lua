@@ -3535,3 +3535,4 @@ function ImGui.EndMenuBar()
     local mb = win._menubar; if not mb then return end
 
     if mb._old_clip then
+        local c = mb._old_clip
