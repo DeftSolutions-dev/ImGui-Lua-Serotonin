@@ -1579,3 +1579,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
         set_active_id(id, win, { x = x, y = y, w = drag_w, h = frame_h })
     end
     local active = (g.active_id == id)
+
