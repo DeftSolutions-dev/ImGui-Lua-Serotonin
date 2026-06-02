@@ -108,3 +108,4 @@ end
 local function hsv_to_rgb(h, s, v)
     if s <= 0 then return v, v, v end
     h = (h - floor(h)) * 6
+    local i = floor(h)
