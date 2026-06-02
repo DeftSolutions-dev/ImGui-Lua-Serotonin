@@ -1086,3 +1086,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         return false
     end
 
+    push_clip(win._content_x0, win._content_y0,
