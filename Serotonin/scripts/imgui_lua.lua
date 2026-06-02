@@ -785,3 +785,4 @@ function ImGui.IsItemEdited()
 end
 
 function ImGui.IsWindowHovered()
+    local win = g.current_window; if not win then return false end
