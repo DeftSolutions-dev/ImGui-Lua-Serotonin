@@ -506,3 +506,4 @@ local function update_io()
     g.nav_activate  = act_now and not g._nav_act_prev
     g._nav_act_prev = act_now
 
+    local dt = utility.GetDeltaTime()
