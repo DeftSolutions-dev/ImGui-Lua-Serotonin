@@ -502,3 +502,4 @@ local function update_io()
         if idx > #g.focus_list_prev then idx = 1 end
         g.nav_id = g.focus_list_prev[idx]
     end
+    local act_now = (not nav_blocked) and probe_any({ "Enter", "Return", 0x0D, "Space", 0x20 })
