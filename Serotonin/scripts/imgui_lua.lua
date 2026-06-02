@@ -2237,3 +2237,4 @@ local function poll_typed_chars()
 end
 
 function ImGui.InputText(label, value, callback)
+    local win = g.current_window; if not win then return value end
