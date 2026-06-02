@@ -1316,3 +1316,4 @@ local function draw_popup()
         local px, pw = popup.x, popup.w
         local py = popup.y - (1 - t) * 8
         popup_rect = { x = px, y = py, w = pw, h = ph }
+        local sel = DesirePro.vars[popup.varid]
