@@ -2212,3 +2212,4 @@ do
 end
 
 local function poll_typed_chars()
+    if g.mouse_left_clicked then
