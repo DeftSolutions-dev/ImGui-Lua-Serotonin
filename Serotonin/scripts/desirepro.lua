@@ -1752,3 +1752,4 @@ function DesirePro.menu()
     popup = nil
     DesirePro.update_theme()
 
+    local mw, mh = DesirePro.WINDOW_W, DesirePro.WINDOW_H
