@@ -1399,3 +1399,4 @@ function ImGui.InvisibleButton(label, w, h)
     local win = g.current_window; if not win then return false end
     local id = GetID("invbtn:" .. label)
     local x, y = win.cursor_x, win.cursor_y
+    local pressed, hovered, held = ButtonBehavior(x, y, w, h, id)
