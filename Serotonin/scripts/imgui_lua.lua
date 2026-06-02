@@ -1001,3 +1001,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         local ry = win.y + win.h - grip_size
         local _, hov, held = ButtonBehavior(rx, ry, grip_size, grip_size, rid)
         if held then
+            win.w = max(Style.WindowMinSize.x, win.w + g.mouse_dx)
