@@ -1639,3 +1639,4 @@ function ImGui.Selectable(label, selected, w_override, h_override)
     local pressed, hovered, held = ButtonBehavior(x, y, w, h, id)
     if visible then
         local col
+        if selected then col = StyleColor(Col.HeaderActive)
