@@ -1689,3 +1689,4 @@ local function draw_feature()
         DesirePro._feature = nil
     end
     DesirePro._modal_active = false
+end
