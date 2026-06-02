@@ -1033,3 +1033,4 @@ function DesirePro.combo(ctx, label, items)
 end
 
 function DesirePro.multicombo(ctx, label, items)
+    local id = "mc:" .. ctx.idp .. label
