@@ -3970,3 +3970,4 @@ end
 function ImGui.TextLink(label)
     local win = g.current_window; if not win then return false end
     local id = GetID("link:" .. label)
+    local tw, th = text_size(label)
