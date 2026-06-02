@@ -2891,3 +2891,4 @@ function ImGui.Hotkey(label, key)
             local ok, p = pcall(keyboard.IsPressed, name)
             if ok and p then
                 key = name
+                clear_active_id()
