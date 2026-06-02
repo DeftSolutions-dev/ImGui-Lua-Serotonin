@@ -4050,3 +4050,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
     ImGui.SameLine()
     if ImGui.Button("Send") and state.input ~= "" then
         if on_submit then on_submit(state.input) end
+        insert(state.history, 1, state.input)
