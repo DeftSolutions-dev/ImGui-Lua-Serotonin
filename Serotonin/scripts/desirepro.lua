@@ -62,3 +62,4 @@ DesirePro.LANG_NAMES = { "English", "\208\160\209\131\209\129\209\129\208\186\20
 function DesirePro.translate(en)
     if DesirePro.lang == 0 or not en or en == "" then return en end
     local e = LOCALE[en]
+    if not e then return en end
