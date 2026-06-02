@@ -2810,3 +2810,4 @@ function ImGui.BeginCombo(label, preview, flags)
     local label_part = (tw_lbl > 0) and (tw_lbl + Style.ItemInnerSpacing.x) or 0
     local combo_w = get_item_width(max(40, total_w - label_part))
     local x, y = win.cursor_x, win.cursor_y
+    local visible = ItemAdd(x, y, combo_w, frame_h)
