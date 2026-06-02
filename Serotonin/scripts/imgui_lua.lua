@@ -795,3 +795,4 @@ function ImGui.IsWindowFocused()
 end
 
 function ImGui.GetMousePos()
+    if ui_scale ~= 1 then
