@@ -414,3 +414,4 @@ local function update_io()
             if g.windows_z_order[i] == g.hovered_window_id then
                 if i ~= #g.windows_z_order then
                     remove(g.windows_z_order, i)
+                    insert(g.windows_z_order, g.hovered_window_id)
