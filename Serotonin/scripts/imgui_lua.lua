@@ -3890,3 +3890,4 @@ function ImGui.SetKeyboardFocusHere()
 end
 
 function ImGui.OpenPopupOnItemClick(str_id, button)
+    button = button or 1
