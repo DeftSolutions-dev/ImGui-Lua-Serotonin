@@ -1163,3 +1163,4 @@ function DesirePro.keybind(ctx, label)
     local kw = DesirePro.text_size(name, "poppins_medium_15")
     st.size = DesirePro.anim(st.size, math.max(60, kw + 46), 14)
     local pw, ph = st.size, 20
+    local px = x1 - pw
