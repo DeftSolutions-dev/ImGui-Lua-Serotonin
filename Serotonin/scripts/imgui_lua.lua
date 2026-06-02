@@ -1131,3 +1131,4 @@ function ImGui.End()
 
     render_scrollbar(win)
 
+    while #g.id_stack > win._id_stack_save do remove(g.id_stack) end
