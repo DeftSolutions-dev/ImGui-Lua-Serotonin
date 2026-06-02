@@ -4588,3 +4588,4 @@ local function flush_layer(layer)
                     if x ~= c.x or y ~= c.y or w ~= c.w or h ~= c.h then rd = 0 end
                     draw.RectFilled(x, y, w, h, col, rd, a)
                 end
+            else
