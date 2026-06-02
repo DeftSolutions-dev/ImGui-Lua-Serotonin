@@ -1626,3 +1626,4 @@ function ImGui.ProgressBar(fraction, w, h, overlay)
     end
     ItemSize(frame_w, frame_h)
 end
+
