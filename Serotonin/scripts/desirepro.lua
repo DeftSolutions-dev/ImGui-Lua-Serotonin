@@ -77,3 +77,4 @@ local function load_tex(rel)
     if not ok or type(data) ~= "string" or #data == 0 then
         tex_cache[rel] = false
         return nil
+    end
