@@ -4021,3 +4021,4 @@ function ImGui.Spinner(label, radius, thickness, color)
     ItemSize(sz, sz)
     if label and label ~= "" and not label:match("^##") then
         ImGui.SameLine()
+        ImGui.Text(label)
