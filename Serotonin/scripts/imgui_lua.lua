@@ -551,3 +551,4 @@ function ImGui.PopStyleColor(n)
 end
 
 local draw_alpha_mul = 1
+function ImGui.SetDrawAlpha(a) draw_alpha_mul = a or 1 end
