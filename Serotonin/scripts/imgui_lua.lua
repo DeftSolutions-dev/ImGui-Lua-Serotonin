@@ -2685,3 +2685,4 @@ function ImGui.SetWindowSize(w_, h_)
     w.w = max(Style.WindowMinSize.x, w_)
     w.h = max(Style.WindowMinSize.y, h_)
 end
+function ImGui.SetWindowCollapsed(b) local w = g.current_window; if w then w.collapsed = b end end
