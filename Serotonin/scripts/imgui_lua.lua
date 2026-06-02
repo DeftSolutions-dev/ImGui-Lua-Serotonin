@@ -1901,3 +1901,4 @@ function ImGui.BeginTabItem(label, p_open)
     local tb = win._tabbar; if not tb then return false end
     local id = GetID("tab:" .. label)
     local tw, th = text_size(label)
+    local pad = Style.FramePadding
