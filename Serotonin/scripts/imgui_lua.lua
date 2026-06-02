@@ -1845,3 +1845,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         picker_state_commit(s, r, g_, b)
 
         ImGui.Dummy(sv_size + pad_in + hue_w, sv_size)
+        if not flags.no_inputs then
