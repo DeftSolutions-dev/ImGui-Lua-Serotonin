@@ -1562,3 +1562,4 @@ function ImGui.SliderFloat(label, v, vmin, vmax, fmt, flags) return slider_inter
 function ImGui.SliderInt(label, v, vmin, vmax, fmt, flags)   return slider_internal(label, v, vmin, vmax, fmt or "%d",  true,  flags) end
 
 local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
+    local win = g.current_window; if not win then return value end
