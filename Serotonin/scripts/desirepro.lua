@@ -1004,3 +1004,4 @@ function DesirePro.combo(ctx, label, items)
     s.open = DesirePro.anim(s.open or 0, opened and 1 or 0, 15)
     s.roll = DesirePro.anim(s.roll or 0, opened and 1 or 0, 6)
     local lcol = opened and DesirePro.col.label_active or (hovered and DesirePro.col.label_hover or DesirePro.col.label)
+
