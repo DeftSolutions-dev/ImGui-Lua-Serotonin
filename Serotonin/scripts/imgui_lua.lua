@@ -4269,3 +4269,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
                     if ch >= "A" and ch <= "Z" and not shift then ch = string.lower(ch) end
                     text = text .. ch
                 else text = text .. ch end
+            end
