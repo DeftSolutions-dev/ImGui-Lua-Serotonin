@@ -1471,3 +1471,4 @@ function DesirePro.esp_preview(ctx)
     ImGui.AddRectFilled(2, bx, by + bh + 4, bw * armor, 4, ImGui.RGBA(70, 130, 246, 255), 2)
 
     local groups = { top = {}, bottom = {}, left = {}, right = {} }
+    for _, it in ipairs(layout) do
