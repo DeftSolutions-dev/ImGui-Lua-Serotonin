@@ -733,3 +733,4 @@ local function ButtonBehavior(x, y, w, h, id)
     end
     return pressed, hovered, held
 end
+ImGui.ButtonBehavior = ButtonBehavior
