@@ -1852,3 +1852,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
                                      round(r * 255), round(g_ * 255), round(b * 255)))
         end
         ImGui.EndPopup()
+    end
