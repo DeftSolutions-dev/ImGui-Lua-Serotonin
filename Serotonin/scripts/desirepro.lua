@@ -1107,3 +1107,4 @@ function DesirePro.color(ctx, label)
     DesirePro.icon_scaled(2, x1 - 40, cy, "PALETTE_LINE", 18, 16,
         (open_color == id or hovered) and DesirePro.col.label_active or DesirePro.col.label, 1)
     ImGui.AddCircleFilled(2, cx, cy, 9, DesirePro.col.elem, 24)
+    ImGui.AddCircleFilled(2, cx, cy, 9, rgb, 24)
