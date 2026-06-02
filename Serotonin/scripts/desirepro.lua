@@ -121,3 +121,4 @@ function DesirePro.text(layer, x, y, str, font_key, color, alpha)
                 local tex = load_tex(dir .. g.f)
                 if tex then
                     ImGui.AddImage(layer, floor(pen + g.bx + 0.5), floor(y + ascent - g.by + 0.5),
+                                   g.w, g.h, tex, color, alpha)
