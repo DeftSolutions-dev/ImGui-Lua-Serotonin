@@ -1567,3 +1567,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     insert(g.focus_list, id)
     local tw_lbl, th = text_size(label)
     local pad = Style.FramePadding
+    local frame_h = th + pad.y * 2
