@@ -461,3 +461,4 @@ function DesirePro.icon_scaled(layer, cx, cy, key, atlas_size, target_px, col, a
     local best = 35
     for _, sz in ipairs(DesirePro.ICON_SIZES) do
         if sz >= target_px then best = sz; break end
+    end
