@@ -2488,3 +2488,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     pop_clip()
     push_clip(cx + 4, cy + 4, cw - 8, ch - 8)
     return true
+end
