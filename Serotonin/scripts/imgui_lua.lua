@@ -1658,3 +1658,4 @@ function ImGui.Combo(label, current_idx, items, flags)
 
         local visible_rows
         if flags.height_small then visible_rows = 4
+        elseif flags.height_large then visible_rows = 12
