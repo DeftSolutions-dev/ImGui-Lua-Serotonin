@@ -924,3 +924,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         local h = g.next_window_pos
         if h.cond == "always" or first_use then win.x, win.y = h.x, h.y end
         g.next_window_pos = nil
+    end
