@@ -3675,3 +3675,4 @@ function ImGui.BeginTooltip()
     local br_cmd = { kind = "rect",  x = me.x, y = me.y, w = 1, h = 1,
                      col = br_col, thick = 1, rounding = Style.PopupRounding }
     insert(g.draw_layers[5], bg_cmd)
+    insert(g.draw_layers[5], br_cmd)
