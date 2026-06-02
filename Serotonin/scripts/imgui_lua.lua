@@ -3188,3 +3188,4 @@ function ImGui.TableHeader(label)
     if hovered and g.mouse_left_clicked and t.sortable then
         local ctrl_held = ImGui.IsKeyDown("Control")
 
+        local existing_idx
