@@ -1844,3 +1844,4 @@ function DesirePro.menu()
                     DesirePro.dock = best
                 end
                 DesirePro.drag.down = false; DesirePro.drag.moved = false
+            end
