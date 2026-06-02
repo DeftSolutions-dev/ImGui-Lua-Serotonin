@@ -14,3 +14,4 @@ DesirePro.preload({
     fonts = {
         "poppins_semibold_18", "poppins_semibold_17", "poppins_medium_18",
         "poppins_medium_16", "poppins_medium_15",
+    },
