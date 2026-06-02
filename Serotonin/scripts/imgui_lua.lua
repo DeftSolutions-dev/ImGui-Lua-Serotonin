@@ -3858,3 +3858,4 @@ function ImGui.IsMouseDragging(threshold)
     threshold = threshold or 4
     if not g.mouse_left_down then return false end
     local d2 = g.mouse_dx * g.mouse_dx + g.mouse_dy * g.mouse_dy
+
