@@ -4676,3 +4676,4 @@ local function flush_layer(layer)
         elseif k == "grad" then
             local c1, a1 = to_draw(c.c1)
             local c2, a2 = to_draw(c.c2)
+            a1 = a1 * am
