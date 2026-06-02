@@ -76,3 +76,4 @@ local function load_tex(rel)
     local ok, data = pcall(file.read, rel)
     if not ok or type(data) ~= "string" or #data == 0 then
         tex_cache[rel] = false
+        return nil
