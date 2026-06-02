@@ -436,3 +436,4 @@ function DesirePro.update_notifications()
         local n = DesirePro.notifs[i]
         n.t = n.t + d
         local target = (n.t < 3.5) and 0 or 1
+        n.x = DesirePro.lerp(n.x, target, d * 11)
