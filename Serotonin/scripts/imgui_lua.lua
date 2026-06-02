@@ -2760,3 +2760,4 @@ function ImGui.EndDisabled()
     end
 end
 local function is_disabled() return (g._disabled_depth or 0) > 0 end
+ImGui._IsDisabled = is_disabled
