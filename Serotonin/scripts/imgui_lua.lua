@@ -3143,3 +3143,4 @@ function ImGui.TableSetupColumn(label, flags)
                 fixed_sum = fixed_sum + (s.flags.width or 80)
             else
                 stretch_sum = stretch_sum + (s.flags.stretch or 1)
+            end
