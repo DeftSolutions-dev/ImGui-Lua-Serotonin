@@ -2383,3 +2383,4 @@ render_scrollbar = function(win)
 
     local sb_w = Style.ScrollbarSize
     local sb_x = win.x + win.w - sb_w - 1
+    local sb_y = win.y + win._title_h + 1
