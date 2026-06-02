@@ -2915,3 +2915,4 @@ function ImGui.Hotkey(label, key)
     return key or ""
 end
 
+function ImGui.BeginPopupModal(name, p_open, flags)
