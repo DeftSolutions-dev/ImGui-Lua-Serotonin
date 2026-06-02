@@ -904,3 +904,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
             local frac = (mx - tmin_x) / tw
             if frac < 0 then frac = 0 elseif frac > 1 then frac = 1 end
             v = vmin + frac * (vmax - vmin)
+            if is_int then v = floor(v + 0.5) end
