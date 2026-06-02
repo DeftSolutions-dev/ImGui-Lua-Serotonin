@@ -1211,3 +1211,4 @@ function ImGui.Unindent(amount)
     local win = g.current_window; if not win then return end
     amount = amount or Style.IndentSpacing
     win.indent_x = max(0, win.indent_x - amount)
+    win.cursor_x = win.cursor_start_x + win.indent_x
