@@ -596,3 +596,4 @@ local function draw_tab(i, tab, bx, by, bw, bh)
     st.ia = DesirePro.anim(st.ia, selected and 1.0 or (hovered and 0.8 or 0.5), 12)
     st.toff = DesirePro.anim(st.toff, selected and 6 or 0, 12)
 
+    if st.fa > 0.002 then
