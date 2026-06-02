@@ -82,3 +82,4 @@ local function lerp(a, b, t) return a + (b - a) * t end
 
 local function saturate(v) return clamp(v, 0, 1) end
 
+local function round(v) return floor(v + 0.5) end
