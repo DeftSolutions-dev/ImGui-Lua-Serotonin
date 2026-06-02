@@ -755,3 +755,4 @@ local function anim_step(win, id, target, speed)
     return cur
 end
 
+local function record_item(id, x, y, w, h, hovered, clicked, active)
