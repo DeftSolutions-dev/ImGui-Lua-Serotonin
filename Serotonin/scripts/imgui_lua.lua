@@ -2560,3 +2560,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
     auto_wrap(plot_w)
     local x, y = win.cursor_x, win.cursor_y
 
+    if not scale_min or not scale_max then
