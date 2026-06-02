@@ -948,3 +948,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         local tx, ty, tw, th = win.x, win.y, win.w, title_h
         local close_reserve  = win._has_close and 22 or 0
 
+        local arrow_id = fnv1a("collapse", id)
