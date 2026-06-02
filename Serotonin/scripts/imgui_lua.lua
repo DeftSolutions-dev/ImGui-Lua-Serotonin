@@ -3738,3 +3738,4 @@ function ImGui.InputIntStep(label, value, step)
     if ImGui.SmallButton("-") then value = value - step end
     ImGui.SameLine(nil, 2)
     local txt = ImGui.InputText("##v", tostring(value))
+    value = tonumber(txt) or value
