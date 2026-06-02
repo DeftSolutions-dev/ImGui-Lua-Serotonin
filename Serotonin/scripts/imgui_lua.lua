@@ -1174,3 +1174,4 @@ local function auto_wrap(w)
 end
 
 function ImGui.SameLine(offset_x, spacing)
+    local win = g.current_window; if not win then return end
