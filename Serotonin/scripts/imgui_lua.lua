@@ -2965,3 +2965,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     local cx = me.x + last_w - 18
     local cy = me.y + title_h * 0.5
     local cb_pressed, cb_hov = ButtonBehavior(cx - 7, cy - 7, 14, 14, close_id)
+    local lc = cb_hov and StyleColor(Col.ButtonHovered) or StyleColor(Col.Text)
