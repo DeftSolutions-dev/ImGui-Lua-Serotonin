@@ -1009,3 +1009,4 @@ function DesirePro.combo(ctx, label, items)
     ImGui.AddRectFilled(2, box_min, y, bw, h, DesirePro.col.anim_default, 3)
     DesirePro.text_in(2, box_min + 10, y, h, preview, "poppins_medium_16", DesirePro.col.label_active, 1)
 
+    local acx, acy = box_max - 14, y + h / 2
