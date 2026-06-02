@@ -1354,3 +1354,4 @@ local function button_internal(label, w_override, h_override)
     local id = GetID("btn:" .. label)
     insert(g.focus_list, id)
     local tw, th = text_size(label)
+    local pad = Style.FramePadding
