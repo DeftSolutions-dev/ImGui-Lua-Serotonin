@@ -1431,3 +1431,4 @@ function ImGui.Checkbox(label, value)
             dr_rect(2, x - 2, y - 2, box_sz + 4, box_sz + 4, StyleColor(Col.NavHighlight), 2, Style.FrameRounding)
         end
 
+        local check_t = anim_step(win, fnv1a("chkmark", id), value and 1 or 0, 18)
