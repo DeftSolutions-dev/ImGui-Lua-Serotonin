@@ -1612,3 +1612,4 @@ function ImGui.DragInt(label, v, speed, vmin, vmax, fmt)   return drag_internal(
 
 function ImGui.ProgressBar(fraction, w, h, overlay)
     local win = g.current_window; if not win then return end
+    fraction = clamp(fraction or 0, 0, 1)
