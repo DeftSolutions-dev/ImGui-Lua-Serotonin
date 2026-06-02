@@ -1238,3 +1238,4 @@ function ImGui.SeparatorText(text)
     ItemSize(total_w, th + 2)
 end
 
+function ImGui.BeginGroup()
