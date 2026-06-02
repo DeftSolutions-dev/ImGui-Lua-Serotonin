@@ -1881,3 +1881,4 @@ function ImGui.BeginTabBar(name, flags)
         tab_h       = tab_h,
         row_y       = win.cursor_y,
         next_x      = win.cursor_x,
+        bottom_y    = win.cursor_y + tab_h,
