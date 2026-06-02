@@ -2658,3 +2658,4 @@ function ImGui.GetCursorScreenPos()
     return win.cursor_x, win.cursor_y
 end
 function ImGui.SetCursorScreenPos(x, y)
+    local win = g.current_window; if not win then return end
