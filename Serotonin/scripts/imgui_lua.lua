@@ -1903,3 +1903,4 @@ function ImGui.BeginTabItem(label, p_open)
     local tw, th = text_size(label)
     local pad = Style.FramePadding
     local close_w = (p_open ~= nil) and 16 or 0
+    local tab_w = tw + pad.x * 2 + 8 + close_w
