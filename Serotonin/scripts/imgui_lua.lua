@@ -2787,3 +2787,4 @@ function ImGui.ColorButton(desc_id, col, w, h)
     local th = Style.FontHeight
     w = w or (th + Style.FramePadding.y * 2) * 1.6
     h = h or (th + Style.FramePadding.y * 2)
+    auto_wrap(w)
