@@ -761,7 +761,7 @@ function DesirePro.appear(id, center_y)
     if t < 0 then t = 0 elseif t > 1 then t = 1 end
     s.off = DesirePro.lerp(s.off, 0, delta_time() * t * 4)
     s.alpha = DesirePro.lerp(s.alpha, 1, delta_time() * t * 3)
-    if t >= 1 and s.off > -0.5 then s.off = 0 end
+    if t >= 1 and s.off < 0.5 and s.off > -0.5 then s.off = 0 end
     return s.off, s.alpha
 end
 
