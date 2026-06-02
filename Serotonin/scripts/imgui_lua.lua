@@ -2594,3 +2594,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
 
             if hovered then
                 local idx
+                if kind == "hist" then
