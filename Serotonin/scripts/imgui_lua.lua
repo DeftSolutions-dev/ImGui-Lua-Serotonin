@@ -1430,3 +1430,4 @@ function ImGui.Checkbox(label, value)
         if nav_focused then
             dr_rect(2, x - 2, y - 2, box_sz + 4, box_sz + 4, StyleColor(Col.NavHighlight), 2, Style.FrameRounding)
         end
+
