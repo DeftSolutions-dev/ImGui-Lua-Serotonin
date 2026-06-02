@@ -407,3 +407,4 @@ local function update_io()
             g.hovered_window_id = wid
             break
         end
+    end
