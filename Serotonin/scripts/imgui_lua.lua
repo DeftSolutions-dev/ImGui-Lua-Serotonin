@@ -539,3 +539,4 @@ local function StyleColor(idx)
     end
     return Style.Colors[idx]
 end
+ImGui.GetStyleColor = StyleColor
