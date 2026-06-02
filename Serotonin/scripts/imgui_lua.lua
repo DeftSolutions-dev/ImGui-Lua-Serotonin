@@ -445,3 +445,4 @@ local function update_io()
         if clear then clear_active_id() end
     end
 
+    local ok_tk, tk = pcall(keyboard.IsPressed, g.toggle_key)
