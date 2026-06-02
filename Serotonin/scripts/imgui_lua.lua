@@ -3009,3 +3009,4 @@ local function vec_widget(label, v, n, draw_fn, ...)
     local label_part = (tw_lbl > 0) and (tw_lbl + Style.ItemInnerSpacing.x) or 0
     local inner = Style.ItemInnerSpacing.x
     local each_w = (total_w - label_part - inner * (n - 1)) / n
+    ImGui.PushID(label)
