@@ -3458,3 +3458,4 @@ end
 function ImGui.BeginPopupContextItem(str_id)
     str_id = str_id or "##itemcontext"
     local r = g.last_item_rect
+    if g.last_item_id and r and g.mouse_right_clicked
