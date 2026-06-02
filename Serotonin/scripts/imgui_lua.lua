@@ -1473,3 +1473,4 @@ function ImGui.RadioButton(label, active)
             dr_circle_filled(2, cx, cy, r * 0.5, StyleColor(Col.CheckMark), 12)
         end
         dr_text(2, label, x + sz + Style.ItemInnerSpacing.x, y + (sz - th) * 0.5, StyleColor(Col.Text))
+    end
