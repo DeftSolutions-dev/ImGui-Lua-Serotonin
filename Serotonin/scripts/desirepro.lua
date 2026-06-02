@@ -638,3 +638,4 @@ local widget_states = {}
 local function widget_state(id, init)
     local s = widget_states[id]
     if not s then s = init or {}; widget_states[id] = s end
+    return s
