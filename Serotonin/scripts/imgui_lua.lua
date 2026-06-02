@@ -747,3 +747,4 @@ local function anim_set(win, id, v)
 end
 
 local function anim_step(win, id, target, speed)
+    speed = speed or 12
