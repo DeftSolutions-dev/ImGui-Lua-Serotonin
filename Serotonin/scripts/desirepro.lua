@@ -1358,3 +1358,4 @@ local function draw_popup()
         if color_drag and not ImGui.IsMouseDown() then color_drag = nil end
         local c = DesirePro.vars[popup.varid]
         local pad, sv_w, sv_h, hue_w = 14, 158, 130, 14
+        local px, py = popup.x, popup.y
