@@ -3938,3 +3938,4 @@ end
 
 function ImGui.InputTextWithHint(label, hint, value)
     local was_empty = (value == nil or value == "")
+    local out = ImGui.InputText(label, value or "")
