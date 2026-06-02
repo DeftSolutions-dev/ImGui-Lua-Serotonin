@@ -3180,3 +3180,4 @@ function ImGui.TableHeader(label)
     local h  = th + Style.FramePadding.y * 2
     local cw = t.col_widths[t.cur_col + 1]
     local x  = t.x0; for i = 1, t.cur_col do x = x + t.col_widths[i] end
+    local y  = t.row_y
