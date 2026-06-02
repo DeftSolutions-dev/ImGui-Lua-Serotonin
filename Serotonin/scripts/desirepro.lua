@@ -1884,3 +1884,4 @@ function DesirePro.menu()
 
     draw_feature()
     draw_settings()
+    draw_popup()
