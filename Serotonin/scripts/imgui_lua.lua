@@ -1341,3 +1341,4 @@ function ImGui.BulletText(text)
     text = tostring(text or "")
     local tw, th = text_size(text)
     local cx = win.cursor_x + 4
+    local cy = win.cursor_y + th * 0.5
