@@ -3650,3 +3650,4 @@ function ImGui.MenuItem(label, shortcut, selected)
     return pressed
 end
 
+function ImGui.BeginTooltip()
