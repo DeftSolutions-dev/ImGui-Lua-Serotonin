@@ -3390,3 +3390,4 @@ open_popup_window = function(me)
         _is_popup       = true,
         _popup          = me,
     }
+    insert(g.window_stack, pwin)
