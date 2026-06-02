@@ -3318,3 +3318,4 @@ function ImGui.OpenPopupContextItem(str_id, button)
     return ImGui.OpenPopupOnItemClick(str_id, button)
 end
 
+function ImGui.BeginPopupContextVoid(str_id)
