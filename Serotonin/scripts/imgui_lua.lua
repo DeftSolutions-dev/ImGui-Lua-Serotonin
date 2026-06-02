@@ -4308,3 +4308,4 @@ function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
     local col = StyleColor(Col.Border)
     if active then col = StyleColor(Col.SeparatorActive)
     elseif hovered then col = StyleColor(Col.SeparatorHovered) end
+    dr_rect_filled(2, x, y, w, h, col, 0)
