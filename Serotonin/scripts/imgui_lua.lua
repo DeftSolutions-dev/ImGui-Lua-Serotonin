@@ -3489,3 +3489,4 @@ function ImGui.BeginPopup(str_id, flags)
         })
         g.popup_pending_open = nil
     end
+
