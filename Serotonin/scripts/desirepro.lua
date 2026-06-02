@@ -190,3 +190,4 @@ function DesirePro.image(layer, x, y, w, h, name, color, alpha)
     if tex then ImGui.AddImage(layer, x, y, w, h, tex, color or ImGui.ColF(1, 1, 1, 1), alpha or 1) end
 end
 
+function DesirePro.image_info(name) return META.images[name] end
