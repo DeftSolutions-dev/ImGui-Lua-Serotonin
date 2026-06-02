@@ -4162,3 +4162,4 @@ function ImGui.FileBrowser(str_id, state)
                 else state.selected = sub end
             end
         end
+    end
