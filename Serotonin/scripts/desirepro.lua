@@ -1691,3 +1691,4 @@ local function draw_feature()
     DesirePro._modal_active = false
 end
 
+DesirePro.settings_open = false
