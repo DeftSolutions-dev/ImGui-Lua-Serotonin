@@ -4598,3 +4598,4 @@ local function flush_layer(layer)
             if clip then
 
                 if c.x >= clip.x and c.y >= clip.y
+                   and c.x + c.w <= clip.x + clip.w and c.y + c.h <= clip.y + clip.h then
