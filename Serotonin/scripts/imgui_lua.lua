@@ -742,3 +742,4 @@ local function anim_get(win, id)
 end
 local function anim_set(win, id, v)
     if not win then return end
+    g.storage[win.id] = g.storage[win.id] or {}
