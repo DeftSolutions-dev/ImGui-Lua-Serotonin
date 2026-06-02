@@ -218,3 +218,4 @@ local function default_dark_theme()
     t[Col.NavHighlight]          = COL(0.26, 0.59, 0.98, 1.00)
     t[Col.ModalWindowDimBg]      = COL(0.80, 0.80, 0.80, 0.35)
     return t
+end
