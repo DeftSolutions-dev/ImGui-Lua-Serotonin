@@ -489,3 +489,4 @@ local function update_io()
     local shift_now = probe("Shift")
     g.nav_dir = 0
     if tab_now and not g._tab_prev then
+        g.nav_dir = shift_now and -1 or 1
