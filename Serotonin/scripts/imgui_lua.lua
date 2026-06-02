@@ -2537,3 +2537,4 @@ function ImGui.ImageButton(str_id, tex_id, w, h, tint, bg)
     local id = GetID("imgbtn:" .. tostring(str_id))
     auto_wrap(w + 4)
     local x, y = win.cursor_x, win.cursor_y
+    local visible = ItemAdd(x, y, w + 4, h + 4)
