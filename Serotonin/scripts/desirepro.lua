@@ -296,3 +296,4 @@ DesirePro.col_light = {
     label_active  = R(0, 0, 0, 255),      label_hover   = R(20, 20, 20, 255),
     label         = R(50, 50, 50, 255),   desc_active   = R(90, 90, 90, 255),
     desc_hover    = R(100, 100, 100, 255), desc         = R(120, 120, 120, 255),
+}
