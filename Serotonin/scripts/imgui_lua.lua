@@ -439,3 +439,4 @@ local function update_io()
             if not fully_inside then clear = true end
         else
             local overlaps = (r.x < p.x + p.w and r.x + r.w > p.x
+                          and r.y < p.y + p.h and r.y + r.h > p.y)
