@@ -133,3 +133,4 @@ end
 function DesirePro.text_size(str, font_key)
     local fm = META.fonts[font_key]
     if not fm then return 0, 0 end
+    local w = 0
