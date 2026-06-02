@@ -577,3 +577,4 @@ local function push_cmd(layer, cmd)
     if ui_scale ~= 1 then
         local s, px, py = ui_scale, ui_px, ui_py
         if cmd.x then cmd.x = px + (cmd.x - px) * s end
+        if cmd.y then cmd.y = py + (cmd.y - py) * s end
