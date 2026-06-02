@@ -3154,3 +3154,4 @@ function ImGui.TableSetupColumn(label, flags)
             end
         end
     end
+end
