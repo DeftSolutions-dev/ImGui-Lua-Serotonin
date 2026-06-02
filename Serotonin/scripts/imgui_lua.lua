@@ -2251,3 +2251,4 @@ function ImGui.InputText(label, value, callback)
 
     local hovered = ItemHoverable(x, y, input_w, frame_h, id)
     if hovered and g.mouse_left_clicked then
+        set_active_id(id, win, { x = x, y = y, w = input_w, h = frame_h })
