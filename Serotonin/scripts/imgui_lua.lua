@@ -3085,3 +3085,4 @@ local function table_total_w(t)
 end
 
 function ImGui.TableNextRow()
+    local win = g.current_window; if not win then return end
