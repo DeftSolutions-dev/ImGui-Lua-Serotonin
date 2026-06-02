@@ -1291,3 +1291,4 @@ local function draw_popup()
                 ImGui.AddCircleFilled(3, px + 14, iy + ih / 2, 3, DesirePro.col.active, 12)
             end
             local tc = seld and DesirePro.col.label_active or (ih_hover and DesirePro.col.label_hover or DesirePro.col.label)
+            DesirePro.text_in(3, px + (seld and 26 or 14), iy, ih, DesirePro.translate(popup.items[i]), "poppins_medium_16", tc, 1)
