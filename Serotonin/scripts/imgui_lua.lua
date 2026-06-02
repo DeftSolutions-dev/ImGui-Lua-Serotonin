@@ -333,3 +333,4 @@ local MOUSE_RDOWN_CANDIDATES = {
     "VK_RBUTTON", 2, 0x02,
 }
 local _working_mouse_probe   = nil
+local _working_rmouse_probe  = nil
