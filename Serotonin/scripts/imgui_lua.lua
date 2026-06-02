@@ -2840,3 +2840,4 @@ function ImGui.BeginCombo(label, preview, flags)
             dr_text(2, label, x + combo_w + Style.ItemInnerSpacing.x, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
         end
     end
+    record_item(id, x, y, combo_w + label_part, frame_h, hovered, pressed, held)
