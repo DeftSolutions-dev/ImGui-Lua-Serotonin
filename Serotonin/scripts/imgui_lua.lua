@@ -3614,3 +3614,4 @@ function ImGui.MenuItem(label, shortcut, selected)
     local w = max(120, tw + pad_x * 2 + (sw > 0 and (sw + 16) or 0))
     local h = th + Style.FramePadding.y * 2
     local x, y = win.cursor_x, win.cursor_y
+    local hovered = ItemHoverable(x, y, w, h, id)
