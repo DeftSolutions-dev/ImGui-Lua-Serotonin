@@ -2590,3 +2590,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
                 for i = 1, count - 1 do
                     dr_line(2, tx(i), ty(values[i]), tx(i + 1), ty(values[i + 1]), col, 1)
                 end
+            end
