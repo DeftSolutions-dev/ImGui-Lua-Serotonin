@@ -1864,3 +1864,4 @@ function ImGui.ColorEdit4(label, r, g_, b, a, flags)
     return r, g_, b, a
 end
 
+ImGui.ColorPicker3 = ImGui.ColorEdit3
