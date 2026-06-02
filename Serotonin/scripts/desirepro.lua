@@ -125,6 +125,7 @@ local function resolve_font(font_key)
     return font_key
 end
 DesirePro.resolve_font = resolve_font
+
 function DesirePro.text(layer, x, y, str, font_key, color, alpha)
     local fm = META.fonts[font_key]
     if not fm then return 0 end
