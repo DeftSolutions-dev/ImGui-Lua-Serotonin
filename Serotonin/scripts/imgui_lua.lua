@@ -1303,3 +1303,4 @@ function ImGui.TextWrapped(text)
     local win = g.current_window; if not win then return end
     text = tostring(text or "")
     local font = Style.Font
+    local total_w = win._content_x1 - win.cursor_x
