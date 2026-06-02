@@ -507,3 +507,4 @@ local function update_io()
     g._nav_act_prev = act_now
 
     local dt = utility.GetDeltaTime()
+    g.dt = dt or 0
