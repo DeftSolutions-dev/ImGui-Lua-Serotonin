@@ -4137,3 +4137,4 @@ function ImGui.FileBrowser(str_id, state)
     state.selected  = state.selected
 
     ImGui.Text("Path: " .. (state.path == "" and "/" or "/" .. state.path))
+    ImGui.SameLine()
