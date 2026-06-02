@@ -4132,3 +4132,4 @@ function ImGui.DatePicker(label, y, m, d)
 end
 
 function ImGui.FileBrowser(str_id, state)
+    state           = state or {}
