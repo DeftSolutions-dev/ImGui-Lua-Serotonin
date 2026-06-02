@@ -1846,3 +1846,4 @@ function DesirePro.menu()
                 DesirePro.drag.down = false; DesirePro.drag.moved = false
             end
         end
+        if DesirePro.drag.moved then
