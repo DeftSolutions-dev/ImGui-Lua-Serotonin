@@ -1318,3 +1318,4 @@ function ImGui.TextWrapped(text)
     end
     if cur ~= "" then insert(lines, cur) end
     if #lines == 0 then insert(lines, "") end
+    for _, line in ipairs(lines) do
