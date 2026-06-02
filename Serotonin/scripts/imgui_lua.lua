@@ -3042,3 +3042,4 @@ function ImGui.BeginTable(str_id, columns, flags)
     if not widths or #widths ~= columns then
         widths = {}
         for i = 1, columns do widths[i] = total_w / columns end
+    end
