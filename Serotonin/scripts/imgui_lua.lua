@@ -3813,3 +3813,4 @@ function ImGui.LoadIniSettings(path)
                         local pw, ph = v:match("(-?%d+),(-?%d+)")
                         p.w, p.h = tonumber(pw), tonumber(ph)
                     elseif k == "Collapsed" then
+                        p.collapsed = (v == "1")
