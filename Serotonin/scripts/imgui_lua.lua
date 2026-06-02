@@ -1915,3 +1915,4 @@ function ImGui.BeginTabItem(label, p_open)
             if lbl == label then pos = i; break end
         end
         if not pos then insert(tb.label_order, label); pos = #tb.label_order end
+        local computed_x = tb.x - (tb.scroll or 0)
