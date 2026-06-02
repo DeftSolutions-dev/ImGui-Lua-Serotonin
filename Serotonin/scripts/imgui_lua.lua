@@ -726,3 +726,4 @@ local function ButtonBehavior(x, y, w, h, id)
     end
     if g.active_id == id then
         held = g.mouse_left_down
+        if g.mouse_left_released then
