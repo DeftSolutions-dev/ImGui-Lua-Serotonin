@@ -684,3 +684,4 @@ clear_active_id = function()
 end
 
 local function ItemHoverable(x, y, w, h, id)
+    if not g.menu_open then return false end
