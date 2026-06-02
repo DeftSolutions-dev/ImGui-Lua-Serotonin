@@ -984,3 +984,4 @@ end
 function DesirePro.combo(ctx, label, items)
     local id = "co:" .. ctx.idp .. label
     local sel = var(id, 0)
+    local s = widget_state(id, { lab = 0 })
