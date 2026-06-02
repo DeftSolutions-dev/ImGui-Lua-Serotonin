@@ -509,3 +509,4 @@ function DesirePro.text_in(layer, x, box_top, box_h, str, font_key, color, alpha
 end
 
 function DesirePro.text_mid(layer, cx, cy, str, font_key, color, alpha)
+    local w = DesirePro.text_size(str, font_key)
