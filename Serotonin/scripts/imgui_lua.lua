@@ -1783,3 +1783,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         local sv_y = pwin.cursor_y
 
         local sv_id = fnv1a("sv", id)
+        local sv_hover = ItemHoverable(sv_x, sv_y, sv_size, sv_size, sv_id)
