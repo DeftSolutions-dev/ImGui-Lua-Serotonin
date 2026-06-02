@@ -1403,3 +1403,4 @@ local function draw_popup()
             local bx = sv_x + (i - 1) * 24
             ImGui.AddRectFilled(3, bx, preset_y, 20, 20, hsv2rgb(p[1], p[2], p[3], 1), 4)
             if point_in_rect(mx, my, bx, preset_y, 20, 20) then
+                ImGui.AddRect(3, bx, preset_y, 20, 20, DesirePro.col.label_active, 1, 4)
