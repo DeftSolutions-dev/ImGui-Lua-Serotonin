@@ -1476,3 +1476,4 @@ function DesirePro.esp_preview(ctx)
         g[#g + 1] = it
     end
     local cxb = bx + bw / 2
+    for k, it in ipairs(groups.top) do
