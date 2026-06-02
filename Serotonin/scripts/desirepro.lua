@@ -339,3 +339,4 @@ end
 
 function DesirePro.with_alpha(col, a)
     return { r = col.r, g = col.g, b = col.b, a = a }
+end
