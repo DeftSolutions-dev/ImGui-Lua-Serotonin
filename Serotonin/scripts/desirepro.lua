@@ -327,3 +327,4 @@ end
 
 local function delta_time() return ImGui.GetDeltaTime() or 0.016 end
 
+function DesirePro.lerp(a, b, t)
