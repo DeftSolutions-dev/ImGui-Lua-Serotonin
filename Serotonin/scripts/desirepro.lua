@@ -527,3 +527,4 @@ DesirePro.tabs = {
     { icon = "CAR_FILL",            name = "Car" },
     { icon = "EYE_2_FILL",          name = "ESP" },
     { icon = "TRANSLATE_2_AI_LINE", name = "Lang" },
+    { icon = "GROUP_3_FILL",        name = "Players" },
