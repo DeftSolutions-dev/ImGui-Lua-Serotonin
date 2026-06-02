@@ -246,3 +246,4 @@ local Style = {
     Colors              = default_dark_theme(),
 }
 ImGui.Style = Style
+
