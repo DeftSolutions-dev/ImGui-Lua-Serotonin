@@ -1549,3 +1549,4 @@ function DesirePro.esp_preview(ctx)
         ImGui.AddRectFilled(2, hx, hy, hw2, hh2, DesirePro.with_alpha(DesirePro.col.active, 0.14), 4)
     end
 
+    for _, it in ipairs(layout) do
