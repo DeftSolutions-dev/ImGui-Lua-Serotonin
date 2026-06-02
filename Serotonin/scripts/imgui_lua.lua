@@ -815,3 +815,4 @@ function ImGui.GetFrameCount()     return g.frame_count end
 function ImGui.GetItemRectMin()
     local r = g.last_item_rect; return r.x, r.y
 end
+function ImGui.GetItemRectMax()
