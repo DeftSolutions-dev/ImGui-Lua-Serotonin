@@ -1392,3 +1392,4 @@ local function button_internal(label, w_override, h_override)
     return pressed
 end
 
+function ImGui.Button(label, w, h)        return button_internal(label, w, h) end
