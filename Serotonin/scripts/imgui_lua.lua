@@ -738,3 +738,4 @@ ImGui.ButtonBehavior = ButtonBehavior
 local function anim_get(win, id)
     if not win then return 0 end
     local s = g.storage[win.id]; if not s then return 0 end
+    return s["anim_" .. tostring(id)] or 0
