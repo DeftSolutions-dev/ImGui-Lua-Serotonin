@@ -3098,3 +3098,4 @@ function ImGui.TableNextRow()
     t.cur_col       = -1
     t.row_index     = t.row_index + 1
     t.cur_row_max_y = t.row_y
+    win.cursor_x    = t.x0 + (Style.CellPadding and Style.CellPadding.x or 4)
