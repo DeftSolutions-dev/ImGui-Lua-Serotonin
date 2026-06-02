@@ -2324,3 +2324,4 @@ function ImGui.InputInt(label, value, step)
     return tonumber(new_str) or value
 end
 
+function ImGui.InputFloat(label, value, step, fmt)
