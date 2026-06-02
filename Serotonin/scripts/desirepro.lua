@@ -1496,3 +1496,4 @@ function DesirePro.esp_preview(ctx)
     local mx, my = mouse_pos()
     local drag = DesirePro._esp_drag
 
+    for i = #layout, 1, -1 do
