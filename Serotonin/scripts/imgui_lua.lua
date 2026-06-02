@@ -1361,3 +1361,4 @@ local function button_internal(label, w_override, h_override)
     local x, y = win.cursor_x, win.cursor_y
     local visible = ItemAdd(x, y, w, h)
     local pressed, hovered, held = ButtonBehavior(x, y, w, h, id)
+    if g.nav_id == id and g.nav_activate then pressed = true end
