@@ -3347,3 +3347,4 @@ local function clamp_popup_to_screen(me, final_w, final_h)
 end
 
 open_popup_window = function(me)
+    local pad = Style.WindowPadding
