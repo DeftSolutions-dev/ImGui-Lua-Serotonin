@@ -2841,3 +2841,4 @@ function ImGui.BeginCombo(label, preview, flags)
         end
     end
     record_item(id, x, y, combo_w + label_part, frame_h, hovered, pressed, held)
+    ItemSize(combo_w + label_part, frame_h)
