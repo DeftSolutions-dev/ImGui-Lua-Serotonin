@@ -3740,3 +3740,4 @@ function ImGui.InputIntStep(label, value, step)
     local txt = ImGui.InputText("##v", tostring(value))
     value = tonumber(txt) or value
     ImGui.SameLine(nil, 2)
+    if ImGui.SmallButton("+") then value = value + step end
