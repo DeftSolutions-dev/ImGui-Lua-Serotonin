@@ -3748,3 +3748,4 @@ function ImGui.InputIntStep(label, value, step)
 end
 
 function ImGui.InputFloatStep(label, value, step, fmt)
+    step = step or 0.1
