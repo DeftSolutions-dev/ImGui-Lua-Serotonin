@@ -2504,3 +2504,4 @@ function ImGui.EndChild()
     end
 
     win.cursor_start_x = s.cursor_start_x
+    win.cursor_start_y = s.cursor_start_y
