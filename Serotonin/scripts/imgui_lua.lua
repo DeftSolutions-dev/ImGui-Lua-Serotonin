@@ -756,3 +756,4 @@ local function anim_step(win, id, target, speed)
 end
 
 local function record_item(id, x, y, w, h, hovered, clicked, active)
+    g.last_item_id = id
