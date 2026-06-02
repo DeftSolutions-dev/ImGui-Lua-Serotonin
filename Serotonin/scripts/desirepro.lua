@@ -785,3 +785,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     local knob_cx = pill_l + 10 + (pw - 20) * cs.t
     local knob_cy = pill_t + ph / 2
     local kc = 0.6 + 0.4 * cs.t
+    DesirePro.shadow_circle(2, knob_cx, knob_cy, 7, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.45)
