@@ -1656,3 +1656,4 @@ DesirePro._feature_t = 0
 DesirePro._feature_h = 92
 local function draw_feature()
     local feat = DesirePro._feature
+    DesirePro._feature_t = DesirePro.anim(DesirePro._feature_t, feat and 1 or 0, 14)
