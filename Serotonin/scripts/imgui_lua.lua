@@ -1370,3 +1370,4 @@ local function button_internal(label, w_override, h_override)
         local col_a = StyleColor(Col.Button)
         local col_b = StyleColor(Col.ButtonHovered)
         local col_c = StyleColor(Col.ButtonActive)
+        local col
