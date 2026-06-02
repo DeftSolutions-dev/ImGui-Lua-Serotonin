@@ -222,3 +222,4 @@ end
 
 local Style = {
     Alpha               = 1.0,
+    WindowPadding       = { x = 8,  y = 8  },
