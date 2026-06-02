@@ -1509,3 +1509,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
             if logarithmic and vmax > vmin then
                 newv = vmin * (vmax / vmin) ^ t
             else
+                newv = vmin + (vmax - vmin) * t
