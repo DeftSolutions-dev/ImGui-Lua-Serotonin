@@ -2426,3 +2426,4 @@ render_scrollbar = function(win)
 end
 
 function ImGui.BeginChild(str_id, w, h, border)
+    local win = g.current_window; if not win then return false end
