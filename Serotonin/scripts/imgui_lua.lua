@@ -986,3 +986,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             hot, win.h - title_h - grip_size, rid_r)
         if held_r then
             win.w = max(Style.WindowMinSize.x, win.w + g.mouse_dx)
+        end
