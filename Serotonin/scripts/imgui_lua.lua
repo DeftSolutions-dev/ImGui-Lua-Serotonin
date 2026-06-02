@@ -2561,3 +2561,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
     local x, y = win.cursor_x, win.cursor_y
 
     if not scale_min or not scale_max then
+        local mn, mx = huge, -huge
