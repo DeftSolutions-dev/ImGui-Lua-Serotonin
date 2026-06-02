@@ -4471,3 +4471,4 @@ function ImGui.ShowStyleEditor()
             end
             local function v(name, mn, mx)
                 local s = ImGui.Style[name]
+                local pair = { s.x, s.y }
