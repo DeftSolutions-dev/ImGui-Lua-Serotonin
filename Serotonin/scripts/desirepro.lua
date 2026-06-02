@@ -1334,3 +1334,4 @@ local function draw_popup()
 
             local bx, byy, bs = px + 12, iy + ih / 2 - 7, 14
             DesirePro.rrect(3, bx, byy, bs, bs, 3, on and DesirePro.col.active or DesirePro.col.anim_default)
+            if on then
