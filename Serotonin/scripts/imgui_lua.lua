@@ -2767,3 +2767,4 @@ function ImGui.AlignTextToFramePadding()
     win.cursor_y = win.cursor_y + Style.FramePadding.y
 end
 
+function ImGui.LabelText(label, fmt, ...)
