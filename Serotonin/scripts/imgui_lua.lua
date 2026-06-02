@@ -1894,3 +1894,4 @@ function ImGui.BeginTabBar(name, flags)
         label_seen  = {},
     }
     return true
+end
