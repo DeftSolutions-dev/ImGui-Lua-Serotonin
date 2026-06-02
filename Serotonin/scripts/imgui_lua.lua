@@ -1125,3 +1125,4 @@ function ImGui.End()
 
     local visible_h = win.h - win._title_h - Style.WindowPadding.y * 2
     win.scroll_max_y = max(0, win.content_h - visible_h)
+    win.scroll_y = clamp(win.scroll_y, 0, win.scroll_max_y)
