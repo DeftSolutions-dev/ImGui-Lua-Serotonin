@@ -832,3 +832,4 @@ end
 
 local function get_or_create_window(id, title)
     local w = g.windows[id]
+    if w then return w end
