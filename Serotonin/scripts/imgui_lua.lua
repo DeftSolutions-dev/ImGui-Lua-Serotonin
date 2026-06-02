@@ -493,3 +493,4 @@ local function update_io()
     end
     g._tab_prev = tab_now
     if g.nav_dir ~= 0 and g.focus_list_prev and #g.focus_list_prev > 0 then
+        local idx = 0
