@@ -369,3 +369,4 @@ end
 
 local function update_io()
 
+    local pos = utility.GetMousePos()
