@@ -946,3 +946,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     end
 
     ctx.cy = ctx.cy + floor(44 * US) + floor(9 * US)
+    return v
