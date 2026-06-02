@@ -4561,3 +4561,4 @@ local function clip_text_chars(s, max_w, font)
     if max_w <= 0 then return "" end
     local w, _ = text_size(s, font)
     if w <= max_w then return s end
+    local lo, hi = 0, #s
