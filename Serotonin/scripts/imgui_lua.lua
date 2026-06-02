@@ -2267,3 +2267,4 @@ function ImGui.InputText(label, value, callback)
         end
         for _, ch in ipairs(typed) do
             if ch == "\b" then
+                value = sub(value, 1, -2)
