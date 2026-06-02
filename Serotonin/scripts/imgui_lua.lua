@@ -537,3 +537,4 @@ local function StyleColor(idx)
         local s = g.color_stack[i]
         if s.idx == idx then return s.col end
     end
+    return Style.Colors[idx]
