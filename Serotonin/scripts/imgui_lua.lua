@@ -264,3 +264,4 @@ g = {
     mouse_wheel       = 0,
 
     key_states        = {},
+    key_states_prev   = {},
