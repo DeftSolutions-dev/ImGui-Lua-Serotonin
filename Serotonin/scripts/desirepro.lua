@@ -604,3 +604,4 @@ local function draw_tab(i, tab, bx, by, bw, bh)
     DesirePro.text_in(2, bx + 46 + st.toff, by, bh, tab_label(tab), "poppins_medium_18", lcol, 1)
 end
 
+local function draw_header(mx, my, mw)
