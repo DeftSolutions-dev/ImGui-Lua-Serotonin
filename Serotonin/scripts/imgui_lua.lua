@@ -2029,3 +2029,4 @@ function ImGui.EndTabBar()
             local btn_w   = 24
             local pair_x  = tb.x + tb.w - btn_w * 2 - 4
 
+            dr_rect_filled(2, pair_x - 2, tb.y, btn_w * 2 + 6, tb.tab_h,
