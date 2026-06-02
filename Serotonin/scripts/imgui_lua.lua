@@ -2444,3 +2444,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     insert(win._child_stack, {
         cursor_start_x = win.cursor_start_x,
         cursor_start_y = win.cursor_start_y,
+        content_x0     = win._content_x0,
