@@ -3150,3 +3150,4 @@ function ImGui.TableSetupColumn(label, flags)
             if s.flags.fixed or s.flags.width then
                 t.col_widths[i] = s.flags.width or 80
             else
+                t.col_widths[i] = max(20, (s.flags.stretch or 1) / max(1, stretch_sum) * stretch_avail)
