@@ -4284,3 +4284,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
     return value
 end
 
+function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
