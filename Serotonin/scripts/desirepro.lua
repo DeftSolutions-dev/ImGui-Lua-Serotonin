@@ -1573,3 +1573,4 @@ function DesirePro.esp_preview(ctx)
     end
 
     ctx.cy = ctx.cy + ph + 6
+end
