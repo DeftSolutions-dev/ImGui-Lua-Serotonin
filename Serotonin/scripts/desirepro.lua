@@ -1398,3 +1398,4 @@ local function draw_popup()
         DesirePro.text(3, sv_x, hex_y, string.format("#%02X%02X%02X", R, G, Bb), "poppins_medium_15", DesirePro.col.label_active, 1)
 
         local presets = { { 0, 0, 1 }, { 0, 0.8, 0.95 }, { 0.05, 0.6, 0.9 }, { 0.13, 0.85, 0.95 },
+                          { 0.33, 0.7, 0.8 }, { 0.5, 0.7, 0.9 }, { 0.6, 0.7, 0.95 }, { 0.83, 0.7, 0.9 } }
