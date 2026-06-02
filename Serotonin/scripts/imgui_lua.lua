@@ -4540,3 +4540,4 @@ function ImGui.NewFrame()
     g.hovered_id = nil
     g.active_id_was_just_activated = false
 
+    for i = 1, #g.draw_layers do
