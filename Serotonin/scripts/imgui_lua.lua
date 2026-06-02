@@ -889,3 +889,4 @@ end
 ImGui._store_get = store_get
 ImGui._store_set = store_set
 
+function ImGui.SetNextWindowPos(x, y, cond)
