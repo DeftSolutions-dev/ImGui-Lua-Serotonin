@@ -795,3 +795,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     end
     if icon then
         DesirePro.icon_gradient(2, x + 28, y + 28, icon, 24, 1)
+    end
