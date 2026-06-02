@@ -34,3 +34,4 @@ local function pop_clip()
 end
 local function current_clip()
     local s = g.clip_stack[#g.clip_stack]
+    if s then return s end
