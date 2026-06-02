@@ -1231,3 +1231,4 @@ function DesirePro.input(ctx, label, placeholder)
             if key_edge(0x30 + d) then v = v .. tostring(d); DesirePro.vars[id] = v end
         end
         if key_edge("Space") then v = v .. " "; DesirePro.vars[id] = v end
+        if key_edge("Back") or key_edge("Backspace") or key_edge("BackSpace") then
