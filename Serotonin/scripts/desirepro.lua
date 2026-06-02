@@ -502,3 +502,4 @@ end
 
 function DesirePro.text_in(layer, x, box_top, box_h, str, font_key, color, alpha)
     local fm = META.fonts[font_key]
+    local cap = fm and fm.cap_height or 12
