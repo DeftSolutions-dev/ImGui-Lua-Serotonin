@@ -1502,3 +1502,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     local active = (g.active_id == id) and not flags.no_input
 
     if active then
+        if g.mouse_left_down then
