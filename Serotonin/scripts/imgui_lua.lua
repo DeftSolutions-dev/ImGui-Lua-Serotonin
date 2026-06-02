@@ -3972,3 +3972,4 @@ function ImGui.TextLink(label)
     local id = GetID("link:" .. label)
     local tw, th = text_size(label)
     auto_wrap(tw)
+    local x, y = win.cursor_x, win.cursor_y
