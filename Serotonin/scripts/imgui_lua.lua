@@ -1325,3 +1325,4 @@ function ImGui.TextWrapped(text)
         end
         ItemSize(total_w, th)
     end
+end
