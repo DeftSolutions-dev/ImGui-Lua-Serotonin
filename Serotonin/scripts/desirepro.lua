@@ -482,3 +482,4 @@ function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
         if sz >= target_px then best = sz; break end
     end
     local im = META.icons[best]
+    if not im then return end
