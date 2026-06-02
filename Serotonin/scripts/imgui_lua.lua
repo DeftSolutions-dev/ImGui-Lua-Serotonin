@@ -1151,3 +1151,4 @@ local function ItemSize(w, h)
     win.cursor_x = win.cursor_start_x + win.indent_x
     win.cursor_y = win.cursor_y + win.line_h + Style.ItemSpacing.y
     win.line_h   = Style.FontHeight
+end
