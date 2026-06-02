@@ -4501,3 +4501,4 @@ function ImGui.ShowStyleEditor()
             ImGui.Style._filter = ImGui.InputText("Filter", ImGui.Style._filter)
             local filt = string.lower(ImGui.Style._filter or "")
             for i, name in ipairs(C_NAMES) do
+                if filt == "" or string.find(string.lower(name), filt, 1, true) then
