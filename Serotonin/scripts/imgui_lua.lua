@@ -4630,3 +4630,4 @@ local function flush_layer(layer)
             a = a * am
             if clip then
                 local tw, th = text_size(c.text, c.font)
+
