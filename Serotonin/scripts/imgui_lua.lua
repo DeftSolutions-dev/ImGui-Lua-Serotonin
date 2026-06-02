@@ -3189,3 +3189,4 @@ function ImGui.TableHeader(label)
         local ctrl_held = ImGui.IsKeyDown("Control")
 
         local existing_idx
+        for i, sp in ipairs(t.sort_specs) do
