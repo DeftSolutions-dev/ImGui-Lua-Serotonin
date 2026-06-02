@@ -4578,3 +4578,4 @@ local function flush_layer(layer)
         local am = c.amul or 1
 
         if k == "rectf" then
+            local col, a = to_draw(c.col)
