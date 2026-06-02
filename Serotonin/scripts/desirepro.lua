@@ -97,3 +97,4 @@ local function utf8_iter(s)
         if c < 0x80 then cp, size = c, 1
         elseif c < 0xE0 then cp, size = c % 0x20, 2
         elseif c < 0xF0 then cp, size = c % 0x10, 3
+        else cp, size = c % 0x08, 4 end
