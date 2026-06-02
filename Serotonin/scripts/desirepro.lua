@@ -605,3 +605,4 @@ local function draw_tab(i, tab, bx, by, bw, bh)
 end
 
 local function draw_header(mx, my, mw)
+
