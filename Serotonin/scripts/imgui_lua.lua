@@ -2040,3 +2040,4 @@ function ImGui.EndTabBar()
 
             local rid  = fnv1a("tab_right", tb.id)
             local rx   = pair_x + btn_w + 4
+            local rp, rh = ButtonBehavior(rx, tb.y, btn_w, tb.tab_h, rid)
