@@ -573,3 +573,4 @@ local function push_cmd(layer, cmd)
         cmd.clip = g.clip_stack[#g.clip_stack]
     end
     if g.current_window then cmd.win_id = g.current_window.id end
+
