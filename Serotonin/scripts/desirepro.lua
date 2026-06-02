@@ -1583,3 +1583,4 @@ function DesirePro.page(idx, px, py, ph)
         local ry = py
         local c = DesirePro.begin_card("Aimbot:This decsription for child", px, ry, CARD_W, 222, "SWORD_FILL")
         if c.on then
+            DesirePro.featurebox(c, "Target Prediction", function(s)
