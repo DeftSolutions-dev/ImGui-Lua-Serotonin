@@ -431,3 +431,4 @@ function DesirePro.update_notifications()
     if #DesirePro.notifs == 0 then return end
     local sw = ImGui.GetScreenSize()
     local d = delta_time()
+    local y = 24
