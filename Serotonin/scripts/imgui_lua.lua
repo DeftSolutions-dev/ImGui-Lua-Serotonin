@@ -288,3 +288,4 @@ g = {
     popup_active_prev = false,
     popup_rect_prev   = nil,
 
+    popup_stack       = {},
