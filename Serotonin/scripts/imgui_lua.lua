@@ -1500,3 +1500,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
         set_active_id(id, win, { x = x, y = y, w = slider_w, h = frame_h })
     end
     local active = (g.active_id == id) and not flags.no_input
+
