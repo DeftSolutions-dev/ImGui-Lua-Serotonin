@@ -3092,3 +3092,4 @@ function ImGui.TableNextRow()
             dr_line(2, t.x0, t.cur_row_max_y, t.x0 + table_total_w(t), t.cur_row_max_y,
                     StyleColor(Col.TableBorderLight), 1)
         end
+        t.row_y = t.cur_row_max_y + 2
