@@ -3579,3 +3579,4 @@ function ImGui.BeginMenu(label)
         end
         local col
         if is_open then col = StyleColor(Col.HeaderActive)
+        elseif hovered then col = StyleColor(Col.HeaderHovered) end
