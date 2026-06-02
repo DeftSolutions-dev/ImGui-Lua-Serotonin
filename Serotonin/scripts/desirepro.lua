@@ -1788,3 +1788,4 @@ function DesirePro.menu()
     local uy = (my < ty) and my or ty
     local uw = ((mx + mw > tx + tw) and (mx + mw) or (tx + tw)) - ux
     local uh = ((my + mh > ty + th) and (my + mh) or (ty + th)) - uy
+    ImGui.AddRectFilled(1, ux, uy, uw, uh, DesirePro.with_alpha(DesirePro.col.bg, 0.97), 9)
