@@ -1044,3 +1044,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         local arrow_col = StyleColor(Col.Text)
         if win.collapsed then
 
+            dr_triangle_filled(2, ax, ay - 4, ax, ay + 4, ax + 6, ay, arrow_col)
