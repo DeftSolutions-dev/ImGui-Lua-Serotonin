@@ -236,3 +236,4 @@ local Style = {
     ScrollbarSize       = 16,
     ScrollbarRounding   = 9,
     GrabMinSize         = 12,
+    GrabRounding        = 0,
