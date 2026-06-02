@@ -4522,3 +4522,4 @@ function ImGui.NewFrame()
     g._toggled_id     = nil
 
     g.storage[0] = g.storage[0] or {}
+    if not g._tooltip_was_shown then
