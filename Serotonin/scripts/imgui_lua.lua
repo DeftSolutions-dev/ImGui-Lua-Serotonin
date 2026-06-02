@@ -2607,3 +2607,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
                 ImGui.EndTooltip()
             end
         end
+        if overlay and overlay ~= "" then
