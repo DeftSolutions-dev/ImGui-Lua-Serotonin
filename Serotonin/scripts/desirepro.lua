@@ -1297,3 +1297,4 @@ local function draw_popup()
                 open_combo = nil
                 popup = nil
                 ImGui.SetDrawAlpha(1)
+                return
