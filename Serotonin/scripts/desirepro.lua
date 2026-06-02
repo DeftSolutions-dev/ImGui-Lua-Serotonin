@@ -1521,3 +1521,4 @@ function DesirePro.esp_preview(ctx)
             elseif mx > bx + bw then DesirePro._esp_target = "right"
             elseif my < by + bh / 2 then DesirePro._esp_target = "top"
             else DesirePro._esp_target = "bottom" end
+        else
