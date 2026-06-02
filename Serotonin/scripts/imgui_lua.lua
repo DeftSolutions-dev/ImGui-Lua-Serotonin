@@ -3135,3 +3135,4 @@ function ImGui.TableSetupColumn(label, flags)
     insert(t.setups, { label = label, flags = flags })
 
     if #t.setups == t.columns then
+        local total = 0
