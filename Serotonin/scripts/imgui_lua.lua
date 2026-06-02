@@ -3795,3 +3795,4 @@ function ImGui.LoadIniSettings(path)
     for line in content:gmatch("[^\r\n]+") do
         if line:sub(1, 1) ~= ";" then
             local section = line:match("^%[([^%]]+)%]$")
+            if section then
