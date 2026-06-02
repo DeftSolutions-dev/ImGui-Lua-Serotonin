@@ -146,3 +146,4 @@ local function fnv1a(s, seed)
         h = bit.tobit(h * FNV_PRIME)
     end
     return h
+end
