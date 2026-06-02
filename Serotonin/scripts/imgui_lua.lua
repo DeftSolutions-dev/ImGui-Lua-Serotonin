@@ -744,3 +744,4 @@ local function anim_set(win, id, v)
     if not win then return end
     g.storage[win.id] = g.storage[win.id] or {}
     g.storage[win.id]["anim_" .. tostring(id)] = v
+end
