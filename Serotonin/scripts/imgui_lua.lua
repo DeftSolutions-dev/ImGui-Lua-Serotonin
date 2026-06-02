@@ -2283,3 +2283,4 @@ function ImGui.InputText(label, value, callback)
                 value = value .. ch
             end
         end
+        for _, k in ipairs(INPUT_KEYS) do g.key_states_prev[k.key] = g.key_states[k.key] end
