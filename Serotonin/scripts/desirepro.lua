@@ -208,3 +208,4 @@ function DesirePro.shadow_circle(layer, cx, cy, r, color, alpha)
                    color or ImGui.RGBA(0, 0, 0, 255), alpha or 0.5)
 end
 
+function DesirePro.preload_font(font_key)
