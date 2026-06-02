@@ -1139,3 +1139,4 @@ local function key_edge(name)
     return e
 end
 
+local function scan_key()
