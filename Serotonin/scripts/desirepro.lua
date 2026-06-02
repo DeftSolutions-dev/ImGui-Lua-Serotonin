@@ -184,3 +184,4 @@ function DesirePro.icon_size(key, size)
 end
 
 function DesirePro.image(layer, x, y, w, h, name, color, alpha)
+    local info = META.images[name]
