@@ -183,3 +183,4 @@ function DesirePro.icon_size(key, size)
     return g.w, g.h
 end
 
+function DesirePro.image(layer, x, y, w, h, name, color, alpha)
