@@ -10,3 +10,4 @@ local sin, cos, pi, huge = math.sin, math.cos, math.pi, math.huge
 local format, sub, len, byte, char = string.format, string.sub, string.len, string.byte, string.char
 local insert, remove, concat = table.insert, table.remove, table.concat
 local Color3_fromRGB = Color3.fromRGB
+local Color3_new = Color3.new
