@@ -4004,3 +4004,4 @@ function ImGui.Spinner(label, radius, thickness, color)
     if ItemAdd(x, y, sz, sz) then
         local cx, cy = x + radius + 2, y + radius + 2
         local segs   = 24
+        local phase  = (g.time or 0) * 5
