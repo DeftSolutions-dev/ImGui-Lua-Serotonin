@@ -2055,3 +2055,4 @@ function ImGui.EndTabBar()
         dr_line(2, tb.x, tb.bottom_y, tb.x + tb.w, tb.bottom_y, StyleColor(Col.Border), 1)
         win.cursor_y = max(win.cursor_y, tb.bottom_y + 2)
         win.cursor_x = win.cursor_start_x + win.indent_x
+        win.cursor_max_y = max(win.cursor_max_y, win.cursor_y)
