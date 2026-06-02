@@ -520,3 +520,4 @@ local function GetID(label)
         seed = fnv1a(tostring(stack[i]), seed)
     end
     return fnv1a(tostring(label), seed)
+end
