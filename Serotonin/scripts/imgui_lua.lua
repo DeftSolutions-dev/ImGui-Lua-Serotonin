@@ -1209,3 +1209,4 @@ end
 
 function ImGui.Unindent(amount)
     local win = g.current_window; if not win then return end
+    amount = amount or Style.IndentSpacing
