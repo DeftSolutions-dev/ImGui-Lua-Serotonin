@@ -31,3 +31,4 @@ local function push_clip(x, y, w, h)
 end
 local function pop_clip()
     remove(g.clip_stack)
+end
