@@ -1275,3 +1275,4 @@ local function draw_popup()
         popup_rect = { x = px, y = py, w = pw, h = ph }
 
         ImGui.SetDrawAlpha(t < 0.05 and 0.05 or t)
+        DesirePro.shadow_rect(3, px, py, pw, ph, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.5, 22)
