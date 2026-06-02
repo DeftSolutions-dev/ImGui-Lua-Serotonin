@@ -1949,3 +1949,4 @@ function ImGui.BeginTabItem(label, p_open)
         end
     end
 
+    if tb.reorderable and g.active_id == id and g.mouse_left_down then
