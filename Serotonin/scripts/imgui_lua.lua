@@ -1521,3 +1521,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     if visible then
 
         local target = active and 2 or (hovered and 1 or 0)
+        local at = anim_step(win, id, target, 14)
