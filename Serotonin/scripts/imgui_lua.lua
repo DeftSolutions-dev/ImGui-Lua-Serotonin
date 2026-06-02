@@ -2172,3 +2172,4 @@ function ImGui.CollapsingHeader(label)
         g._toggled_id = id
     end
     local col
+    if hov and g.mouse_left_down then col = StyleColor(Col.HeaderActive)
