@@ -853,3 +853,4 @@ local function get_or_create_window(id, title)
         prev_line_h  = Style.FontHeight,
         indent_x     = 0,
         content_w    = 0,
+        content_h    = 0,
