@@ -1529,3 +1529,4 @@ function DesirePro.esp_preview(ctx)
             end
             if moved then
                 moved.group = tg
+                local at = #layout + 1
