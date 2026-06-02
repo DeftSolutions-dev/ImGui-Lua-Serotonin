@@ -267,3 +267,4 @@ function DesirePro.preload(spec)
     return total
 end
 
+local R = ImGui.RGBA
