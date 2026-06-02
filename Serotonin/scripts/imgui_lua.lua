@@ -1754,3 +1754,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         s.open = not s.open
     end
     if visible and not flags.no_small_preview then
+        dr_rect_filled(2, x, y, sq_w, frame_h, COL(r, g_, b, 1), Style.FrameRounding)
