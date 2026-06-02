@@ -702,3 +702,4 @@ local function ItemHoverable(x, y, w, h, id)
             local fully_inside = (x >= p.x and y >= p.y
                               and x + w <= p.x + p.w and y + h <= p.y + p.h)
             if not fully_inside then return false end
+        else
