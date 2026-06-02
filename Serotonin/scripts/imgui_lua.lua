@@ -953,3 +953,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         local pressed_arrow, hov_arrow = ButtonBehavior(ax, ay, aw, ah, arrow_id)
         if pressed_arrow then win.collapsed = not win.collapsed end
 
+        if not opts.no_move then
