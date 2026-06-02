@@ -512,3 +512,4 @@ local function update_io()
     g.frame_count = g.frame_count + 1
 end
 
+local function GetID(label)
