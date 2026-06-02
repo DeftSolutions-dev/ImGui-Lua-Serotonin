@@ -1609,3 +1609,4 @@ end
 
 function ImGui.DragFloat(label, v, speed, vmin, vmax, fmt) return drag_internal(label, v, speed or 1, vmin, vmax, fmt or "%.3f", false) end
 function ImGui.DragInt(label, v, speed, vmin, vmax, fmt)   return drag_internal(label, v, speed or 1, vmin, vmax, fmt or "%d",  true) end
+
