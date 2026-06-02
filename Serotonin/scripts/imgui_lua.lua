@@ -2532,3 +2532,4 @@ function ImGui.Image(tex_id, w, h, tint)
     ItemSize(w, h)
 end
 
+function ImGui.ImageButton(str_id, tex_id, w, h, tint, bg)
