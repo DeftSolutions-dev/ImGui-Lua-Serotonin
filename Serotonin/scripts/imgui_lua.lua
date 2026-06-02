@@ -519,3 +519,4 @@ local function GetID(label)
     for i = 1, #stack do
         seed = fnv1a(tostring(stack[i]), seed)
     end
+    return fnv1a(tostring(label), seed)
