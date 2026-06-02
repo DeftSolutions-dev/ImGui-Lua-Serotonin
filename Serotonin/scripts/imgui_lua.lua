@@ -875,3 +875,4 @@ local function get_or_create_window(id, title)
     end
     return w
 end
+
