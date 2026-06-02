@@ -3548,3 +3548,4 @@ function ImGui.EndMenuBar()
     win._menubar = nil
 end
 
+function ImGui.BeginMenu(label)
