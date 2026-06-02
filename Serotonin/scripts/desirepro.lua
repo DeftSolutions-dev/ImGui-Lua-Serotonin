@@ -1155,3 +1155,4 @@ function DesirePro.keybind(ctx, label)
     local id = "kb:" .. ctx.idp .. label
     local st = widget_state(id, { key = "None", waiting = false, size = 60, bga = 0, mode = 1 })
     local h = floor(25 * DesirePro.US)
+    local x0, x1 = appear_xy(id, ctx, h)
