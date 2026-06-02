@@ -72,3 +72,4 @@ local function load_tex(rel)
     if v ~= nil then
         if v == false then return nil end
         return v
+    end
