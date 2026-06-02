@@ -614,3 +614,4 @@ local function dr_line(layer, x1, y1, x2, y2, col, thick)
 end
 
 local function dr_text(layer, text, x, y, col, font)
+    push_cmd(layer, { kind = "text", text = text, x = x, y = y, col = col, font = font or Style.Font })
