@@ -2061,3 +2061,4 @@ function ImGui.EndTabBar()
     remove(g.id_stack)
 end
 
+function ImGui.TreeNodeEx(label, flags)
