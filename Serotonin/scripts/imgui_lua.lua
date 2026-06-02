@@ -2773,3 +2773,4 @@ function ImGui.LabelText(label, fmt, ...)
     local th = Style.FontHeight
     local frame_h = th + Style.FramePadding.y * 2
     local total_w = win._content_x1 - win.cursor_x
+    local label_w = text_size(label)
