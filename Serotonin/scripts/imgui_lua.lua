@@ -4461,3 +4461,4 @@ function ImGui.AcceptDragDropPayload(type_str)
     return nil
 end
 
+function ImGui.EndDragDropTarget() end
