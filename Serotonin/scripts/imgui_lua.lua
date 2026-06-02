@@ -1080,3 +1080,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
     local out_open
     if p_open ~= nil then out_open = p_open and not win._close_clicked end
+
