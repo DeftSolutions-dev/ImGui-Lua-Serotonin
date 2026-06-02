@@ -524,3 +524,4 @@ DesirePro.TAB_BAND = floor(90 * DesirePro.US)
 DesirePro.HEADER_H = floor(60 * DesirePro.US)
 
 DesirePro.tabs = {
+    { icon = "CAR_FILL",            name = "Car" },
