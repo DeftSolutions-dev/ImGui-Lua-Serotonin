@@ -4437,3 +4437,4 @@ function ImGui.SetDragDropPayload(type_str, data)
     return true
 end
 
+function ImGui.EndDragDropSource() ImGui.EndTooltip() end
