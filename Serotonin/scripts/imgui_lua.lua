@@ -4536,3 +4536,4 @@ function ImGui.NewFrame()
     g._wheel_consumed = false
     update_io()
 
+    g.hovered_id_prev = g.hovered_id
