@@ -1579,3 +1579,4 @@ function DesirePro.page(idx, px, py, ph)
     local CARD_W, GAP = floor(350 * DesirePro.US), floor(12 * DesirePro.US)
     local x = px
 
+    if idx == 0 then
