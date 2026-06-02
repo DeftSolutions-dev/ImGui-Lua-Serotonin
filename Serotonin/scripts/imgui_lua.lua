@@ -2272,3 +2272,4 @@ function ImGui.InputText(label, value, callback)
                 if ch >= "A" and ch <= "Z" and not shift then
                     ch = string.lower(ch)
                 end
+
