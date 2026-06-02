@@ -1772,3 +1772,4 @@ function DesirePro.menu()
     if rx < 0 then rx = 0 elseif rx > sw - box_rw then rx = sw - box_rw end
     if ry < 0 then ry = 0 elseif ry > sh - box_rh then ry = sh - box_rh end
     local ox = floor(pvx + (rx - pvx) / s)
+    local oy = floor(pvy + (ry - pvy) / s)
