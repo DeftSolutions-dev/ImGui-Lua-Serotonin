@@ -683,3 +683,4 @@ clear_active_id = function()
     g.active_id_rect = nil
 end
 
+local function ItemHoverable(x, y, w, h, id)
