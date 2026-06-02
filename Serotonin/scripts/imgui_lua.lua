@@ -3367,3 +3367,4 @@ open_popup_window = function(me)
     local pwin = {
         id              = me.id,
         title           = me.str_id,
+        x = me.x, y = me.y, w = 200, h = 100,
