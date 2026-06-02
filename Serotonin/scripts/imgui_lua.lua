@@ -2941,3 +2941,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
         col = StyleColor(Col.ModalWindowDimBg), rounding = 0,
     })
 
+    open_popup_window(me)
