@@ -336,3 +336,4 @@ local _working_mouse_probe   = nil
 local _working_rmouse_probe  = nil
 
 local function check_mouse_down_now()
+    if _working_mouse_probe ~= nil then
