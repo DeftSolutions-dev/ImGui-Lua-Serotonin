@@ -1876,3 +1876,4 @@ function DesirePro.menu()
     end
 
     DesirePro._win = { x = mx, y = my, w = mw, h = mh }
+    local page_x = mx + 14
