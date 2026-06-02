@@ -3920,3 +3920,4 @@ function ImGui.SeparatorEx(thickness)
     ItemSize(w, 4 + thickness)
 end
 
+function ImGui.PushClipRect(x, y, w, h)
