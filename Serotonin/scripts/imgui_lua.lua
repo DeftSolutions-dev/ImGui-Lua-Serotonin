@@ -4776,3 +4776,4 @@ function ImGui.SetToggleKey(k) g.toggle_key = k end
 function ImGui.GetIO()
     return {
         MousePos       = { x = g.mouse_x, y = g.mouse_y },
+        MouseDown      = g.mouse_left_down,
