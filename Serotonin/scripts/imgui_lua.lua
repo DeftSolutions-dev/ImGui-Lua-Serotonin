@@ -382,3 +382,4 @@ local function update_io()
     g.mouse_x = mx
     g.mouse_y = my
 
+    local just_clicked = false
