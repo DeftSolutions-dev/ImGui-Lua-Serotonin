@@ -106,3 +106,4 @@ local function utf8_iter(s)
         return cp
     end
 end
+DesirePro.utf8_iter = utf8_iter
