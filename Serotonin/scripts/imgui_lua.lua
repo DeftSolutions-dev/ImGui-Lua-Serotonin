@@ -1707,3 +1707,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
             if hov and g.mouse_left_clicked then current_idx = i end
         end
     end
+    ItemSize(total_w, box_h)
