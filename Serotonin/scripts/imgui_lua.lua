@@ -1941,3 +1941,4 @@ function ImGui.BeginTabItem(label, p_open)
         if tb.selected ~= label then
             tb.selected = label
             store_set(win, "tabbar_" .. tostring(tb.id), label)
+
