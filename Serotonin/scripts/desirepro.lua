@@ -621,3 +621,4 @@ local function draw_header(mx, my, mw)
     local h2 = point_in_rect(msx, msy, sx + 23, sy - 17, 34, 34)
 
     local hclk = ImGui.IsMouseClicked() and not DesirePro._input_block
+    if h0 and hclk and not DesirePro._modal then
