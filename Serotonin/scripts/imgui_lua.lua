@@ -4534,3 +4534,4 @@ function ImGui.NewFrame()
     g._input_text_was_active = false
 
     g._wheel_consumed = false
+    update_io()
