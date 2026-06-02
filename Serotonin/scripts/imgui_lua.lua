@@ -2636,3 +2636,4 @@ function ImGui.GetCursorPosX()
     local win = g.current_window; if not win then return 0 end
     return win.cursor_x - win.x
 end
+function ImGui.GetCursorPosY()
