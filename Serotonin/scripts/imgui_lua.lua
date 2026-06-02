@@ -1098,3 +1098,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         if win._grip_held then grip_col = StyleColor(Col.ResizeGripActive)
         elseif win._grip_hovered then grip_col = StyleColor(Col.ResizeGripHovered) end
         dr_triangle_filled(3, gx - gs, gy, gx, gy - gs, gx, gy, grip_col)
+    end
