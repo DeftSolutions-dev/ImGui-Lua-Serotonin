@@ -988,3 +988,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             win.w = max(Style.WindowMinSize.x, win.w + g.mouse_dx)
         end
 
+        local bid = fnv1a("resize_b", id)
