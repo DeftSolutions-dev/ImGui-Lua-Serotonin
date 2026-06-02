@@ -18,3 +18,4 @@ local function clamp(v, a, b)
     return v
 end
 
+local function point_in_rect(px, py, rx, ry, rw, rh)
