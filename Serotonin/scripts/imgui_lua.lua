@@ -1419,3 +1419,4 @@ function ImGui.Checkbox(label, value)
     if pressed then value = not value end
     if visible then
 
+        local nav_focused = (g.nav_id == id)
