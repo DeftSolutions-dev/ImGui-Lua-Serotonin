@@ -1222,3 +1222,4 @@ function DesirePro.input(ctx, label, placeholder)
 
     if focused and not raw_clicked() then
         local shift = key_down("Shift")
+        for c = string.byte("A"), string.byte("Z") do
