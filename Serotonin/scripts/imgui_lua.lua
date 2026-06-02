@@ -4600,3 +4600,4 @@ local function flush_layer(layer)
                 if c.x >= clip.x and c.y >= clip.y
                    and c.x + c.w <= clip.x + clip.w and c.y + c.h <= clip.y + clip.h then
                     draw.Rect(c.x, c.y, c.w, c.h, col, c.thick, c.rounding, a)
+                else
