@@ -4026,3 +4026,4 @@ function ImGui.Spinner(label, radius, thickness, color)
 end
 
 function ImGui.Console(str_id, state, on_submit, w, h)
+    state         = state or {}
