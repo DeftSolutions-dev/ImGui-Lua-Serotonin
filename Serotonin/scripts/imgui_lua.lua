@@ -2303,3 +2303,4 @@ function ImGui.InputText(label, value, callback)
     end
 
     local bg = StyleColor(Col.FrameBg)
+    if active then bg = StyleColor(Col.FrameBgActive)
