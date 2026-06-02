@@ -3249,3 +3249,4 @@ function ImGui.EndTable()
     if win.cursor_max_y > t.cur_row_max_y then t.cur_row_max_y = win.cursor_max_y end
     win._content_x1 = win.x + win.w - Style.WindowPadding.x - Style.ScrollbarSize
 
+    local total_w = table_total_w(t)
