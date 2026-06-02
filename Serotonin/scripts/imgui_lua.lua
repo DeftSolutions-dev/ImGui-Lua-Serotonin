@@ -3775,3 +3775,4 @@ function ImGui.SaveIniSettings(path)
     for _, wid in ipairs(g.windows_z_order) do
         local win = g.windows[wid]
         if win and win.title then
+            insert(lines, "")
