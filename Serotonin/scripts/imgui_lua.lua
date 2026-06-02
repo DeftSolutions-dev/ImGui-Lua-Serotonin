@@ -2211,3 +2211,4 @@ do
     INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Subtract",  emit = "-" }
 end
 
+local function poll_typed_chars()
