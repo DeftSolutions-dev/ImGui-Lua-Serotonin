@@ -846,3 +846,4 @@ local function get_or_create_window(id, title)
         cursor_x     = 0,
         cursor_y     = 0,
         cursor_start_x = 0,
+        cursor_start_y = 0,
