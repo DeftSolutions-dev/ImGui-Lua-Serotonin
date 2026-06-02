@@ -54,3 +54,4 @@ local function clip_line_cs(x1, y1, x2, y2, c)
         if x < cx1 then r = r + 1
         elseif x > cx2 then r = r + 2 end
         if y < cy1 then r = r + 4
+        elseif y > cy2 then r = r + 8 end
