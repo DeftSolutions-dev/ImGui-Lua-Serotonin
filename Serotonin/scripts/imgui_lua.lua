@@ -1161,3 +1161,4 @@ local function ItemAdd(x, y, w, h)
     if y > win._inner_y1 then return false end
     return true
 end
+ImGui._ItemAdd = ItemAdd
