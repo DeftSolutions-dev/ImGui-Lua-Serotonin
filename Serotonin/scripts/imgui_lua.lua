@@ -4217,3 +4217,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
             value = vmin + (vmax - vmin) * t
         else clear_active_id() end
     end
+    if visible then
