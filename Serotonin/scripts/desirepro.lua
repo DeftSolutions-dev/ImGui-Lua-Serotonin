@@ -936,3 +936,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local gh = floor(17 * US + grow)
     local gx, gy = floor(grab_cx - gw / 2), floor(mid_y - gh / 2)
     DesirePro.shadow_rect(2, gx, gy, gw, gh, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.35, 7)
+    local gc = 0.75 + 0.25 * s.grab
