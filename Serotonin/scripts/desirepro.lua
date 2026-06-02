@@ -116,6 +116,7 @@ local function resolve_font(font_key)
     local shift = DesirePro.font_weight_shift or 0
     if shift == 0 then return font_key end
     local w, size = string.match(font_key, "^poppins_([a-z]+)_(%d+)$")
+    local wi = w and FONT_WEIGHT_ORDER[w]
 function DesirePro.text(layer, x, y, str, font_key, color, alpha)
     local fm = META.fonts[font_key]
     if not fm then return 0 end
