@@ -228,3 +228,4 @@ function DesirePro.preload_icons(size)
     end
     return n
 end
+
