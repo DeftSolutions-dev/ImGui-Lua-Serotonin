@@ -4635,3 +4635,4 @@ local function flush_layer(layer)
                    and c.x + tw >= clip.x and c.x <= clip.x + clip.w then
                     local s = c.text
 
+                    if c.x + tw > clip.x + clip.w then
