@@ -1170,3 +1170,4 @@ function DesirePro.keybind(ctx, label)
     if hovered and clicked() then st.waiting = true; st.armed = false end
     if hovered and right_clicked() then st.mode = (st.mode % #KEYBIND_MODES) + 1 end
 
+    st.bga = DesirePro.anim(st.bga, (st.waiting or hovered) and 1 or 0, 5)
