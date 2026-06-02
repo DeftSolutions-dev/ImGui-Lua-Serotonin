@@ -1893,3 +1893,4 @@ function DesirePro.menu()
 end
 
 print("[desirepro] layer ready")
+return DesirePro
