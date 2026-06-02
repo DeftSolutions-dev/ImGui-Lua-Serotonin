@@ -916,3 +916,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     s.grab = DesirePro.ease_toggle(s, "grabE", over or active_drag == id, 20)
     local grab_cx = tmin_x + s.slow
     if grab_cx < tmin_x + 8 then grab_cx = tmin_x + 8 elseif grab_cx > tmax_x - 7 then grab_cx = tmax_x - 7 end
+
