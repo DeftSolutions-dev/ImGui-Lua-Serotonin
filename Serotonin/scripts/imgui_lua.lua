@@ -545,3 +545,4 @@ function ImGui.PushStyleColor(idx, col)
     insert(g.color_stack, { idx = idx, col = col })
 end
 
+function ImGui.PopStyleColor(n)
