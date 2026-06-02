@@ -1131,3 +1131,4 @@ local function key_down(name)
     return ok and v == true
 end
 
+local key_prev = {}
