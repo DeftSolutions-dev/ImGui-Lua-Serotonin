@@ -293,3 +293,4 @@ g = {
 
     draw_layer_stack  = {},
 
+    windows           = {},
