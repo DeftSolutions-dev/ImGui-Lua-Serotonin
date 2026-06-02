@@ -4665,3 +4665,4 @@ local function flush_layer(layer)
             local col, a = to_draw(c.col)
             a = a * am
             if clip then
+                if c.cx + c.r >= clip.x and c.cx - c.r <= clip.x + clip.w
