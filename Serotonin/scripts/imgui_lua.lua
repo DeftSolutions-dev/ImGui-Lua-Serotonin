@@ -2378,3 +2378,4 @@ render_scrollbar = function(win)
         end
     end
 
+    if win.scroll_max_y <= 0 then return end
