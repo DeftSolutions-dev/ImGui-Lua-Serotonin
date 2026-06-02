@@ -3873,3 +3873,4 @@ function ImGui.GetMouseDragDelta()
     if g._drag_start_x then
         return g.mouse_x - g._drag_start_x, g.mouse_y - g._drag_start_y
     end
+    return 0, 0
