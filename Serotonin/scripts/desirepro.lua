@@ -771,3 +771,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     local total = CARD_HEADER + cs.h
 
     ImGui.AddRectFilled(2, x, y, w, total + 2, DesirePro.col.child_bg, r)
+    ImGui.AddRectFilled(2, x, y, w, CARD_HEADER, DesirePro.col.anim_default, r)
