@@ -1513,3 +1513,4 @@ function DesirePro.esp_preview(ctx)
                 open_color = (open_color == cid) and nil or cid
             end
         end
+    end
