@@ -1122,3 +1122,4 @@ do
     for i = 1, 12 do CAPTURE_KEYS[#CAPTURE_KEYS + 1] = "F" .. i end
     for _, n in ipairs({ "Space", "Shift", "Control", "Alt", "Tab", "Left", "Right", "Up", "Down",
                          "Insert", "Delete", "Home", "End", "PageUp", "PageDown" }) do
+        CAPTURE_KEYS[#CAPTURE_KEYS + 1] = n
