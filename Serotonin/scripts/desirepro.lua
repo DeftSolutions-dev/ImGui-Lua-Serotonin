@@ -1268,3 +1268,4 @@ local function draw_popup()
 
     if popup.kind == "combo" then
         local ih, n = 30, #popup.items
+        local ph = n * ih + 12
