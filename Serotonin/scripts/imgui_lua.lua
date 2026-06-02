@@ -4745,3 +4745,4 @@ end
 local _frame_ctr = 0
 local _last_err  = nil
 local _first_paint = true
+function ImGui._OnPaint()
