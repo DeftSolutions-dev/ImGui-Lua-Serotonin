@@ -1431,3 +1431,4 @@ local function draw_popup()
 end
 
 local ESP_DEFAULT = {
+    { name = "Username", group = "top" },
