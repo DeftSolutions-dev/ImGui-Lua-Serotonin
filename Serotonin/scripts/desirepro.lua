@@ -1648,3 +1648,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.lang = DesirePro.combo(c, "Language", DesirePro.LANG_NAMES)
         end
         DesirePro.end_card(c)
+    end
