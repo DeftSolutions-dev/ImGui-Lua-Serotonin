@@ -566,3 +566,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     st.toff = DesirePro.anim(st.toff, o_target, 12)
 
     if st.fa > 0.002 then
+        ImGui.AddRectFilled(2, bx, by, bw, bh, DesirePro.with_alpha(DesirePro.col.active, st.fa), 6)
