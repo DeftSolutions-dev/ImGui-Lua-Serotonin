@@ -3886,3 +3886,4 @@ end
 function ImGui.GetMouseClickedTime() return g._last_click_time or 0 end
 
 function ImGui.SetKeyboardFocusHere()
+    g._focus_next_idx = #g.focus_list
