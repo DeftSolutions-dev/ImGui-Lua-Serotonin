@@ -3255,3 +3255,4 @@ function ImGui.EndTable()
     if t.resizable then
         local edge_x = t.x0
         for i = 1, t.columns - 1 do
+            edge_x = edge_x + t.col_widths[i]
