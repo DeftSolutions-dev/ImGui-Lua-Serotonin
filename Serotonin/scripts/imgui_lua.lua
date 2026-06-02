@@ -1919,3 +1919,4 @@ function ImGui.BeginTabItem(label, p_open)
         for i = 1, pos - 1 do
             computed_x = computed_x + (tb.tab_widths[tb.label_order[i]] or 80) + 2
         end
+        x = computed_x
