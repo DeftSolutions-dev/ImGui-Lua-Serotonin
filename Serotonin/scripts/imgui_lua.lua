@@ -1807,3 +1807,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         end
 
         local sc_x = sv_x + s.s * sv_size
+        local sc_y = sv_y + (1 - s.v) * sv_size
