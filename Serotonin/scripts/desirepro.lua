@@ -403,3 +403,4 @@ function DesirePro.spawn_particles(cx, cy, n)
             life = 0.45 + random_unit() * 0.35, max = 0.8, sz = 1.3 + random_unit() * 1.8,
             col = (i % 2 == 0) and DesirePro.col.active or DesirePro.col.dark,
         }
+    end
