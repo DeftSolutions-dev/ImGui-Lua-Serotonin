@@ -4368,3 +4368,4 @@ function ImGui.StyleColorsLight()
     t[Col.NavHighlight]          = COL(0.26, 0.59, 0.98, 0.80)
     t[Col.ModalWindowDimBg]      = COL(0.20, 0.20, 0.20, 0.35)
     Style.Colors = t
+end
