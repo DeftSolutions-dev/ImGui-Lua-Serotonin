@@ -878,3 +878,4 @@ end
 
 local function store_get(win, key, default_v)
     local s = g.storage[win.id]
+    local v = s[key]
