@@ -3093,3 +3093,4 @@ function ImGui.TableNextRow()
                     StyleColor(Col.TableBorderLight), 1)
         end
         t.row_y = t.cur_row_max_y + 2
+    end
