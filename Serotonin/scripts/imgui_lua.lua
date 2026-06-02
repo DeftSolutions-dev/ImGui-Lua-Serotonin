@@ -1536,3 +1536,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
             else
                 t = 0
             end
+        else
