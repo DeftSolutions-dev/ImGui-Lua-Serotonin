@@ -416,3 +416,4 @@ local function update_io()
                     remove(g.windows_z_order, i)
                     insert(g.windows_z_order, g.hovered_window_id)
                 end
+                break
