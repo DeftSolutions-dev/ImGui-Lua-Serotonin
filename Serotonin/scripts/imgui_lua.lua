@@ -3885,3 +3885,4 @@ end
 
 function ImGui.GetMouseClickedTime() return g._last_click_time or 0 end
 
+function ImGui.SetKeyboardFocusHere()
