@@ -476,3 +476,4 @@ local function update_io()
         if delta ~= 0 then g.mouse_wheel = g.mouse_wheel + delta end
         pcall(file.write, "wheel.txt", "")
     end
+
