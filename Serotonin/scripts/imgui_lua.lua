@@ -1801,3 +1801,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         local row_h = sv_size / sv_rows
         for i = 0, sv_rows - 1 do
             local v = 1 - (i + 0.5) / sv_rows
+            local cL = COL(v,        v,        v,        1)
