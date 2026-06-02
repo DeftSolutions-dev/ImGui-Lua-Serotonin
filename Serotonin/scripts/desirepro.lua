@@ -1864,3 +1864,4 @@ function DesirePro.menu()
             and not DesirePro._modal and not DesirePro._input_block then
             DesirePro.hdrag = true
         end
+        if DesirePro.hdrag then
