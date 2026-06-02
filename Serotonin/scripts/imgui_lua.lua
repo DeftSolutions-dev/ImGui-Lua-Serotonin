@@ -2513,3 +2513,4 @@ function ImGui.EndChild()
     win._inner_y0      = s.inner_y0
     win._inner_x1      = s.inner_x1
     win._inner_y1      = s.inner_y1
+    win.indent_x       = s.indent_x
