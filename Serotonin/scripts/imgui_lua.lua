@@ -2699,3 +2699,4 @@ function ImGui.GetFrameHeight()              return Style.FontHeight + Style.Fra
 function ImGui.GetTextLineHeight()           return Style.FontHeight end
 function ImGui.GetTextLineHeightWithSpacing()return Style.FontHeight + Style.ItemSpacing.y end
 function ImGui.GetFrameHeightWithSpacing()   return Style.FontHeight + Style.FramePadding.y * 2 + Style.ItemSpacing.y end
+function ImGui.CalcItemWidth()
