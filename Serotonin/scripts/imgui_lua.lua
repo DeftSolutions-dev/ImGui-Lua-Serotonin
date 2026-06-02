@@ -403,3 +403,4 @@ local function update_io()
     for i = #g.windows_z_order, 1, -1 do
         local wid = g.windows_z_order[i]
         local w   = g.windows[wid]
+        if w and point_in_rect(g.mouse_x, g.mouse_y, w.x, w.y, w.w, w.h) then
