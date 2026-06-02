@@ -568,3 +568,4 @@ local function push_cmd(layer, cmd)
     local original_layer = layer
     if layer == 2 and #g.draw_layer_stack > 0 then
         layer = g.draw_layer_stack[#g.draw_layer_stack]
+    end
