@@ -177,3 +177,4 @@ end
 function DesirePro.icon_size(key, size)
     local im = META.icons[size]
     if not im then return 0, 0 end
+    local cp = type(key) == "number" and key or DesirePro.ICON[key]
