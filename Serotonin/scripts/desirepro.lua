@@ -1215,3 +1215,4 @@ function DesirePro.input(ctx, label, placeholder)
     local hovered = point_in_rect(mx, my, fx, y, fw, h)
 
     if clicked() then
+        if hovered then DesirePro._focus_input = id
