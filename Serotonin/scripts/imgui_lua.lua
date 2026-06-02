@@ -4631,3 +4631,4 @@ local function flush_layer(layer)
             if clip then
                 local tw, th = text_size(c.text, c.font)
 
+                if c.y + th >= clip.y and c.y <= clip.y + clip.h
