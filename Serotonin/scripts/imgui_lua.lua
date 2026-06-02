@@ -260,3 +260,4 @@ g = {
     mouse_left_down   = false,
     mouse_left_clicked= false,
     mouse_left_released = false,
+    mouse_left_down_prev = false,
