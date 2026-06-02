@@ -302,3 +302,4 @@ for k, v in pairs(DesirePro.col_dark) do DesirePro.col[k] = { r = v.r, g = v.g, 
 DesirePro.theme = false
 
 function DesirePro.update_theme()
+    local src = DesirePro.theme and DesirePro.col_light or DesirePro.col_dark
