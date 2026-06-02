@@ -1561,3 +1561,4 @@ function DesirePro.esp_preview(ctx)
         else
             local lx = it._lx or it.sx
             DesirePro.text(2, lx + 1, it.sy + 1, disp, FONT, ImGui.RGBA(0, 0, 0, 200), 1)
+            DesirePro.text(2, lx, it.sy, disp, FONT, col, 1)
