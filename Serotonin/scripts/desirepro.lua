@@ -1838,3 +1838,4 @@ function DesirePro.menu()
                                     { 2, mx - side / 2, my + mh / 2 }, { 3, mx + mw + side / 2, my + mh / 2 } }
                     local best, bd = dock, 1e9
                     for _, s in ipairs(slots) do
+                        local d = abs(mxp - s[2]) + abs(myp - s[3])
