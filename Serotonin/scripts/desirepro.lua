@@ -1119,3 +1119,4 @@ end
 local CAPTURE_KEYS = {}
 do
     for c = string.byte("A"), string.byte("Z") do CAPTURE_KEYS[#CAPTURE_KEYS + 1] = string.char(c) end
+    for i = 1, 12 do CAPTURE_KEYS[#CAPTURE_KEYS + 1] = "F" .. i end
