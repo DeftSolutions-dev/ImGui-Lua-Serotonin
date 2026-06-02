@@ -781,3 +781,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
             ImGui.AddImage(2, pill_l, pill_t, pw, ph, ptex, ImGui.ColF(1, 1, 1, 1), cs.t)
         end
     end
+    ImGui.AddRect(2, pill_l, pill_t, pw, ph, DesirePro.col.second, 1.5, ph / 2)
