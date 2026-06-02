@@ -938,3 +938,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     DesirePro.shadow_rect(2, gx, gy, gw, gh, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.35, 7)
     local gc = 0.75 + 0.25 * s.grab
     ImGui.AddRectFilled(2, gx, gy, gw, gh, ImGui.ColF(gc, gc, gc, 1), 3)
+    ImGui.AddRect(2, gx, gy, gw, gh, ImGui.ColF(0, 0, 0, 0.15 + 0.1 * s.grab), 1, 3)
