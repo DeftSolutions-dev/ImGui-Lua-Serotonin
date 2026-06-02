@@ -2556,3 +2556,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
     local th = Style.FontHeight
     local count = #values
     plot_h = plot_h or 60
+    plot_w = plot_w or (win._content_x1 - win.cursor_x - 80)
