@@ -3689,3 +3689,4 @@ function ImGui.BeginTooltip()
         cursor_x = me.x + pad.x,
         cursor_y = me.y + pad.y,
         cursor_max_x = me.x + pad.x,
+        cursor_max_y = me.y + pad.y,
