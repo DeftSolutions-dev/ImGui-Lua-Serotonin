@@ -2604,3 +2604,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
                 dr_line(2, px, y, px, y + plot_h, StyleColor(Col.PlotLinesHovered), 1)
                 ImGui.BeginTooltip()
                 ImGui.Text(string.format("[%d] = %.3f", idx, values[idx]))
+                ImGui.EndTooltip()
