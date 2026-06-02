@@ -558,3 +558,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
 
     local f_target = selected and 0.30 or (hovered and 0.15 or 0.0)
     local i_target = selected and 1.0 or (hovered and 0.8 or 0.5)
+    local s_target = selected and 35 or 25
