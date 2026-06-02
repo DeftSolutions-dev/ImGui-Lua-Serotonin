@@ -1912,3 +1912,4 @@ function ImGui.BeginTabItem(label, p_open)
     if tb.reorderable then
         local pos
         for i, lbl in ipairs(tb.label_order) do
+            if lbl == label then pos = i; break end
