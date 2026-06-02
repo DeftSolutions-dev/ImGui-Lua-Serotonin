@@ -836,3 +836,4 @@ function DesirePro.checkbox(ctx, label)
     if s.check > 0.05 then
         local cx, cy = bxx + bs / 2, byy + bs / 2
         local k = (bs / box) * s.check
+        local a = DesirePro.with_alpha(DesirePro.col.label_active, cc)
