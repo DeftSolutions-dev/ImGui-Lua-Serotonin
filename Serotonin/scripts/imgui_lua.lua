@@ -1696,3 +1696,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
             local ix = x + 2
             local iw = total_w - 4
             local ih = row_h
+            local iid = fnv1a("listitem_" .. tostring(i), id)
