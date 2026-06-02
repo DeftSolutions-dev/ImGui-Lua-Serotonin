@@ -44,3 +44,4 @@ do
 end
 
 local LOCALE = {}
+do
