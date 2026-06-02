@@ -1117,3 +1117,4 @@ function DesirePro.color(ctx, label)
 end
 
 local CAPTURE_KEYS = {}
+do
