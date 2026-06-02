@@ -4260,3 +4260,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
             local typed, shift, paste = poll_typed_chars()
             if paste then
                 local ok, cb = pcall(utility.GetClipboard)
+                if ok and type(cb) == "string" then text = text .. cb end
