@@ -1659,3 +1659,4 @@ local function draw_feature()
     DesirePro._feature_t = DesirePro.anim(DesirePro._feature_t, feat and 1 or 0, 14)
     if DesirePro._feature_t < 0.01 then return end
     local t = DesirePro._feature_t
+    DesirePro._modal_active = true
