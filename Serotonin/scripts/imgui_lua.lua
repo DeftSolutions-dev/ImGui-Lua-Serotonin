@@ -922,3 +922,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win._created = true
     if g.next_window_pos then
         local h = g.next_window_pos
+        if h.cond == "always" or first_use then win.x, win.y = h.x, h.y end
