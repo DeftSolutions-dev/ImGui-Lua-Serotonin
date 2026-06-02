@@ -570,3 +570,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     end
 
     local cx = bx + bw / 2
+    local cy = by + bh / 2 - 6
