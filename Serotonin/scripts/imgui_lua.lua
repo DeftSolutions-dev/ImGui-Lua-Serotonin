@@ -505,3 +505,4 @@ local function update_io()
     local act_now = (not nav_blocked) and probe_any({ "Enter", "Return", 0x0D, "Space", 0x20 })
     g.nav_activate  = act_now and not g._nav_act_prev
     g._nav_act_prev = act_now
+
