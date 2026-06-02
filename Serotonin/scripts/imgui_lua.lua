@@ -1259,3 +1259,4 @@ function ImGui.EndGroup()
     local win = g.current_window; if not win then return end
     local s = remove(win.groups); if not s then return end
 
+    local gw = win.cursor_max_x - s.cursor_x_save
