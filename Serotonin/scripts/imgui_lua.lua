@@ -3987,3 +3987,4 @@ end
 
 function ImGui.Bullet()
     local win = g.current_window; if not win then return end
+    local th = Style.FontHeight
