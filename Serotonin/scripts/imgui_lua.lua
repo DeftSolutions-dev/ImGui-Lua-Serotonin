@@ -381,3 +381,4 @@ local function update_io()
     g.mouse_dy = my - g.mouse_y
     g.mouse_x = mx
     g.mouse_y = my
+
