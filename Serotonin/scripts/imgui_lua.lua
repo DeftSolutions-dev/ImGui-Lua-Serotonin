@@ -639,3 +639,4 @@ local function to_image_tint(col, alpha)
            round(saturate((col.a or 1) * (alpha or 1)) * 255)
 end
 
+local function dr_image(layer, x, y, w, h, texid, col, alpha)
