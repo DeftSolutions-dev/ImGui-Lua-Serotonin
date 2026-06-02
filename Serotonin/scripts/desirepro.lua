@@ -1452,3 +1452,4 @@ function DesirePro.esp_preview(ctx)
         DesirePro.vars["esp_layout"] = layout
     end
 
+    DesirePro.image(2, px, py, pw, ph, "esp_bg")
