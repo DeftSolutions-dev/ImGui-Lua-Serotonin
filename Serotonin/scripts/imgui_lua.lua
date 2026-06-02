@@ -2374,3 +2374,4 @@ render_scrollbar = function(win)
             local notch_px = 60
             win.scroll_y = win.scroll_y - g.mouse_wheel * notch_px
             g._wheel_consumed = true
+            g.mouse_wheel    = 0
