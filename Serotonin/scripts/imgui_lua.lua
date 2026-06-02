@@ -3332,3 +3332,4 @@ function ImGui.CloseCurrentPopup()
     if #g.popup_stack == 0 then
         g.popup_active = false
         g.popup_rect   = nil
+    end
