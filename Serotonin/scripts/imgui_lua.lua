@@ -459,3 +459,4 @@ local function update_io()
         end
         return false
     end
+    local u = any_pressed({ "PageUp",   "PgUp", "Prior", 0x21 })
