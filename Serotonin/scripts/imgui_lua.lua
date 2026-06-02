@@ -4728,3 +4728,4 @@ function ImGui.Render()
         local sorted = {}
         for i = 1, n do sorted[i] = layer[idx[i]] end
         for i = 1, n do layer[i] = sorted[i] end
+    end
