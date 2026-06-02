@@ -3753,3 +3753,4 @@ function ImGui.InputFloatStep(label, value, step, fmt)
     ImGui.PushID(label)
     if ImGui.SmallButton("-") then value = value - step end
     ImGui.SameLine(nil, 2)
+    local txt = ImGui.InputText("##v", string.format(fmt, value))
