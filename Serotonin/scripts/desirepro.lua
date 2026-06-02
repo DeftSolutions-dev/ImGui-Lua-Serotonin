@@ -1234,3 +1234,4 @@ function DesirePro.input(ctx, label, placeholder)
         if key_edge("Back") or key_edge("Backspace") or key_edge("BackSpace") then
             v = v:sub(1, -2); DesirePro.vars[id] = v
         end
+        if key_edge("Enter") or key_edge("Return") or key_edge("Escape") then
