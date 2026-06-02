@@ -1042,3 +1042,4 @@ function DesirePro.multicombo(ctx, label, items)
     local opened = (open_combo == id)
 
     local names = {}
+    for i = 1, #items do if sel[i] then names[#names + 1] = DesirePro.translate(items[i]) end end
