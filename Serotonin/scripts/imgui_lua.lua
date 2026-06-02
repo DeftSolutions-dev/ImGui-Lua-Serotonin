@@ -4465,3 +4465,4 @@ function ImGui.EndDragDropTarget() end
 
 function ImGui.ShowStyleEditor()
     if ImGui.BeginTabBar("##style_ed") then
+        if ImGui.BeginTabItem("Sizes") then
