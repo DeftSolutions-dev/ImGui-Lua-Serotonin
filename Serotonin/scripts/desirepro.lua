@@ -311,3 +311,4 @@ function DesirePro.update_theme()
         c.g = c.g + (tgt.g - c.g) * step
         c.b = c.b + (tgt.b - c.b) * step
         c.a = c.a + (tgt.a - c.a) * step
+    end
