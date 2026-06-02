@@ -2169,3 +2169,4 @@ function ImGui.CollapsingHeader(label)
     if pressed then
         open = not open
         store_set(win, key, open)
+        g._toggled_id = id
