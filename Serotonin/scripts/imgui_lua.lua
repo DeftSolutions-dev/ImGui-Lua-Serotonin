@@ -4205,3 +4205,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
     local id = GetID("vsld:" .. label)
     auto_wrap(w)
     local x, y = win.cursor_x, win.cursor_y
+    local visible = ItemAdd(x, y, w, h)
