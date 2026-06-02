@@ -467,3 +467,4 @@ function DesirePro.icon_scaled(layer, cx, cy, key, atlas_size, target_px, col, a
     local g = im.glyphs[cp]
     if not g or not g.f then return end
     local tex = load_tex(ROOT .. "/" .. im.dir .. "/" .. g.f)
+    if not tex then return end
