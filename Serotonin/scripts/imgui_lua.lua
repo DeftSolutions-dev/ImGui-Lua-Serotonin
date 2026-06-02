@@ -371,3 +371,4 @@ local function update_io()
 
     local pos = utility.GetMousePos()
     local mx, my
+    if type(pos) == "table" then
