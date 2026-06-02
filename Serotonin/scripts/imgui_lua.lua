@@ -2670,3 +2670,4 @@ function ImGui.GetWindowPos()
     return win.x, win.y
 end
 function ImGui.GetWindowSize()
+    local win = g.current_window; if not win then return 0, 0 end
