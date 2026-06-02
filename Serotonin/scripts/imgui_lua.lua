@@ -1591,3 +1591,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     end
 
     if visible then
+        local bg = StyleColor(Col.FrameBg)
