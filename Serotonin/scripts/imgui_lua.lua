@@ -652,3 +652,4 @@ function ImGui.AddCircleFilled(layer, cx, cy, r, col, segs) dr_circle_filled(lay
 function ImGui.AddTriangleFilled(layer, x1, y1, x2, y2, x3, y3, col) dr_triangle_filled(layer or 2, x1, y1, x2, y2, x3, y3, col) end
 function ImGui.AddImage(layer, x, y, w, h, texid, col, alpha) dr_image(layer or 2, x, y, w, h, texid, col, alpha) end
 
+function ImGui.RGBA(r, g, b, a) return COL_RGBA(r, g, b, a) end
