@@ -205,3 +205,4 @@ function DesirePro.shadow_circle(layer, cx, cy, r, color, alpha)
     if not tex then return end
     local s = r * 2.2
     ImGui.AddImage(layer, cx - s, cy - s, s * 2, s * 2, tex,
+                   color or ImGui.RGBA(0, 0, 0, 255), alpha or 0.5)
