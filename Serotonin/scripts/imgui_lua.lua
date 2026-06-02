@@ -4765,3 +4765,4 @@ function ImGui._OnPaint()
         if _last_err ~= s then
             _last_err = s
             print("[imgui_lua ERROR] " .. s)
+        end
