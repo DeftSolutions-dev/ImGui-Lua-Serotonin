@@ -588,3 +588,4 @@ local function draw_tab(i, tab, bx, by, bw, bh)
     if not st then st = { fa = 0, ia = 0.5, toff = 5 }; tab_anim["v" .. i] = st end
     local mx, my = ImGui.GetMousePos()
     local dragging = DesirePro.drag and DesirePro.drag.moved
+    local hovered = point_in_rect(mx, my, bx, by, bw, bh) and not dragging
