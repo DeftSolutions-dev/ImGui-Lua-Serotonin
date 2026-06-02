@@ -2710,3 +2710,4 @@ end
 local _next_item_width = nil
 function ImGui.PushItemWidth(w)
     local win = g.current_window; if not win then return end
+    win._item_width_stack = win._item_width_stack or {}
