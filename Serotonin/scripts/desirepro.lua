@@ -814,3 +814,4 @@ function DesirePro.checkbox(ctx, label)
     local box = floor(20 * DesirePro.US)
     local x = appear_xy(id, ctx, box)
     local y = ctx.cy
+    local disp = DesirePro.translate(label)
