@@ -4109,3 +4109,4 @@ function ImGui.DatePicker(label, y, m, d)
     local first = dow_first(y, m)
     local total = days_in_month(y, m)
     local idx   = 1
+    for row = 0, 5 do
