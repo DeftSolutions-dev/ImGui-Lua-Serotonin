@@ -1808,3 +1808,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
 
         local sc_x = sv_x + s.s * sv_size
         local sc_y = sv_y + (1 - s.v) * sv_size
+        dr_circle_filled(2, sc_x, sc_y, 4, COL(1, 1, 1, 1), 16)
