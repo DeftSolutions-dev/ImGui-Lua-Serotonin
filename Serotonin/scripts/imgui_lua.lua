@@ -3605,3 +3605,4 @@ local function _parse_shortcut(s)
     return mods, key
 end
 
+function ImGui.MenuItem(label, shortcut, selected)
