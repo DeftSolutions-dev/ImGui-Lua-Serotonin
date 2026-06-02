@@ -1705,3 +1705,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
             end
             dr_text(2, tostring(it), ix + 4, iy + (ih - th) * 0.5, StyleColor(Col.Text))
             if hov and g.mouse_left_clicked then current_idx = i end
+        end
