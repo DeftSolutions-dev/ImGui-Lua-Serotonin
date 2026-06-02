@@ -567,3 +567,4 @@ local function push_cmd(layer, cmd)
     cmd.amul = draw_alpha_mul
     local original_layer = layer
     if layer == 2 and #g.draw_layer_stack > 0 then
+        layer = g.draw_layer_stack[#g.draw_layer_stack]
