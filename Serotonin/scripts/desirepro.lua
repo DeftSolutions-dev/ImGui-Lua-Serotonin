@@ -239,3 +239,4 @@ function DesirePro.preload(spec)
     end
     for _, k in ipairs(fonts) do total = total + DesirePro.preload_font(k) end
 
+    local names = (spec and spec.icon_names) or {}
