@@ -170,3 +170,4 @@ function DesirePro.icon(layer, x, y, key, size, color, alpha)
     if tex then
         ImGui.AddImage(layer, floor(x + (g.bx or 0) + 0.5), floor(y + (im.off or 0) + 0.5),
                        g.w, g.h, tex, color, alpha)
+    end
