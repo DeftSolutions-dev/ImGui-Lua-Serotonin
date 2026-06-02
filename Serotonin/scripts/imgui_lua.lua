@@ -2329,3 +2329,4 @@ function ImGui.InputFloat(label, value, step, fmt)
     local v_str = format(fmt or "%.3f", value or 0)
     local new_str = ImGui.InputText(label, v_str)
     return tonumber(new_str) or value
+end
