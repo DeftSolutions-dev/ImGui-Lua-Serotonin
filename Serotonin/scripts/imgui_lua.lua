@@ -4370,3 +4370,4 @@ function ImGui.StyleColorsLight()
     Style.Colors = t
 end
 function ImGui.StyleColorsClassic()
+    local t = {}
