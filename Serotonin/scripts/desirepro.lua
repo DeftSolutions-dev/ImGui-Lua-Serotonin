@@ -511,3 +511,4 @@ end
 function DesirePro.text_mid(layer, cx, cy, str, font_key, color, alpha)
     local w = DesirePro.text_size(str, font_key)
     local fm = META.fonts[font_key]
+    local cap = fm and fm.cap_height or 12
