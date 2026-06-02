@@ -2440,3 +2440,4 @@ function ImGui.BeginChild(str_id, w, h, border)
         dr_rect(2, cx, cy, cw, ch, StyleColor(Col.Border), 1, 0)
     end
 
+    win._child_stack = win._child_stack or {}
