@@ -1905,3 +1905,4 @@ function ImGui.BeginTabItem(label, p_open)
     local close_w = (p_open ~= nil) and 16 or 0
     local tab_w = tw + pad.x * 2 + 8 + close_w
     local tab_h = tb.tab_h
+
