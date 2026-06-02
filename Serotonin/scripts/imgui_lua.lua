@@ -859,3 +859,4 @@ local function get_or_create_window(id, title)
         flags        = {},
         groups       = {},
     }
+    g.windows[id] = w
