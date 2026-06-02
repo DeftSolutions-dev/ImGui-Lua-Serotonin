@@ -114,3 +114,4 @@ function DesirePro.text(layer, x, y, str, font_key, color, alpha)
     local ascent = fm.ascent
     local dir = ROOT .. "/" .. fm.dir .. "/"
     local pen = x
+    for cp in utf8_iter(tostring(str)) do
