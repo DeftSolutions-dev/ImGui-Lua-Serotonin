@@ -411,3 +411,4 @@ function DesirePro.update_particles()
     for i = #DesirePro.particles, 1, -1 do
         local p = DesirePro.particles[i]
         p.life = p.life - d
+        if p.life <= 0 then
