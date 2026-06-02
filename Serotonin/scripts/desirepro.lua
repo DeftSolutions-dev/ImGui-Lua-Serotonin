@@ -793,3 +793,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     if desc ~= "" then
         DesirePro.text(2, x + 55, y + 30, desc, "poppins_medium_15", DesirePro.col.desc, 1)
     end
+    if icon then
