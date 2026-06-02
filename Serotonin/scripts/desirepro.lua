@@ -211,3 +211,4 @@ end
 function DesirePro.preload_font(font_key)
     local fm = META.fonts[font_key]
     if not fm then return 0 end
+    local dir = ROOT .. "/" .. fm.dir .. "/"
