@@ -1793,3 +1793,4 @@ function DesirePro.menu()
     ImGui.AddRectFilled(1, mx, my + DesirePro.HEADER_H, mw, mh - DesirePro.HEADER_H, DesirePro.with_alpha(DesirePro.col.bg, 0.35), 0)
 
     if horiz then
+        local sy = (dock == 0) and my or (my + mh)
