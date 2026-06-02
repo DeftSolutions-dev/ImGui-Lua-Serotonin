@@ -1304,3 +1304,4 @@ function ImGui.TextWrapped(text)
     text = tostring(text or "")
     local font = Style.Font
     local total_w = win._content_x1 - win.cursor_x
+    local lines = {}
