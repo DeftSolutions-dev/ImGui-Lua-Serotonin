@@ -2424,3 +2424,4 @@ render_scrollbar = function(win)
     elseif hov then col = StyleColor(Col.ScrollbarGrabHovered) end
     dr_rect_filled(3, sb_x, grab_y, sb_w, grab_h, col, Style.ScrollbarRounding)
 end
+
