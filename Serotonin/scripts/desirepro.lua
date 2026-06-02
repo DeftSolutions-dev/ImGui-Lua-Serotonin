@@ -201,3 +201,4 @@ function DesirePro.shadow_rect(layer, x, y, w, h, color, alpha, spread)
 end
 
 function DesirePro.shadow_circle(layer, cx, cy, r, color, alpha)
+    local tex = load_tex(ROOT .. "/shadow/circle.png")
