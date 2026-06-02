@@ -4042,3 +4042,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
             end
         end
     end
+    ImGui.EndChild()
