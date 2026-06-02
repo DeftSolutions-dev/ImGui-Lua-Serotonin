@@ -2983,3 +2983,4 @@ end
 
 local _style_var_stack = {}
 function ImGui.PushStyleVar(name, value)
+    if Style[name] == nil then return end
