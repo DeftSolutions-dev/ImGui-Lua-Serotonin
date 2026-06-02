@@ -3193,3 +3193,4 @@ function ImGui.TableHeader(label)
             if sp.col == t.cur_col then existing_idx = i; break end
         end
         if ctrl_held then
+
