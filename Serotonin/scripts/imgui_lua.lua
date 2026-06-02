@@ -919,3 +919,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win._close_clicked = false
 
     local first_use = not win._created
+    win._created = true
