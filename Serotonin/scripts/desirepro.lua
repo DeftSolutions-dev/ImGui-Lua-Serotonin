@@ -284,3 +284,4 @@ DesirePro.col_dark = {
     desc_hover    = R(160, 160, 170, 255), desc         = R(140, 140, 150, 255),
 }
 DesirePro.col_light = {
+    active        = R(88, 116, 245, 255), dark          = R(228, 58, 72, 255),
