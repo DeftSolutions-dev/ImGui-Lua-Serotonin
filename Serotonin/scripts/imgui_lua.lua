@@ -2820,3 +2820,4 @@ function ImGui.BeginCombo(label, preview, flags)
     for i = 1, #g.popup_stack do if g.popup_stack[i].id == pid then is_open = true; break end end
     if pressed then
         if is_open then ImGui.CloseCurrentPopup(); is_open = false
+        else g.popup_pending_open = { str_id = str_id, id = pid, x = x, y = y + frame_h }; is_open = true end
