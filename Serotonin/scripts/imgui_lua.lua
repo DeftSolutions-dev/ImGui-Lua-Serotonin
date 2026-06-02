@@ -4431,3 +4431,4 @@ function ImGui.BeginDragDropSource(flags)
     return true
 end
 
+function ImGui.SetDragDropPayload(type_str, data)
