@@ -738,3 +738,4 @@ function DesirePro.appear(id, center_y)
     if rel < 0 then rel = 0 elseif rel > 1 then rel = 1 end
     local delay = 0.1 + rel * 0.9
     local t = (s.timer - delay) / 0.3
+    if t < 0 then t = 0 elseif t > 1 then t = 1 end
