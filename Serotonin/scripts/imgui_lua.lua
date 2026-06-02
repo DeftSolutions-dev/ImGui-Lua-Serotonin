@@ -2920,3 +2920,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     if g.popup_pending_open and g.popup_pending_open.id == id then
         local sw, sh = draw.GetScreenSize()
         insert(g.popup_stack, {
+            id   = id, str_id = name,
