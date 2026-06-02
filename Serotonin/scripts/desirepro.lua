@@ -1730,3 +1730,4 @@ local function draw_settings()
         and not in_popup(mx, my) then
         DesirePro.settings_open = false
     end
+    DesirePro._modal_active = false
