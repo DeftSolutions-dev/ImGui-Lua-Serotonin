@@ -3128,3 +3128,4 @@ function ImGui.TableNextColumn()
 end
 
 function ImGui.TableSetupColumn(label, flags)
+    local win = g.current_window; if not win then return end
