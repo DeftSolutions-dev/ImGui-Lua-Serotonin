@@ -3835,3 +3835,4 @@ function ImGui.LoadIniSettings(path)
 end
 
 function ImGui.IsKeyDown(name)
+    local ok, v = pcall(keyboard.IsPressed, name); return ok and v or false
