@@ -1287,3 +1287,4 @@ end
 
 function ImGui.TextColored(col, text)
     local win = g.current_window; if not win then return end
+    text = tostring(text or "")
