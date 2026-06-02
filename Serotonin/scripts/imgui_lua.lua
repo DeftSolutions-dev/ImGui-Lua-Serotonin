@@ -71,3 +71,4 @@ local function clip_line_cs(x1, y1, x2, y2, c)
             ny = y1 + (y2 - y1) * (cx2 - x1) / (x2 - x1); nx = cx2
         else
             ny = y1 + (y2 - y1) * (cx1 - x1) / (x2 - x1); nx = cx1
+        end
