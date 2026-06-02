@@ -301,3 +301,4 @@ DesirePro.col = {}
 for k, v in pairs(DesirePro.col_dark) do DesirePro.col[k] = { r = v.r, g = v.g, b = v.b, a = v.a } end
 DesirePro.theme = false
 
+function DesirePro.update_theme()
