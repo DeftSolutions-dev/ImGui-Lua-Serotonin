@@ -803,3 +803,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
              on = cs.h > 5, total = total, idp = name }
 end
 
+function DesirePro.end_card(ctx)
