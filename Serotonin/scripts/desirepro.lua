@@ -843,3 +843,4 @@ function DesirePro.checkbox(ctx, label)
     DesirePro.text_in(2, x + box + floor(14 * DesirePro.US), y, box, disp, "poppins_medium_18", lcol, 1)
 
     ctx.cy = ctx.cy + box + floor(11 * DesirePro.US)
+    return v
