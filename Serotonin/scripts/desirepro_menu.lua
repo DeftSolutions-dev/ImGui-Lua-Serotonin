@@ -11,3 +11,4 @@ end
 local ImGui = DesirePro.ImGui
 
 DesirePro.preload({
+    fonts = {
