@@ -2086,3 +2086,4 @@ function ImGui.TreeNodeEx(label, flags)
     if flags.framed then
         local col
         if hov and g.mouse_left_down then col = StyleColor(Col.HeaderActive)
+        elseif hov                       then col = StyleColor(Col.HeaderHovered)
