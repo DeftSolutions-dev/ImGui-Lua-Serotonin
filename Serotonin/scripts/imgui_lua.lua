@@ -883,3 +883,4 @@ local function store_get(win, key, default_v)
     return v
 end
 
+local function store_set(win, key, value)
