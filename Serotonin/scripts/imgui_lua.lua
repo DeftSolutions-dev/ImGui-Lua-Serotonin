@@ -4715,3 +4715,4 @@ function ImGui.Render()
 
     local function stable_sort_by_z(layer)
 
+        local n = #layer
