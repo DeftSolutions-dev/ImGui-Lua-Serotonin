@@ -2219,3 +2219,4 @@ local function poll_typed_chars()
     local out = {}
     for _, k in ipairs(INPUT_KEYS) do
         local ok, pressed = pcall(keyboard.IsPressed, k.key)
+        if ok and pressed and not g.key_states_prev[k.key] then
