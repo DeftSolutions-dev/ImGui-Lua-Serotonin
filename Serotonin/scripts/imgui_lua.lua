@@ -3853,3 +3853,4 @@ function ImGui.IsMouseDoubleClicked()
     local last = g._last_click_time or -1e9
     g._last_click_time = g.time or 0
     return (g.time - last) < 0.35
+end
