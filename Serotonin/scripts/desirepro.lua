@@ -1523,3 +1523,4 @@ function DesirePro.esp_preview(ctx)
             else DesirePro._esp_target = "bottom" end
         else
             local tg = DesirePro._esp_target or "top"
+            local moved
