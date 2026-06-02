@@ -681,3 +681,4 @@ local open_combo = nil
 local open_color = nil
 local color_drag = nil
 local popup = nil
+local popup_rect = nil
