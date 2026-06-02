@@ -304,3 +304,4 @@ g = {
     next_window_pos        = nil,
     next_window_size       = nil,
     next_window_collapsed  = nil,
+    next_window_focus      = false,
