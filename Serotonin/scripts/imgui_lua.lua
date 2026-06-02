@@ -2982,3 +2982,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
 end
 
 local _style_var_stack = {}
+function ImGui.PushStyleVar(name, value)
