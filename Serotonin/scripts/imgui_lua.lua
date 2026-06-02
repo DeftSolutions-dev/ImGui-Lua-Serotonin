@@ -4731,3 +4731,4 @@ function ImGui.Render()
     end
     stable_sort_by_z(g.draw_layers[1])
     stable_sort_by_z(g.draw_layers[2])
+    stable_sort_by_z(g.draw_layers[3])
