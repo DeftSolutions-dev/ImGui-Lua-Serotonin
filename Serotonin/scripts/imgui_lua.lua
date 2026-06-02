@@ -3782,3 +3782,4 @@ function ImGui.SaveIniSettings(path)
             insert(lines, "Collapsed=" .. (win.collapsed and "1" or "0"))
         end
     end
+    local ok, err = pcall(file.write, path, table.concat(lines, "\n"))
