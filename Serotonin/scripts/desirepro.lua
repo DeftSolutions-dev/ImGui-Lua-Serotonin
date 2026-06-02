@@ -1344,3 +1344,4 @@ local function draw_popup()
             if ih_hover and rc and can_click then
                 sel[i] = (not on) and true or nil
             end
+        end
