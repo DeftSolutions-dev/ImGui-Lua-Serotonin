@@ -3668,3 +3668,4 @@ function ImGui.BeginTooltip()
     g._tooltip_was_shown = true
 
     local bg_col = col_mul_alpha(StyleColor(Col.PopupBg), a)
+    local br_col = col_mul_alpha(StyleColor(Col.Border),  a)
