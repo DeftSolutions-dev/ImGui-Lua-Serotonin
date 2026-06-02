@@ -2910,3 +2910,4 @@ function ImGui.Hotkey(label, key)
     if tw_lbl > 0 then
         dr_text(2, label, x + hk_w + Style.ItemInnerSpacing.x, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
     end
+    record_item(id, x, y, hk_w + label_part, frame_h, hovered, false, active)
