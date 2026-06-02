@@ -1606,3 +1606,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.slider(c2, "Particle count", 15, 150, true)
             DesirePro.color(c2, "First gradient color")
             DesirePro.input(c2, "Username", "Enter name...")
+        end
