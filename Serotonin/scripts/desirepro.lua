@@ -759,3 +759,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
 
     local _, al = DesirePro.appear(id, y + (CARD_HEADER + body_h) / 2)
     ImGui.SetDrawAlpha(al)
+    local bx = x
