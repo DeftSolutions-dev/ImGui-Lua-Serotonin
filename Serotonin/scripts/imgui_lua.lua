@@ -4103,3 +4103,4 @@ function ImGui.DatePicker(label, y, m, d)
     for i, name in ipairs(DOW_NAMES) do
         if i > 1 then ImGui.SameLine(nil, 2) end
         local x, _ = ImGui.GetCursorScreenPos()
+        dr_text(2, name, x + (cell_w - text_size(name)) * 0.5, win.cursor_y, StyleColor(Col.TextDisabled))
