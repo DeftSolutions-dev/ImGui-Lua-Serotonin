@@ -2921,3 +2921,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
         local sw, sh = draw.GetScreenSize()
         insert(g.popup_stack, {
             id   = id, str_id = name,
+
