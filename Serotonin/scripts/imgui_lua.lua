@@ -3606,3 +3606,4 @@ local function _parse_shortcut(s)
 end
 
 function ImGui.MenuItem(label, shortcut, selected)
+    local win = g.current_window; if not win then return false end
