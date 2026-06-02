@@ -723,3 +723,4 @@ function DesirePro.appear(id, center_y)
         restart = true
     elseif s.seen < fc - 1 then
 
+        restart = true
