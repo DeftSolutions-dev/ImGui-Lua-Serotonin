@@ -2222,3 +2222,4 @@ local function poll_typed_chars()
         if ok and pressed and not g.key_states_prev[k.key] then
             insert(out, k.emit)
         end
+        g.key_states[k.key] = ok and pressed or false
