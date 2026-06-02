@@ -4167,3 +4167,4 @@ function ImGui.FileBrowser(str_id, state)
     return state
 end
 
+function ImGui.LogTextBox(str_id, lines, w, h)
