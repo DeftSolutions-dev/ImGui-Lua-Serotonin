@@ -707,3 +707,4 @@ local function ItemHoverable(x, y, w, h, id)
                           and y < p.y + p.h and y + h > p.y)
             if overlaps then return false end
         end
+    end
