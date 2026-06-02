@@ -40,3 +40,4 @@ do
     local nf = 0
     for _ in pairs(META.fonts) do nf = nf + 1 end
     print(format("[desirepro] metrics ok: %d font sizes, icons + %d images", nf,
+        (function() local n = 0 for _ in pairs(META.images or {}) do n = n + 1 end return n end)()))
