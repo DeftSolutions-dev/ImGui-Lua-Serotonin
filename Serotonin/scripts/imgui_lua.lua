@@ -2860,3 +2860,4 @@ do
 
     local extras = {
         "Shift", "Control", "Alt", "Space", "Tab", "CapsLock",
+        "Insert", "Delete", "Home", "End", "PageUp", "PageDown",
