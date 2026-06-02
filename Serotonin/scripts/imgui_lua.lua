@@ -2890,3 +2890,4 @@ function ImGui.Hotkey(label, key)
         for _, name in ipairs(HOTKEY_PROBE_NAMES) do
             local ok, p = pcall(keyboard.IsPressed, name)
             if ok and p then
+                key = name
