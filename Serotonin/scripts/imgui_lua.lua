@@ -4576,3 +4576,4 @@ local function flush_layer(layer)
         local k = c.kind
         local clip = c.clip
         local am = c.amul or 1
+
