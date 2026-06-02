@@ -1380,3 +1380,4 @@ local function button_internal(label, w_override, h_override)
         if Style.FrameBorderSize > 0 then
             dr_rect(2, x, y, w, h, StyleColor(Col.Border), Style.FrameBorderSize, Style.FrameRounding)
         end
+        if nav_focused then
