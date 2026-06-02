@@ -1345,3 +1345,4 @@ local function draw_popup()
                 sel[i] = (not on) and true or nil
             end
         end
+        ImGui.SetDrawAlpha(1)
