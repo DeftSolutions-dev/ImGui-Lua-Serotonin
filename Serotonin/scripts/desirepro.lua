@@ -244,3 +244,4 @@ function DesirePro.preload(spec)
     for _, size in ipairs(isizes) do
         local im = META.icons[size]
         if im then
+            for _, name in ipairs(names) do
