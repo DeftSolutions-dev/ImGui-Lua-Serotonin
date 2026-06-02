@@ -4310,3 +4310,4 @@ function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
     elseif hovered then col = StyleColor(Col.SeparatorHovered) end
     dr_rect_filled(2, x, y, w, h, col, 0)
     ItemSize(w, h)
+    return size1, size2
