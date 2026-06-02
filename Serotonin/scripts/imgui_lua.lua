@@ -3809,3 +3809,4 @@ function ImGui.LoadIniSettings(path)
                     if k == "Pos" then
                         local px, py = v:match("(-?%d+),(-?%d+)")
                         p.x, p.y = tonumber(px), tonumber(py)
+                    elseif k == "Size" then
