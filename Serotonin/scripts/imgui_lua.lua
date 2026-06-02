@@ -1094,3 +1094,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         local gs = 14
         local gx = win.x + win.w
         local gy = win.y + win.h
+        local grip_col = StyleColor(Col.ResizeGrip)
