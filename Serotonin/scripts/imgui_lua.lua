@@ -1053,3 +1053,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     end
     if Style.WindowBorderSize > 0 and not opts.no_bg then
         dr_rect(3, win.x, win.y, win.w, effective_h, StyleColor(Col.Border), Style.WindowBorderSize, Style.WindowRounding)
+    end
