@@ -3790,3 +3790,4 @@ function ImGui.LoadIniSettings(path)
     path = path or "imgui_lua.ini"
     local ok, content = pcall(file.read, path)
     if not ok or type(content) ~= "string" then return false end
+    g._pending_window_settings = g._pending_window_settings or {}
