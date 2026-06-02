@@ -1675,3 +1675,4 @@ local function draw_feature()
     ImGui.AddRect(2, px, py, pw, ph, DesirePro.col.child_stroke, 1, 6)
 
     ImGui.PushClipRect(px, py, pw, ph + 4)
+    local sub = { x = px + 13, cy = py + 12, w = pw - 26, x1 = px + pw - 13,
