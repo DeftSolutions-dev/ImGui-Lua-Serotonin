@@ -1447,3 +1447,4 @@ function DesirePro.esp_preview(ctx)
 
     local layout = DesirePro.vars["esp_layout"]
     if not layout then
+        layout = {}
