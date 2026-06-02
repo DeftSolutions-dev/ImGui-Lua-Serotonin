@@ -57,3 +57,4 @@ local function clip_line_cs(x1, y1, x2, y2, c)
         elseif y > cy2 then r = r + 8 end
         return r
     end
+    local k1, k2 = code(x1, y1), code(x2, y2)
