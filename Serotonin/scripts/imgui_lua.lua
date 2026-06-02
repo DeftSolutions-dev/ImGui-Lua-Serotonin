@@ -4161,3 +4161,4 @@ function ImGui.FileBrowser(str_id, state)
                 if is_dir then state.path = sub
                 else state.selected = sub end
             end
+        end
