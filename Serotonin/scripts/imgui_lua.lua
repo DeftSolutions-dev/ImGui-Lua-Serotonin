@@ -4713,3 +4713,4 @@ function ImGui.Render()
     local zpri = {}
     for i, wid in ipairs(g.windows_z_order) do zpri[wid] = i end
 
+    local function stable_sort_by_z(layer)
