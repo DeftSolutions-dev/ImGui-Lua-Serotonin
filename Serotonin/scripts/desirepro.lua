@@ -583,3 +583,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     end
 end
 
+local function draw_tab(i, tab, bx, by, bw, bh)
