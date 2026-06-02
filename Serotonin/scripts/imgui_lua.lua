@@ -2021,3 +2021,4 @@ function ImGui.EndTabBar()
             end
         end
         store_set(win, "tabbar_order_"  .. tostring(tb.id), tb.label_order)
+        store_set(win, "tabbar_widths_" .. tostring(tb.id), tb.tab_widths)
