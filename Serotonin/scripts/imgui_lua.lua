@@ -3572,3 +3572,4 @@ function ImGui.BeginMenu(label)
             if is_open then
                 ImGui.CloseCurrentPopup()
                 is_open = false
+            else
