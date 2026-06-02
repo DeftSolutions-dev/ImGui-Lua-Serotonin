@@ -3109,3 +3109,4 @@ function ImGui.TableSetColumnIndex(col)
     t.cur_col = col
     local x = t.x0
     for i = 1, col do x = x + t.col_widths[i] end
+    local cw = t.col_widths[col + 1]
