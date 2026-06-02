@@ -3847,3 +3847,4 @@ function ImGui.IsKeyPressed(name)
 end
 function ImGui.GetKeyName(name) return tostring(name) end
 
+function ImGui.IsMouseDoubleClicked()
