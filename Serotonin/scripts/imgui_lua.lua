@@ -3633,3 +3633,4 @@ function ImGui.MenuItem(label, shortcut, selected)
         local col = hovered and StyleColor(Col.HeaderHovered) or StyleColor(Col.Header)
         dr_rect_filled(2, x, y, w, h, col, 0)
     end
+    dr_text(2, label, x + pad_x, y + (h - th) * 0.5, StyleColor(Col.Text))
