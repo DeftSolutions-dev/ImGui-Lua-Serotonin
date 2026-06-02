@@ -3832,3 +3832,4 @@ function ImGui.LoadIniSettings(path)
         end
     end
     return true
+end
