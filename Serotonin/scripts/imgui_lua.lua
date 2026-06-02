@@ -703,3 +703,4 @@ local function ItemHoverable(x, y, w, h, id)
                               and x + w <= p.x + p.w and y + h <= p.y + p.h)
             if not fully_inside then return false end
         else
+            local overlaps = (x < p.x + p.w and x + w > p.x
