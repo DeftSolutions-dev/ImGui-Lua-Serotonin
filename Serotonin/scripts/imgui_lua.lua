@@ -3038,3 +3038,4 @@ function ImGui.BeginTable(str_id, columns, flags)
     local total_w = win._content_x1 - win.cursor_x
     local id = GetID("tbl:" .. str_id)
 
+    local widths = store_get(win, "tbl_w_" .. tostring(id), nil)
