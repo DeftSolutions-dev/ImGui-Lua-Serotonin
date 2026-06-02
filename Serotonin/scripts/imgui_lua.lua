@@ -2130,3 +2130,4 @@ function ImGui.TreeNode(label)
     local pressed = hov and g.mouse_left_clicked
     if pressed then
         open = not open
+        store_set(win, key, open)
