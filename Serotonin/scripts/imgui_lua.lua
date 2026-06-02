@@ -3948,3 +3948,4 @@ function ImGui.InputTextWithHint(label, hint, value)
                     StyleColor(Col.TextDisabled))
         end
     end
+    return out
