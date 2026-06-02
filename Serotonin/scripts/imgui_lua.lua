@@ -3690,3 +3690,4 @@ function ImGui.BeginTooltip()
         cursor_y = me.y + pad.y,
         cursor_max_x = me.x + pad.x,
         cursor_max_y = me.y + pad.y,
+        line_h = Style.FontHeight,
