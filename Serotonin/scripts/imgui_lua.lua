@@ -3777,3 +3777,4 @@ function ImGui.SaveIniSettings(path)
         if win and win.title then
             insert(lines, "")
             insert(lines, "[Window:" .. win.title .. "]")
+            insert(lines, string.format("Pos=%d,%d", floor(win.x), floor(win.y)))
