@@ -1999,3 +1999,4 @@ function ImGui.BeginTabItem(label, p_open)
         win.cursor_x = win.cursor_start_x + win.indent_x
         win.cursor_y = tb.bottom_y + 4
         sel = true
+    end
