@@ -1476,3 +1476,4 @@ function ImGui.RadioButton(label, active)
     end
     record_item(id, x, y, total_w, sz, hovered, pressed, held)
     ItemSize(total_w, sz)
+    return pressed
