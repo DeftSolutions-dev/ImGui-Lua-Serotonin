@@ -722,3 +722,4 @@ local function ButtonBehavior(x, y, w, h, id)
     local pressed = false
     local held = false
     if hovered and g.mouse_left_clicked then
+        set_active_id(id, g.current_window, { x = x, y = y, w = w, h = h })
