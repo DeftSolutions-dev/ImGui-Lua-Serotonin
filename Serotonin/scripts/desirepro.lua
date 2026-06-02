@@ -452,3 +452,4 @@ function DesirePro.update_notifications()
         end
     end
 end
+
