@@ -2187,3 +2187,4 @@ function ImGui.CollapsingHeader(label)
     record_item(id, x, y, w, h, hov, pressed, false)
     ItemSize(w, h)
     return open
+end
