@@ -4415,3 +4415,4 @@ function ImGui.StyleColorsClassic()
     local d = default_dark_theme()
     for i = 1, #C_NAMES do if t[i] == nil then t[i] = d[i] end end
     Style.Colors = t
+end
