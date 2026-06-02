@@ -1805,3 +1805,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
             local cR = COL(v * hr,   v * hg,   v * hb,   1)
             dr_gradient(2, sv_x, sv_y + i * row_h, sv_size, row_h + 1, cL, cR, true)
         end
+
