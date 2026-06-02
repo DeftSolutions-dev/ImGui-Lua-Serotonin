@@ -2843,3 +2843,4 @@ function ImGui.BeginCombo(label, preview, flags)
     record_item(id, x, y, combo_w + label_part, frame_h, hovered, pressed, held)
     ItemSize(combo_w + label_part, frame_h)
     if is_open then
+        return ImGui.BeginPopup(str_id)
