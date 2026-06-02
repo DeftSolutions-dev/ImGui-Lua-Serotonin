@@ -412,3 +412,4 @@ function DesirePro.update_particles()
         local p = DesirePro.particles[i]
         p.life = p.life - d
         if p.life <= 0 then
+            table.remove(DesirePro.particles, i)
