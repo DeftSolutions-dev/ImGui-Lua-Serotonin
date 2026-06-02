@@ -458,3 +458,4 @@ local function update_io()
             if ok and v then return true end
         end
         return false
+    end
