@@ -1898,3 +1898,4 @@ end
 
 function ImGui.BeginTabItem(label, p_open)
     local win = g.current_window; if not win then return false end
+    local tb = win._tabbar; if not tb then return false end
