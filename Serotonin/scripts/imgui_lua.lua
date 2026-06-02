@@ -2529,3 +2529,4 @@ function ImGui.Image(tex_id, w, h, tint)
     if ItemAdd(x, y, w, h) then
         dr_image(2, x, y, w, h, tex_id, tint or COL(1, 1, 1, 1), 1)
     end
+    ItemSize(w, h)
