@@ -2289,3 +2289,4 @@ function ImGui.InputText(label, value, callback)
             local r = callback("completion", { value = value })
             if type(r) == "string" then value = r end
         end
+
