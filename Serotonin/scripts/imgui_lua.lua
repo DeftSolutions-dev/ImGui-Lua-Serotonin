@@ -1601,3 +1601,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
         if tw_lbl > 0 then
             dr_text(2, label, x + drag_w + Style.ItemInnerSpacing.x, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
         end
+    end
