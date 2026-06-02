@@ -1824,3 +1824,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
                 s.h = clamp((g.mouse_y - hb_y) / hb_h, 0, 1)
             else
                 clear_active_id()
+            end
