@@ -992,3 +992,4 @@ function DesirePro.combo(ctx, label, items)
     local preview = DesirePro.translate(items[sel + 1] or "?")
     local pw = DesirePro.text_size(preview, "poppins_medium_16")
     local box_min = x0 + ctx.w - (pw + 55)
+    local box_max = x0 + ctx.w
