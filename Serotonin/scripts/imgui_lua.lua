@@ -3244,3 +3244,4 @@ function ImGui.TableGetSortSpecs()
 end
 
 function ImGui.EndTable()
+    local win = g.current_window; if not win then return end
