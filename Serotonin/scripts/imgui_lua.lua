@@ -3812,3 +3812,4 @@ function ImGui.LoadIniSettings(path)
                     elseif k == "Size" then
                         local pw, ph = v:match("(-?%d+),(-?%d+)")
                         p.w, p.h = tonumber(pw), tonumber(ph)
+                    elseif k == "Collapsed" then
