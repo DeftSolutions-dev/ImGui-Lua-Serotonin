@@ -3267,3 +3267,4 @@ function ImGui.EndTable()
             end
             if hov or held then
                 dr_rect_filled(3, edge_x - 1, t.y0, 2, total_h,
+                               StyleColor(Col.SeparatorHovered), 0)
