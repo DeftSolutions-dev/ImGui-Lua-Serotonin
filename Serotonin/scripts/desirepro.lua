@@ -1500,3 +1500,4 @@ function DesirePro.esp_preview(ctx)
         local it = layout[i]
         local w = DesirePro.text_size(DesirePro.translate(it.name), FONT)
         local lx = (it.align == "center") and (it.sx - w / 2)
+                or (it.align == "right") and (it.sx - w) or it.sx
