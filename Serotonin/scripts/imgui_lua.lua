@@ -2585,3 +2585,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
                     local v = values[i]
                     local by = ty(v)
                     dr_rect_filled(2, x + (i - 1) * bar_w, by, bar_w - 1, y + plot_h - by, col, 0)
+                end
