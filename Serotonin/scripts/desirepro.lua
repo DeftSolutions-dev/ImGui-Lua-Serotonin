@@ -192,3 +192,4 @@ end
 
 function DesirePro.image_info(name) return META.images[name] end
 
+function DesirePro.shadow_rect(layer, x, y, w, h, color, alpha, spread)
