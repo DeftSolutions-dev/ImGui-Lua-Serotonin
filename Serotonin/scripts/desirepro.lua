@@ -995,3 +995,4 @@ function DesirePro.combo(ctx, label, items)
     local box_max = x0 + ctx.w
     local bw = box_max - box_min
     local mx, my = mouse_pos()
+    local hovered = point_in_rect(mx, my, box_min, y, bw, h)
