@@ -3032,3 +3032,4 @@ function ImGui.SliderInt2  (label, v, mn, mx, fmt) return vec_widget(label, v, 2
 function ImGui.SliderInt3  (label, v, mn, mx, fmt) return vec_widget(label, v, 3, ImGui.SliderInt,   mn, mx, fmt) end
 function ImGui.SliderInt4  (label, v, mn, mx, fmt) return vec_widget(label, v, 4, ImGui.SliderInt,   mn, mx, fmt) end
 
+function ImGui.BeginTable(str_id, columns, flags)
