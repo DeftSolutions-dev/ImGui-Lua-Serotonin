@@ -2066,3 +2066,4 @@ function ImGui.TreeNodeEx(label, flags)
     local win = g.current_window; if not win then return false end
     local id = GetID("tree:" .. label)
     local key = "tree_" .. tostring(id)
+    local open = store_get(win, key, flags.default_open and true or false)
