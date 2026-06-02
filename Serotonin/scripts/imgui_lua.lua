@@ -1935,3 +1935,4 @@ function ImGui.BeginTabItem(label, p_open)
     local visible_left  = tb.x
     local visible_right = tb.x + tb.w - 56
     local on_screen = (x + tab_w >= visible_left) and (x <= visible_right)
+
