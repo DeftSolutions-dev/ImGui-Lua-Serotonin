@@ -2777,3 +2777,4 @@ function ImGui.LabelText(label, fmt, ...)
     local x, y = win.cursor_x, win.cursor_y
 
     dr_text(2, value, x, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
+    dr_text(2, label, x + total_w - label_w, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
