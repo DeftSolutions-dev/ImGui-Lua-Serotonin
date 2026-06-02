@@ -523,3 +523,4 @@ local function GetID(label)
 end
 ImGui.GetID = GetID
 
+function ImGui.PushID(v)
