@@ -238,3 +238,4 @@ local Style = {
     GrabMinSize         = 12,
     GrabRounding        = 0,
     TabRounding         = 4,
+    PopupRounding       = 0,
