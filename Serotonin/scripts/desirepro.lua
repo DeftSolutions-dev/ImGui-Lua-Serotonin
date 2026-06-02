@@ -1530,3 +1530,4 @@ function DesirePro.esp_preview(ctx)
             if moved then
                 moved.group = tg
                 local at = #layout + 1
+                for i, it in ipairs(layout) do
