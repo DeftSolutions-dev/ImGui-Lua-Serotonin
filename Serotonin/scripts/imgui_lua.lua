@@ -1173,3 +1173,4 @@ local function auto_wrap(w)
     end
 end
 
+function ImGui.SameLine(offset_x, spacing)
