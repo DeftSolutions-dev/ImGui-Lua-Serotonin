@@ -1307,3 +1307,4 @@ local function draw_popup()
             and not point_in_rect(mx, my, b.x, b.y, b.w, b.h) then
             open_combo = nil
             popup = nil
+        end
