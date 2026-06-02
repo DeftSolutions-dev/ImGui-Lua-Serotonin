@@ -3781,3 +3781,4 @@ function ImGui.SaveIniSettings(path)
             insert(lines, string.format("Size=%d,%d", floor(win.w), floor(win.h)))
             insert(lines, "Collapsed=" .. (win.collapsed and "1" or "0"))
         end
+    end
