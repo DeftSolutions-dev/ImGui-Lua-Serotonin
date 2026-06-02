@@ -1459,3 +1459,4 @@ function ImGui.RadioButton(label, active)
     local tw, th = text_size(label)
     local x, y = win.cursor_x, win.cursor_y
     local total_w = sz + Style.ItemInnerSpacing.x + tw
+    local visible = ItemAdd(x, y, total_w, sz)
