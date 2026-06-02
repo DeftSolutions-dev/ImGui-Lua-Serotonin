@@ -2278,3 +2278,4 @@ function ImGui.InputText(label, value, callback)
                     local r = callback("char", { char = ch, value = value })
                     if r == false then accept = false end
                 end
+                if accept then value = value .. ch end
