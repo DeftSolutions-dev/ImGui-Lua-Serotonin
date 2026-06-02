@@ -1063,3 +1063,4 @@ function DesirePro.multicombo(ctx, label, items)
     local lcol = opened and DesirePro.col.label_active or (hovered and DesirePro.col.label_hover or DesirePro.col.label)
 
     DesirePro.text_in(2, x0, y, h, DesirePro.translate(label), "poppins_medium_16", lcol, 1)
+    ImGui.AddRectFilled(2, box_min, y, bw, h, DesirePro.col.anim_default, 3)
