@@ -4495,3 +4495,4 @@ function ImGui.ShowStyleEditor()
             f("PopupBorderSize",  0,  3)
             ImGui.EndTabItem()
         end
+        if ImGui.BeginTabItem("Colors") then
