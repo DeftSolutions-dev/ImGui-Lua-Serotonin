@@ -2814,3 +2814,4 @@ function ImGui.BeginCombo(label, preview, flags)
     local pressed, hovered, held = ButtonBehavior(x, y, combo_w, frame_h, id)
 
     if g.nav_id == id and g.nav_activate then pressed = true end
+    local str_id = "##cmb_popup_" .. tostring(id)
