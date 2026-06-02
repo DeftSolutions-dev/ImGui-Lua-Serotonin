@@ -3064,3 +3064,4 @@ function ImGui.BeginTable(str_id, columns, flags)
         borders       = flags.borders ~= false,
         sortable      = flags.sortable == true,
         resizable     = flags.resizable ~= false,
+        row_index     = 0,
