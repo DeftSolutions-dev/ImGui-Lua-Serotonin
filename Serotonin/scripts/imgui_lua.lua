@@ -4057,3 +4057,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
     return state
 end
 
+local DOW_NAMES = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" }
