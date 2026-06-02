@@ -1030,3 +1030,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     local body_anim_h = body_full_h * (1 - win._collapse_t)
     local effective_h = title_h + body_anim_h
     win._effective_h  = effective_h
+
