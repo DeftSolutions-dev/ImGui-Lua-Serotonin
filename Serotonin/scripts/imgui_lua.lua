@@ -3266,3 +3266,4 @@ function ImGui.EndTable()
                 t.col_widths[i + 1] = nw_right
             end
             if hov or held then
+                dr_rect_filled(3, edge_x - 1, t.y0, 2, total_h,
