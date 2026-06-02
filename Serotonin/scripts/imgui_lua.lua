@@ -298,3 +298,4 @@ g = {
     windows_z_order   = {},
     current_window    = nil,
     window_stack      = {},
+
