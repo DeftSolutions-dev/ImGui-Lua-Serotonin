@@ -159,3 +159,4 @@ local C_NAMES = {
     "TabUnfocused","TabUnfocusedActive","PlotLines","PlotLinesHovered","PlotHistogram",
     "PlotHistogramHovered","TableHeaderBg","TableBorderStrong","TableBorderLight",
     "TableRowBg","TableRowBgAlt","TextSelectedBg","DragDropTarget","NavHighlight",
+    "ModalWindowDimBg",
