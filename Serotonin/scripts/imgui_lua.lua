@@ -2830,3 +2830,4 @@ function ImGui.BeginCombo(label, preview, flags)
         if not flags.no_arrow then
             local arrow_w = frame_h
             local cx = x + combo_w - arrow_w + arrow_w * 0.5
+            local cy = y + frame_h * 0.5
