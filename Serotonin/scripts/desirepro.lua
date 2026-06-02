@@ -85,3 +85,4 @@ local function load_tex(rel)
     end
     tex_cache[rel] = id
     return id
+end
