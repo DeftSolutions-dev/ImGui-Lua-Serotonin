@@ -1260,3 +1260,4 @@ function ImGui.EndGroup()
     local s = remove(win.groups); if not s then return end
 
     local gw = win.cursor_max_x - s.cursor_x_save
+    local gh = win.cursor_max_y - s.cursor_y_save
