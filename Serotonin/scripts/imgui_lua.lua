@@ -3369,3 +3369,4 @@ open_popup_window = function(me)
         title           = me.str_id,
         x = me.x, y = me.y, w = 200, h = 100,
         cursor_start_x  = me.x + pad.x,
+        cursor_start_y  = me.y + pad.y,
