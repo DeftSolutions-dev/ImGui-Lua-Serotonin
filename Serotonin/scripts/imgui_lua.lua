@@ -3395,3 +3395,4 @@ open_popup_window = function(me)
     insert(g.id_stack, "popup:" .. tostring(me.id))
 
     g.popup_active = true
+    g.popup_rect   = { x = me.x, y = me.y, w = 1, h = 1 }
