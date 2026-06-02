@@ -1313,3 +1313,4 @@ function ImGui.TextWrapped(text)
         if tw > total_w and cur ~= "" then
             insert(lines, cur); cur = word
         else
+            cur = trial
