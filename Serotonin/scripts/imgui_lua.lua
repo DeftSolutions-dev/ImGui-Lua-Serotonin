@@ -2512,3 +2512,4 @@ function ImGui.EndChild()
     win._inner_x0      = s.inner_x0
     win._inner_y0      = s.inner_y0
     win._inner_x1      = s.inner_x1
+    win._inner_y1      = s.inner_y1
