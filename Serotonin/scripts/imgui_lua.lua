@@ -4494,3 +4494,4 @@ function ImGui.ShowStyleEditor()
             f("PopupRounding",    0, 12)
             f("PopupBorderSize",  0,  3)
             ImGui.EndTabItem()
+        end
