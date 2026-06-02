@@ -247,3 +247,4 @@ function DesirePro.preload(spec)
             for _, name in ipairs(names) do
                 local cp = DesirePro.ICON[name]
                 local g = cp and im.glyphs[cp]
+                if g and g.f and load_tex(ROOT .. "/" .. im.dir .. "/" .. g.f) then total = total + 1 end
