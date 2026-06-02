@@ -1751,3 +1751,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
     local pressed, hovered, held = ButtonBehavior(x, y, sq_w, frame_h, id)
     if pressed and not flags.no_picker then
         local s = get_picker_state(id, r, g_, b)
+        s.open = not s.open
