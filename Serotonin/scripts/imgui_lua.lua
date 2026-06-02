@@ -840,3 +840,4 @@ local function get_or_create_window(id, title)
         y            = 60 + (#g.windows_order * 24),
         w            = 320,
         h            = 240,
+        collapsed    = false,
