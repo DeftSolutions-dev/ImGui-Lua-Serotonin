@@ -1725,3 +1725,4 @@ local function draw_settings()
     ImGui.SetDrawAlpha(1)
 
     local gr = DesirePro._gear_rect
+    if t > 0.9 and clicked() and not point_in_rect(mx, my, px, py, pw, ph)
