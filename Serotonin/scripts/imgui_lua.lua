@@ -4170,3 +4170,4 @@ end
 function ImGui.LogTextBox(str_id, lines, w, h)
     if ImGui.BeginChild("log_" .. str_id, w or 0, h or 160, true) then
         for _, line in ipairs(lines) do ImGui.Text(line) end
+    end
