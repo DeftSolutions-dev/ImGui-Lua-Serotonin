@@ -389,3 +389,4 @@ local function random_unit()
     x = bit.bxor(x, bit.rshift(x, 17))
     x = bit.bxor(x, bit.lshift(x, 5))
     _seed = x
+    return bit.band(x, 0xFFFFFF) / 0x1000000
