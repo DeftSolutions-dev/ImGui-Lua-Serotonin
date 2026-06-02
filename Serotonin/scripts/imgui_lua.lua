@@ -997,3 +997,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         end
 
         local rid = fnv1a("resize", id)
+        local rx = win.x + win.w - grip_size
