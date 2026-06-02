@@ -3112,3 +3112,4 @@ function ImGui.TableSetColumnIndex(col)
     local cw = t.col_widths[col + 1]
     win.cursor_x    = x + 4
     win.cursor_y    = t.row_y + 2
+    win._content_x1 = x + cw - 4
