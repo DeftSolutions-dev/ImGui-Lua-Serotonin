@@ -975,3 +975,4 @@ function DesirePro.button(ctx, label, h)
         DesirePro.grad_rrect(2, bx + (aw - gw) / 2, by + (ah - gh) / 2, gw, gh, 6, DesirePro.col.dark, DesirePro.col.active)
     end
     local tcol = col_lerp_rgb(DesirePro.col.label, DesirePro.col.label_active, s.text)
+    DesirePro.text_mid(2, x + w / 2, y + h / 2, DesirePro.translate(label), "poppins_semibold_17", tcol, 1)
