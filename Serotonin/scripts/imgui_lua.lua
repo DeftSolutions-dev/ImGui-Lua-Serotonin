@@ -3223,3 +3223,4 @@ function ImGui.TableHeader(label)
         local label_str = (#t.sort_specs > 1) and (arrow .. tostring(my_idx)) or arrow
         local aw = text_size(label_str)
         dr_text(2, label_str, x + cw - aw - 4, y + Style.FramePadding.y, StyleColor(Col.Text))
+    end
