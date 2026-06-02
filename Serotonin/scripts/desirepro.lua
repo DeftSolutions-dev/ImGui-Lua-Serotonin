@@ -1518,3 +1518,4 @@ function DesirePro.esp_preview(ctx)
     if drag then
         if mouse_down() then
             if mx < bx then DesirePro._esp_target = "left"
+            elseif mx > bx + bw then DesirePro._esp_target = "right"
