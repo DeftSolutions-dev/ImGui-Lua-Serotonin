@@ -1236,3 +1236,4 @@ function ImGui.SeparatorText(text)
     dr_text(2, text, x + left_w + pad, win.cursor_y, StyleColor(Col.Text))
     dr_line(2, x + left_w + pad + tw + pad, y, x + total_w, y, col, 1)
     ItemSize(total_w, th + 2)
+end
