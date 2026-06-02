@@ -1850,3 +1850,4 @@ function DesirePro.menu()
             local ghosts = { { mx, my - band, mw, band }, { mx, my + mh, mw, band },
                              { mx - side, my, side, mh }, { mx + mw, my, side, mh } }
             for _, g in ipairs(ghosts) do
+                local hg = point_in_rect(mxp, myp, g[1], g[2], g[3], g[4])
