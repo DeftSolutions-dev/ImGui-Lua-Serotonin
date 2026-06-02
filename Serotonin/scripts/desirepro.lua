@@ -1621,3 +1621,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.color(c3, "Item Color")
             DesirePro.slider(c3, "Max Distance", 0, 500, true)
             DesirePro.keybind(c3, "Wallhack")
+        end
