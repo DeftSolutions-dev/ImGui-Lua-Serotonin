@@ -1137,3 +1137,4 @@ function ImGui.End()
 end
 
 local function ItemSize(w, h)
+    local win = g.current_window
