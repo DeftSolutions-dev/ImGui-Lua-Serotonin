@@ -3209,3 +3209,4 @@ function ImGui.TableHeader(label)
         t.sort_dir = t.sort_specs[1] and t.sort_specs[1].dir or 1
     end
     local bg = StyleColor(Col.TableHeaderBg)
+    if hovered then bg = StyleColor(Col.HeaderHovered) end
