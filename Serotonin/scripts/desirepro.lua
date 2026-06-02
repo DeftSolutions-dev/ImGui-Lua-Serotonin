@@ -1547,3 +1547,4 @@ function DesirePro.esp_preview(ctx)
         elseif tg == "top" then hx, hy, hw2, hh2 = bx - 28, by - 64, bw + 56, 60
         else hx, hy, hw2, hh2 = bx - 28, by + bh + 6, bw + 56, 60 end
         ImGui.AddRectFilled(2, hx, hy, hw2, hh2, DesirePro.with_alpha(DesirePro.col.active, 0.14), 4)
+    end
