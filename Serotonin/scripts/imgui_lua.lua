@@ -770,3 +770,4 @@ function ImGui.IsItemActive()  return g.last_item_active end
 function ImGui.IsItemFocused() return g.last_item_id == g.active_id and g.active_id ~= nil end
 function ImGui.IsAnyItemActive() return g.active_id ~= nil end
 function ImGui.IsItemDeactivated()
+    return g.last_item_id == g.hovered_id_prev and g.last_item_id ~= g.active_id
