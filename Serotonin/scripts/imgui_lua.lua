@@ -590,3 +590,4 @@ local function push_cmd(layer, cmd)
         if cmd.cy then cmd.cy = py + (cmd.cy - py) * s end
         if cmd.r then cmd.r = cmd.r * s end
         if cmd.rounding then cmd.rounding = cmd.rounding * s end
+        if cmd.thick then cmd.thick = cmd.thick * s end
