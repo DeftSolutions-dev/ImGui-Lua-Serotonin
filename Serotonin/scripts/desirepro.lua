@@ -1678,3 +1678,4 @@ local function draw_feature()
     local sub = { x = px + 13, cy = py + 12, w = pw - 26, x1 = px + pw - 13,
                   on = true, idp = (feat and feat.idp or "feature") }
     if feat and feat.content then feat.content(sub) end
+    ImGui.PopClipRect()
