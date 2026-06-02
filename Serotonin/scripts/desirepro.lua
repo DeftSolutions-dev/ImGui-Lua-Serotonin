@@ -846,3 +846,4 @@ function DesirePro.checkbox(ctx, label)
     return v
 end
 
+function DesirePro.featurebox(ctx, label, content_fn)
