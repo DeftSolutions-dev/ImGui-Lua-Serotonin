@@ -289,3 +289,4 @@ g = {
     popup_rect_prev   = nil,
 
     popup_stack       = {},
+    popup_pending_open= nil,
