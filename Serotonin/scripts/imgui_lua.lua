@@ -3855,3 +3855,4 @@ function ImGui.IsMouseDoubleClicked()
     return (g.time - last) < 0.35
 end
 function ImGui.IsMouseDragging(threshold)
+    threshold = threshold or 4
