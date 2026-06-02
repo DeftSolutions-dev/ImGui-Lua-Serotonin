@@ -1738,3 +1738,4 @@ end
 local function picker_state_commit(s, r, g_, b)
     s.last_r, s.last_g, s.last_b = r, g_, b
 end
+
