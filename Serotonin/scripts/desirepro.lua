@@ -373,3 +373,4 @@ end
 
 function DesirePro.ease_toggle(st, key, on, speed)
     if DesirePro.no_anim then return on and 1 or 0 end
+    local rec = st[key]
