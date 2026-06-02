@@ -1953,3 +1953,4 @@ function ImGui.BeginTabItem(label, p_open)
         local pos
         for i, lbl in ipairs(tb.label_order) do
             if lbl == label then pos = i; break end
+        end
