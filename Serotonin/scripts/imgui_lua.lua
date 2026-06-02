@@ -4662,3 +4662,4 @@ local function flush_layer(layer)
             end
 
         elseif k == "circf" then
+            local col, a = to_draw(c.col)
