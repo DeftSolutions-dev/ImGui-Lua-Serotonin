@@ -4214,3 +4214,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
     if active then
         if g.mouse_left_down then
             local t = clamp(1 - (g.mouse_y - y) / h, 0, 1)
+            value = vmin + (vmax - vmin) * t
