@@ -1747,3 +1747,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
     local frame_h = th + Style.FramePadding.y * 2
     local sq_w = (flags.no_small_preview) and 0 or frame_h * 1.6
     local x, y = win.cursor_x, win.cursor_y
+    local visible = ItemAdd(x, y, sq_w + 1, frame_h)
