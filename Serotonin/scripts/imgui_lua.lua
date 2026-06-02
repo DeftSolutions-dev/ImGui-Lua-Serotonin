@@ -2583,3 +2583,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
                 local bar_w = plot_w / count
                 for i = 1, count do
                     local v = values[i]
+                    local by = ty(v)
