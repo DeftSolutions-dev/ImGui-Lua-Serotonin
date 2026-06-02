@@ -1565,3 +1565,4 @@ function DesirePro.esp_preview(ctx)
 
             if open_color == cid then
                 local pxp = lx - 100
+                if pxp < px then pxp = px end
