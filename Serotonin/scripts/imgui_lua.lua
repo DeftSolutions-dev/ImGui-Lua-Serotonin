@@ -2614,3 +2614,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
     end
 
     local lw, _ = text_size(label)
+    if lw > 0 then
