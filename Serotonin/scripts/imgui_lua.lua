@@ -3707,3 +3707,4 @@ function ImGui.BeginTooltip()
     g.current_window = pwin
 end
 
+function ImGui.EndTooltip()
