@@ -2228,3 +2228,4 @@ local function poll_typed_chars()
     local ok_ctrl, ctrl   = pcall(keyboard.IsPressed, "Control")
 
     local paste = false
+    local ok_v, v = pcall(keyboard.IsPressed, "V")
