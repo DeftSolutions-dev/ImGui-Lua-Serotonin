@@ -2259,3 +2259,4 @@ function ImGui.InputText(label, value, callback)
 
     if active then
         local typed, shift, paste = poll_typed_chars()
+        if paste then
