@@ -246,3 +246,4 @@ function DesirePro.preload(spec)
         if im then
             for _, name in ipairs(names) do
                 local cp = DesirePro.ICON[name]
+                local g = cp and im.glyphs[cp]
