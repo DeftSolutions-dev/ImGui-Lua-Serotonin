@@ -1380,3 +1380,4 @@ local function draw_popup()
         ImGui.AddCircleFilled(3, cur_x, cur_y, 5, ImGui.ColF(0, 0, 0, 1), 16)
         ImGui.AddCircleFilled(3, cur_x, cur_y, 3.5, ImGui.ColF(1, 1, 1, 1), 16)
 
+        for i = 0, 5 do
