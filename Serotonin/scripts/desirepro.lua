@@ -508,3 +508,4 @@ function DesirePro.text_in(layer, x, box_top, box_h, str, font_key, color, alpha
     return DesirePro.text(layer, x, floor(top + 0.5), str, font_key, color, alpha)
 end
 
+function DesirePro.text_mid(layer, cx, cy, str, font_key, color, alpha)
