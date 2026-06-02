@@ -1701,3 +1701,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
             if i == current_idx then
                 dr_rect_filled(2, ix, iy, iw, ih, StyleColor(Col.Header), 0)
             elseif hov then
+                dr_rect_filled(2, ix, iy, iw, ih, StyleColor(Col.HeaderHovered), 0)
