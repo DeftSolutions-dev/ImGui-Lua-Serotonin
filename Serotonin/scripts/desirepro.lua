@@ -316,3 +316,4 @@ end
 
 function DesirePro.accent_at(y)
     local win = DesirePro._win
+    local t = 0.5
