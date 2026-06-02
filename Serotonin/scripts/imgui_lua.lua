@@ -781,3 +781,4 @@ function ImGui.IsItemToggledOpen()
 end
 function ImGui.IsItemEdited()
 
+    return g.last_item_clicked
