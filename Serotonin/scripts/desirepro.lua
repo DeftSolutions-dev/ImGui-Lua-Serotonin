@@ -533,3 +533,4 @@ DesirePro.tabs = {
     { icon = "MIC_AI_FILL",         name = "Misc" },
     { icon = "BOMB_FILL",           name = "Exploits" },
 }
+
