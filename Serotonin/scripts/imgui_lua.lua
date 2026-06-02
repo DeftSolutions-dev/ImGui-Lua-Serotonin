@@ -1268,3 +1268,4 @@ function ImGui.EndGroup()
     win.cursor_x = s.cursor_x_save
     win.cursor_y = s.cursor_y_save
 
+    local gid = fnv1a("group", #win.groups)
