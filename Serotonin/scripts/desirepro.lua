@@ -782,3 +782,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
         end
     end
     ImGui.AddRect(2, pill_l, pill_t, pw, ph, DesirePro.col.second, 1.5, ph / 2)
+    local knob_cx = pill_l + 10 + (pw - 20) * cs.t
