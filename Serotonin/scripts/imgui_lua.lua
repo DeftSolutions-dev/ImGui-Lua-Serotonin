@@ -1986,3 +1986,4 @@ function ImGui.BeginTabItem(label, p_open)
             local cid = GetID("tabclose:" .. label)
             local cx = x + tab_w - 14
             local cy = y + tab_h * 0.5
+            local cb_pressed, cb_hov = ButtonBehavior(cx - 6, cy - 6, 12, 12, cid)
