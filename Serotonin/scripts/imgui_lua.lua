@@ -813,3 +813,4 @@ function ImGui.GetTime()           return g.time end
 function ImGui.GetDeltaTime()      return g.dt end
 function ImGui.GetFrameCount()     return g.frame_count end
 function ImGui.GetItemRectMin()
+    local r = g.last_item_rect; return r.x, r.y
