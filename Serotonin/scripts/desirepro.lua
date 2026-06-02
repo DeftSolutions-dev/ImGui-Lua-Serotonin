@@ -1747,3 +1747,4 @@ function DesirePro.menu()
     ImGui.SetUIScale(1)
 
     local pmx, pmy = ImGui.GetMousePos()
+    DesirePro._input_block = in_popup(pmx, pmy)
