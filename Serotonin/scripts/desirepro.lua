@@ -200,3 +200,4 @@ function DesirePro.shadow_rect(layer, x, y, w, h, color, alpha, spread)
                    color or ImGui.RGBA(0, 0, 0, 255), alpha or 0.55)
 end
 
+function DesirePro.shadow_circle(layer, cx, cy, r, color, alpha)
