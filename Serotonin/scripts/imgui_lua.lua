@@ -2083,3 +2083,4 @@ function ImGui.TreeNodeEx(label, flags)
         g._toggled_id = id
     end
 
+    if flags.framed then
