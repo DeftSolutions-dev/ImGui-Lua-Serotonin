@@ -3733,3 +3733,4 @@ function ImGui.MenuSeparator()
 end
 
 function ImGui.InputIntStep(label, value, step)
+    step = step or 1
