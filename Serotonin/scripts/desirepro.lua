@@ -1194,3 +1194,4 @@ function DesirePro.keybind(ctx, label)
                 st.waiting = false
                 st.armed = false
             end
+        end
