@@ -1433,3 +1433,4 @@ end
 local ESP_DEFAULT = {
     { name = "Username", group = "top" },
     { name = "Distance", group = "left" }, { name = "Flashed", group = "left" },
+    { name = "Scoped", group = "left" },
