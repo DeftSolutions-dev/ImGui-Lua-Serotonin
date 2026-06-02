@@ -2955,3 +2955,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
                                col = StyleColor(Col.Text), font = Style.Font })
 
     local drag_id = fnv1a("modal_drag", id)
+    local _, dh, dheld = ButtonBehavior(me.x, me.y, last_w - 22, title_h, drag_id)
