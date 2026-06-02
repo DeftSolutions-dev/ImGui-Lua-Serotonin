@@ -1606,3 +1606,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     ItemSize(drag_w + label_part, frame_h)
     return value, active
 end
+
