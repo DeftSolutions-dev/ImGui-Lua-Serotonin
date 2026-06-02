@@ -1185,3 +1185,4 @@ function DesirePro.keybind(ctx, label)
 
     if st.waiting then
 
+        if not st.armed then
