@@ -2972,3 +2972,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
                                col = lc, thick = 2 })
     if cb_pressed then
         ImGui.CloseCurrentPopup()
+        return false
