@@ -343,3 +343,4 @@ local function check_mouse_down_now()
     for _, cand in ipairs(MOUSE_DOWN_CANDIDATES) do
         local ok, v = pcall(keyboard.IsPressed, cand)
         if ok and v == true then
+            _working_mouse_probe = cand
