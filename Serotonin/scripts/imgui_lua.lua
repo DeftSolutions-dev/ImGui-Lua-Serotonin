@@ -3518,3 +3518,4 @@ function ImGui.BeginMenuBar()
         col = StyleColor(Col.MenuBarBg), rounding = 0,
     })
 
+    if #g.clip_stack > 0 then
