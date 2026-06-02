@@ -3684,3 +3684,4 @@ function ImGui.BeginTooltip()
     local pwin = {
         id = me.id, title = "##tooltip",
         x = me.x, y = me.y, w = 1, h = 1,
+        cursor_start_x = me.x + pad.x,
