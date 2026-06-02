@@ -1145,3 +1145,4 @@ local function scan_key()
     local ok_r, r = pcall(mouse.IsClicked, "right");  if ok_r and r then return "MOUSE2" end
     local ok_m, m = pcall(mouse.IsClicked, "middle"); if ok_m and m then return "MOUSE3" end
     for _, n in ipairs(CAPTURE_KEYS) do
+        if key_down(n) then return n end
