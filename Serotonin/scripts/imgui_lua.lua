@@ -954,3 +954,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         if pressed_arrow then win.collapsed = not win.collapsed end
 
         if not opts.no_move then
+            local drag_id = fnv1a("titlebar", id)
