@@ -3273,3 +3273,4 @@ function ImGui.EndTable()
                         StyleColor(Col.TableBorderLight), 1)
             end
         end
+        store_set(win, "tbl_w_" .. tostring(t.id), t.col_widths)
