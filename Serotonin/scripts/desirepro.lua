@@ -1713,3 +1713,4 @@ local function draw_settings()
     DesirePro.text_in(2, px + 46, py, 46, DesirePro.translate("Settings"), "poppins_semibold_18", DesirePro.col.label_active, 1)
 
     local cxb, cyb = px + pw - 24, py + 23
+    local hc = point_in_rect(mx, my, cxb - 12, cyb - 12, 24, 24)
