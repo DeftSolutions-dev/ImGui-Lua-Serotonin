@@ -1847,3 +1847,4 @@ function DesirePro.menu()
             end
         end
         if DesirePro.drag.moved then
+            local ghosts = { { mx, my - band, mw, band }, { mx, my + mh, mw, band },
