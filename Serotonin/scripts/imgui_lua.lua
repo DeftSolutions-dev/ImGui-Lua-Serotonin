@@ -3125,3 +3125,4 @@ function ImGui.TableNextColumn()
         ImGui.TableSetColumnIndex(t.cur_col + 1)
     end
     return true
+end
