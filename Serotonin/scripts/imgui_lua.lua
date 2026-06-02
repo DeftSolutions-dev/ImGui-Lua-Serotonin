@@ -2459,3 +2459,4 @@ function ImGui.BeginChild(str_id, w, h, border)
         indent_x       = win.indent_x,
         cw             = cw,
         ch             = ch,
+        cx             = cx,
