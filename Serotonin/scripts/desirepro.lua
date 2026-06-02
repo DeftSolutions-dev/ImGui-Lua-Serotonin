@@ -219,3 +219,4 @@ function DesirePro.preload_font(font_key)
     return n
 end
 
+function DesirePro.preload_icons(size)
