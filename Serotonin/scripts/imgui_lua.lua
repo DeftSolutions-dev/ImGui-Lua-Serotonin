@@ -736,3 +736,4 @@ end
 ImGui.ButtonBehavior = ButtonBehavior
 
 local function anim_get(win, id)
+    if not win then return 0 end
