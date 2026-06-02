@@ -3761,3 +3761,4 @@ function ImGui.InputFloatStep(label, value, step, fmt)
     ImGui.Text(label)
     ImGui.PopID()
     return value
+end
