@@ -1124,3 +1124,4 @@ do
                          "Insert", "Delete", "Home", "End", "PageUp", "PageDown" }) do
         CAPTURE_KEYS[#CAPTURE_KEYS + 1] = n
     end
+end
