@@ -4595,3 +4595,4 @@ local function flush_layer(layer)
         elseif k == "rect" then
             local col, a = to_draw(c.col)
             a = a * am
+            if clip then
