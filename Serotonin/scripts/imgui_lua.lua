@@ -4246,3 +4246,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
     w = w or (win._content_x1 - win.cursor_x)
     h = h or 80
     if ImGui.BeginChild("##mtxt_" .. label, w, h, true) then
+        local id = GetID("mtxt:" .. label)
