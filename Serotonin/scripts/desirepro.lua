@@ -167,3 +167,4 @@ function DesirePro.icon(layer, x, y, key, size, color, alpha)
     local g = im.glyphs[cp]
     if not g or not g.f then return 0 end
     local tex = load_tex(ROOT .. "/" .. im.dir .. "/" .. g.f)
+    if tex then
