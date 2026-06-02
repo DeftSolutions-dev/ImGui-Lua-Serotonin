@@ -2757,3 +2757,4 @@ function ImGui.EndDisabled()
             g._disabled_depth = max(0, (g._disabled_depth or 0) - 1)
             ImGui.PopStyleColor(8)
         end
+    end
