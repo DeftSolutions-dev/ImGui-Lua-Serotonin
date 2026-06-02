@@ -2815,3 +2815,4 @@ function ImGui.BeginCombo(label, preview, flags)
 
     if g.nav_id == id and g.nav_activate then pressed = true end
     local str_id = "##cmb_popup_" .. tostring(id)
+    local pid = fnv1a("popup:" .. str_id)
