@@ -1032,3 +1032,4 @@ function DesirePro.combo(ctx, label, items)
     return sel
 end
 
+function DesirePro.multicombo(ctx, label, items)
