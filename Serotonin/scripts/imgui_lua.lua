@@ -2146,3 +2146,4 @@ function ImGui.TreeNode(label)
     record_item(id, x, y, total_w, h, hov, pressed, false)
     ItemSize(total_w, h)
     if open then
+        ImGui.Indent()
