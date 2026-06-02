@@ -352,3 +352,4 @@ local function check_mouse_down_now()
 end
 
 local function check_rmouse_down_now()
+    if _working_rmouse_probe ~= nil then
