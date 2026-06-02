@@ -3501,3 +3501,4 @@ end
 
 ImGui.EndPopup = close_popup_window
 
+function ImGui.BeginMenuBar()
