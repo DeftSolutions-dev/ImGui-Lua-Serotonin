@@ -1196,3 +1196,4 @@ function ImGui.Spacing()
     if win.cursor_max_y < win.cursor_y then win.cursor_max_y = win.cursor_y end
 end
 
+function ImGui.Dummy(w, h)
