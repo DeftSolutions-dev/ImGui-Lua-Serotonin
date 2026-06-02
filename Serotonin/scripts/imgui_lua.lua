@@ -3593,3 +3593,4 @@ end
 
 function ImGui.EndMenu() ImGui.EndPopup() end
 
+local function _parse_shortcut(s)
