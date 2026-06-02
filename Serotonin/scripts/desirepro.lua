@@ -142,3 +142,4 @@ function DesirePro.text_size(str, font_key)
 end
 
 function DesirePro.font(font_key) return META.fonts[font_key] end
+function DesirePro.font_height(font_key)
