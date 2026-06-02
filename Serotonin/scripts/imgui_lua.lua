@@ -4128,3 +4128,4 @@ function ImGui.DatePicker(label, y, m, d)
         end
     end
     ImGui.PopID()
+    return y, m, d
