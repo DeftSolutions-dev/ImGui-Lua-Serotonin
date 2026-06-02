@@ -4281,3 +4281,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
         end
     end
     ImGui.EndChild()
+    return value
