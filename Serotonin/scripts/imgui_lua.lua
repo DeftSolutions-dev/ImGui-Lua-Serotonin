@@ -663,3 +663,4 @@ local function text_size(s, font)
     if ok and type(w) == "number" then return w, h or Style.FontHeight end
 
     return #s * 7, Style.FontHeight
+end
