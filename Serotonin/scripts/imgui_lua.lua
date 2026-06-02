@@ -4084,3 +4084,4 @@ function ImGui.DatePicker(label, y, m, d)
         if m < 1 then m = 12; y = y - 1 end
         if d > days_in_month(y, m) then d = days_in_month(y, m) end
     end
+    ImGui.SameLine()
