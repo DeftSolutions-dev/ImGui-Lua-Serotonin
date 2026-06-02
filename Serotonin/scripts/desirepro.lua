@@ -1607,3 +1607,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.color(c2, "First gradient color")
             DesirePro.input(c2, "Username", "Enter name...")
         end
+        DesirePro.end_card(c2)
