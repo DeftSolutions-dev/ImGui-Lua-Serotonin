@@ -994,3 +994,4 @@ function DesirePro.combo(ctx, label, items)
     local box_min = x0 + ctx.w - (pw + 55)
     local box_max = x0 + ctx.w
     local bw = box_max - box_min
+    local mx, my = mouse_pos()
