@@ -3329,3 +3329,4 @@ end
 function ImGui.CloseCurrentPopup()
     if #g.popup_stack > 0 then remove(g.popup_stack) end
 
+    if #g.popup_stack == 0 then
