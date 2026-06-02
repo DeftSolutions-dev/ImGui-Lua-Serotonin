@@ -1255,3 +1255,4 @@ function DesirePro.input(ctx, label, placeholder)
         local caret = fx + 10 + (tw - scroll) + 1
         ImGui.AddLine(2, caret, y + 10, caret, y + h - 10, DesirePro.col.label_active, 1)
     end
+    ImGui.PopClipRect()
