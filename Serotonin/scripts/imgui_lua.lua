@@ -3750,3 +3750,4 @@ end
 function ImGui.InputFloatStep(label, value, step, fmt)
     step = step or 0.1
     fmt  = fmt or "%.3f"
+    ImGui.PushID(label)
