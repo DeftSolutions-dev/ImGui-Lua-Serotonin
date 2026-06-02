@@ -2996,3 +2996,4 @@ function ImGui.PushStyleVarVec(name, x, y)
 end
 function ImGui.PopStyleVar(n)
     n = n or 1
+    for i = 1, n do
