@@ -2967,3 +2967,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     local cb_pressed, cb_hov = ButtonBehavior(cx - 7, cy - 7, 14, 14, close_id)
     local lc = cb_hov and StyleColor(Col.ButtonHovered) or StyleColor(Col.Text)
     insert(g.draw_layers[4], { kind = "line", x1 = cx - 4, y1 = cy - 4, x2 = cx + 4, y2 = cy + 4,
+                               col = lc, thick = 2 })
