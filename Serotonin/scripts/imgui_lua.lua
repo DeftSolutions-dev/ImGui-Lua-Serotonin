@@ -622,3 +622,4 @@ local function dr_text_clip(layer, text, x, y, col, max_w, font)
 end
 
 local function dr_triangle_filled(layer, x1, y1, x2, y2, x3, y3, col)
+    push_cmd(layer, { kind = "trif", x1 = x1, y1 = y1, x2 = x2, y2 = y2, x3 = x3, y3 = y3, col = col })
