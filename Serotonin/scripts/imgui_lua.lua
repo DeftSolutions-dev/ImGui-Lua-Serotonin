@@ -4769,3 +4769,4 @@ function ImGui._OnPaint()
     end
 end
 
+function ImGui.IsMenuOpen() return g.menu_open end
