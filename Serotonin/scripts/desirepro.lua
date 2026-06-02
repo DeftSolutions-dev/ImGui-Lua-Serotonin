@@ -1252,3 +1252,4 @@ function DesirePro.input(ctx, label, placeholder)
     ImGui.PushClipRect(fx + 6, y, fw - 12, h)
     DesirePro.text_in(2, fx + 10 - scroll, y, h, shown, "poppins_medium_16", tcol, 1)
     if focused then
+        local caret = fx + 10 + (tw - scroll) + 1
