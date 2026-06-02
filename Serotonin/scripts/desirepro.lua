@@ -255,3 +255,4 @@ function DesirePro.preload(spec)
 
     local imgs = (spec and spec.images) or {}
     for _, name in ipairs(imgs) do
+        local info = META.images[name]
