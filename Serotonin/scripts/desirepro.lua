@@ -393,3 +393,4 @@ local function random_unit()
 end
 
 DesirePro.particles = {}
+function DesirePro.spawn_particles(cx, cy, n)
