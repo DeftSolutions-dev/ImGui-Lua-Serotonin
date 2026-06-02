@@ -266,3 +266,4 @@ function DesirePro.preload(spec)
     print("[desirepro] preloaded " .. total .. " textures")
     return total
 end
+
