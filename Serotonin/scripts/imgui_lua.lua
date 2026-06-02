@@ -105,3 +105,4 @@ local function to_draw(c)
            round(saturate(c.a) * 255)
 end
 
+local function hsv_to_rgb(h, s, v)
