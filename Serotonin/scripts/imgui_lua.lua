@@ -3177,3 +3177,4 @@ function ImGui.TableHeader(label)
     local t = win._table; if not t then return end
     local id = GetID("th:" .. label)
     local th = Style.FontHeight
+    local h  = th + Style.FramePadding.y * 2
