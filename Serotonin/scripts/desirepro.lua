@@ -1483,3 +1483,4 @@ function DesirePro.esp_preview(ctx)
         it.sx, it.align = cxb, "center"; it.sy = by + bh + 10 + (k - 1) * LH
     end
     for k, it in ipairs(groups.left) do
+        it.sx, it.align = bx - 11, "right"; it.sy = by + 2 + (k - 1) * LH
