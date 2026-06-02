@@ -321,3 +321,4 @@ function DesirePro.accent_at(y)
         t = (y - win.y) / win.h
         if t < 0 then t = 0 elseif t > 1 then t = 1 end
     end
+    local a, d = DesirePro.col.active, DesirePro.col.dark
