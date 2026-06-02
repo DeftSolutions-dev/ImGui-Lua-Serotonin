@@ -3676,3 +3676,4 @@ function ImGui.BeginTooltip()
                      col = br_col, thick = 1, rounding = Style.PopupRounding }
     insert(g.draw_layers[5], bg_cmd)
     insert(g.draw_layers[5], br_cmd)
+    me._bg_cmd = bg_cmd
