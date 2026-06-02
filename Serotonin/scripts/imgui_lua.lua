@@ -2962,3 +2962,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     end
 
     local close_id = fnv1a("modal_close", id)
+    local cx = me.x + last_w - 18
