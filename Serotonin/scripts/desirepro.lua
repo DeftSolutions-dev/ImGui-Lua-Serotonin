@@ -1539,3 +1539,4 @@ function DesirePro.esp_preview(ctx)
         end
     end
 
+    if drag and DesirePro._esp_target then
