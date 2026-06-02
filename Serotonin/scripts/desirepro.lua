@@ -1610,3 +1610,4 @@ function DesirePro.page(idx, px, py, ph)
         DesirePro.end_card(c2)
 
         local rx = px + CARD_W + GAP
+        local c3 = DesirePro.begin_card("Wallhack:This decsription for child", rx, py, CARD_W, 362, "TARGET_FILL")
