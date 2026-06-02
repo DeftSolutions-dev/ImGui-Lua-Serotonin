@@ -465,3 +465,4 @@ function DesirePro.icon_scaled(layer, cx, cy, key, atlas_size, target_px, col, a
     local im = META.icons[best] or META.icons[atlas_size]
     if not im then return end
     local g = im.glyphs[cp]
+    if not g or not g.f then return end
