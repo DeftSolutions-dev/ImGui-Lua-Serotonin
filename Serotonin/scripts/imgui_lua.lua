@@ -2576,3 +2576,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
     if ItemAdd(x, y, plot_w, plot_h) then
         dr_rect_filled(2, x, y, plot_w, plot_h, StyleColor(Col.FrameBg), Style.FrameRounding)
         if count >= 2 then
+            local col = (kind == "hist") and StyleColor(Col.PlotHistogram) or StyleColor(Col.PlotLines)
