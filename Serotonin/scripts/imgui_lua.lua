@@ -1350,3 +1350,4 @@ function ImGui.BulletText(text)
 end
 
 local function button_internal(label, w_override, h_override)
+    local win = g.current_window; if not win then return false end
