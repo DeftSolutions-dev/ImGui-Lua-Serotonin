@@ -1693,3 +1693,4 @@ end
 
 DesirePro.settings_open = false
 DesirePro.settings_t = 0
+local function draw_settings()
