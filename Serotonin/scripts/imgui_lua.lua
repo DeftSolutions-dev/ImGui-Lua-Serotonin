@@ -3656,3 +3656,4 @@ function ImGui.BeginTooltip()
     local me = {
         id    = fnv1a("tooltip"),
         x     = g.mouse_x + 14,
+        y     = g.mouse_y + 8,
