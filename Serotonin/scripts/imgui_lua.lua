@@ -1985,3 +1985,4 @@ function ImGui.BeginTabItem(label, p_open)
         if p_open ~= nil then
             local cid = GetID("tabclose:" .. label)
             local cx = x + tab_w - 14
+            local cy = y + tab_h * 0.5
