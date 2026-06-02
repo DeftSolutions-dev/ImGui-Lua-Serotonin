@@ -1594,3 +1594,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
         local bg = StyleColor(Col.FrameBg)
         if active then bg = StyleColor(Col.FrameBgActive)
         elseif hovered then bg = StyleColor(Col.FrameBgHovered) end
+        dr_rect_filled(2, x, y, drag_w, frame_h, bg, Style.FrameRounding)
