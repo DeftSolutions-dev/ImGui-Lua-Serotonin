@@ -1965,3 +1965,4 @@ function ImGui.BeginTabItem(label, p_open)
                 tb.label_order[pos], tb.label_order[pos + 1] =
                     tb.label_order[pos + 1], tb.label_order[pos]
             end
+        end
