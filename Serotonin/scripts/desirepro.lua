@@ -410,3 +410,4 @@ function DesirePro.update_particles()
     local d = delta_time()
     for i = #DesirePro.particles, 1, -1 do
         local p = DesirePro.particles[i]
+        p.life = p.life - d
