@@ -3875,3 +3875,4 @@ function ImGui.GetMouseDragDelta()
     end
     return 0, 0
 end
+function ImGui.ResetMouseDragDelta()
