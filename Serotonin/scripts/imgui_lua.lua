@@ -3409,3 +3409,4 @@ local function close_popup_window()
     if final_w < 32 then final_w = 32 end
     if final_h < 24 then final_h = 24 end
 
+    me._open_anim = me._open_anim or 0
