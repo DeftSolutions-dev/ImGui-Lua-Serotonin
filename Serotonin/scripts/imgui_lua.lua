@@ -2184,3 +2184,4 @@ function ImGui.CollapsingHeader(label)
         dr_triangle_filled(2, cx - 2, cy - 4, cx + 4, cy, cx - 2, cy + 4, arr)
     end
     dr_text(2, label, x + 22, y + (h - th) * 0.5, StyleColor(Col.Text))
+    record_item(id, x, y, w, h, hov, pressed, false)
