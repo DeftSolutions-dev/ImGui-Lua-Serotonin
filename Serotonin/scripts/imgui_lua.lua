@@ -2199,3 +2199,4 @@ do
         INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Numpad" .. i, emit = tostring(i) }
         INPUT_KEYS[#INPUT_KEYS + 1] = { key = "NumPad" .. i, emit = tostring(i) }
         INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Num" .. i,    emit = tostring(i) }
+        INPUT_KEYS[#INPUT_KEYS + 1] = { key = "D" .. i,      emit = tostring(i) }
