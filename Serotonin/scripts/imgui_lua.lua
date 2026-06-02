@@ -4263,3 +4263,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
                 if ok and type(cb) == "string" then text = text .. cb end
             end
             for _, ch in ipairs(typed) do
+                if ch == "\b" then text = sub(text, 1, -2)
