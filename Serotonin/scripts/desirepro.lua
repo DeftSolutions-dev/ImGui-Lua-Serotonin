@@ -94,3 +94,4 @@ local function utf8_iter(s)
         if i > n then return nil end
         local c = byte(s, i)
         local cp, size
+        if c < 0x80 then cp, size = c, 1
