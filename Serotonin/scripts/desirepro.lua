@@ -52,3 +52,4 @@ do
             local ok2, t = pcall(chunk)
             if ok2 and type(t) == "table" then LOCALE = t end
         end
+    end
