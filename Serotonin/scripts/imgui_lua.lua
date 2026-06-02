@@ -466,3 +466,4 @@ local function update_io()
     g._pg_up_prev, g._pg_down_prev = u, d
 
     g.mouse_wheel = g.mouse_wheel or 0
+    local ok_w, content = pcall(file.read, "wheel.txt")
