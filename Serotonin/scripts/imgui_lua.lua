@@ -4671,3 +4671,4 @@ local function flush_layer(layer)
                 end
             else
                 draw.CircleFilled(c.cx, c.cy, c.r, col, c.segs, a)
+            end
