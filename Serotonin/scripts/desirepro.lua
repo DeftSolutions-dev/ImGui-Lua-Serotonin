@@ -641,3 +641,4 @@ local function widget_state(id, init)
     return s
 end
 
+DesirePro.vars = {}
