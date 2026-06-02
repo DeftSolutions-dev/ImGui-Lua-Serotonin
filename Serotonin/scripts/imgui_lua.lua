@@ -1957,3 +1957,4 @@ function ImGui.BeginTabItem(label, p_open)
         if pos then
             local left_lbl  = tb.label_order[pos - 1]
             local right_lbl = tb.label_order[pos + 1]
+
