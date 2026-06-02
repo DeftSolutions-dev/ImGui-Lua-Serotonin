@@ -920,3 +920,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
     local first_use = not win._created
     win._created = true
+    if g.next_window_pos then
