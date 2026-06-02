@@ -137,3 +137,4 @@ local function rgb_to_hsv(r, g, b)
     return h, s, v
 end
 
+local FNV_OFFSET = 2166136261
