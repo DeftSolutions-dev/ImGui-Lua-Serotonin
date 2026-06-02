@@ -1549,3 +1549,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
         local vtw, _ = text_size(vtext)
         dr_text(2, vtext, x + (slider_w - vtw) * 0.5, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
 
+        if tw_lbl > 0 then
