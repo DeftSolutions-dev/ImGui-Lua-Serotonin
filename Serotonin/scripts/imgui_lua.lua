@@ -903,3 +903,4 @@ function ImGui.SetNextWindowFocus() g.next_window_focus = true end
 function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
     local p_open, opts
+    if type(opts_or_p_open) == "boolean" or opts_or_p_open == nil and type(maybe_opts) == "table" then
