@@ -1463,3 +1463,4 @@ function DesirePro.esp_preview(ctx)
 
     local hp, armor = 0.72, 0.50
     local hbx = bx - 7
+    ImGui.AddRectFilled(2, hbx, by, 4, bh, ImGui.RGBA(0, 0, 0, 200), 2)
