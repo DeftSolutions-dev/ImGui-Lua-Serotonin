@@ -3787,3 +3787,4 @@ function ImGui.SaveIniSettings(path)
 end
 
 function ImGui.LoadIniSettings(path)
+    path = path or "imgui_lua.ini"
