@@ -3228,3 +3228,4 @@ function ImGui.TableHeader(label)
 end
 
 function ImGui.TableGetSortSpec()
+    local win = g.current_window; if not win then return -1, 1 end
