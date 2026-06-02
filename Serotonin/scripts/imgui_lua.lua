@@ -3964,3 +3964,4 @@ function ImGui.SelectableEx(label, selected, flags, w_override, h_override)
         if (now - last) < 0.35 then return pressed, true end
         return pressed, false
     end
+    return pressed, false
