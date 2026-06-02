@@ -1558,3 +1558,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     return value, active
 end
 
+function ImGui.SliderFloat(label, v, vmin, vmax, fmt, flags) return slider_internal(label, v, vmin, vmax, fmt or "%.3f", false, flags) end
