@@ -1825,3 +1825,4 @@ function DesirePro.menu()
 
     do
         local mxp, myp = ImGui.GetMousePos()
+        DesirePro.drag = DesirePro.drag or { down = false, moved = false, sx = 0, sy = 0 }
