@@ -2195,3 +2195,4 @@ do
         INPUT_KEYS[#INPUT_KEYS + 1] = { key = char(65 + i), emit = char(65 + i), letter = true }
     end
 
+    for i = 0, 9 do
