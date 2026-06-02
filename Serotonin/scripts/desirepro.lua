@@ -1692,3 +1692,4 @@ local function draw_feature()
 end
 
 DesirePro.settings_open = false
+DesirePro.settings_t = 0
