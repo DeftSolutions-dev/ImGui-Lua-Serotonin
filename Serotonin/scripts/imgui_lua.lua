@@ -3441,3 +3441,4 @@ local function close_popup_window()
             end
         end
     end
+    me.opened_this_frame = false
