@@ -3280,3 +3280,4 @@ function ImGui.EndTable()
         dr_rect(3, t.x0, t.y0, total_w, total_h,
                 StyleColor(Col.TableBorderStrong), 1, 0)
     end
+    win.cursor_y = t.cur_row_max_y + 2
