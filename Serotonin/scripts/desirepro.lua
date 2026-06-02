@@ -458,3 +458,4 @@ function DesirePro.icon_scaled(layer, cx, cy, key, atlas_size, target_px, col, a
     local cp = type(key) == "number" and key or DesirePro.ICON[key]
     if not cp then return end
 
+    local best = 35
