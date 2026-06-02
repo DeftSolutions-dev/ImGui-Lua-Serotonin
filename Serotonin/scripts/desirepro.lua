@@ -515,3 +515,4 @@ function DesirePro.text_mid(layer, cx, cy, str, font_key, color, alpha)
     local asc = fm and fm.ascent or 14
     return DesirePro.text(layer, floor(cx - w / 2 + 0.5), floor(cy + cap / 2 - asc + 0.5),
                   str, font_key, color, alpha)
+end
