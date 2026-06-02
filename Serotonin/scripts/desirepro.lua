@@ -416,3 +416,4 @@ function DesirePro.update_particles()
         else
             p.vy = p.vy + 150 * d
             p.x = p.x + p.vx * d
+            p.y = p.y + p.vy * d
