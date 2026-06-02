@@ -752,3 +752,4 @@ local function anim_step(win, id, target, speed)
     local dt  = g.dt or 0.016
     cur = cur + (target - cur) * min(1, dt * speed)
     anim_set(win, id, cur)
+    return cur
