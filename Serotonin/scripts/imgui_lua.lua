@@ -1683,3 +1683,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
     local id = GetID("lst:" .. label)
     local th = Style.FontHeight
     local row_h = th + 4
+    local visible_rows = height_in_items or min(#items, 6)
