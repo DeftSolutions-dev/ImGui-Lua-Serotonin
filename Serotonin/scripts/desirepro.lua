@@ -495,3 +495,4 @@ function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
                    floor(w + 0.5), floor(h + 0.5), tex, ImGui.ColF(1, 1, 1, 1), alpha or 1)
 end
 
+function DesirePro.text_centered(layer, cx, y, str, font_key, color, alpha)
