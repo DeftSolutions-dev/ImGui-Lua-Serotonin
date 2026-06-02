@@ -2394,3 +2394,4 @@ render_scrollbar = function(win)
     local grab_y = sb_y + t * grab_y_range
 
     if g.mouse_left_clicked
+       and point_in_rect(g.mouse_x, g.mouse_y, sb_x, sb_y, sb_w, sb_h)
