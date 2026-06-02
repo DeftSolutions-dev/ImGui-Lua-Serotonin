@@ -2871,3 +2871,4 @@ function ImGui.Hotkey(label, key)
     local id = GetID("hk:" .. label)
     insert(g.focus_list, id)
     local th = Style.FontHeight
+    local pad = Style.FramePadding
