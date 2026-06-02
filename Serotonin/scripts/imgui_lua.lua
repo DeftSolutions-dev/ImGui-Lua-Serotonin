@@ -1201,3 +1201,4 @@ function ImGui.Dummy(w, h)
 end
 
 function ImGui.Indent(amount)
+    local win = g.current_window; if not win then return end
