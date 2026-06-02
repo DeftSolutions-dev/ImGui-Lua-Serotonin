@@ -1554,3 +1554,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
         end
     end
     record_item(id, x, y, slider_w + label_part, frame_h, hovered, false, active)
+    ItemSize(slider_w + label_part, frame_h)
