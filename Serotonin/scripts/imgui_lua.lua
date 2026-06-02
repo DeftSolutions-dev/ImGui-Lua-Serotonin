@@ -3845,3 +3845,4 @@ function ImGui.IsKeyPressed(name)
     g._key_prev[name] = now
     return now and not was
 end
+function ImGui.GetKeyName(name) return tostring(name) end
