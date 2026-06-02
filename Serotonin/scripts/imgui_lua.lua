@@ -2386,3 +2386,4 @@ render_scrollbar = function(win)
     local sb_y = win.y + win._title_h + 1
     local sb_h = win.h - win._title_h - 2
 
+    dr_rect_filled(3, sb_x, sb_y, sb_w, sb_h, StyleColor(Col.ScrollbarBg), Style.ScrollbarRounding)
