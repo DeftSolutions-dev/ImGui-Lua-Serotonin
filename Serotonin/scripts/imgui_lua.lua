@@ -4627,3 +4627,4 @@ local function flush_layer(layer)
 
         elseif k == "text" or k == "text_clip" then
             local col, a = to_draw(c.col)
+            a = a * am
