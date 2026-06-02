@@ -4155,3 +4155,4 @@ function ImGui.FileBrowser(str_id, state)
             local sub = (state.path == "") and name or (state.path .. "/" .. name)
             local is_dir = false
             local ok_d, isd = pcall(file.isdir, sub)
+            if ok_d then is_dir = isd end
