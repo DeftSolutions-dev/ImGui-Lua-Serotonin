@@ -1133,3 +1133,4 @@ end
 
 local key_prev = {}
 local function key_edge(name)
+    local d = key_down(name)
