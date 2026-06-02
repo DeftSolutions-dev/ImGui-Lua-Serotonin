@@ -1882,3 +1882,4 @@ function DesirePro.menu()
     DesirePro.page(DesirePro.active_tab, page_x, page_y, page_h)
     ImGui.SetDrawAlpha(1)
 
+    draw_feature()
