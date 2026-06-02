@@ -472,3 +472,4 @@ function DesirePro.icon_scaled(layer, cx, cy, key, atlas_size, target_px, col, a
     local w, h = g.w * s, g.h * s
     ImGui.AddImage(layer, floor(cx - w / 2 + 0.5), floor(cy - h / 2 + 0.5),
                    floor(w + 0.5), floor(h + 0.5), tex, col, alpha)
+end
