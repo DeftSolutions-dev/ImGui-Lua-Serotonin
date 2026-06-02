@@ -144,3 +144,4 @@ local function fnv1a(s, seed)
     for i = 1, #s do
         h = bit.bxor(h, byte(s, i))
         h = bit.tobit(h * FNV_PRIME)
+    end
