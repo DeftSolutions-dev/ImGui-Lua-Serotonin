@@ -3161,3 +3161,4 @@ function ImGui.TableHeadersRow()
     local t = win._table; if not t then return end
     if t.setups and #t.setups == t.columns then
         ImGui.TableNextRow()
+        for _, s in ipairs(t.setups) do
