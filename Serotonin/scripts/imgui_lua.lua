@@ -1776,3 +1776,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
     end
     if ImGui.BeginPopup(popup_str) then
         local pwin = g.current_window
+        local sv_size = 140
