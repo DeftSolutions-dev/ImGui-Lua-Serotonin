@@ -238,3 +238,4 @@ function DesirePro.preload(spec)
         for k in pairs(META.fonts) do fonts[#fonts + 1] = k end
     end
     for _, k in ipairs(fonts) do total = total + DesirePro.preload_font(k) end
+
