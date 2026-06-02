@@ -1761,3 +1761,4 @@ function DesirePro.menu()
         DesirePro.box_x, DesirePro.box_y = nil, nil
         DesirePro._last_sw, DesirePro._last_sh = sw, sh
     end
+
