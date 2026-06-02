@@ -4312,3 +4312,4 @@ function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
     ItemSize(w, h)
     return size1, size2
 end
+
