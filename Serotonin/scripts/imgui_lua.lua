@@ -855,3 +855,4 @@ local function get_or_create_window(id, title)
         content_w    = 0,
         content_h    = 0,
         active       = false,
+        opened       = true,
