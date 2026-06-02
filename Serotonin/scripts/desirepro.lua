@@ -520,3 +520,4 @@ end
 DesirePro.US = 0.9
 DesirePro.WINDOW_W = floor(735 * DesirePro.US)
 DesirePro.WINDOW_H = floor(700 * DesirePro.US)
+DesirePro.TAB_BAND = floor(90 * DesirePro.US)
