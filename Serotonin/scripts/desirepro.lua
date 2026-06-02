@@ -1807,3 +1807,4 @@ function DesirePro.menu()
         local tby = ty + (th - tbh) / 2
         local tbx = tx + 8
         local tab_w = floor((tw - 16 - 7 * gap) / 8)
+        for i = 1, #DesirePro.tabs do
