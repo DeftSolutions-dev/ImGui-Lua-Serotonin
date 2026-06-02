@@ -220,3 +220,4 @@ local function default_dark_theme()
     return t
 end
 
+local Style = {
