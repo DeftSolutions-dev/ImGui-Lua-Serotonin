@@ -826,3 +826,4 @@ function DesirePro.checkbox(ctx, label)
     local lcol = v and DesirePro.col.label_active or (hovered and DesirePro.col.label_hover or DesirePro.col.label)
 
     local r = 4
+    local grow = s.hovg * 6
