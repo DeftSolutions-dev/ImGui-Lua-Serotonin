@@ -1267,3 +1267,4 @@ local function draw_popup()
     local rc = raw_clicked()
 
     if popup.kind == "combo" then
+        local ih, n = 30, #popup.items
