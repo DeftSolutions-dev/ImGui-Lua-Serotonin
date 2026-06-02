@@ -3243,3 +3243,4 @@ function ImGui.TableGetSortSpecs()
     return out
 end
 
+function ImGui.EndTable()
