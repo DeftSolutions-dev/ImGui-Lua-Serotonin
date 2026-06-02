@@ -1440,3 +1440,4 @@ local ESP_DEFAULT = {
     { name = "LC", group = "bottom" },
 }
 
+function DesirePro.esp_preview(ctx)
