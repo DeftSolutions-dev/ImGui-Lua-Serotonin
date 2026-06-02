@@ -2000,3 +2000,4 @@ function ImGui.BeginTabItem(label, p_open)
         win.cursor_y = tb.bottom_y + 4
         sel = true
     end
+    if p_open ~= nil then
