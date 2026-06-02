@@ -364,3 +364,4 @@ local function check_rmouse_down_now()
             return true
         end
     end
+    return false
