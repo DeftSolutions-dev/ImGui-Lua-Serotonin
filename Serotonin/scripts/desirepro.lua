@@ -422,3 +422,4 @@ function DesirePro.update_particles()
     end
 end
 
+DesirePro.notifs = {}
