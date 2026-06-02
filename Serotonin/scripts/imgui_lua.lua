@@ -571,3 +571,4 @@ local function push_cmd(layer, cmd)
     end
     if original_layer == 2 then
         cmd.clip = g.clip_stack[#g.clip_stack]
+    end
