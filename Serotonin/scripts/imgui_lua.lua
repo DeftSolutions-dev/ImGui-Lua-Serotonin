@@ -1631,3 +1631,4 @@ function ImGui.Selectable(label, selected, w_override, h_override)
     local win = g.current_window; if not win then return false end
     local id = GetID("sel:" .. label)
     insert(g.focus_list, id)
+    local tw, th = text_size(label)
