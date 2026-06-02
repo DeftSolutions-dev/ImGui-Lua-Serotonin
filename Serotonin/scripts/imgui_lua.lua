@@ -297,3 +297,4 @@ g = {
     windows_order     = {},
     windows_z_order   = {},
     current_window    = nil,
+    window_stack      = {},
