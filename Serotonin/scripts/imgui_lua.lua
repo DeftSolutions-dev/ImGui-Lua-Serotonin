@@ -3731,3 +3731,4 @@ function ImGui.MenuSeparator()
     dr_line(2, x, y, x + w, y, StyleColor(Col.Separator), 1)
     ItemSize(w, 5)
 end
+
