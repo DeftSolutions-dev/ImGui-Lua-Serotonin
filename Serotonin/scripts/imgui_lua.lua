@@ -2186,3 +2186,4 @@ function ImGui.CollapsingHeader(label)
     dr_text(2, label, x + 22, y + (h - th) * 0.5, StyleColor(Col.Text))
     record_item(id, x, y, w, h, hov, pressed, false)
     ItemSize(w, h)
+    return open
