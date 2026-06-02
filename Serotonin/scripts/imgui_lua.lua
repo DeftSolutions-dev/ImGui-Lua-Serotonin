@@ -2926,3 +2926,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
             w = 0, h = 0,
             opened_this_frame = true,
             modal = true,
+        })
