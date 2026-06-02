@@ -880,3 +880,4 @@ local function store_get(win, key, default_v)
     local s = g.storage[win.id]
     local v = s[key]
     if v == nil then return default_v end
+    return v
