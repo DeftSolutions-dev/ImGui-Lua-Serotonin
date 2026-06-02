@@ -766,3 +766,4 @@ end
 
 function ImGui.IsItemHovered() return g.last_item_hovered end
 function ImGui.IsItemClicked() return g.last_item_clicked end
+function ImGui.IsItemActive()  return g.last_item_active end
