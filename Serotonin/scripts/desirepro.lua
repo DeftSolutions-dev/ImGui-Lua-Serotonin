@@ -1127,3 +1127,4 @@ do
 end
 
 local function key_down(name)
+    local ok, v = pcall(keyboard.IsPressed, name)
