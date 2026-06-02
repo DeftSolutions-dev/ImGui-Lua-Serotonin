@@ -3591,3 +3591,4 @@ function ImGui.BeginMenu(label)
     return false
 end
 
+function ImGui.EndMenu() ImGui.EndPopup() end
