@@ -3389,3 +3389,4 @@ open_popup_window = function(me)
         _id_stack_save  = #g.id_stack,
         _is_popup       = true,
         _popup          = me,
+    }
