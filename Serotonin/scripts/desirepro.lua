@@ -1101,3 +1101,4 @@ function DesirePro.color(ctx, label)
     local rgb = hsv2rgb(c.h, c.s, c.v, c.a)
     local cx, cy = x1 - 12, y + h / 2
     local mx, my = mouse_pos()
+    local hovered = point_in_rect(mx, my, cx - 11, cy - 11, 22, 22)
