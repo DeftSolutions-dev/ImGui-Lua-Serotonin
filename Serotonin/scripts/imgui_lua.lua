@@ -2287,3 +2287,4 @@ function ImGui.InputText(label, value, callback)
 
         if callback and ImGui.IsKeyPressed("Tab") then
             local r = callback("completion", { value = value })
+            if type(r) == "string" then value = r end
