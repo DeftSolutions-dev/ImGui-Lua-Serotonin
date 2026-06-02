@@ -584,3 +584,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
 end
 
 local function draw_tab(i, tab, bx, by, bw, bh)
+    local st = tab_anim["v" .. i]
