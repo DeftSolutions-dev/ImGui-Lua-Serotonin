@@ -1164,3 +1164,4 @@ end
 ImGui._ItemAdd = ItemAdd
 
 local function auto_wrap(w)
+    local win = g.current_window
