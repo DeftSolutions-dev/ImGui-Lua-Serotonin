@@ -4185,3 +4185,4 @@ function ImGui.CheckboxFlags(label, flags_int, flag_bit)
 end
 
 function ImGui.DragFloatRange2(label, vmin_cur, vmax_cur, speed, lo, hi, fmt)
+    ImGui.PushID(label)
