@@ -3764,3 +3764,4 @@ function ImGui.InputFloatStep(label, value, step, fmt)
 end
 
 function ImGui.GetMainViewport()
+    local sw, sh = draw.GetScreenSize()
