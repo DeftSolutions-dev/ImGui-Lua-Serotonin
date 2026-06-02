@@ -224,3 +224,4 @@ function DesirePro.preload_icons(size)
     if not im then return 0 end
     local n = 0
     for _, g in pairs(im.glyphs) do
+        if g.f and load_tex(ROOT .. "/" .. im.dir .. "/" .. g.f) then n = n + 1 end
