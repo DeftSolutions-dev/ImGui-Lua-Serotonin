@@ -2090,3 +2090,4 @@ function ImGui.TreeNodeEx(label, flags)
         else                                  col = StyleColor(Col.Header) end
         dr_rect_filled(2, x, y, total_w, h, col, Style.FrameRounding)
     elseif flags.selected or (hov and (g.mouse_left_down or g.mouse_left_clicked)) or hov then
+        local col = flags.selected and StyleColor(Col.Header)
