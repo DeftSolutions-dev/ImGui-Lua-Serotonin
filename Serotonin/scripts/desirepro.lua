@@ -957,3 +957,4 @@ function DesirePro.button(ctx, label, h)
     local y, w = ctx.cy, ctx.w
     local mx, my = mouse_pos()
     local hovered = point_in_rect(mx, my, x, y, w, h)
+    local pressed = hovered and clicked()
