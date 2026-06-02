@@ -309,3 +309,4 @@ function DesirePro.update_theme()
         local c = DesirePro.col[k]
         c.r = c.r + (tgt.r - c.r) * step
         c.g = c.g + (tgt.g - c.g) * step
+        c.b = c.b + (tgt.b - c.b) * step
