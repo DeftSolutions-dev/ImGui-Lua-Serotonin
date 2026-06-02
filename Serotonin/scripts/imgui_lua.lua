@@ -3121,3 +3121,4 @@ function ImGui.TableNextColumn()
     if t.cur_col + 1 >= t.columns then
         ImGui.TableNextRow()
         ImGui.TableSetColumnIndex(0)
+    else
