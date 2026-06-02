@@ -1494,3 +1494,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     local slider_w = max(40, total_w - label_part)
     local x, y = win.cursor_x, win.cursor_y
 
+    local visible = ItemAdd(x, y, slider_w, frame_h)
