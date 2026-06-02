@@ -1048,3 +1048,4 @@ function DesirePro.multicombo(ctx, label, items)
     local box_max = x0 + ctx.w
     local bw = floor(DesirePro.text_size(preview, "poppins_medium_16") + 36)
     local cap = floor(ctx.w * 0.62)
+    local minw = floor(110 * DesirePro.US)
