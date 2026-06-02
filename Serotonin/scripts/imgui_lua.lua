@@ -2295,3 +2295,4 @@ function ImGui.InputText(label, value, callback)
                 local r = callback("history", { value = value, dir = -1 })
                 if type(r) == "string" then value = r end
             end
+            if ImGui.IsKeyPressed("Down") then
