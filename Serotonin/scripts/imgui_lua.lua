@@ -3602,3 +3602,4 @@ local function _parse_shortcut(s)
         elseif lp == "alt"                     then mods.alt   = true
         else key = part:gsub("%s", "") end
     end
+    return mods, key
