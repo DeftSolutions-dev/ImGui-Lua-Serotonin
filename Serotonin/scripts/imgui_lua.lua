@@ -671,3 +671,4 @@ set_active_id = function(id, win, rect)
     g.active_id_window = win
     g.active_id_was_just_activated = true
     if rect then
+        g.active_id_rect = { x = rect.x, y = rect.y, w = rect.w, h = rect.h }
