@@ -534,3 +534,4 @@ DesirePro.tabs = {
     { icon = "BOMB_FILL",           name = "Exploits" },
 }
 
+DesirePro.active_tab = 0
