@@ -712,3 +712,4 @@ local function ItemHoverable(x, y, w, h, id)
     if g.mouse_left_clicked and g.active_id ~= nil and g.active_id ~= id then
         clear_active_id()
     end
+    if g.active_id ~= nil and g.active_id ~= id then return false end
