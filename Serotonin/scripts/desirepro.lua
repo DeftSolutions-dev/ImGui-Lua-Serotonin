@@ -1498,3 +1498,4 @@ function DesirePro.esp_preview(ctx)
 
     for i = #layout, 1, -1 do
         local it = layout[i]
+        local w = DesirePro.text_size(DesirePro.translate(it.name), FONT)
