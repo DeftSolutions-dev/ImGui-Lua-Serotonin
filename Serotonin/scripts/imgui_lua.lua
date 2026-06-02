@@ -3967,3 +3967,4 @@ function ImGui.SelectableEx(label, selected, flags, w_override, h_override)
     return pressed, false
 end
 
+function ImGui.TextLink(label)
