@@ -1830,3 +1830,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         local hue_step = hb_h / hue_n
         for i = 0, hue_n - 1 do
             local h0 = i / hue_n
+            local h1 = (i + 1) / hue_n
