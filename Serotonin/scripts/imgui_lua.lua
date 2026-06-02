@@ -332,3 +332,4 @@ local MOUSE_RDOWN_CANDIDATES = {
     "MouseRight", "Mouse2", "MOUSE2", "RightMouse", "RMB", "rmb", "mouse_right",
     "VK_RBUTTON", 2, 0x02,
 }
+local _working_mouse_probe   = nil
