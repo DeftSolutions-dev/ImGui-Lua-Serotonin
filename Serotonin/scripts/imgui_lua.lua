@@ -2954,3 +2954,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     insert(g.draw_layers[4], { kind = "text", text = name, x = me.x + 8, y = me.y + 4,
                                col = StyleColor(Col.Text), font = Style.Font })
 
+    local drag_id = fnv1a("modal_drag", id)
