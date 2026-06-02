@@ -1644,3 +1644,4 @@ function DesirePro.page(idx, px, py, ph)
         DesirePro.end_card(c2)
     elseif idx == 2 then
         local c = DesirePro.begin_card("Language", px, py, CARD_W, 58, "TRANSLATE_2_AI_LINE")
+        if c.on then
