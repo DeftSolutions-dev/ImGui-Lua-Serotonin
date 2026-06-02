@@ -306,3 +306,4 @@ g = {
     next_window_collapsed  = nil,
     next_window_focus      = false,
 
+    color_stack       = {},
