@@ -4539,3 +4539,4 @@ function ImGui.NewFrame()
     g.hovered_id_prev = g.hovered_id
     g.hovered_id = nil
     g.active_id_was_just_activated = false
+
