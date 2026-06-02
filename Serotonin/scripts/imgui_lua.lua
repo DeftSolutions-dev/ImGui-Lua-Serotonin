@@ -534,3 +534,4 @@ end
 local function StyleColor(idx)
 
     for i = #g.color_stack, 1, -1 do
+        local s = g.color_stack[i]
