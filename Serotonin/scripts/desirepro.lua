@@ -366,3 +366,4 @@ function DesirePro.grad_rrect(layer, x, y, w, h, r, c1, c2)
 end
 
 local C1, C3 = 1.70158, 2.70158
+function DesirePro.ease_back(t)
