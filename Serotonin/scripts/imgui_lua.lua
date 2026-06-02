@@ -473,3 +473,4 @@ local function update_io()
             local d2 = tonumber(line)
             if d2 then delta = delta + d2 end
         end
+        if delta ~= 0 then g.mouse_wheel = g.mouse_wheel + delta end
