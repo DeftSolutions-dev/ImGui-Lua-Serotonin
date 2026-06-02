@@ -148,3 +148,4 @@ local function fnv1a(s, seed)
     return h
 end
 
+local Col = {}
