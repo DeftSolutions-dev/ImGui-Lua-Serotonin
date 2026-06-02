@@ -3856,3 +3856,4 @@ function ImGui.IsMouseDoubleClicked()
 end
 function ImGui.IsMouseDragging(threshold)
     threshold = threshold or 4
+    if not g.mouse_left_down then return false end
