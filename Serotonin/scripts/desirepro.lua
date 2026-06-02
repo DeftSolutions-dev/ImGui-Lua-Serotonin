@@ -114,6 +114,7 @@ local FONT_WEIGHT_ORDER = { regular = 0, medium = 1, semibold = 2 }
 local FONT_WEIGHT_NAME  = { [0] = "regular", [1] = "medium", [2] = "semibold" }
 local function resolve_font(font_key)
     local shift = DesirePro.font_weight_shift or 0
+    if shift == 0 then return font_key end
 function DesirePro.text(layer, x, y, str, font_key, color, alpha)
     local fm = META.fonts[font_key]
     if not fm then return 0 end
