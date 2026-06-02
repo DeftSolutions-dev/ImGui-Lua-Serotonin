@@ -1835,3 +1835,4 @@ function DesirePro.menu()
             if not ImGui.IsMouseDown() then
                 if DesirePro.drag.moved then
                     local slots = { { 0, mx + mw / 2, my - band / 2 }, { 1, mx + mw / 2, my + mh + band / 2 },
+                                    { 2, mx - side / 2, my + mh / 2 }, { 3, mx + mw + side / 2, my + mh / 2 } }
