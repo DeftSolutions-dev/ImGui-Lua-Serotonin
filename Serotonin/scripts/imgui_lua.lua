@@ -4085,3 +4085,4 @@ function ImGui.DatePicker(label, y, m, d)
         if d > days_in_month(y, m) then d = days_in_month(y, m) end
     end
     ImGui.SameLine()
+    local hdr = string.format("%s %d", MON_NAMES[m] or "?", y)
