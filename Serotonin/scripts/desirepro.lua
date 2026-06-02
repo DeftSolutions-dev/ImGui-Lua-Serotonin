@@ -1669,3 +1669,4 @@ local function draw_feature()
     DesirePro._feature_lastx = feat and feat.ax or DesirePro._feature_lastx
     DesirePro._feature_lasty = feat and feat.ay or DesirePro._feature_lasty
 
+    ImGui.SetDrawAlpha(t)
