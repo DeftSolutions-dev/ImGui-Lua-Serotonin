@@ -2314,3 +2314,4 @@ function ImGui.InputText(label, value, callback)
     end
     record_item(id, x, y, input_w + label_part, frame_h, hovered, false, active)
     ItemSize(input_w + label_part, frame_h)
+    return value, active
