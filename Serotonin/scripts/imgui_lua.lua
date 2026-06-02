@@ -2338,3 +2338,4 @@ function ImGui.SetTooltip(text)
     dr_rect_filled(5, mx, my, tw + pad * 2, th + pad * 2, StyleColor(Col.PopupBg), Style.FrameRounding)
     dr_rect(5, mx, my, tw + pad * 2, th + pad * 2, StyleColor(Col.Border), 1, Style.FrameRounding)
     dr_text(5, text, mx + pad, my + pad, StyleColor(Col.Text))
+end
