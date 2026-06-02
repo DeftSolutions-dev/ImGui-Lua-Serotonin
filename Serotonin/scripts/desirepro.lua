@@ -1567,3 +1567,4 @@ function DesirePro.esp_preview(ctx)
                 local pxp = lx - 100
                 if pxp < px then pxp = px end
                 popup = { kind = "color", varid = cid, x = pxp, y = it.sy + 16,
+                          sw = { x = lx, y = it.sy, w = it._w or 20, h = LH } }
