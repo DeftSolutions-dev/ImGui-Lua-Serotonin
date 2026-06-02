@@ -809,3 +809,4 @@ end
 
 function DesirePro.checkbox(ctx, label)
     local id = "cb:" .. ctx.idp .. label
+    local v = var(id, false)
