@@ -97,3 +97,4 @@ local function col_mul_alpha(c, m)
 end
 
 local function col_lerp(a, b, t)
+    return { r = lerp(a.r, b.r, t), g = lerp(a.g, b.g, t), b = lerp(a.b, b.b, t), a = lerp(a.a, b.a, t) }
