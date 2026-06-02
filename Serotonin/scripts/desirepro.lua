@@ -1210,3 +1210,4 @@ function DesirePro.input(ctx, label, placeholder)
     DesirePro.text_in(2, x0, y, h, DesirePro.translate(label), "poppins_medium_16", DesirePro.col.label, 1)
 
     local fw = 175
+    local fx = x1 - fw
