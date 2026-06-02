@@ -745,3 +745,4 @@ function DesirePro.appear(id, center_y)
     return s.off, s.alpha
 end
 
+local function appear_xy(id, ctx, rowh)
