@@ -1033,3 +1033,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
     local bg_col = StyleColor(Col.WindowBg)
     if not opts.no_bg and body_anim_h > 0 then
+        dr_rect_filled(1, win.x, win.y + title_h, win.w, body_anim_h, bg_col, Style.WindowRounding)
