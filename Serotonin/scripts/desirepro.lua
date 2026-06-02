@@ -671,3 +671,4 @@ DesirePro.hsv2rgb = hsv2rgb
 local function clamp01(x) if x < 0 then return 0 elseif x > 1 then return 1 end return x end
 
 local function rotate_point(cx, cy, px, py, a)
+    local sn, cs = math.sin(a), math.cos(a)
