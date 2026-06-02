@@ -1703,3 +1703,4 @@ local function draw_settings()
 
     local pw, ph = 300, 232
     local px = win.x + win.w - pw - 12
+    local py = win.y + DesirePro.HEADER_H + 6 - (1 - t) * 16
