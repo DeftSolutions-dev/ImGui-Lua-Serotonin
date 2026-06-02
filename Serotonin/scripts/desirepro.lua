@@ -1873,3 +1873,4 @@ function DesirePro.menu()
                 DesirePro.hdrag = false
             end
         end
+    end
