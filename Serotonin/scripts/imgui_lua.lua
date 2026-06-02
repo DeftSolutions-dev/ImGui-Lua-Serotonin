@@ -1854,3 +1854,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         ImGui.EndPopup()
     end
 
+    return r, g_, b
