@@ -1544,3 +1544,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
         local grab_x = x + t * (slider_w - grab_w)
         local grab_col = col_lerp(StyleColor(Col.SliderGrab), StyleColor(Col.SliderGrabActive), at * 0.5)
         dr_rect_filled(2, grab_x, y + 1, grab_w, frame_h - 2, grab_col, Style.GrabRounding)
+
