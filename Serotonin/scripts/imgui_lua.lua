@@ -1889,3 +1889,4 @@ function ImGui.BeginTabBar(name, flags)
         btn_reserve = 0,
 
         reorderable = flags.reorderable == true,
+        label_order = store_get(win, "tabbar_order_"   .. tostring(id), nil) or {},
