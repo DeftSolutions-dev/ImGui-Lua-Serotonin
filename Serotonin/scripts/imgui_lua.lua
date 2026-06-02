@@ -357,3 +357,4 @@ local function check_rmouse_down_now()
         return ok and v or false
     end
     for _, cand in ipairs(MOUSE_RDOWN_CANDIDATES) do
+        local ok, v = pcall(keyboard.IsPressed, cand)
