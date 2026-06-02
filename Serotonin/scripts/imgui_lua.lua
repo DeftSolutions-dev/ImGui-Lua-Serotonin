@@ -1376,3 +1376,4 @@ local function button_internal(label, w_override, h_override)
         else
             col = col_lerp(col_b, col_c, t - 1)
         end
+        dr_rect_filled(2, x, y, w, h, col, Style.FrameRounding)
