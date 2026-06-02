@@ -900,3 +900,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local over = point_in_rect(mx, my, tmin_x - 6, tmin_y - 6, tw + 12, th + 12)
     if over and clicked() then active_drag = id end
     if active_drag == id then
+        if mouse_down() then
