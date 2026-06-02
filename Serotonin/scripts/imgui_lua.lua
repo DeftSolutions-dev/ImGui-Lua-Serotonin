@@ -2863,3 +2863,4 @@ do
         "Insert", "Delete", "Home", "End", "PageUp", "PageDown",
         "MouseLeft", "MouseRight", "Mouse4", "Mouse5",
     }
+    for _, k in ipairs(extras) do insert(HOTKEY_PROBE_NAMES, k) end
