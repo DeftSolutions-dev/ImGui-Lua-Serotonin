@@ -730,3 +730,4 @@ function DesirePro.appear(id, center_y)
         s.off = -((DesirePro._win and DesirePro._win.w) or 400)
         s.alpha = 0
         s.timer = 0
+    end
