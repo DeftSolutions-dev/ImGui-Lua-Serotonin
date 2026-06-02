@@ -2020,3 +2020,4 @@ function ImGui.EndTabBar()
                 remove(tb.label_order, i)
             end
         end
+        store_set(win, "tabbar_order_"  .. tostring(tb.id), tb.label_order)
