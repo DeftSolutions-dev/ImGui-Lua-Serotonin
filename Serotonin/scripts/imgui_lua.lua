@@ -447,3 +447,4 @@ local function update_io()
 
     local ok_tk, tk = pcall(keyboard.IsPressed, g.toggle_key)
     tk = ok_tk and tk or false
+    if tk and not g.toggle_key_prev then
