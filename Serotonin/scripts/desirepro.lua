@@ -682,3 +682,4 @@ local open_color = nil
 local color_drag = nil
 local popup = nil
 local popup_rect = nil
+DesirePro._input_block = false
