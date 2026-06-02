@@ -848,3 +848,4 @@ end
 
 function DesirePro.featurebox(ctx, label, content_fn)
     local id = "fx:" .. ctx.idp .. label
+    local row_y = ctx.cy
