@@ -3500,3 +3500,4 @@ function ImGui.BeginPopup(str_id, flags)
 end
 
 ImGui.EndPopup = close_popup_window
+
