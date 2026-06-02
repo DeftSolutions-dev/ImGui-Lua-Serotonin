@@ -488,3 +488,4 @@ local function update_io()
     local tab_now   = (not nav_blocked) and probe_any({ "Tab", "TAB", 0x09 })
     local shift_now = probe("Shift")
     g.nav_dir = 0
+    if tab_now and not g._tab_prev then
