@@ -4577,3 +4577,4 @@ local function flush_layer(layer)
         local clip = c.clip
         local am = c.amul or 1
 
+        if k == "rectf" then
