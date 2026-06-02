@@ -1572,3 +1572,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     local label_part = (tw_lbl > 0) and (tw_lbl + Style.ItemInnerSpacing.x) or 0
     local drag_w = max(40, total_w - label_part)
     local x, y = win.cursor_x, win.cursor_y
+
