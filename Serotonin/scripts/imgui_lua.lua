@@ -2747,3 +2747,4 @@ function ImGui.BeginDisabled(disabled)
         ImGui.PushStyleColor(Col.CheckMark,      dim(StyleColor(Col.CheckMark)))
     end
     g._disabled_stack = g._disabled_stack or {}
+    insert(g._disabled_stack, disabled)
