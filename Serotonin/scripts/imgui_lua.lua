@@ -896,3 +896,4 @@ function ImGui.SetNextWindowSize(w, h, cond)
     g.next_window_size = { w = w, h = h, cond = cond or "always" }
 end
 function ImGui.SetNextWindowCollapsed(b, cond)
+    g.next_window_collapsed = { value = b, cond = cond or "always" }
