@@ -1974,3 +1974,4 @@ function ImGui.BeginTabItem(label, p_open)
     if on_screen then
 
         local target = is_selected and 2 or (hovered and 1 or 0)
+        local t = anim_step(win, id, target, 14)
