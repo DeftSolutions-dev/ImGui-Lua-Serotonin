@@ -4544,3 +4544,4 @@ function ImGui.NewFrame()
         local layer = g.draw_layers[i]
         for j = #layer, 1, -1 do layer[j] = nil end
     end
+
