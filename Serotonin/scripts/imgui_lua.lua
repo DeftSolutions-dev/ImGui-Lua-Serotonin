@@ -4442,3 +4442,4 @@ function ImGui.EndDragDropSource() ImGui.EndTooltip() end
 function ImGui.BeginDragDropTarget()
     if not g.dragdrop_active then return false end
     if g.last_item_id == nil then return false end
+    local r = g.last_item_rect
