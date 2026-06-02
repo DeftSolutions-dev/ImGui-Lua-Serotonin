@@ -4266,3 +4266,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
                 if ch == "\b" then text = sub(text, 1, -2)
                 elseif ch == " " then text = text .. " "
                 elseif #ch == 1 then
+                    if ch >= "A" and ch <= "Z" and not shift then ch = string.lower(ch) end
