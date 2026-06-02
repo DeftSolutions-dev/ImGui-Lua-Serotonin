@@ -3774,3 +3774,4 @@ function ImGui.SaveIniSettings(path)
     local lines = { "; imgui_lua window settings — auto-generated" }
     for _, wid in ipairs(g.windows_z_order) do
         local win = g.windows[wid]
+        if win and win.title then
