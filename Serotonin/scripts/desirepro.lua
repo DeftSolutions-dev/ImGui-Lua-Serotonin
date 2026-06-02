@@ -1737,3 +1737,4 @@ function DesirePro.menu()
 
     if DesirePro._last_tab ~= DesirePro.active_tab then
         open_combo = nil
+        open_color = nil
