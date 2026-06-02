@@ -839,3 +839,4 @@ function DesirePro.checkbox(ctx, label)
         local a = DesirePro.with_alpha(DesirePro.col.label_active, cc)
         ImGui.AddLine(2, cx - 4.5 * k, cy + 0.5 * k, cx - 1.5 * k, cy + 3.5 * k, a, 2)
         ImGui.AddLine(2, cx - 1.5 * k, cy + 3.5 * k, cx + 4.5 * k, cy - 3.5 * k, a, 2)
+    end
