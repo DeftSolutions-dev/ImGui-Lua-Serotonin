@@ -4640,3 +4640,4 @@ local function flush_layer(layer)
                     end
                     if s ~= "" then draw.Text(s, c.x, c.y, col, c.font, a) end
                 end
+            else
