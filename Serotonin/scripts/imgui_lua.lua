@@ -4453,3 +4453,4 @@ function ImGui.AcceptDragDropPayload(type_str)
     if g.dragdrop_payload.type ~= type_str then return nil end
 
     local r = g.last_item_rect
+    dr_rect(2, r.x - 1, r.y - 1, r.w + 2, r.h + 2, StyleColor(Col.DragDropTarget), 2, 0)
