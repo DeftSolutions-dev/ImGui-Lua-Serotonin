@@ -1381,3 +1381,4 @@ local function draw_popup()
         ImGui.AddCircleFilled(3, cur_x, cur_y, 3.5, ImGui.ColF(1, 1, 1, 1), 16)
 
         for i = 0, 5 do
+            local segh = sv_h / 6
