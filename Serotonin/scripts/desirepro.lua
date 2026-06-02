@@ -1580,3 +1580,4 @@ function DesirePro.page(idx, px, py, ph)
     local x = px
 
     if idx == 0 then
+        local ry = py
