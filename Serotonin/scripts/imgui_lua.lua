@@ -4000,3 +4000,4 @@ function ImGui.Spinner(label, radius, thickness, color)
     local win = g.current_window; if not win then return end
     local sz  = radius * 2 + 4
     auto_wrap(sz)
+    local x, y = win.cursor_x, win.cursor_y
