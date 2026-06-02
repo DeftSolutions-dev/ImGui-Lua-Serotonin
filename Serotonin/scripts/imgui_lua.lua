@@ -4649,3 +4649,4 @@ local function flush_layer(layer)
             a = a * am
             if clip then
 
+                local cx2, cy2 = clip.x + clip.w, clip.y + clip.h
