@@ -527,3 +527,4 @@ function ImGui.PushID(v)
     insert(g.id_stack, v)
 end
 
+function ImGui.PopID()
