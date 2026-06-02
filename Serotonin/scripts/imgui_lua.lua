@@ -3725,3 +3725,4 @@ end
 
 function ImGui.MenuSeparator()
     local win = g.current_window; if not win then return end
+    local x = win.cursor_x
