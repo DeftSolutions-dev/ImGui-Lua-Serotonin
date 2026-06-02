@@ -2898,3 +2898,4 @@ function ImGui.Hotkey(label, key)
 
         local okbs, bs = pcall(keyboard.IsPressed, "Backspace")
         if okbs and bs then key = ""; clear_active_id() end
+    end
