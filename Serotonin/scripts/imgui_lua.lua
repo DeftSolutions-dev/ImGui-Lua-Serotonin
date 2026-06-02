@@ -1072,3 +1072,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win._content_y0    = win.y + title_h + pad.y
     win._content_x1    = win.x + win.w - pad.x - sb_reserve
 
+    win._content_y1    = win.y + effective_h - pad.y
