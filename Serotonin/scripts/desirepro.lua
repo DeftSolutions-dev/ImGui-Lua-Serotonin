@@ -1314,3 +1314,4 @@ local function draw_popup()
         local ph = n * ih + 12
         local t = popup.t or 1
         local px, pw = popup.x, popup.w
+        local py = popup.y - (1 - t) * 8
