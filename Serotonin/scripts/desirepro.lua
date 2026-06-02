@@ -1507,3 +1507,4 @@ function DesirePro.esp_preview(ctx)
             if clicked() then
                 DesirePro._esp_drag, drag = it.name, it.name
                 DesirePro._esp_dx, DesirePro._esp_dy = mx - lx, my - it.sy
+            elseif right_clicked() then
