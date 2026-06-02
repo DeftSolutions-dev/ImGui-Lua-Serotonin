@@ -912,3 +912,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     end
     local id = fnv1a(title)
     local win = get_or_create_window(id, title)
+    win.flags = opts
