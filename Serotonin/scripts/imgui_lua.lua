@@ -1427,3 +1427,4 @@ function ImGui.Checkbox(label, value)
         local cC = StyleColor(Col.FrameBgActive)
         local bg = (t <= 1) and col_lerp(cA, cB, t) or col_lerp(cB, cC, t - 1)
         dr_rect_filled(2, x, y, box_sz, box_sz, bg, Style.FrameRounding)
+        if nav_focused then
