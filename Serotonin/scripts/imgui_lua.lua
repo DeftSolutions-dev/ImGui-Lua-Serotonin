@@ -3214,3 +3214,4 @@ function ImGui.TableHeader(label)
     dr_text(2, label, x + 4, y + Style.FramePadding.y, StyleColor(Col.Text))
 
     local my_idx
+    for i, sp in ipairs(t.sort_specs) do
