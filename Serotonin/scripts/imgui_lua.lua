@@ -2246,3 +2246,4 @@ function ImGui.InputText(label, value, callback)
     local total_w = win._content_x1 - win.cursor_x
     local tw_lbl, _ = text_size(label)
     local label_part = (tw_lbl > 0) and (tw_lbl + Style.ItemInnerSpacing.x) or 0
+    local input_w = max(40, total_w - label_part)
