@@ -1155,3 +1155,4 @@ end
 ImGui._ItemSize = ItemSize
 
 local function ItemAdd(x, y, w, h)
+    local win = g.current_window
