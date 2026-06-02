@@ -1930,3 +1930,4 @@ function ImGui.BeginTabItem(label, p_open)
         tb.items_w = tb.items_w + tab_w + 2
     end
     tb.first_tab = tb.first_tab or label
+    if tb.selected == nil then tb.selected = label end
