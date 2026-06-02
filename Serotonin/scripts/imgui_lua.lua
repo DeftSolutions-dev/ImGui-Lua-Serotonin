@@ -810,3 +810,4 @@ function ImGui.IsMouseReleased()   return g.mouse_left_released end
 function ImGui.IsMouseRightClicked() return g.mouse_right_clicked end
 function ImGui.IsMouseRightDown()  return g.mouse_right_down_prev end
 function ImGui.GetTime()           return g.time end
+function ImGui.GetDeltaTime()      return g.dt end
