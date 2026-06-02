@@ -3440,3 +3440,4 @@ local function close_popup_window()
                 g.popup_rect   = nil
             end
         end
+    end
