@@ -802,3 +802,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     return { x = bx + 13, cy = y + CARD_HEADER + 13, w = w - 26, x1 = bx + w - 13,
              on = cs.h > 5, total = total, idp = name }
 end
+
