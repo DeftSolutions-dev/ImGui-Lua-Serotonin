@@ -808,3 +808,4 @@ function DesirePro.end_card(ctx)
 end
 
 function DesirePro.checkbox(ctx, label)
+    local id = "cb:" .. ctx.idp .. label
