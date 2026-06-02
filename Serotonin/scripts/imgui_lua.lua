@@ -871,3 +871,4 @@ local function get_or_create_window(id, title)
         if p.w then w.w = p.w end
         if p.h then w.h = p.h end
         if p.collapsed ~= nil then w.collapsed = p.collapsed end
+        g._pending_window_settings[title] = nil
