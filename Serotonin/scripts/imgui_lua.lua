@@ -3479,3 +3479,4 @@ function ImGui.BeginPopup(str_id, flags)
     local id = fnv1a("popup:" .. tostring(str_id))
 
     if g.popup_pending_open and g.popup_pending_open.id == id then
+        insert(g.popup_stack, {
