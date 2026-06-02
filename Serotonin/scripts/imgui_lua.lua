@@ -84,3 +84,4 @@ local function saturate(v) return clamp(v, 0, 1) end
 
 local function round(v) return floor(v + 0.5) end
 
+local function COL(r, g, b, a)
