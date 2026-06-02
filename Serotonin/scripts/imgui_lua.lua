@@ -3145,3 +3145,4 @@ function ImGui.TableSetupColumn(label, flags)
                 stretch_sum = stretch_sum + (s.flags.stretch or 1)
             end
         end
+        local stretch_avail = max(0, total - fixed_sum)
