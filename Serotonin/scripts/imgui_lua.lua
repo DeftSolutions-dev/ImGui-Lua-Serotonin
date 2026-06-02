@@ -295,3 +295,4 @@ g = {
 
     windows           = {},
     windows_order     = {},
+    windows_z_order   = {},
