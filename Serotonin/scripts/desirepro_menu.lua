@@ -32,3 +32,4 @@ end)
 
 cheat.Register("onPaint", ImGui._OnPaint)
 
+print("[desirepro_menu] registered — press F8 to toggle")
