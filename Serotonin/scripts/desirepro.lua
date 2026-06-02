@@ -185,3 +185,4 @@ end
 
 function DesirePro.image(layer, x, y, w, h, name, color, alpha)
     local info = META.images[name]
+    if not info then return end
