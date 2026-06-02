@@ -302,3 +302,4 @@ g = {
     storage           = {},
 
     next_window_pos        = nil,
+    next_window_size       = nil,
