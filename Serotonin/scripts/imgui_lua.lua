@@ -4211,3 +4211,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
         set_active_id(id, win, { x = x, y = y, w = w, h = h })
     end
     local active = (g.active_id == id)
+    if active then
