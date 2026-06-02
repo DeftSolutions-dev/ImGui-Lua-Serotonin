@@ -950,3 +950,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
 end
 
 function DesirePro.button(ctx, label, h)
+    h = floor((h or 35) * DesirePro.US)
