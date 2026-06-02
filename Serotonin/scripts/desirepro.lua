@@ -1569,3 +1569,4 @@ function DesirePro.esp_preview(ctx)
                 popup = { kind = "color", varid = cid, x = pxp, y = it.sy + 16,
                           sw = { x = lx, y = it.sy, w = it._w or 20, h = LH } }
             end
+        end
