@@ -3470,3 +3470,4 @@ function ImGui.BeginPopupContextWindow(str_id)
     local win = g.current_window
     if win and g.mouse_right_clicked
        and point_in_rect(g.mouse_x, g.mouse_y, win.x, win.y, win.w, win.h) then
+        ImGui.OpenPopup(str_id)
