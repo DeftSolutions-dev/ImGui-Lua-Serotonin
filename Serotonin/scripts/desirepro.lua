@@ -1152,3 +1152,4 @@ end
 
 local KEYBIND_MODES = { "Hold", "Toggle", "Always" }
 function DesirePro.keybind(ctx, label)
+    local id = "kb:" .. ctx.idp .. label
