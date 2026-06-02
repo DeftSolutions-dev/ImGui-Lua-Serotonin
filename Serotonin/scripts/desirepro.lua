@@ -1663,3 +1663,4 @@ local function draw_feature()
     local mx, my = mouse_pos()
 
     local pw = 230
+    local ph = DesirePro._feature_h
