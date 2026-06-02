@@ -2857,3 +2857,4 @@ do
     for i = 0, 9  do insert(HOTKEY_PROBE_NAMES, "Numpad" .. i) end
 
     for i = 1, 12 do insert(HOTKEY_PROBE_NAMES, "F" .. i) end
+
