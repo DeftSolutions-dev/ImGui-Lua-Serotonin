@@ -3003,3 +3003,4 @@ function ImGui.PopStyleVar(n)
 end
 
 local function vec_widget(label, v, n, draw_fn, ...)
+    local win = g.current_window; if not win then return v end
