@@ -3977,3 +3977,4 @@ function ImGui.TextLink(label)
     local col = StyleColor(Col.CheckMark)
     if hovered then
         col = StyleColor(Col.ButtonHovered)
+        dr_line(2, x, y + th, x + tw, y + th, col, 1)
