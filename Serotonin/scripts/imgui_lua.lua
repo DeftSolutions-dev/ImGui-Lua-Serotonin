@@ -3203,3 +3203,4 @@ function ImGui.TableHeader(label)
 
             local prev_dir = existing_idx and t.sort_specs[existing_idx].dir or 0
             t.sort_specs = { { col = t.cur_col, dir = (prev_dir > 0) and -1 or 1 } }
+        end
