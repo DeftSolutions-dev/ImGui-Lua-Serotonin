@@ -3378,3 +3378,4 @@ open_popup_window = function(me)
         prev_line_h     = Style.FontHeight,
         indent_x        = 0,
         _content_x0     = me.x + pad.x,
+        _content_y0     = me.y + pad.y,
