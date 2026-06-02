@@ -2331,3 +2331,4 @@ function ImGui.InputFloat(label, value, step, fmt)
     return tonumber(new_str) or value
 end
 
+function ImGui.SetTooltip(text)
