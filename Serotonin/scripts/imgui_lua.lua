@@ -4009,3 +4009,4 @@ function ImGui.Spinner(label, radius, thickness, color)
         for i = 0, segs - 1 do
             local t1 = i / segs
             local t2 = (i + 1) / segs
+            local a1 = phase + t1 * arc
