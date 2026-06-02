@@ -3770,3 +3770,4 @@ function ImGui.GetMainViewport()
 end
 
 function ImGui.SaveIniSettings(path)
+    path = path or "imgui_lua.ini"
