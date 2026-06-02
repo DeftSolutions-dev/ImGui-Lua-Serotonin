@@ -1020,3 +1020,4 @@ function DesirePro.combo(ctx, label, items)
     if opened or s.open > 0.01 then
         local maxw = bw
         for _, it in ipairs(items) do
+            local iw = DesirePro.text_size(DesirePro.translate(it), "poppins_medium_16") + 40
