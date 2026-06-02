@@ -4139,3 +4139,4 @@ function ImGui.FileBrowser(str_id, state)
     ImGui.Text("Path: " .. (state.path == "" and "/" or "/" .. state.path))
     ImGui.SameLine()
     if ImGui.Button("..") and state.path ~= "" then
+        state.path = state.path:match("^(.*)/[^/]+$") or ""
