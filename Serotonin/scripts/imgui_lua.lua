@@ -1598,3 +1598,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
         local vtext = format(fmt or (is_int and "%d" or "%.3f"), value)
         local vtw, _ = text_size(vtext)
         dr_text(2, vtext, x + (drag_w - vtw) * 0.5, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
+        if tw_lbl > 0 then
