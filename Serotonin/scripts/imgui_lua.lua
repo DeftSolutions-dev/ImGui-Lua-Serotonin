@@ -4726,3 +4726,4 @@ function ImGui.Render()
             return pa < pb
         end)
         local sorted = {}
+        for i = 1, n do sorted[i] = layer[idx[i]] end
