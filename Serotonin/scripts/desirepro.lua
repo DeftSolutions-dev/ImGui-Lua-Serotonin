@@ -964,3 +964,4 @@ function DesirePro.button(ctx, label, h)
     s.press = DesirePro.ease_toggle(s, "pressE", hovered and mouse_down(), 30)
     s.text = DesirePro.ease_toggle(s, "textE", hovered, 20)
 
+    local sc = 1 - s.press * 0.08
