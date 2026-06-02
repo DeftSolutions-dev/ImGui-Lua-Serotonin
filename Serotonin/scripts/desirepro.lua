@@ -404,3 +404,4 @@ function DesirePro.spawn_particles(cx, cy, n)
             col = (i % 2 == 0) and DesirePro.col.active or DesirePro.col.dark,
         }
     end
+end
