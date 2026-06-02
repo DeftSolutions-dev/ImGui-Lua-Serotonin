@@ -763,3 +763,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
     local r = 4
 
     local mx, my = mouse_pos()
+    local pw, ph = 36, 20
