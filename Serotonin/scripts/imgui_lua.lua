@@ -3554,3 +3554,4 @@ function ImGui.BeginMenu(label)
 
     if mb then
         local id = GetID("menu:" .. label)
+        local tw, th = text_size(label)
