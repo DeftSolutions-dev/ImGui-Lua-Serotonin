@@ -3269,3 +3269,4 @@ function ImGui.EndTable()
                 dr_rect_filled(3, edge_x - 1, t.y0, 2, total_h,
                                StyleColor(Col.SeparatorHovered), 0)
             elseif t.borders then
+                dr_line(3, edge_x, t.y0, edge_x, t.cur_row_max_y,
