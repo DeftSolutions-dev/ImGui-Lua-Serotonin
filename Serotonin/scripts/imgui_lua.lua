@@ -3054,3 +3054,4 @@ function ImGui.BeginTable(str_id, columns, flags)
     win._table = {
         id            = id,
         str_id        = str_id,
+        columns       = columns,
