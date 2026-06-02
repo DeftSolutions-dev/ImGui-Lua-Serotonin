@@ -3877,3 +3877,4 @@ function ImGui.GetMouseDragDelta()
 end
 function ImGui.ResetMouseDragDelta()
     g._drag_start_x, g._drag_start_y = g.mouse_x, g.mouse_y
+end
