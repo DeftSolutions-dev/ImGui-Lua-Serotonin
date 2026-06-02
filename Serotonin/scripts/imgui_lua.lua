@@ -1518,3 +1518,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
         end
     end
 
+    if visible then
