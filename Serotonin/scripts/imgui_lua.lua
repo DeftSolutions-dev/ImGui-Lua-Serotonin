@@ -594,3 +594,4 @@ local function push_cmd(layer, cmd)
         if cmd.max_w then cmd.max_w = cmd.max_w * s end
         if cmd.clip then
             local c = cmd.clip
+            cmd.clip = { x = px + (c.x - px) * s, y = py + (c.y - py) * s, w = c.w * s, h = c.h * s }
