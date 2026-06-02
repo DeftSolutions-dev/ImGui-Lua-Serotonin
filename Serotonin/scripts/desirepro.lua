@@ -1545,3 +1545,4 @@ function DesirePro.esp_preview(ctx)
         if tg == "left" then hx, hy, hw2, hh2 = bx - 84, by, 80, bh
         elseif tg == "right" then hx, hy, hw2, hh2 = bx + bw + 4, by, 80, bh
         elseif tg == "top" then hx, hy, hw2, hh2 = bx - 28, by - 64, bw + 56, 60
+        else hx, hy, hw2, hh2 = bx - 28, by + bh + 6, bw + 56, 60 end
