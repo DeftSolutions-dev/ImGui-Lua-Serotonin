@@ -1739,6 +1739,7 @@ local function draw_settings()
 
     local ctx = { x = px + 13, cy = py + 58, w = pw - 26, x1 = px + pw - 13, on = true, idp = "settings" }
     local fw_id = "co:" .. ctx.idp .. "Font weight"
+    if DesirePro.vars[fw_id] == nil then DesirePro.vars[fw_id] = 1 end
     DesirePro.no_anim = DesirePro.checkbox(ctx, "Disable animations")
     DesirePro.no_appear = DesirePro.checkbox(ctx, "Disable appear anim")
     ImGui.SetDrawAlpha(1)
