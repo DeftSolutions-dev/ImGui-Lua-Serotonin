@@ -2313,3 +2313,4 @@ function ImGui.InputText(label, value, callback)
         dr_text(2, label, x + input_w + Style.ItemInnerSpacing.x, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
     end
     record_item(id, x, y, input_w + label_part, frame_h, hovered, false, active)
+    ItemSize(input_w + label_part, frame_h)
