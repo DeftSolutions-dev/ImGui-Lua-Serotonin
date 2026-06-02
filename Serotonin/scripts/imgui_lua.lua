@@ -3333,3 +3333,4 @@ function ImGui.CloseCurrentPopup()
         g.popup_active = false
         g.popup_rect   = nil
     end
+end
