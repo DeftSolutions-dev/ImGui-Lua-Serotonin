@@ -1654,3 +1654,4 @@ end
 
 DesirePro._feature_t = 0
 DesirePro._feature_h = 92
+local function draw_feature()
