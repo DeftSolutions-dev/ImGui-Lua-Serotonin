@@ -1671,3 +1671,4 @@ local function draw_feature()
 
     ImGui.SetDrawAlpha(t)
     DesirePro.shadow_rect(2, px, py, pw, ph, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.5, 22)
+    ImGui.AddRectFilled(2, px, py, pw, ph, DesirePro.col.bg, 6)
