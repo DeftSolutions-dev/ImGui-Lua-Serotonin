@@ -4529,3 +4529,4 @@ function ImGui.NewFrame()
         g.storage[0]._tooltip_alpha = a
     end
     g._tooltip_was_shown = false
+
