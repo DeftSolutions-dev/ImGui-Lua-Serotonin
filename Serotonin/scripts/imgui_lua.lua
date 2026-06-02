@@ -113,3 +113,4 @@ local function hsv_to_rgb(h, s, v)
     local p = v * (1 - s)
     local q = v * (1 - s * f)
     local t = v * (1 - s * (1 - f))
+    if i == 0 then return v, t, p
