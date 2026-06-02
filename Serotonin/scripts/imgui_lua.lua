@@ -1726,3 +1726,4 @@ local function get_picker_state(id, r, g_, b)
     if abs((s.last_r or -1) - r) > eps
        or abs((s.last_g or -1) - g_) > eps
        or abs((s.last_b or -1) - b)  > eps then
+        local nh, ns, nv = rgb_to_hsv(r, g_, b)
