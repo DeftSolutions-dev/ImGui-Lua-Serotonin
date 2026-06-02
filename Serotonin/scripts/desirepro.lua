@@ -65,3 +65,4 @@ function DesirePro.translate(en)
     if not e then return en end
     return e[DesirePro.LANG_KEYS[DesirePro.lang + 1]] or en
 end
+
