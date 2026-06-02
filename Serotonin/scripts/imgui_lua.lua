@@ -3493,3 +3493,4 @@ function ImGui.BeginPopup(str_id, flags)
     local me
     for i = 1, #g.popup_stack do
         if g.popup_stack[i].id == id then me = g.popup_stack[i]; break end
+    end
