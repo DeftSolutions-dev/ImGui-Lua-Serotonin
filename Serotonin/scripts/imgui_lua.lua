@@ -3773,3 +3773,4 @@ function ImGui.SaveIniSettings(path)
     path = path or "imgui_lua.ini"
     local lines = { "; imgui_lua window settings — auto-generated" }
     for _, wid in ipairs(g.windows_z_order) do
+        local win = g.windows[wid]
