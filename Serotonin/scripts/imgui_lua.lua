@@ -347,3 +347,4 @@ local function check_mouse_down_now()
             print("[imgui_lua] mouse-down probe locked: " .. tostring(cand))
             return true
         end
+    end
