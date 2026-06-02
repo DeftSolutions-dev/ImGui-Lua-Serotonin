@@ -560,3 +560,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     local i_target = selected and 1.0 or (hovered and 0.8 or 0.5)
     local s_target = selected and 35 or 25
     local o_target = selected and -7 or 5
+    st.fa  = DesirePro.anim(st.fa, f_target, 12)
