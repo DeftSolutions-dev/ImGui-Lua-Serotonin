@@ -4276,3 +4276,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
             g._mtxt_enter_prev = ok_e and e or false
             value = text
         end
+        for line in (text .. "\n"):gmatch("([^\n]*)\n") do
