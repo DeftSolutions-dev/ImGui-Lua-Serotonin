@@ -2502,3 +2502,4 @@ function ImGui.EndChild()
     if win._child_scroll_key then
         store_set(win, win._child_scroll_key, win._child_scroll_y or 0)
     end
+
