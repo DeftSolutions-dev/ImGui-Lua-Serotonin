@@ -4251,3 +4251,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
         local text = tostring(value or "")
 
         local x, y = win.cursor_x, win.cursor_y
+        local hovered = ItemHoverable(x, y, w - 8, h - 8, id)
