@@ -857,3 +857,4 @@ function DesirePro.featurebox(ctx, label, content_fn)
     local hov = point_in_rect(mx, my, gx - 13, gy - 13, 26, 26)
     local opened = (DesirePro._feature and DesirePro._feature.id == id)
     if hov and clicked() then
+        if opened then
