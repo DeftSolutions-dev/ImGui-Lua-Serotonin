@@ -209,3 +209,4 @@ function DesirePro.shadow_circle(layer, cx, cy, r, color, alpha)
 end
 
 function DesirePro.preload_font(font_key)
+    local fm = META.fonts[font_key]
