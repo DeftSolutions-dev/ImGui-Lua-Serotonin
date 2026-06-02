@@ -4763,3 +4763,4 @@ function ImGui._OnPaint()
     if not ok then
         local s = tostring(err)
         if _last_err ~= s then
+            _last_err = s
