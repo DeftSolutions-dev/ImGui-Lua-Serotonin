@@ -1635,3 +1635,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.combo(c, "Recoil Level", { "Low", "Medium", "High" })
         end
         DesirePro.end_card(c)
+
