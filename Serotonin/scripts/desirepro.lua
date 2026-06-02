@@ -982,3 +982,4 @@ function DesirePro.button(ctx, label, h)
 end
 
 function DesirePro.combo(ctx, label, items)
+    local id = "co:" .. ctx.idp .. label
