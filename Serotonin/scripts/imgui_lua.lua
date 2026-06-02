@@ -3136,3 +3136,4 @@ function ImGui.TableSetupColumn(label, flags)
 
     if #t.setups == t.columns then
         local total = 0
+        for i = 1, t.columns do total = total + t.col_widths[i] end
