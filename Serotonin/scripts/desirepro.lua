@@ -804,3 +804,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
 end
 
 function DesirePro.end_card(ctx)
+    ImGui.PopClipRect()
