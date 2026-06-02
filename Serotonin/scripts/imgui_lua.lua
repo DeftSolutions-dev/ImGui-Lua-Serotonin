@@ -4157,3 +4157,4 @@ function ImGui.FileBrowser(str_id, state)
             local ok_d, isd = pcall(file.isdir, sub)
             if ok_d then is_dir = isd end
             local lbl = (is_dir and "[d] " or "    ") .. name
+            if ImGui.Selectable(lbl, state.selected == sub) then
