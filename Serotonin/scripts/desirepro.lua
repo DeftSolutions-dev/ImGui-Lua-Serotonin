@@ -66,3 +66,4 @@ function DesirePro.translate(en)
     return e[DesirePro.LANG_KEYS[DesirePro.lang + 1]] or en
 end
 
+local tex_cache = {}
