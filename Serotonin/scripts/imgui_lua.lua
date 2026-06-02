@@ -4693,3 +4693,4 @@ local function flush_layer(layer)
             a = a * am
 
             local draw_it = (not clip)
+                or (c.x < clip.x + clip.w and c.x + c.w > clip.x
