@@ -1788,3 +1788,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
             set_active_id(sv_id, pwin, { x = sv_x, y = sv_y, w = sv_size, h = sv_size })
         end
         if g.active_id == sv_id then
+            if g.mouse_left_down then
