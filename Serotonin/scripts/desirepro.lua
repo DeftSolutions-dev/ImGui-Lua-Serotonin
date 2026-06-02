@@ -1716,3 +1716,4 @@ local function draw_settings()
     local hc = point_in_rect(mx, my, cxb - 12, cyb - 12, 24, 24)
     if hc and clicked() then DesirePro.settings_open = false end
     DesirePro.icon_scaled(2, cxb, cyb, "CLOSE_FILL", 35, 14, hc and DesirePro.col.label_active or DesirePro.col.desc, 1)
+
