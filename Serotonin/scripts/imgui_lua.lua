@@ -4070,3 +4070,4 @@ local function dow_first(y, m)
     if m < 3 then m = m + 12; y = y - 1 end
     local K = y % 100
     local J = floor(y / 100)
+    local h = (1 + floor(13 * (m + 1) / 5) + K + floor(K / 4) + floor(J / 4) + 5 * J) % 7
