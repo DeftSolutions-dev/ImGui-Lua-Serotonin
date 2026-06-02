@@ -3834,3 +3834,4 @@ function ImGui.LoadIniSettings(path)
     return true
 end
 
+function ImGui.IsKeyDown(name)
