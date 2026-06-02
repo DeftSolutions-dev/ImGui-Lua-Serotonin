@@ -19,3 +19,4 @@ local function point_in_rect(px, py, rx, ry, rw, rh)
 end
 
 local META = nil
+do
