@@ -593,3 +593,4 @@ local function draw_tab(i, tab, bx, by, bw, bh)
     if hovered and ImGui.IsMouseClicked() and not DesirePro._modal and not DesirePro._input_block then DesirePro.active_tab = i end
 
     st.fa = DesirePro.anim(st.fa, selected and 0.30 or (hovered and 0.15 or 0), 12)
+    st.ia = DesirePro.anim(st.ia, selected and 1.0 or (hovered and 0.8 or 0.5), 12)
