@@ -1547,3 +1547,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
 
         local vtext = format(fmt or (is_int and "%d" or "%.3f"), value)
         local vtw, _ = text_size(vtext)
+        dr_text(2, vtext, x + (slider_w - vtw) * 0.5, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
