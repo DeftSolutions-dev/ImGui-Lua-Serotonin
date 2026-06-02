@@ -1767,3 +1767,4 @@ function DesirePro.menu()
     local s = DesirePro.scale or 1
     local pvx, pvy = sw * 0.5, sh * 0.5
     local box_rw, box_rh = box_w * s, box_h * s
+    local rx = DesirePro.box_x and (pvx + (DesirePro.box_x - pvx) * s) or (pvx - box_rw / 2)
