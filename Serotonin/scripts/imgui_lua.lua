@@ -2611,3 +2611,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
             local ow, _ = text_size(overlay)
             dr_text(2, overlay, x + (plot_w - ow) * 0.5, y + 2, StyleColor(Col.Text))
         end
+    end
