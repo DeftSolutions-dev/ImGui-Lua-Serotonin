@@ -934,3 +934,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local grow = s.grab * 3
     local gw = floor(18 * US + grow)
     local gh = floor(17 * US + grow)
+    local gx, gy = floor(grab_cx - gw / 2), floor(mid_y - gh / 2)
