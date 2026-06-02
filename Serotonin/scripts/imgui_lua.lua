@@ -3814,3 +3814,4 @@ function ImGui.LoadIniSettings(path)
                         p.w, p.h = tonumber(pw), tonumber(ph)
                     elseif k == "Collapsed" then
                         p.collapsed = (v == "1")
+                    end
