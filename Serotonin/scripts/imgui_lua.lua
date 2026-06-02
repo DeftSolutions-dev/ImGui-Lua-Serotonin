@@ -3070,3 +3070,4 @@ function ImGui.BeginTable(str_id, columns, flags)
 
         sort_col      = -1,
         sort_dir      = 1,
+        sort_specs    = saved_specs or {},
