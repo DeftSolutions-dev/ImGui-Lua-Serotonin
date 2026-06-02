@@ -4696,3 +4696,4 @@ local function flush_layer(layer)
                 or (c.x < clip.x + clip.w and c.x + c.w > clip.x
                     and c.y < clip.y + clip.h and c.y + c.h > clip.y)
             if draw_it then
+                pcall(draw.Image, c.texid, c.x, c.y, c.w, c.h, col, a)
