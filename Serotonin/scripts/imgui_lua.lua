@@ -960,3 +960,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             if held then
                 win.x = win.x + g.mouse_dx
                 win.y = win.y + g.mouse_dy
+            end
