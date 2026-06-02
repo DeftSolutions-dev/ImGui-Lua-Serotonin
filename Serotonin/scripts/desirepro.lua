@@ -191,3 +191,4 @@ function DesirePro.image(layer, x, y, w, h, name, color, alpha)
 end
 
 function DesirePro.image_info(name) return META.images[name] end
+
