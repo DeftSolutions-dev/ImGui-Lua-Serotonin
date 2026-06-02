@@ -750,3 +750,4 @@ local function appear_xy(id, ctx, rowh)
     ImGui.SetDrawAlpha(al)
     return ctx.x + off, ctx.x1 + off
 end
+
