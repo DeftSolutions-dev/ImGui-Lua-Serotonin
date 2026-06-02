@@ -492,3 +492,4 @@ function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
     local s = target_px / best
     local w, h = g.w * s, g.h * s
     ImGui.AddImage(layer, floor(cx - w / 2 + 0.5), floor(cy - h / 2 + 0.5),
+                   floor(w + 0.5), floor(h + 0.5), tex, ImGui.ColF(1, 1, 1, 1), alpha or 1)
