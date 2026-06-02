@@ -1581,3 +1581,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     local active = (g.active_id == id)
 
     if active then
+        if g.mouse_left_down then
