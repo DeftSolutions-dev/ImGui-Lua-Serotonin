@@ -498,3 +498,4 @@ end
 function DesirePro.text_centered(layer, cx, y, str, font_key, color, alpha)
     local w = DesirePro.text_size(str, font_key)
     return DesirePro.text(layer, floor(cx - w / 2 + 0.5), y, str, font_key, color, alpha)
+end
