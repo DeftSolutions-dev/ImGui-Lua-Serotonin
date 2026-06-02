@@ -1485,3 +1485,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     if flags.always_clamp then value = clamp(value, vmin, vmax) end
     if g.current_window then insert(g.focus_list, GetID("sld:" .. label)) end
     local win = g.current_window; if not win then return value end
+    local id = GetID("sld:" .. label)
