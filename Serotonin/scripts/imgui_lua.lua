@@ -4436,3 +4436,4 @@ function ImGui.SetDragDropPayload(type_str, data)
     g.dragdrop_payload = { type = type_str, data = data }
     return true
 end
+
