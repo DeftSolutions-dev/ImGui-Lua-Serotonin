@@ -1778,3 +1778,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         local pwin = g.current_window
         local sv_size = 140
         local hue_w   = 16
+        local pad_in  = 6
