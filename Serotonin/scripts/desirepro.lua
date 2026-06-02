@@ -1503,3 +1503,4 @@ function DesirePro.esp_preview(ctx)
                 or (it.align == "right") and (it.sx - w) or it.sx
         if lx < px + 2 then lx = px + 2 elseif lx + w > px + pw - 2 then lx = px + pw - 2 - w end
         it._lx, it._w = lx, w
+        if not drag and point_in_rect(mx, my, lx - 2, it.sy - 1, w + 4, LH + 2) then
