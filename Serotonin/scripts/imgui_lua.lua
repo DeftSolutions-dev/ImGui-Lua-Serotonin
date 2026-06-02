@@ -3304,3 +3304,4 @@ function ImGui.OpenPopup(str_id)
 end
 
 function ImGui.IsPopupOpen(str_id)
+    if str_id == nil then return #g.popup_stack > 0 end
