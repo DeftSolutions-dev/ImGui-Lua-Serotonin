@@ -3343,3 +3343,4 @@ local function clamp_popup_to_screen(me, final_w, final_h)
     if me.y < 0 then me.y = 4 end
 
     if me._bg_cmd then me._bg_cmd.x = me.x; me._bg_cmd.y = me.y end
+    if me._br_cmd then me._br_cmd.x = me.x; me._br_cmd.y = me.y end
