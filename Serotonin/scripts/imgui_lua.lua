@@ -4741,3 +4741,4 @@ function ImGui.Setup(user_fn)
     g.user_setup_fn = user_fn
     print("[imgui_lua] Setup() user_fn stored")
 end
+
