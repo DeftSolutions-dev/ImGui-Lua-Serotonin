@@ -2439,3 +2439,4 @@ function ImGui.BeginChild(str_id, w, h, border)
         dr_rect_filled(2, cx, cy, cw, ch, StyleColor(Col.ChildBg), 0)
         dr_rect(2, cx, cy, cw, ch, StyleColor(Col.Border), 1, 0)
     end
+
