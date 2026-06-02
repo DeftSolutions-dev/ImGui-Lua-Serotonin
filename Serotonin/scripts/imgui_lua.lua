@@ -1618,3 +1618,4 @@ function ImGui.ProgressBar(fraction, w, h, overlay)
     local frame_w = w or (win._content_x1 - win.cursor_x)
     local x, y = win.cursor_x, win.cursor_y
     if ItemAdd(x, y, frame_w, frame_h) then
+        dr_rect_filled(2, x, y, frame_w, frame_h, StyleColor(Col.FrameBg), Style.FrameRounding)
