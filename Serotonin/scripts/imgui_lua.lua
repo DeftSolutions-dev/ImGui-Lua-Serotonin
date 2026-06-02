@@ -4524,3 +4524,4 @@ function ImGui.NewFrame()
     g.storage[0] = g.storage[0] or {}
     if not g._tooltip_was_shown then
         local a = g.storage[0]._tooltip_alpha or 0
+        a = a * 0.85
