@@ -651,3 +651,4 @@ local function col_lerp_rgb(a, b, t)
     return { r = DesirePro.lerp(a.r, b.r, t), g = DesirePro.lerp(a.g, b.g, t), b = DesirePro.lerp(a.b, b.b, t), a = 1 }
 end
 
+local function hsv2rgb(h, s, v, a)
