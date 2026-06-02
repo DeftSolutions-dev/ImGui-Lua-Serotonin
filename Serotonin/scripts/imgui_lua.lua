@@ -4722,3 +4722,4 @@ function ImGui.Render()
         table.sort(idx, function(a, b)
             local pa = (layer[a].win_id and zpri[layer[a].win_id]) or 0
             local pb = (layer[b].win_id and zpri[layer[b].win_id]) or 0
+            if pa == pb then return a < b end
