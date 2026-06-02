@@ -1036,3 +1036,4 @@ function DesirePro.multicombo(ctx, label, items)
     local id = "mc:" .. ctx.idp .. label
     local sel = var(id, {})
     local s = widget_state(id, { lab = 0 })
+    local h = floor(28 * DesirePro.US)
