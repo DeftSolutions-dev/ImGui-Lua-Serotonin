@@ -1474,3 +1474,4 @@ function DesirePro.esp_preview(ctx)
     for _, it in ipairs(layout) do
         local g = groups[it.group] or groups.top
         g[#g + 1] = it
+    end
