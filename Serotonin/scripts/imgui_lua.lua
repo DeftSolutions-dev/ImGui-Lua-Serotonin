@@ -2562,3 +2562,4 @@ local function plot_internal(label, values, overlay, scale_min, scale_max, plot_
 
     if not scale_min or not scale_max then
         local mn, mx = huge, -huge
+        for i = 1, count do
