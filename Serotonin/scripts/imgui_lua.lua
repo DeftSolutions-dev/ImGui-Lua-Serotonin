@@ -2073,3 +2073,4 @@ function ImGui.TreeNodeEx(label, flags)
     local h = th + Style.FramePadding.y * 2
     local x, y = win.cursor_x, win.cursor_y
     local tw, _ = text_size(label)
+    local total_w = (flags.framed or flags.span_full) and (win._content_x1 - x) or (16 + tw + 4)
