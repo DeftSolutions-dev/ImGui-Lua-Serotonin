@@ -1888,3 +1888,4 @@ function ImGui.BeginTabBar(name, flags)
         items_w     = 0,
         btn_reserve = 0,
 
+        reorderable = flags.reorderable == true,
