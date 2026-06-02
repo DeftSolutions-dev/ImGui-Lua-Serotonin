@@ -990,3 +990,4 @@ function DesirePro.combo(ctx, label, items)
     local y = ctx.cy
     local opened = (open_combo == id)
     local preview = DesirePro.translate(items[sel + 1] or "?")
+    local pw = DesirePro.text_size(preview, "poppins_medium_16")
