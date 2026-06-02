@@ -1076,3 +1076,4 @@ function DesirePro.multicombo(ctx, label, items)
     ImGui.AddLine(2, lx2, ly2, lx3, ly3, DesirePro.col.label, 1.5)
 
     if opened or s.open > 0.01 then
+        local maxw = bw
