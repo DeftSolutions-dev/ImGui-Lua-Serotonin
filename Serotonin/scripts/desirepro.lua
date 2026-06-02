@@ -1310,3 +1310,4 @@ local function draw_popup()
         end
 
     elseif popup.kind == "multicombo" then
+        local ih, n = 30, #popup.items
