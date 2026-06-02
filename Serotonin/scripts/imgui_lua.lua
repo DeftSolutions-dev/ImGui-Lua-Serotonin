@@ -314,3 +314,4 @@ g = {
 
     menu_open         = true,
     toggle_key        = "F8",
+    toggle_key_prev   = false,
