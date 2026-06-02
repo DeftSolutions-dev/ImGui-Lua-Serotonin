@@ -399,3 +399,4 @@ function DesirePro.spawn_particles(cx, cy, n)
         local a = random_unit() * 6.28318
         local sp = 25 + random_unit() * 95
         DesirePro.particles[#DesirePro.particles + 1] = {
+            x = cx, y = cy, vx = cos(a) * sp, vy = sin(a) * sp - 35,
