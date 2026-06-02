@@ -2958,3 +2958,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     local _, dh, dheld = ButtonBehavior(me.x, me.y, last_w - 22, title_h, drag_id)
     if dheld then
         me.x = me.x + g.mouse_dx
+        me.y = me.y + g.mouse_dy
