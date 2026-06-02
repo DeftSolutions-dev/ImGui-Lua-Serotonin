@@ -3011,3 +3011,4 @@ local function vec_widget(label, v, n, draw_fn, ...)
     local each_w = (total_w - label_part - inner * (n - 1)) / n
     ImGui.PushID(label)
     for i = 1, n do
+        ImGui.SetNextItemWidth(each_w)
