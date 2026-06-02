@@ -517,3 +517,4 @@ function DesirePro.text_mid(layer, cx, cy, str, font_key, color, alpha)
                   str, font_key, color, alpha)
 end
 
+DesirePro.US = 0.9
