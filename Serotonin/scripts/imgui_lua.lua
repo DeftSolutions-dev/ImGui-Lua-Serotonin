@@ -2500,3 +2500,4 @@ function ImGui.EndChild()
     push_clip(s.content_x0, s.content_y0, s.content_x1 - s.content_x0, s.content_y1 - s.content_y0)
 
     if win._child_scroll_key then
+        store_set(win, win._child_scroll_key, win._child_scroll_y or 0)
