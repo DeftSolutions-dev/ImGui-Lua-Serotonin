@@ -4231,3 +4231,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
         local vw, vh = text_size(vt)
         dr_text(2, vt, x + (w - vw) * 0.5, y + (h - vh) * 0.5, StyleColor(Col.Text))
     end
+    record_item(id, x, y, w, h, hovered, false, active)
