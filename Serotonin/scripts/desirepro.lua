@@ -1861,3 +1861,4 @@ function DesirePro.menu()
         local mxp, myp = ImGui.GetMousePos()
         DesirePro.hdrag = DesirePro.hdrag or false
         if ImGui.IsMouseClicked() and point_in_rect(mxp, myp, mx, my, mw - 150, DesirePro.HEADER_H)
+            and not DesirePro._modal and not DesirePro._input_block then
