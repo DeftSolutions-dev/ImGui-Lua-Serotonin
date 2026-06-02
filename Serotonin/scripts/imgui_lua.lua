@@ -425,3 +425,4 @@ local function update_io()
         local r = g.active_id_rect
         if not point_in_rect(g.mouse_x, g.mouse_y, r.x, r.y, r.w, r.h) then
             clear_active_id()
+        end
