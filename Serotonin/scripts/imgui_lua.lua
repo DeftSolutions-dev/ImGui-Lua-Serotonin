@@ -4550,3 +4550,4 @@ function ImGui.NewFrame()
     for i = #g.window_stack,1, -1 do g.window_stack[i]= nil end
     for i = #g.clip_stack,  1, -1 do g.clip_stack[i]  = nil end
     g.current_window = nil
+
