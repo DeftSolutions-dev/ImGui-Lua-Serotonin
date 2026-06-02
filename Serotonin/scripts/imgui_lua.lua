@@ -2764,3 +2764,4 @@ ImGui._IsDisabled = is_disabled
 
 function ImGui.AlignTextToFramePadding()
     local win = g.current_window; if not win then return end
+    win.cursor_y = win.cursor_y + Style.FramePadding.y
