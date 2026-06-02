@@ -3527,3 +3527,4 @@ function ImGui.BeginMenuBar()
     mb._save_cursor_x = win.cursor_x
     win.cursor_x = mb.x + 4
     win.cursor_y = mb.y
+    return true
