@@ -874,3 +874,4 @@ local function get_or_create_window(id, title)
         g._pending_window_settings[title] = nil
     end
     return w
+end
