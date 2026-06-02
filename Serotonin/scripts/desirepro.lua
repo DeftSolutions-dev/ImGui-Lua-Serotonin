@@ -1623,3 +1623,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.keybind(c3, "Wallhack")
         end
         DesirePro.end_card(c3)
+    elseif idx == 1 then
