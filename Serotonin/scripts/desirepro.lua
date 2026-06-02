@@ -99,3 +99,4 @@ local function utf8_iter(s)
         elseif c < 0xF0 then cp, size = c % 0x10, 3
         else cp, size = c % 0x08, 4 end
         for k = 1, size - 1 do
+            local cc = byte(s, i + k) or 0
