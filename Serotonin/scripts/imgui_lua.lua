@@ -2109,3 +2109,4 @@ function ImGui.TreeNodeEx(label, flags)
         dr_triangle_filled(2, cx - 2, cy - 4, cx + 4, cy, cx - 2, cy + 4, mk)
     end
 
+    dr_text(2, label, x + 22, y + (h - th) * 0.5, StyleColor(Col.Text))
