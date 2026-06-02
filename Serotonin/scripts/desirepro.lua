@@ -332,3 +332,4 @@ function DesirePro.lerp(a, b, t)
     return a + (b - a) * t
 end
 
+function DesirePro.anim(cur, target, mul)
