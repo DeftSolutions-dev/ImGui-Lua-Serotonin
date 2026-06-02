@@ -978,3 +978,4 @@ function DesirePro.button(ctx, label, h)
     DesirePro.text_mid(2, x + w / 2, y + h / 2, DesirePro.translate(label), "poppins_semibold_17", tcol, 1)
 
     ctx.cy = ctx.cy + h + floor(9 * DesirePro.US)
+    return pressed
