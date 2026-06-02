@@ -1164,3 +1164,4 @@ function DesirePro.keybind(ctx, label)
     st.size = DesirePro.anim(st.size, math.max(60, kw + 46), 14)
     local pw, ph = st.size, 20
     local px = x1 - pw
+    local py = y + (h - ph) / 2
