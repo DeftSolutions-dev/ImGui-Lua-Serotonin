@@ -3197,3 +3197,4 @@ function ImGui.TableHeader(label)
             if existing_idx then
                 t.sort_specs[existing_idx].dir = -t.sort_specs[existing_idx].dir
             else
+                insert(t.sort_specs, { col = t.cur_col, dir = 1 })
