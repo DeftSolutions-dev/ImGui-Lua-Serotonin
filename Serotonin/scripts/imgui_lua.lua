@@ -4061,3 +4061,4 @@ local DOW_NAMES = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" }
 local MON_NAMES = { "Jan", "Feb", "Mar", "Apr", "May", "Jun",
                     "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
 local function days_in_month(y, m)
+    local d = ({ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 })[m]
