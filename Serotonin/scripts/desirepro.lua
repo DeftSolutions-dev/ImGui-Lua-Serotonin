@@ -1636,3 +1636,4 @@ function DesirePro.page(idx, px, py, ph)
         end
         DesirePro.end_card(c)
 
+        local rx = px + CARD_W + GAP
