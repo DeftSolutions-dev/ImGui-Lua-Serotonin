@@ -1402,3 +1402,4 @@ function ImGui.InvisibleButton(label, w, h)
     local pressed, hovered, held = ButtonBehavior(x, y, w, h, id)
     record_item(id, x, y, w, h, hovered, pressed, held)
     ItemSize(w, h)
+    return pressed
