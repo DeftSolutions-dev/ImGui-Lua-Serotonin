@@ -3570,3 +3570,4 @@ function ImGui.BeginMenu(label)
         end
         if hovered and g.mouse_left_clicked then
             if is_open then
+                ImGui.CloseCurrentPopup()
