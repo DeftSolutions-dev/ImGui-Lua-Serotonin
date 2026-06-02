@@ -677,3 +677,4 @@ set_active_id = function(id, win, rect)
     end
 end
 
+clear_active_id = function()
