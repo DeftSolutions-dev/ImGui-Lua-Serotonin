@@ -618,3 +618,4 @@ local function draw_header(mx, my, mw)
     local tx = sx - 40
     local h0 = point_in_rect(msx, msy, tx - 17, sy - 17, 34, 34)
     local h1 = point_in_rect(msx, msy, sx - 17, sy - 17, 34, 34)
+    local h2 = point_in_rect(msx, msy, sx + 23, sy - 17, 34, 34)
