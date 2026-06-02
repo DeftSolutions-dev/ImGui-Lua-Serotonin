@@ -1992,3 +1992,4 @@ function ImGui.BeginTabItem(label, p_open)
             dr_line(2, cx + 4, cy - 4, cx - 4, cy + 4, lc, 1)
             if cb_pressed then closed_now = true end
         end
+    end
