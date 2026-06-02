@@ -1733,3 +1733,4 @@ local function draw_settings()
     DesirePro._modal_active = false
 end
 
+function DesirePro.menu()
