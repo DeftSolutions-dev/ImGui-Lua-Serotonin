@@ -874,3 +874,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local v = var(id, vmin + (vmax - vmin) * 0.4)
     local s = widget_state(id, { slow = 0, grab = 0 })
     local US = DesirePro.US
+    local x = appear_xy(id, ctx, floor(44 * US))
