@@ -3393,3 +3393,4 @@ open_popup_window = function(me)
     insert(g.window_stack, pwin)
     g.current_window = pwin
     insert(g.id_stack, "popup:" .. tostring(me.id))
+
