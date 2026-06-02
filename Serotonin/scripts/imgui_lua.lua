@@ -3040,3 +3040,4 @@ function ImGui.BeginTable(str_id, columns, flags)
 
     local widths = store_get(win, "tbl_w_" .. tostring(id), nil)
     if not widths or #widths ~= columns then
+        widths = {}
