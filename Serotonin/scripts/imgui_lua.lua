@@ -4256,3 +4256,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
             set_active_id(id, win, { x = x, y = y, w = w - 8, h = h - 8 })
         end
         local active = (g.active_id == id)
+        if active then
