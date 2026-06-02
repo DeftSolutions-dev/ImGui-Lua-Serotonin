@@ -3346,3 +3346,4 @@ local function clamp_popup_to_screen(me, final_w, final_h)
     if me._br_cmd then me._br_cmd.x = me.x; me._br_cmd.y = me.y end
 end
 
+open_popup_window = function(me)
