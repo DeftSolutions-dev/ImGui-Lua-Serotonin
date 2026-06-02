@@ -3622,3 +3622,4 @@ function ImGui.MenuItem(label, shortcut, selected)
         if key and ImGui.IsKeyPressed(key) then
             local mods_ok = (not mods.ctrl  or ImGui.IsKeyDown("Control"))
                         and (not mods.shift or ImGui.IsKeyDown("Shift"))
+                        and (not mods.alt   or ImGui.IsKeyDown("Alt"))
