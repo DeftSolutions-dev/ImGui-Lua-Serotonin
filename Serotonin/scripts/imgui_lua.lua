@@ -2307,3 +2307,4 @@ function ImGui.InputText(label, value, callback)
     elseif hovered then bg = StyleColor(Col.FrameBgHovered) end
     dr_rect_filled(2, x, y, input_w, frame_h, bg, Style.FrameRounding)
     local display = value or ""
+    if active and (g.frame_count % 60) < 30 then display = display .. "|" end
