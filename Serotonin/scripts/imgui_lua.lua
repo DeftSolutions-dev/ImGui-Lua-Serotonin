@@ -3402,3 +3402,4 @@ local function close_popup_window()
     local win = g.current_window
     if not win or not win._is_popup then return end
     local me = win._popup
+    local pad = Style.WindowPadding
