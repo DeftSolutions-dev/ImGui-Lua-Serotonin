@@ -418,3 +418,4 @@ local function update_io()
                 end
                 break
             end
+        end
