@@ -1206,3 +1206,4 @@ function DesirePro.input(ctx, label, placeholder)
     local st = widget_state(id, { border = 0 })
     local h = floor(40 * DesirePro.US)
     local x0, x1 = appear_xy(id, ctx, h)
+    local y = ctx.cy
