@@ -2412,3 +2412,4 @@ render_scrollbar = function(win)
     local active = (g.active_id == sid)
     if active then
         if g.mouse_left_down then
+            local new_t = clamp((g.mouse_y - sb_y - grab_h * 0.5) / grab_y_range, 0, 1)
