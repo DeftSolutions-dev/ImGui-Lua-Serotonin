@@ -924,3 +924,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
 
     DesirePro.text_mid(2, x + btn / 2, mid_y, "-", "poppins_semibold_18", minus_hit and DesirePro.col.label_active or DesirePro.col.label, 1)
     DesirePro.text_mid(2, x + w - btn / 2, mid_y, "+", "poppins_semibold_18", plus_hit and DesirePro.col.label_active or DesirePro.col.label, 1)
+
