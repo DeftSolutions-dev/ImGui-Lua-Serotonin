@@ -1295,3 +1295,4 @@ function ImGui.TextColored(col, text)
     ItemSize(tw, th)
 end
 
+function ImGui.TextDisabled(text)
