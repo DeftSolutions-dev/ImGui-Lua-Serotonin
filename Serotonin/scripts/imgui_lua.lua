@@ -4782,3 +4782,4 @@ function ImGui.GetIO()
         DeltaTime      = g.dt,
         FrameCount     = g.frame_count,
     }
+end
