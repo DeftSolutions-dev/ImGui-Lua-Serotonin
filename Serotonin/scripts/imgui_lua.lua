@@ -4242,3 +4242,4 @@ function ImGui.VSliderInt(label, w, h, value, vmin, vmax, fmt)
 end
 
 function ImGui.InputTextMultiline(label, value, w, h)
+    local win = g.current_window; if not win then return value end
