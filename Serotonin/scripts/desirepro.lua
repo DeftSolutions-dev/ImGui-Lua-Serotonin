@@ -438,3 +438,4 @@ function DesirePro.update_notifications()
         local target = (n.t < 3.5) and 0 or 1
         n.x = DesirePro.lerp(n.x, target, d * 11)
         if n.t > 3.5 and n.x > 0.98 then
+            table.remove(DesirePro.notifs, i)
