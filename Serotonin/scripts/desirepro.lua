@@ -1313,3 +1313,4 @@ local function draw_popup()
         local ih, n = 30, #popup.items
         local ph = n * ih + 12
         local t = popup.t or 1
+        local px, pw = popup.x, popup.w
