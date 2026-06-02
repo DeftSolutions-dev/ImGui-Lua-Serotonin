@@ -3238,3 +3238,4 @@ function ImGui.TableGetSortSpecs()
     local t = win._table; if not t or not t.sortable then return {} end
     local out = {}
     for i, sp in ipairs(t.sort_specs) do
+        out[i] = { col = sp.col, dir = sp.dir, idx = i }
