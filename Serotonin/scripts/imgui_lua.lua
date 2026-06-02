@@ -1435,3 +1435,4 @@ function ImGui.Checkbox(label, value)
         if check_t > 0.05 then
             local cm = col_mul_alpha(StyleColor(Col.CheckMark), check_t)
             local pad_in = box_sz * 0.2
+            local x0 = x + pad_in
