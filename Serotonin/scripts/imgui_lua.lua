@@ -4152,3 +4152,4 @@ function ImGui.FileBrowser(str_id, state)
     end
     if ImGui.BeginChild("##fb_" .. str_id, 0, 200, true) then
         for _, name in ipairs(items) do
+            local sub = (state.path == "") and name or (state.path .. "/" .. name)
