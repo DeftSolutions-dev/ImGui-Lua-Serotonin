@@ -1193,3 +1193,4 @@ function DesirePro.keybind(ctx, label)
                 st.key = (k == "None") and "None" or k
                 st.waiting = false
                 st.armed = false
+            end
