@@ -739,3 +739,4 @@ function DesirePro.appear(id, center_y)
     local delay = 0.1 + rel * 0.9
     local t = (s.timer - delay) / 0.3
     if t < 0 then t = 0 elseif t > 1 then t = 1 end
+    s.off = DesirePro.lerp(s.off, 0, delta_time() * t * 4)
