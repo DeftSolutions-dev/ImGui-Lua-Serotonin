@@ -4091,3 +4091,4 @@ function ImGui.DatePicker(label, y, m, d)
     ImGui.Text(hdr)
     ImGui.SameLine()
     if ImGui.SmallButton(">") then
+        m = m + 1
