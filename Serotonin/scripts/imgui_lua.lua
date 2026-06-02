@@ -3980,3 +3980,4 @@ function ImGui.TextLink(label)
         dr_line(2, x, y + th, x + tw, y + th, col, 1)
     end
     dr_text(2, label, x, y, col)
+    record_item(id, x, y, tw, th, hovered, pressed, held)
