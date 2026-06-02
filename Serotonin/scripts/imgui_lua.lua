@@ -33,3 +33,4 @@ local function pop_clip()
     remove(g.clip_stack)
 end
 local function current_clip()
+    local s = g.clip_stack[#g.clip_stack]
