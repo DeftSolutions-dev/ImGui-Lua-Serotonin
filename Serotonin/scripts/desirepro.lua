@@ -1017,3 +1017,4 @@ function DesirePro.combo(ctx, label, items)
     ImGui.AddLine(2, lx1, ly1, lx2, ly2, DesirePro.col.label, 1.5)
     ImGui.AddLine(2, lx2, ly2, lx3, ly3, DesirePro.col.label, 1.5)
 
+    if opened or s.open > 0.01 then
