@@ -1607,3 +1607,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     return value, active
 end
 
+function ImGui.DragFloat(label, v, speed, vmin, vmax, fmt) return drag_internal(label, v, speed or 1, vmin, vmax, fmt or "%.3f", false) end
