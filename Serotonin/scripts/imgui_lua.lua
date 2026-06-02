@@ -1682,3 +1682,4 @@ function ImGui.ListBox(label, current_idx, items, height_in_items)
     local win = g.current_window; if not win then return current_idx end
     local id = GetID("lst:" .. label)
     local th = Style.FontHeight
+    local row_h = th + 4
