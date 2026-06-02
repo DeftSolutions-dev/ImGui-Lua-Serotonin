@@ -2928,3 +2928,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
             modal = true,
         })
         g.popup_pending_open = nil
+    end
