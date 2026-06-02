@@ -1314,3 +1314,4 @@ function ImGui.TextWrapped(text)
             insert(lines, cur); cur = word
         else
             cur = trial
+        end
