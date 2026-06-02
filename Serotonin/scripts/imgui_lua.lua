@@ -4212,3 +4212,4 @@ function ImGui.VSliderFloat(label, w, h, value, vmin, vmax, fmt)
     end
     local active = (g.active_id == id)
     if active then
+        if g.mouse_left_down then
