@@ -4684,3 +4684,4 @@ local function flush_layer(layer)
 
                     draw.Gradient(x, y, w, h, c1, c2, c.horiz, a1, a2)
                 end
+            else
