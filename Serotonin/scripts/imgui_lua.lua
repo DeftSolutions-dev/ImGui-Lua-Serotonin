@@ -1306,3 +1306,4 @@ function ImGui.TextWrapped(text)
     local total_w = win._content_x1 - win.cursor_x
     local lines = {}
 
+    local cur = ""
