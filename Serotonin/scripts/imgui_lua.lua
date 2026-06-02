@@ -3801,3 +3801,4 @@ function ImGui.LoadIniSettings(path)
                     current_title = title
                     g._pending_window_settings[title] =
                         g._pending_window_settings[title] or {}
+                end
