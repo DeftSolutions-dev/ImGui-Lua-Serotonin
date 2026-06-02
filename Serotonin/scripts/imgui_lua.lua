@@ -2707,3 +2707,4 @@ function ImGui.CalcItemWidth()
     return win and (win._content_x1 - win.cursor_x) or 0
 end
 
+local _next_item_width = nil
