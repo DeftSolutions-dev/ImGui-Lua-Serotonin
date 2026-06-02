@@ -477,3 +477,4 @@ local function update_io()
         pcall(file.write, "wheel.txt", "")
     end
 
+    local function probe(name)
