@@ -1197,3 +1197,4 @@ function DesirePro.keybind(ctx, label)
         end
     end
 
+    ctx.cy = ctx.cy + h + floor(11 * DesirePro.US)
