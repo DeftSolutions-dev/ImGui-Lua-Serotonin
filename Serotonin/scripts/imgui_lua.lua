@@ -399,3 +399,4 @@ local function update_io()
     g.mouse_left_clicked  = (not g.mouse_left_down_prev) and g.mouse_left_down
     g.mouse_left_released = g.mouse_left_down_prev and (not g.mouse_left_down)
 
+    g.hovered_window_id = nil
