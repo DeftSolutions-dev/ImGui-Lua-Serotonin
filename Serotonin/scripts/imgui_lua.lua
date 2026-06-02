@@ -149,3 +149,4 @@ local function fnv1a(s, seed)
 end
 
 local Col = {}
+local C_NAMES = {
