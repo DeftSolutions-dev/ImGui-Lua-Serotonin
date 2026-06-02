@@ -1103,3 +1103,4 @@ function DesirePro.color(ctx, label)
     local mx, my = mouse_pos()
     local hovered = point_in_rect(mx, my, cx - 11, cy - 11, 22, 22)
     if hovered and clicked() then open_color = (open_color == id) and nil or id end
+
