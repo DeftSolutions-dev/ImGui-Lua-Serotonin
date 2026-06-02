@@ -933,3 +933,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     if g.next_window_collapsed then
         local h = g.next_window_collapsed
         if h.cond == "always" or first_use then win.collapsed = h.value end
+        g.next_window_collapsed = nil
