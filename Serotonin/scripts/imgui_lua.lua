@@ -2834,3 +2834,4 @@ function ImGui.BeginCombo(label, preview, flags)
             dr_triangle_filled(2, cx - 3, cy - 2, cx + 3, cy - 2, cx, cy + 3, StyleColor(Col.Text))
         end
         if preview and not flags.no_preview then
+            dr_text(2, tostring(preview), x + 4, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
