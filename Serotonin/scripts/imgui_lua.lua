@@ -2263,3 +2263,4 @@ function ImGui.InputText(label, value, callback)
             local ok_clip, cb = pcall(utility.GetClipboard)
             if ok_clip and type(cb) == "string" then
                 value = value .. cb
+            end
