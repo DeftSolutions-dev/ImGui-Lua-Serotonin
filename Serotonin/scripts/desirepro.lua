@@ -815,3 +815,4 @@ function DesirePro.checkbox(ctx, label)
     local x = appear_xy(id, ctx, box)
     local y = ctx.cy
     local disp = DesirePro.translate(label)
+    local lw = DesirePro.text_size(disp, "poppins_medium_18")
