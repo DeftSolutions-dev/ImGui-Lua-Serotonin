@@ -3097,3 +3097,4 @@ function ImGui.TableNextRow()
 
     t.cur_col       = -1
     t.row_index     = t.row_index + 1
+    t.cur_row_max_y = t.row_y
