@@ -3410,3 +3410,4 @@ local function close_popup_window()
     if final_h < 24 then final_h = 24 end
 
     me._open_anim = me._open_anim or 0
+    local _dt = g.dt or 0.016
