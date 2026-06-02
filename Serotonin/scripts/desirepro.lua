@@ -735,3 +735,4 @@ function DesirePro.appear(id, center_y)
     local wy = (DesirePro._win and DesirePro._win.y) or 0
     local wh = (DesirePro._win and DesirePro._win.h) or 700
     local rel = (center_y - wy) / wh
+    if rel < 0 then rel = 0 elseif rel > 1 then rel = 1 end
