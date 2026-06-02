@@ -294,3 +294,4 @@ g = {
     draw_layer_stack  = {},
 
     windows           = {},
+    windows_order     = {},
