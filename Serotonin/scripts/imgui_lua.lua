@@ -3910,3 +3910,4 @@ ImGui.InputDouble = function(label, v, step, fmt)
     return ImGui.InputFloat(label, v, step, fmt or "%.6f")
 end
 
+function ImGui.SeparatorEx(thickness)
