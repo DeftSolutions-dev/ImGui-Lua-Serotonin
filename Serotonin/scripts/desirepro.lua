@@ -572,3 +572,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     local cx = bx + bw / 2
     local cy = by + bh / 2 - 6
     DesirePro.icon_gradient(2, cx, cy - st.toff, tab.icon, st.isz, st.ia)
+
