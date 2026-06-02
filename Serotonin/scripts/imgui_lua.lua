@@ -3884,3 +3884,4 @@ function ImGui.IsMouseHoveringRect(x, y, w, h)
 end
 
 function ImGui.GetMouseClickedTime() return g._last_click_time or 0 end
+
