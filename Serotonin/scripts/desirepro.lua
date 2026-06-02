@@ -1248,3 +1248,4 @@ function DesirePro.input(ctx, label, placeholder)
     local tw = DesirePro.text_size(v, "poppins_medium_16")
     local scroll = (focused and tw > inner) and (tw - inner) or 0
     local shown = (v == "" and not focused) and (placeholder and DesirePro.translate(placeholder) or "") or v
+    local tcol = (v == "" and not focused) and DesirePro.col.desc or DesirePro.col.label_active
