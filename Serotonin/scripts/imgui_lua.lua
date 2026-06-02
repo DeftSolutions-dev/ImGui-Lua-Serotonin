@@ -3798,3 +3798,4 @@ function ImGui.LoadIniSettings(path)
             if section then
                 local title = section:match("^Window:(.+)$")
                 if title then
+                    current_title = title
