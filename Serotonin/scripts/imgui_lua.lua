@@ -4313,3 +4313,4 @@ function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
     return size1, size2
 end
 
+function ImGui.StyleColorsDark()    Style.Colors = default_dark_theme() end
