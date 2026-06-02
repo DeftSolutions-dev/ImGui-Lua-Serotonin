@@ -4709,3 +4709,4 @@ function ImGui.Render()
         g.nav_id = g.focus_list[g._focus_next_idx + 1]
     end
     g._focus_next_idx = nil
+
