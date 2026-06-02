@@ -647,3 +647,4 @@ end
 function ImGui.AddRectFilled(layer, x, y, w, h, col, rounding) dr_rect_filled(layer or 2, x, y, w, h, col, rounding) end
 function ImGui.AddRect(layer, x, y, w, h, col, thick, rounding) dr_rect(layer or 2, x, y, w, h, col, thick, rounding) end
 function ImGui.AddLine(layer, x1, y1, x2, y2, col, thick) dr_line(layer or 2, x1, y1, x2, y2, col, thick) end
+function ImGui.AddGradient(layer, x, y, w, h, c1, c2, horiz) dr_gradient(layer or 2, x, y, w, h, c1, c2, horiz) end
