@@ -2362,3 +2362,4 @@ ImGui.TextClip = text_clip
 
 render_scrollbar = function(win)
     if not win or win.collapsed then return end
+    local visible_h = win.h - win._title_h - Style.WindowPadding.y * 2
