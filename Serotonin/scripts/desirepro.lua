@@ -1875,3 +1875,4 @@ function DesirePro.menu()
         end
     end
 
+    DesirePro._win = { x = mx, y = my, w = mw, h = mh }
