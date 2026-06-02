@@ -3381,3 +3381,4 @@ open_popup_window = function(me)
         _content_y0     = me.y + pad.y,
         _content_x1     = me.x + 1000,
         _content_y1     = me.y + 1000,
+        _inner_x0       = me.x,
