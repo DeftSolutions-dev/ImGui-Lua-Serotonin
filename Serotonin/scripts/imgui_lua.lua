@@ -1480,3 +1480,4 @@ function ImGui.RadioButton(label, active)
 end
 
 local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
+    flags = flags or {}
