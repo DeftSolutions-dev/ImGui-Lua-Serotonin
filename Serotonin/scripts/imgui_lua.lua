@@ -4088,3 +4088,4 @@ function ImGui.DatePicker(label, y, m, d)
     local hdr = string.format("%s %d", MON_NAMES[m] or "?", y)
     local hw  = text_size(hdr)
 
+    ImGui.Text(hdr)
