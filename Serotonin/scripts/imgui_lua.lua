@@ -3286,3 +3286,4 @@ function ImGui.EndTable()
 end
 
 function ImGui.BeginListBox(label, w, h)
+    local win = g.current_window; if not win then return false end
