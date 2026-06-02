@@ -1310,3 +1310,4 @@ function ImGui.TextWrapped(text)
     for word in text:gmatch("(%S+)") do
         local trial = (cur == "") and word or (cur .. " " .. word)
         local tw = text_size(trial, font)
+        if tw > total_w and cur ~= "" then
