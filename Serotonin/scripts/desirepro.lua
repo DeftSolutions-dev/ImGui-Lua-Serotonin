@@ -1458,3 +1458,4 @@ function DesirePro.esp_preview(ctx)
     local bx = px + (pw - bw) / 2
     local by, bh = py + ph * 0.10, ph * 0.74
     ImGui.AddRect(2, bx - 1, by - 1, bw + 2, bh + 2, ImGui.RGBA(0, 0, 0, 200), 1, 0)
+    ImGui.AddRect(2, bx, by, bw, bh, ImGui.RGBA(255, 255, 255, 235), 1, 0)
