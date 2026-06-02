@@ -2407,3 +2407,4 @@ render_scrollbar = function(win)
     local sid = fnv1a("scroll", win.id)
     local hov = ItemHoverable(sb_x, grab_y, sb_w, grab_h, sid)
     if hov and g.mouse_left_clicked then
+        set_active_id(sid, win, { x = sb_x, y = sb_y, w = sb_w, h = sb_h })
