@@ -2389,3 +2389,4 @@ render_scrollbar = function(win)
     dr_rect_filled(3, sb_x, sb_y, sb_w, sb_h, StyleColor(Col.ScrollbarBg), Style.ScrollbarRounding)
 
     local grab_h = max(Style.GrabMinSize, sb_h * (visible_h / content_h))
+    local grab_y_range = sb_h - grab_h
