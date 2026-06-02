@@ -1506,3 +1506,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
 
             local t = (slider_w > 0) and clamp((g.mouse_x - x) / slider_w, 0, 1) or 0
             local newv
+            if logarithmic and vmax > vmin then
