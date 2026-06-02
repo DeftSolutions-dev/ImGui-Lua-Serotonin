@@ -28,3 +28,4 @@ DesirePro.preload({
 
 ImGui.Setup(function()
     DesirePro.menu()
+end)
