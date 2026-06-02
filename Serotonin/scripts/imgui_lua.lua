@@ -3949,3 +3949,4 @@ function ImGui.InputTextWithHint(label, hint, value)
         end
     end
     return out
+end
