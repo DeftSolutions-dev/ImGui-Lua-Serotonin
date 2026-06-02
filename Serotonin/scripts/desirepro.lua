@@ -1859,3 +1859,4 @@ function DesirePro.menu()
 
     do
         local mxp, myp = ImGui.GetMousePos()
+        DesirePro.hdrag = DesirePro.hdrag or false
