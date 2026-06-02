@@ -1163,3 +1163,4 @@ local function ItemAdd(x, y, w, h)
 end
 ImGui._ItemAdd = ItemAdd
 
+local function auto_wrap(w)
