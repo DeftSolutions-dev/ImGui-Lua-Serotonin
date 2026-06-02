@@ -324,3 +324,4 @@ function DesirePro.accent_at(y)
     local a, d = DesirePro.col.active, DesirePro.col.dark
     return { r = a.r + (d.r - a.r) * t, g = a.g + (d.g - a.g) * t, b = a.b + (d.b - a.b) * t, a = 1 }
 end
+
