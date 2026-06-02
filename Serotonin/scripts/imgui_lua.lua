@@ -492,3 +492,4 @@ local function update_io()
         g.nav_dir = shift_now and -1 or 1
     end
     g._tab_prev = tab_now
+    if g.nav_dir ~= 0 and g.focus_list_prev and #g.focus_list_prev > 0 then
