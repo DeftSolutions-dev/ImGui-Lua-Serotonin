@@ -4517,3 +4517,4 @@ end
 function ImGui.NewFrame()
 
     g.focus_list_prev = g.focus_list or {}
+    g.focus_list      = {}
