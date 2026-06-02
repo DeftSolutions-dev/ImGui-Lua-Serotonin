@@ -1546,3 +1546,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
         dr_rect_filled(2, grab_x, y + 1, grab_w, frame_h - 2, grab_col, Style.GrabRounding)
 
         local vtext = format(fmt or (is_int and "%d" or "%.3f"), value)
+        local vtw, _ = text_size(vtext)
