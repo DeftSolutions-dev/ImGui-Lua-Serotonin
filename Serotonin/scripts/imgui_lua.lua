@@ -277,3 +277,4 @@ g = {
     hovered_id        = nil,
     hovered_id_prev   = nil,
     active_id         = nil,
+    active_id_window  = nil,
