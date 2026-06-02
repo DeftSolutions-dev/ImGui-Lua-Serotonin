@@ -3804,3 +3804,4 @@ function ImGui.LoadIniSettings(path)
                 end
             elseif current_title then
                 local k, v = line:match("^([%w_]+)=(.*)$")
+                if k and v then
