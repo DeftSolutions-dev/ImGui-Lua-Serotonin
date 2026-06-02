@@ -1256,3 +1256,4 @@ function ImGui.BeginGroup()
 end
 
 function ImGui.EndGroup()
+    local win = g.current_window; if not win then return end
