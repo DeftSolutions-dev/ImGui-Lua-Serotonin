@@ -833,3 +833,4 @@ function DesirePro.checkbox(ctx, label)
     if cc > 0.01 then
         DesirePro.grad_rrect(2, bxx, byy, bs, bs, r, DesirePro.with_alpha(DesirePro.col.dark, cc), DesirePro.with_alpha(DesirePro.col.active, cc))
     end
+    if s.check > 0.05 then
