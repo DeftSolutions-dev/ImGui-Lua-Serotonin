@@ -258,3 +258,4 @@ function DesirePro.preload(spec)
         local info = META.images[name]
         if info and load_tex(ROOT .. "/" .. info.f) then total = total + 1 end
     end
+
