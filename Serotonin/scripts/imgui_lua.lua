@@ -3559,3 +3559,4 @@ function ImGui.BeginMenu(label)
         local w = tw + pad_x * 2
         local h = mb.h
         local x = mb.next_x
+        local y = mb.y
