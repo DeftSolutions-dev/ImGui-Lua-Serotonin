@@ -2376,3 +2376,4 @@ render_scrollbar = function(win)
             g._wheel_consumed = true
             g.mouse_wheel    = 0
         end
+    end
