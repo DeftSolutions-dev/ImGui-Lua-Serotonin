@@ -48,3 +48,4 @@ do
     local ok, src = pcall(file.read, "desirepro/localization.lua")
     if ok and type(src) == "string" and #src > 0 then
         local chunk = loadstring(src, "desirepro_locale")
+        if chunk then
