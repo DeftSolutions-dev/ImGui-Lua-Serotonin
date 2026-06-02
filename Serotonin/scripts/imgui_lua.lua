@@ -971,3 +971,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             local lc = cb_hov and StyleColor(Col.ButtonHovered) or StyleColor(Col.Text)
 
             dr_line(2, cx - 4, cy - 4, cx + 4, cy + 4, lc, 2)
+            dr_line(2, cx + 4, cy - 4, cx - 4, cy + 4, lc, 2)
