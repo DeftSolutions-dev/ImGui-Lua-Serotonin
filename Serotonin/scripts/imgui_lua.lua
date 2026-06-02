@@ -510,3 +510,4 @@ local function update_io()
     g.dt = dt or 0
     g.time = g.time + g.dt
     g.frame_count = g.frame_count + 1
+end
