@@ -825,3 +825,4 @@ function DesirePro.checkbox(ctx, label)
     s.lab = DesirePro.anim(s.lab, hovered and 1 or 0, 12)
     local lcol = v and DesirePro.col.label_active or (hovered and DesirePro.col.label_hover or DesirePro.col.label)
 
+    local r = 4
