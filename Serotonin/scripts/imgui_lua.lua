@@ -757,3 +757,4 @@ end
 
 local function record_item(id, x, y, w, h, hovered, clicked, active)
     g.last_item_id = id
+    local r = g.last_item_rect
