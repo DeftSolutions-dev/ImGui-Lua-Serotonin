@@ -1446,3 +1446,4 @@ function DesirePro.esp_preview(ctx)
     local ph = pw * 1.4533
 
     local layout = DesirePro.vars["esp_layout"]
+    if not layout then
