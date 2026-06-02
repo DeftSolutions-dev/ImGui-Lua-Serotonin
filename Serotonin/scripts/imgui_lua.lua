@@ -2832,3 +2832,4 @@ function ImGui.BeginCombo(label, preview, flags)
             local cx = x + combo_w - arrow_w + arrow_w * 0.5
             local cy = y + frame_h * 0.5
             dr_triangle_filled(2, cx - 3, cy - 2, cx + 3, cy - 2, cx, cy + 3, StyleColor(Col.Text))
+        end
