@@ -3997,3 +3997,4 @@ function ImGui.Spinner(label, radius, thickness, color)
     radius    = radius or 8
     thickness = thickness or 2
     color     = color or StyleColor(Col.CheckMark)
+    local win = g.current_window; if not win then return end
