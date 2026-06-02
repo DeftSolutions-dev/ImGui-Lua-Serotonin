@@ -1762,3 +1762,4 @@ function DesirePro.menu()
         DesirePro._last_sw, DesirePro._last_sh = sw, sh
     end
 
+    local box_w = horiz and mw or (side + mw)
