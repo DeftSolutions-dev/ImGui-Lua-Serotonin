@@ -4681,3 +4681,4 @@ local function flush_layer(layer)
             if clip then
                 local x, y, w, h = clip_intersect(c.x, c.y, c.w, c.h, clip)
                 if x then
+
