@@ -3968,3 +3968,4 @@ function ImGui.SelectableEx(label, selected, flags, w_override, h_override)
 end
 
 function ImGui.TextLink(label)
+    local win = g.current_window; if not win then return false end
