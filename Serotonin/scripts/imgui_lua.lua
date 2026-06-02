@@ -2867,3 +2867,4 @@ do
 end
 
 function ImGui.Hotkey(label, key)
+    local win = g.current_window; if not win then return key end
