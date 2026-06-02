@@ -1537,3 +1537,4 @@ function DesirePro.esp_preview(ctx)
             end
             DesirePro._esp_drag, DesirePro._esp_target, drag = nil, nil, nil
         end
+    end
