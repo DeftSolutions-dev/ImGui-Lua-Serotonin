@@ -641,3 +641,4 @@ end
 
 local function dr_image(layer, x, y, w, h, texid, col, alpha)
     push_cmd(layer, { kind = "image", x = x, y = y, w = w, h = h, texid = texid,
+                      col = col or COL(1, 1, 1, 1), alpha = alpha or 1 })
