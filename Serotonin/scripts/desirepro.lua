@@ -394,3 +394,4 @@ end
 
 DesirePro.particles = {}
 function DesirePro.spawn_particles(cx, cy, n)
+    if #DesirePro.particles > 300 then return end
