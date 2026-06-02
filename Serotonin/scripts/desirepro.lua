@@ -1211,3 +1211,4 @@ function DesirePro.input(ctx, label, placeholder)
 
     local fw = 175
     local fx = x1 - fw
+    local mx, my = mouse_pos()
