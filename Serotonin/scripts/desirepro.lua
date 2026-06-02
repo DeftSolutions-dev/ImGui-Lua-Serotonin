@@ -1298,3 +1298,4 @@ local function draw_popup()
                 popup = nil
                 ImGui.SetDrawAlpha(1)
                 return
+            end
