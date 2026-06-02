@@ -42,3 +42,4 @@ local function clip_intersect(x, y, w, h, c)
     local x1 = (x > c.x) and x or c.x
     local y1 = (y > c.y) and y or c.y
     local x2 = (x + w < c.x + c.w) and (x + w) or (c.x + c.w)
+    local y2 = (y + h < c.y + c.h) and (y + h) or (c.y + c.h)
