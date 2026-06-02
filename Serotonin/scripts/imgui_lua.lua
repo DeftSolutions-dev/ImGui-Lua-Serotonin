@@ -3844,3 +3844,4 @@ function ImGui.IsKeyPressed(name)
     local was  = g._key_prev[name] or false
     g._key_prev[name] = now
     return now and not was
+end
