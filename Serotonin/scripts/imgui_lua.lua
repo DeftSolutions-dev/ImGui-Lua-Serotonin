@@ -2164,3 +2164,4 @@ function ImGui.CollapsingHeader(label)
     local h = th + Style.FramePadding.y * 2
     local x, y = win.cursor_x, win.cursor_y
     local w = win._content_x1 - x
+    local hov = ItemHoverable(x, y, w, h, id)
