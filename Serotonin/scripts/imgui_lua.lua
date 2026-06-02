@@ -2416,3 +2416,4 @@ render_scrollbar = function(win)
             win.scroll_y = new_t * win.scroll_max_y
         else
             clear_active_id()
+        end
