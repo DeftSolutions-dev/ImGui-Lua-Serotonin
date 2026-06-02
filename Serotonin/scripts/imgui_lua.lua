@@ -2430,3 +2430,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     local pid = GetID("child:" .. tostring(str_id))
 
     local cw = (w and w > 0) and w or (win._content_x1 - win.cursor_x)
+    local ch = (h and h > 0) and h or 100
