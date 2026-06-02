@@ -1373,3 +1373,4 @@ local function draw_popup()
         ImGui.AddRectFilled(3, px, py, pw, ph, DesirePro.col.bg, 6)
         ImGui.AddRect(3, px, py, pw, ph, DesirePro.col.child_stroke, 1, 6)
 
+        local hue_rgb = hsv2rgb(c.h, 1, 1, 1)
