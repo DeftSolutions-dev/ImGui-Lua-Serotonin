@@ -542,3 +542,4 @@ local function tab_label(tab)
     return DesirePro.translate(tab.name)
 end
 
+local function draw_square_tab(i, tab, bx, by, bw, bh)
