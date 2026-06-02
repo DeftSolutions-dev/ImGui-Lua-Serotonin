@@ -313,3 +313,4 @@ g = {
     draw_layers       = { {}, {}, {}, {}, {}, {} },
 
     menu_open         = true,
+    toggle_key        = "F8",
