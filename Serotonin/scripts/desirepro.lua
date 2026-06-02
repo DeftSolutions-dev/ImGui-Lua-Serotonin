@@ -749,3 +749,4 @@ local function appear_xy(id, ctx, rowh)
     local off, al = DesirePro.appear(id, ctx.cy + (rowh or 20) / 2)
     ImGui.SetDrawAlpha(al)
     return ctx.x + off, ctx.x1 + off
+end
