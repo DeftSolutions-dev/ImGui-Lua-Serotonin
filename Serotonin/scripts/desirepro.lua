@@ -1472,3 +1472,4 @@ function DesirePro.esp_preview(ctx)
 
     local groups = { top = {}, bottom = {}, left = {}, right = {} }
     for _, it in ipairs(layout) do
+        local g = groups[it.group] or groups.top
