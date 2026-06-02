@@ -2042,3 +2042,4 @@ function ImGui.EndTabBar()
             local rx   = pair_x + btn_w + 4
             local rp, rh = ButtonBehavior(rx, tb.y, btn_w, tb.tab_h, rid)
             local rc = rh and StyleColor(Col.ButtonHovered) or StyleColor(Col.Tab)
+            dr_rect_filled(2, rx, tb.y, btn_w, tb.tab_h, rc, Style.TabRounding)
