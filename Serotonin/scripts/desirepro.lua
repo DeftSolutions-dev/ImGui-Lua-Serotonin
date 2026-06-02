@@ -1261,3 +1261,4 @@ function DesirePro.input(ctx, label, placeholder)
 end
 
 local function draw_popup()
+    popup_rect = nil
