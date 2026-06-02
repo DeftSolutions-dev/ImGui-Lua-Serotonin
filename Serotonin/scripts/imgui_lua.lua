@@ -3307,3 +3307,4 @@ function ImGui.IsPopupOpen(str_id)
     if str_id == nil then return #g.popup_stack > 0 end
     local id = fnv1a("popup:" .. tostring(str_id))
     for i = 1, #g.popup_stack do
+        if g.popup_stack[i].id == id then return true end
