@@ -1123,3 +1123,4 @@ function ImGui.End()
                     (win.cursor_max_y - win.y) + pad.y)
     end
 
+    local visible_h = win.h - win._title_h - Style.WindowPadding.y * 2
