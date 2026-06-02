@@ -1417,3 +1417,4 @@ local function draw_popup()
             c.s = clamp01((mx - sv_x) / sv_w); c.v = clamp01(1 - (my - sv_y) / sv_h)
         elseif color_drag == "hue" then
             c.h = clamp01((my - sv_y) / sv_h)
+        elseif color_drag == "alpha" then
