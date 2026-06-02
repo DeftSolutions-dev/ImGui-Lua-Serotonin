@@ -4608,3 +4608,4 @@ local function flush_layer(layer)
                     end
                     L(c.x,         c.y,         c.x + c.w, c.y)
                     L(c.x + c.w,   c.y,         c.x + c.w, c.y + c.h)
+                    L(c.x + c.w,   c.y + c.h,   c.x,       c.y + c.h)
