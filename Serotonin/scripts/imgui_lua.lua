@@ -2403,3 +2403,4 @@ render_scrollbar = function(win)
         end
         win.scroll_y = clamp(win.scroll_y, 0, win.scroll_max_y)
     end
+
