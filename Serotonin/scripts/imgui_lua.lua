@@ -3239,3 +3239,4 @@ function ImGui.TableGetSortSpecs()
     local out = {}
     for i, sp in ipairs(t.sort_specs) do
         out[i] = { col = sp.col, dir = sp.dir, idx = i }
+    end
