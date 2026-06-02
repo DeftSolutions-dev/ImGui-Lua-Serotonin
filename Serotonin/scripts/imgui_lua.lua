@@ -3603,3 +3603,4 @@ local function _parse_shortcut(s)
         else key = part:gsub("%s", "") end
     end
     return mods, key
+end
