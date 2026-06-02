@@ -3185,3 +3185,4 @@ function ImGui.TableHeader(label)
     local click_x, click_w = x + 3, cw - 6
     if click_w < 4 then click_x, click_w = x, cw end
     local hovered = ItemHoverable(click_x, y, click_w, h, id)
+    if hovered and g.mouse_left_clicked and t.sortable then
