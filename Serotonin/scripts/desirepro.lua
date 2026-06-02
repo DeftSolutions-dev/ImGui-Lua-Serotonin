@@ -1169,3 +1169,4 @@ function DesirePro.keybind(ctx, label)
     local hovered = point_in_rect(mx, my, px, py, pw, ph)
     if hovered and clicked() then st.waiting = true; st.armed = false end
     if hovered and right_clicked() then st.mode = (st.mode % #KEYBIND_MODES) + 1 end
+
