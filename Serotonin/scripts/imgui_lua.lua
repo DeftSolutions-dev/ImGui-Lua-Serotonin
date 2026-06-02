@@ -694,3 +694,4 @@ local function ItemHoverable(x, y, w, h, id)
         return false
     end
 
+    if g.popup_active_prev and g.popup_rect_prev then
