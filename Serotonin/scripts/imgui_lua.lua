@@ -1588,3 +1588,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
         else
             clear_active_id()
         end
+    end
