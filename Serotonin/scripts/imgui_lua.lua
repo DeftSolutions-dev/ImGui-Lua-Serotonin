@@ -483,3 +483,4 @@ local function update_io()
     local function probe_any(names)
         for _, n in ipairs(names) do if probe(n) then return true end end
         return false
+    end
