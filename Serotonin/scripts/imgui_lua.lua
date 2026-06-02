@@ -23,3 +23,4 @@ local function point_in_rect(px, py, rx, ry, rw, rh)
 end
 
 local g
+local set_active_id
