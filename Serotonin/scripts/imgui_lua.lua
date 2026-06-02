@@ -659,3 +659,4 @@ function ImGui.GetScreenSize() return draw.GetScreenSize() end
 local function text_size(s, font)
     font = font or Style.Font
     if type(s) ~= "string" then s = tostring(s) end
+    local ok, w, h = pcall(draw.GetTextSize, s, font)
