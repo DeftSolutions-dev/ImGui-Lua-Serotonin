@@ -3241,3 +3241,4 @@ function ImGui.TableGetSortSpecs()
         out[i] = { col = sp.col, dir = sp.dir, idx = i }
     end
     return out
+end
