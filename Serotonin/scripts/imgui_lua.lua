@@ -3276,3 +3276,4 @@ function ImGui.EndTable()
         store_set(win, "tbl_w_" .. tostring(t.id), t.col_widths)
     end
 
+    if t.borders then
