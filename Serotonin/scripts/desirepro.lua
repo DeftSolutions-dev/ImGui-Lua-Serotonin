@@ -415,3 +415,4 @@ function DesirePro.update_particles()
             table.remove(DesirePro.particles, i)
         else
             p.vy = p.vy + 150 * d
+            p.x = p.x + p.vx * d
