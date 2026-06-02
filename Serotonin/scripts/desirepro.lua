@@ -1735,3 +1735,4 @@ end
 
 function DesirePro.menu()
 
+    if DesirePro._last_tab ~= DesirePro.active_tab then
