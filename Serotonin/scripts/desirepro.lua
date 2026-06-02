@@ -1290,3 +1290,4 @@ local function draw_popup()
             if seld then
                 ImGui.AddCircleFilled(3, px + 14, iy + ih / 2, 3, DesirePro.col.active, 12)
             end
+            local tc = seld and DesirePro.col.label_active or (ih_hover and DesirePro.col.label_hover or DesirePro.col.label)
