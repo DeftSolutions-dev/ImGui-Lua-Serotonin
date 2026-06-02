@@ -27,3 +27,4 @@ do
             local ok2, tbl = pcall(chunk)
             if ok2 and type(tbl) == "table" then META = tbl end
         end
+    end
