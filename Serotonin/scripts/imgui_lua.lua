@@ -673,3 +673,4 @@ set_active_id = function(id, win, rect)
     if rect then
         g.active_id_rect = { x = rect.x, y = rect.y, w = rect.w, h = rect.h }
     else
+        g.active_id_rect = nil
