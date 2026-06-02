@@ -2689,3 +2689,4 @@ function ImGui.SetWindowCollapsed(b) local w = g.current_window; if w then w.col
 function ImGui.SetWindowFocus()
     local w = g.current_window; if not w then return end
 
+    for i, wid in ipairs(g.windows_z_order) do
