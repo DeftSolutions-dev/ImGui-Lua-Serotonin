@@ -1413,3 +1413,4 @@ function ImGui.Checkbox(label, value)
     local tw, th = text_size(label)
     local x, y = win.cursor_x, win.cursor_y
     local total_w = box_sz + Style.ItemInnerSpacing.x + tw
+    local visible = ItemAdd(x, y, total_w, box_sz)
