@@ -3481,3 +3481,4 @@ function ImGui.BeginPopup(str_id, flags)
     if g.popup_pending_open and g.popup_pending_open.id == id then
         insert(g.popup_stack, {
             id                = id,
+            str_id            = str_id,
