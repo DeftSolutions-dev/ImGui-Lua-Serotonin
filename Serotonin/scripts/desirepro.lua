@@ -829,3 +829,4 @@ function DesirePro.checkbox(ctx, label)
     local grow = s.hovg * 6
     local bxx, byy, bs = floor(x - grow / 2), floor(y - grow / 2), floor(box + grow)
     local cc = s.check; if cc > 1 then cc = 1 elseif cc < 0 then cc = 0 end
+    ImGui.AddRectFilled(2, bxx, byy, bs, bs, DesirePro.col.anim_default, r)
