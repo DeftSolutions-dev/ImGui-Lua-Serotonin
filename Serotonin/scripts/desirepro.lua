@@ -906,3 +906,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
             v = vmin + frac * (vmax - vmin)
             if is_int then v = floor(v + 0.5) end
             DesirePro.vars[id] = v
+        else
