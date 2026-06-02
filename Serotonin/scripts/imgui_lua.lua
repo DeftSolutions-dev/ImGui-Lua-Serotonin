@@ -3463,3 +3463,4 @@ function ImGui.BeginPopupContextItem(str_id)
         ImGui.OpenPopup(str_id)
     end
     return ImGui.BeginPopup(str_id)
+end
