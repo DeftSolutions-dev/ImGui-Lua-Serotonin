@@ -2191,3 +2191,4 @@ end
 
 local INPUT_KEYS = {}
 do
+    for i = 0, 25 do
