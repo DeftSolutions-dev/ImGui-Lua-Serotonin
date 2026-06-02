@@ -1753,3 +1753,4 @@ function DesirePro.menu()
     DesirePro.update_theme()
 
     local mw, mh = DesirePro.WINDOW_W, DesirePro.WINDOW_H
+    local band, side = DesirePro.TAB_BAND, floor(225 * DesirePro.US)
