@@ -1340,3 +1340,4 @@ local function draw_popup()
                 ImGui.AddLine(3, cx - 1, cy + 3, cx + 4, cy - 3, DesirePro.col.label_active, 1.5)
             end
             local tc = on and DesirePro.col.label_active or (ih_hover and DesirePro.col.label_hover or DesirePro.col.label)
+            DesirePro.text_in(3, px + 34, iy, ih, DesirePro.translate(popup.items[i]), "poppins_medium_16", tc, 1)
