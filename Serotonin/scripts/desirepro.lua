@@ -1585,3 +1585,4 @@ function DesirePro.page(idx, px, py, ph)
         if c.on then
             DesirePro.featurebox(c, "Target Prediction", function(s)
                 DesirePro.slider(s, "Strength", 0, 100, true)
+                DesirePro.combo(s, "Mode", { "Velocity", "Acceleration", "Hybrid" })
