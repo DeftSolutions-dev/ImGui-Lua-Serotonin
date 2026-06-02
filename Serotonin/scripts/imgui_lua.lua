@@ -1510,3 +1510,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
                 newv = vmin * (vmax / vmin) ^ t
             else
                 newv = vmin + (vmax - vmin) * t
+            end
