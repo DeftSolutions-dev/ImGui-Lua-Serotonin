@@ -2,3 +2,4 @@
 
 print("[imgui_menu] script start")
 
+local ImGui = {}
