@@ -2113,3 +2113,4 @@ function ImGui.TreeNodeEx(label, flags)
     record_item(id, x, y, total_w, h, hov, pressed, false)
     ItemSize(total_w, h)
     if open and not flags.no_tree_push then ImGui.Indent() end
+    return open
