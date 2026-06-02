@@ -31,3 +31,4 @@ ImGui.Setup(function()
 end)
 
 cheat.Register("onPaint", ImGui._OnPaint)
+
