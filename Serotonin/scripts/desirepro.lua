@@ -1407,3 +1407,4 @@ local function draw_popup()
                 if rc then c.h, c.s, c.v = p[1], p[2], p[3] end
             end
         end
+
