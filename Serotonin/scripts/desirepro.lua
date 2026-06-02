@@ -1424,3 +1424,4 @@ local function draw_popup()
         local sw = popup.sw
         if rc and not point_in_rect(mx, my, px, py, pw, ph)
             and not point_in_rect(mx, my, sw.x, sw.y, sw.w, sw.h) then
+            open_color = nil
