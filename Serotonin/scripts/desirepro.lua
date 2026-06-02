@@ -1553,3 +1553,4 @@ function DesirePro.esp_preview(ctx)
         local disp = DesirePro.translate(it.name)
         local cid = "espc:" .. it.name
         local cv = DesirePro.vars[cid]
+        local col = cv and hsv2rgb(cv.h, cv.s, cv.v, cv.a) or ImGui.RGBA(255, 255, 255, 255)
