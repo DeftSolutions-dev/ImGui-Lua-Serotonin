@@ -2900,3 +2900,4 @@ function ImGui.Hotkey(label, key)
         if okbs and bs then key = ""; clear_active_id() end
     end
 
+    local bg = StyleColor(Col.FrameBg)
