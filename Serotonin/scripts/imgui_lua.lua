@@ -63,3 +63,4 @@ local function clip_line_cs(x1, y1, x2, y2, c)
         if k1 == 0 and k2 == 0 then return x1, y1, x2, y2 end
         local out = (k1 ~= 0) and k1 or k2
         local nx, ny
+        if bit.band(out, 8) ~= 0 then
