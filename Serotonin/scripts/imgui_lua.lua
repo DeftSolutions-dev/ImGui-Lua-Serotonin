@@ -1770,3 +1770,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         if ImGui.IsPopupOpen(popup_str) then
             ImGui.CloseCurrentPopup()
         else
+            local pid = fnv1a("popup:" .. popup_str)
