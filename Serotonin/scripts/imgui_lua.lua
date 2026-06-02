@@ -688,3 +688,4 @@ local function ItemHoverable(x, y, w, h, id)
     if g._disabled_depth and g._disabled_depth > 0 then return false end
 
     if g.current_window and g.hovered_window_id
+       and g.current_window.id ~= g.hovered_window_id
