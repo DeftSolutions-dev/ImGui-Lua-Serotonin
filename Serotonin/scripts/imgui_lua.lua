@@ -660,3 +660,4 @@ local function text_size(s, font)
     font = font or Style.Font
     if type(s) ~= "string" then s = tostring(s) end
     local ok, w, h = pcall(draw.GetTextSize, s, font)
+    if ok and type(w) == "number" then return w, h or Style.FontHeight end
