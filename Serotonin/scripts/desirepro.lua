@@ -423,3 +423,4 @@ function DesirePro.update_particles()
 end
 
 DesirePro.notifs = {}
+function DesirePro.notify(text, icon)
