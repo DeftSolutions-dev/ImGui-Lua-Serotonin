@@ -226,3 +226,4 @@ local Style = {
     WindowRounding      = 0,
     WindowBorderSize    = 1,
     WindowMinSize       = { x = 80, y = 60 },
+    WindowTitleHeight   = 22,
