@@ -3399,3 +3399,4 @@ open_popup_window = function(me)
 end
 
 local function close_popup_window()
+    local win = g.current_window
