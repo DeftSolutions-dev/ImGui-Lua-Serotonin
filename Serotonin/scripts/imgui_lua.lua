@@ -1203,3 +1203,4 @@ end
 function ImGui.Indent(amount)
     local win = g.current_window; if not win then return end
     amount = amount or Style.IndentSpacing
+    win.indent_x = win.indent_x + amount
