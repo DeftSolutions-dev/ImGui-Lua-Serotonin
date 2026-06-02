@@ -656,3 +656,4 @@ function ImGui.RGBA(r, g, b, a) return COL_RGBA(r, g, b, a) end
 function ImGui.ColF(r, g, b, a) return COL(r, g, b, a) end
 function ImGui.GetScreenSize() return draw.GetScreenSize() end
 
+local function text_size(s, font)
