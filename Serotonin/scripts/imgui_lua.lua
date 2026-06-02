@@ -2979,3 +2979,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     win.cursor_y = me.y + title_h + pad.y
     win.cursor_start_y = win.cursor_y
     return true
+end
