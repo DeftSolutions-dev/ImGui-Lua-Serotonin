@@ -611,3 +611,4 @@ end
 
 local function dr_line(layer, x1, y1, x2, y2, col, thick)
     push_cmd(layer, { kind = "line", x1 = x1, y1 = y1, x2 = x2, y2 = y2, col = col, thick = thick or 1 })
+end
