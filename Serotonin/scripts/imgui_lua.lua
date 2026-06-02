@@ -3717,3 +3717,4 @@ function ImGui.EndTooltip()
     me._bg_cmd.w = fw; me._bg_cmd.h = fh
     me._br_cmd.w = fw; me._br_cmd.h = fh
     remove(g.window_stack)
+    g.current_window = g.window_stack[#g.window_stack]
