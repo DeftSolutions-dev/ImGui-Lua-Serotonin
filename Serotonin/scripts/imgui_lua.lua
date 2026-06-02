@@ -1397,3 +1397,4 @@ function ImGui.SmallButton(label)         return button_internal(label, nil, Sty
 
 function ImGui.InvisibleButton(label, w, h)
     local win = g.current_window; if not win then return false end
+    local id = GetID("invbtn:" .. label)
