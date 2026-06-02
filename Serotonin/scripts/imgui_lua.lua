@@ -4545,3 +4545,4 @@ function ImGui.NewFrame()
         for j = #layer, 1, -1 do layer[j] = nil end
     end
 
+    for i = #g.color_stack, 1, -1 do g.color_stack[i] = nil end
