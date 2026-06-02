@@ -2490,3 +2490,4 @@ function ImGui.BeginChild(str_id, w, h, border)
     return true
 end
 
+function ImGui.EndChild()
