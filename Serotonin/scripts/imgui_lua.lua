@@ -676,3 +676,4 @@ set_active_id = function(id, win, rect)
         g.active_id_rect = nil
     end
 end
+
