@@ -2548,3 +2548,4 @@ function ImGui.ImageButton(str_id, tex_id, w, h, tint, bg)
     end
     record_item(id, x, y, w + 4, h + 4, hovered, pressed, held)
     ItemSize(w + 4, h + 4)
+    return pressed
