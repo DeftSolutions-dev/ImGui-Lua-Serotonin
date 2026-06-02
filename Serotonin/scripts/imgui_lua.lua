@@ -4002,3 +4002,4 @@ function ImGui.Spinner(label, radius, thickness, color)
     auto_wrap(sz)
     local x, y = win.cursor_x, win.cursor_y
     if ItemAdd(x, y, sz, sz) then
+        local cx, cy = x + radius + 2, y + radius + 2
