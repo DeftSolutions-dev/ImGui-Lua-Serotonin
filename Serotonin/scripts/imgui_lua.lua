@@ -3232,3 +3232,4 @@ function ImGui.TableGetSortSpec()
     local t = win._table; if not t or not t.sortable then return -1, 1 end
     return t.sort_col, t.sort_dir
 end
+
