@@ -1613,3 +1613,4 @@ function DesirePro.page(idx, px, py, ph)
         local c3 = DesirePro.begin_card("Wallhack:This decsription for child", rx, py, CARD_W, 362, "TARGET_FILL")
         if c3.on then
             DesirePro.combo(c3, "Select gun", { "Pistol", "Rifle", "Sniper", "Shotgun" })
+            DesirePro.checkbox(c3, "Enable Wallhack")
