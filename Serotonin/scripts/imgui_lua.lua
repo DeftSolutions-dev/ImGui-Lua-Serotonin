@@ -3829,3 +3829,4 @@ function ImGui.LoadIniSettings(path)
             if p.h then win.h = p.h end
             if p.collapsed ~= nil then win.collapsed = p.collapsed end
             g._pending_window_settings[win.title] = nil
+        end
