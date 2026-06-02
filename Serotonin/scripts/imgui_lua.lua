@@ -2310,3 +2310,4 @@ function ImGui.InputText(label, value, callback)
     if active and (g.frame_count % 60) < 30 then display = display .. "|" end
     dr_text(2, display, x + 4, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
     if tw_lbl > 0 then
+        dr_text(2, label, x + input_w + Style.ItemInnerSpacing.x, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
