@@ -442,3 +442,4 @@ local function update_io()
                           and r.y < p.y + p.h and r.y + r.h > p.y)
             if overlaps then clear = true end
         end
+        if clear then clear_active_id() end
