@@ -1888,3 +1888,4 @@ function DesirePro.menu()
     ImGui.SetDrawAlpha(1)
     DesirePro.update_particles()
     DesirePro.update_notifications()
+
