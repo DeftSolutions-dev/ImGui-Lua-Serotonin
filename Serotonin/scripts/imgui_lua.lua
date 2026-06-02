@@ -1782,3 +1782,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         local sv_x = pwin.cursor_x
         local sv_y = pwin.cursor_y
 
+        local sv_id = fnv1a("sv", id)
