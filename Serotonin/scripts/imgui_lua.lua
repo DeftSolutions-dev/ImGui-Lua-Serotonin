@@ -3736,3 +3736,4 @@ function ImGui.InputIntStep(label, value, step)
     step = step or 1
     ImGui.PushID(label)
     if ImGui.SmallButton("-") then value = value - step end
+    ImGui.SameLine(nil, 2)
