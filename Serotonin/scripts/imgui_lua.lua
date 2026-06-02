@@ -522,3 +522,4 @@ local function GetID(label)
     return fnv1a(tostring(label), seed)
 end
 ImGui.GetID = GetID
+
