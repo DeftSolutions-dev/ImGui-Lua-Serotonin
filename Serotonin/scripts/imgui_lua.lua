@@ -4316,3 +4316,4 @@ end
 function ImGui.StyleColorsDark()    Style.Colors = default_dark_theme() end
 function ImGui.StyleColorsLight()
     local t = {}
+    t[Col.Text]                  = COL(0.00, 0.00, 0.00, 1.00)
