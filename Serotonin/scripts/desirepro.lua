@@ -1265,3 +1265,4 @@ local function draw_popup()
     if not popup then return end
     local mx, my = ImGui.GetMousePos()
     local rc = raw_clicked()
+
