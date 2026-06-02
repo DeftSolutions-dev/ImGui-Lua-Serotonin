@@ -3443,3 +3443,4 @@ local function close_popup_window()
     end
     me.opened_this_frame = false
 
+    while #g.id_stack > win._id_stack_save do remove(g.id_stack) end
