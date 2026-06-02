@@ -487,3 +487,4 @@ function DesirePro.icon_gradient(layer, cx, cy, key, target_px, alpha)
     if not g or not g.f then return end
     local tex = load_tex(ROOT .. "/icon_grad/" .. best .. "/" .. g.f)
     if not tex then
+        return DesirePro.icon_scaled(layer, cx, cy, key, 35, target_px, DesirePro.accent_at(cy), alpha or 1)
