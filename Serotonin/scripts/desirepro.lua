@@ -827,3 +827,4 @@ function DesirePro.checkbox(ctx, label)
 
     local r = 4
     local grow = s.hovg * 6
+    local bxx, byy, bs = floor(x - grow / 2), floor(y - grow / 2), floor(box + grow)
