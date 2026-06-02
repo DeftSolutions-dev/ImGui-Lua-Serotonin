@@ -4440,3 +4440,4 @@ end
 function ImGui.EndDragDropSource() ImGui.EndTooltip() end
 
 function ImGui.BeginDragDropTarget()
+    if not g.dragdrop_active then return false end
