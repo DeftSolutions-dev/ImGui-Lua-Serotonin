@@ -1346,3 +1346,4 @@ function ImGui.BulletText(text)
     if ItemAdd(win.cursor_x, win.cursor_y, tw + 12, th) then
         dr_text(2, text, win.cursor_x + 12, win.cursor_y, StyleColor(Col.Text))
     end
+    ItemSize(tw + 12, th)
