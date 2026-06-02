@@ -4032,3 +4032,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
     state.history = state.history or {}
     h             = h or 200
     local input_h = ImGui.GetFrameHeight()
+
