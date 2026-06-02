@@ -3743,3 +3743,4 @@ function ImGui.InputIntStep(label, value, step)
     if ImGui.SmallButton("+") then value = value + step end
     ImGui.SameLine()
     ImGui.Text(label)
+    ImGui.PopID()
