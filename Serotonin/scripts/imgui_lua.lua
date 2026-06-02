@@ -1454,3 +1454,4 @@ end
 function ImGui.RadioButton(label, active)
     local win = g.current_window; if not win then return false end
     local id = GetID("radio:" .. label)
+    insert(g.focus_list, id)
