@@ -630,3 +630,4 @@ local function dr_circle_filled(layer, cx, cy, r, col, segs)
 end
 
 local function dr_gradient(layer, x, y, w, h, c1, c2, horizontal)
+    push_cmd(layer, { kind = "grad", x = x, y = y, w = w, h = h, c1 = c1, c2 = c2, horiz = horizontal })
