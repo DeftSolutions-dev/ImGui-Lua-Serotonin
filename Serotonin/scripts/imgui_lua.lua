@@ -3005,3 +3005,4 @@ end
 local function vec_widget(label, v, n, draw_fn, ...)
     local win = g.current_window; if not win then return v end
     local total_w = win._content_x1 - win.cursor_x
+    local tw_lbl = text_size(label)
