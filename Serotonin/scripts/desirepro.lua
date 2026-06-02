@@ -966,3 +966,4 @@ function DesirePro.button(ctx, label, h)
 
     local sc = 1 - s.press * 0.08
     local aw, ah = w * sc, h * sc
+    local bx, by = x + (w - aw) / 2, y + (h - ah) / 2
