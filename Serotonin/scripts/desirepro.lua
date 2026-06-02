@@ -1593,3 +1593,4 @@ function DesirePro.page(idx, px, py, ph)
             DesirePro.checkbox(c, "Footprints")
             DesirePro.color(c, "Tracer Color")
         end
+        DesirePro.end_card(c)
