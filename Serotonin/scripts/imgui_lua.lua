@@ -1648,3 +1648,4 @@ function ImGui.Selectable(label, selected, w_override, h_override)
         dr_text(2, label, x + 4, y + (h - th) * 0.5, StyleColor(Col.Text))
     end
     record_item(id, x, y, w, h, hovered, pressed, held)
+    ItemSize(w, h)
