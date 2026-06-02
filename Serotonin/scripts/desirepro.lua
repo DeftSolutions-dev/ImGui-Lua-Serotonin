@@ -1491,3 +1491,4 @@ function DesirePro.esp_preview(ctx)
     local sy_min, sy_max = py + 2, py + ph - LH - 2
     for _, it in ipairs(layout) do
         if it.sy < sy_min then it.sy = sy_min elseif it.sy > sy_max then it.sy = sy_max end
+    end
