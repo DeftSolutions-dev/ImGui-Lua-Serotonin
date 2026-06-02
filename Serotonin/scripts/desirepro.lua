@@ -1614,3 +1614,4 @@ function DesirePro.page(idx, px, py, ph)
         if c3.on then
             DesirePro.combo(c3, "Select gun", { "Pistol", "Rifle", "Sniper", "Shotgun" })
             DesirePro.checkbox(c3, "Enable Wallhack")
+            DesirePro.checkbox(c3, "Show Enemies")
