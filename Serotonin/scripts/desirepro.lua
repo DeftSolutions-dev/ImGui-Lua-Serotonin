@@ -693,3 +693,4 @@ local function clicked()
     return true
 end
 local function mouse_down() return ImGui.IsMouseDown() end
+local function right_clicked()
