@@ -38,3 +38,4 @@ local ROOT = "desirepro"
 
 do
     local nf = 0
+    for _ in pairs(META.fonts) do nf = nf + 1 end
