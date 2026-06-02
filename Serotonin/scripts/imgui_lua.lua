@@ -3903,3 +3903,4 @@ function ImGui.OpenPopupOnItemClick(str_id, button)
     return false
 end
 
+function ImGui.GetClipboardText()    local ok, v = pcall(utility.GetClipboard); return ok and v or "" end
