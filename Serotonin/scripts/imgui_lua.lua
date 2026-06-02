@@ -3468,3 +3468,4 @@ end
 function ImGui.BeginPopupContextWindow(str_id)
     str_id = str_id or "##wincontext"
     local win = g.current_window
+    if win and g.mouse_right_clicked
