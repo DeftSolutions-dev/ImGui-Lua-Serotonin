@@ -3435,3 +3435,4 @@ local function close_popup_window()
                 if g.popup_stack[i].id == me.id then remove(g.popup_stack, i); break end
             end
             if #g.popup_stack == 0 then
+
