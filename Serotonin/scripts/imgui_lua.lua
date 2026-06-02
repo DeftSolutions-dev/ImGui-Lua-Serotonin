@@ -2032,3 +2032,4 @@ function ImGui.EndTabBar()
             dr_rect_filled(2, pair_x - 2, tb.y, btn_w * 2 + 6, tb.tab_h,
                            StyleColor(Col.WindowBg), 0)
 
+            local lid = fnv1a("tab_left", tb.id)
