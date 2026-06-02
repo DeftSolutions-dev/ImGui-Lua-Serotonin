@@ -580,3 +580,4 @@ local function push_cmd(layer, cmd)
         if cmd.y then cmd.y = py + (cmd.y - py) * s end
         if cmd.w then cmd.w = cmd.w * s end
         if cmd.h then cmd.h = cmd.h * s end
+        if cmd.x1 then cmd.x1 = px + (cmd.x1 - px) * s end
