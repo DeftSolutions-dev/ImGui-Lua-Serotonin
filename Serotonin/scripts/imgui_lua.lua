@@ -390,3 +390,4 @@ local function update_io()
     local ok_r, r_click_api = pcall(mouse.IsClicked, "right")
     if ok_r and r_click_api then r_now = true end
     g.mouse_right_clicked = r_now and not g.mouse_right_down_prev
+    g.mouse_right_down_prev = r_now
