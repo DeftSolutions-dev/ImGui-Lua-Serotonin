@@ -4033,3 +4033,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
     h             = h or 200
     local input_h = ImGui.GetFrameHeight()
 
+    if ImGui.BeginChild("cons_log_" .. str_id, w or 0, h - input_h - 6, true) then
