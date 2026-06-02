@@ -2719,3 +2719,4 @@ function ImGui.PopItemWidth()
         remove(win._item_width_stack)
     end
 end
+function ImGui.SetNextItemWidth(w) _next_item_width = w end
