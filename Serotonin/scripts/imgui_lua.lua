@@ -892,3 +892,4 @@ ImGui._store_set = store_set
 function ImGui.SetNextWindowPos(x, y, cond)
     g.next_window_pos = { x = x, y = y, cond = cond or "always" }
 end
+function ImGui.SetNextWindowSize(w, h, cond)
