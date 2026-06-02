@@ -1250,3 +1250,4 @@ function DesirePro.input(ctx, label, placeholder)
     local shown = (v == "" and not focused) and (placeholder and DesirePro.translate(placeholder) or "") or v
     local tcol = (v == "" and not focused) and DesirePro.col.desc or DesirePro.col.label_active
     ImGui.PushClipRect(fx + 6, y, fw - 12, h)
+    DesirePro.text_in(2, fx + 10 - scroll, y, h, shown, "poppins_medium_16", tcol, 1)
