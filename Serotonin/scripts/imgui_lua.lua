@@ -2666,3 +2666,4 @@ function ImGui.GetContentRegionAvail()
     return win._content_x1 - win.cursor_x, win._content_y1 - win.cursor_y
 end
 function ImGui.GetWindowPos()
+    local win = g.current_window; if not win then return 0, 0 end
