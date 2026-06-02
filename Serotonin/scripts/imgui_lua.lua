@@ -2336,3 +2336,4 @@ function ImGui.SetTooltip(text)
     local tw, th = text_size(text)
     local pad = 6
     dr_rect_filled(5, mx, my, tw + pad * 2, th + pad * 2, StyleColor(Col.PopupBg), Style.FrameRounding)
+    dr_rect(5, mx, my, tw + pad * 2, th + pad * 2, StyleColor(Col.Border), 1, Style.FrameRounding)
