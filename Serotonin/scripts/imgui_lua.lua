@@ -1179,3 +1179,4 @@ function ImGui.SameLine(offset_x, spacing)
     if offset_x and offset_x > 0 then
         win.cursor_x = win.cursor_start_x + offset_x
     else
+        local r = g.last_item_rect
