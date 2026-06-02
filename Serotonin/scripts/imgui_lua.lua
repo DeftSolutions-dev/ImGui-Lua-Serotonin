@@ -2907,3 +2907,4 @@ function ImGui.Hotkey(label, key)
     local display = active and "<press a key...>" or (((key == nil or key == "") and "[None]") or ("[" .. key .. "]"))
     local dw = text_size(display)
     dr_text(2, display, x + (hk_w - dw) * 0.5, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
+    if tw_lbl > 0 then
