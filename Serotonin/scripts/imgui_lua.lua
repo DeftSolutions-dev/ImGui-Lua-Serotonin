@@ -3901,3 +3901,4 @@ function ImGui.OpenPopupOnItemClick(str_id, button)
         ImGui.OpenPopup(str_id); return true
     end
     return false
+end
