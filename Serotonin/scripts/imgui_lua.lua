@@ -2232,3 +2232,4 @@ local function poll_typed_chars()
     if (ok_ctrl and ctrl) and (ok_v and v) and not g._paste_prev then
         paste = true
     end
+    g._paste_prev = ok_v and v or false
