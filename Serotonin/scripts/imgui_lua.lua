@@ -1307,3 +1307,4 @@ function ImGui.TextWrapped(text)
     local lines = {}
 
     local cur = ""
+    for word in text:gmatch("(%S+)") do
