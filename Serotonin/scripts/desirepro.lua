@@ -1390,3 +1390,4 @@ local function draw_popup()
 
         local full = hsv2rgb(c.h, c.s, c.v, 1)
         ImGui.AddRectFilled(3, sv_x, alpha_y, sv_w, alpha_h, ImGui.RGBA(130, 130, 130, 255), 3)
+        ImGui.AddGradient(3, sv_x, alpha_y, sv_w, alpha_h, DesirePro.with_alpha(full, 0), DesirePro.with_alpha(full, 1), true)
