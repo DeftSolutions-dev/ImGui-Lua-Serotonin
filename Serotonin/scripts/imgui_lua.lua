@@ -4369,3 +4369,4 @@ function ImGui.StyleColorsLight()
     t[Col.ModalWindowDimBg]      = COL(0.20, 0.20, 0.20, 0.35)
     Style.Colors = t
 end
+function ImGui.StyleColorsClassic()
