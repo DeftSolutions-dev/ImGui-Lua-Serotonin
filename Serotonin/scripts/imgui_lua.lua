@@ -2045,3 +2045,4 @@ function ImGui.EndTabBar()
             dr_rect_filled(2, rx, tb.y, btn_w, tb.tab_h, rc, Style.TabRounding)
             dr_text(2, ">", rx + btn_w * 0.5 - 3, tb.y + 4, StyleColor(Col.Text))
 
+            local step = 80
