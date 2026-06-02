@@ -574,3 +574,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     DesirePro.icon_gradient(2, cx, cy - st.toff, tab.icon, st.isz, st.ia)
 
     local lab = tab_label(tab)
+    local lcol, la
