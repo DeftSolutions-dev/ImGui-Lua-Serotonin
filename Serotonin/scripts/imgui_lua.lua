@@ -3157,3 +3157,4 @@ function ImGui.TableSetupColumn(label, flags)
 end
 
 function ImGui.TableHeadersRow()
+    local win = g.current_window; if not win then return end
