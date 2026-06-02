@@ -821,3 +821,4 @@ function DesirePro.checkbox(ctx, label)
     if hovered and clicked() then v = not v; DesirePro.vars[id] = v; DesirePro.spawn_particles(x + box / 2, y + box / 2, 16) end
 
     s.check = DesirePro.ease_toggle(s, "checkE", v, 30)
+    s.hovg = DesirePro.anim(s.hovg or 0, (hovered and v) and 1 or 0, 20)
