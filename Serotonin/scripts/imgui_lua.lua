@@ -3002,3 +3002,4 @@ function ImGui.PopStyleVar(n)
     end
 end
 
+local function vec_widget(label, v, n, draw_fn, ...)
