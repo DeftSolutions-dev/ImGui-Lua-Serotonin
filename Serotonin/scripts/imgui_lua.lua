@@ -1561,3 +1561,4 @@ end
 function ImGui.SliderFloat(label, v, vmin, vmax, fmt, flags) return slider_internal(label, v, vmin, vmax, fmt or "%.3f", false, flags) end
 function ImGui.SliderInt(label, v, vmin, vmax, fmt, flags)   return slider_internal(label, v, vmin, vmax, fmt or "%d",  true,  flags) end
 
+local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
