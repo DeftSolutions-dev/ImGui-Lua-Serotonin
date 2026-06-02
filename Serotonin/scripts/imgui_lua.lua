@@ -60,3 +60,4 @@ local function clip_line_cs(x1, y1, x2, y2, c)
     local k1, k2 = code(x1, y1), code(x2, y2)
     for _ = 1, 8 do
         if bit.band(k1, k2) ~= 0 then return nil end
+        if k1 == 0 and k2 == 0 then return x1, y1, x2, y2 end
