@@ -507,3 +507,4 @@ function DesirePro.text_in(layer, x, box_top, box_h, str, font_key, color, alpha
     local top = box_top + (box_h + cap) / 2 - asc
     return DesirePro.text(layer, x, floor(top + 0.5), str, font_key, color, alpha)
 end
+
