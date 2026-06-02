@@ -2862,3 +2862,4 @@ do
         "Shift", "Control", "Alt", "Space", "Tab", "CapsLock",
         "Insert", "Delete", "Home", "End", "PageUp", "PageDown",
         "MouseLeft", "MouseRight", "Mouse4", "Mouse5",
+    }
