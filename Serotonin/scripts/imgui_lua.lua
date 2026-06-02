@@ -2257,3 +2257,4 @@ function ImGui.InputText(label, value, callback)
     local active = (g.active_id == id)
     if active then g._input_text_was_active = true end
 
+    if active then
