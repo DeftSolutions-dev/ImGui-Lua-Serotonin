@@ -2866,3 +2866,4 @@ do
     for _, k in ipairs(extras) do insert(HOTKEY_PROBE_NAMES, k) end
 end
 
+function ImGui.Hotkey(label, key)
