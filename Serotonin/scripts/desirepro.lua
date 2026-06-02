@@ -1595,3 +1595,4 @@ function DesirePro.page(idx, px, py, ph)
         end
         DesirePro.end_card(c)
         ry = ry + c.total + GAP
+
