@@ -807,3 +807,4 @@ end
 function ImGui.IsMouseDown()       return g.mouse_left_down end
 function ImGui.IsMouseClicked()    return g.mouse_left_clicked end
 function ImGui.IsMouseReleased()   return g.mouse_left_released end
+function ImGui.IsMouseRightClicked() return g.mouse_right_clicked end
