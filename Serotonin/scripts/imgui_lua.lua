@@ -1959,3 +1959,4 @@ function ImGui.BeginTabItem(label, p_open)
             local right_lbl = tb.label_order[pos + 1]
 
             if left_lbl and g.mouse_x < x - (tb.tab_widths[left_lbl] or 80) * 0.5 then
+                tb.label_order[pos], tb.label_order[pos - 1] =
