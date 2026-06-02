@@ -3178,3 +3178,4 @@ function ImGui.TableHeader(label)
     local id = GetID("th:" .. label)
     local th = Style.FontHeight
     local h  = th + Style.FramePadding.y * 2
+    local cw = t.col_widths[t.cur_col + 1]
