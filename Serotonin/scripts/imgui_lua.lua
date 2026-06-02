@@ -1221,3 +1221,4 @@ function ImGui.Separator()
     local w = win._content_x1 - x
     dr_line(2, x, y, x + w, y, StyleColor(Col.Separator), 1)
     ItemSize(w, 4)
+end
