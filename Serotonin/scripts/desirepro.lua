@@ -86,3 +86,4 @@ local function load_tex(rel)
     tex_cache[rel] = id
     return id
 end
+DesirePro.load_tex = load_tex
