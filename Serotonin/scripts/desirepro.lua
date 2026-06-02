@@ -1081,3 +1081,4 @@ function DesirePro.multicombo(ctx, label, items)
             local iw = DesirePro.text_size(DesirePro.translate(it), "poppins_medium_16") + 56
             if iw > maxw then maxw = iw end
         end
+        popup = { kind = "multicombo", varid = id, items = items, t = s.open,
