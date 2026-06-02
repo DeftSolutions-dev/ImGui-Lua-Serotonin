@@ -2266,3 +2266,4 @@ function ImGui.InputText(label, value, callback)
             end
         end
         for _, ch in ipairs(typed) do
+            if ch == "\b" then
