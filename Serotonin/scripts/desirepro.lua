@@ -1505,3 +1505,4 @@ function DesirePro.esp_preview(ctx)
         it._lx, it._w = lx, w
         if not drag and point_in_rect(mx, my, lx - 2, it.sy - 1, w + 4, LH + 2) then
             if clicked() then
+                DesirePro._esp_drag, drag = it.name, it.name
