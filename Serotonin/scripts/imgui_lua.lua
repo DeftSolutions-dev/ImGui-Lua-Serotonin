@@ -4571,3 +4571,4 @@ local function clip_text_chars(s, max_w, font)
 end
 
 local function flush_layer(layer)
+    for i = 1, #layer do
