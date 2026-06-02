@@ -3218,3 +3218,4 @@ function ImGui.TableHeader(label)
         if sp.col == t.cur_col then my_idx = i; break end
     end
     if my_idx then
+        local sp = t.sort_specs[my_idx]
