@@ -958,3 +958,4 @@ function DesirePro.button(ctx, label, h)
     local mx, my = mouse_pos()
     local hovered = point_in_rect(mx, my, x, y, w, h)
     local pressed = hovered and clicked()
+    if pressed then DesirePro.spawn_particles(x + w / 2, y + h / 2, 22) end
