@@ -357,3 +357,4 @@ function DesirePro.grad_rrect(layer, x, y, w, h, r, c1, c2)
     ImGui.AddRectFilled(layer, x, y, 2 * r, 2 * r, c1, r)
     ImGui.AddRectFilled(layer, x + w - 2 * r, y, 2 * r, 2 * r, c2, r)
     if h > 2 * r then
+        ImGui.AddRectFilled(layer, x, y + h - 2 * r, 2 * r, 2 * r, c1, r)
