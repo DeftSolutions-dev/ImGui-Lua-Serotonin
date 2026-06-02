@@ -4040,3 +4040,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
             else
                 ImGui.Text(tostring(line))
             end
+        end
