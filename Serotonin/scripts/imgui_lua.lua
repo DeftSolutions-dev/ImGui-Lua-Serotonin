@@ -4292,3 +4292,4 @@ function ImGui.Splitter(is_vertical, thickness, size1, size2, min1, min2)
     if is_vertical then w, h = thickness, win._content_y1 - y
     else                w, h = win._content_x1 - x, thickness end
     local hovered = ItemHoverable(x, y, w, h, id)
+    if hovered and g.mouse_left_clicked then
