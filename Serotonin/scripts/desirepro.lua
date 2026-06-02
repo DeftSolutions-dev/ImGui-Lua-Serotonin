@@ -377,3 +377,4 @@ function DesirePro.ease_toggle(st, key, on, speed)
     if type(rec) ~= "table" then rec = { t = 1, on = on }; st[key] = rec end
     if rec.on ~= on then rec.on = on; rec.t = 0 end
     rec.t = rec.t + 0.1 * delta_time() * (speed or 12)
+    if rec.t > 1 then rec.t = 1 end
