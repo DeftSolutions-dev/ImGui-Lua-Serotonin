@@ -2236,3 +2236,4 @@ local function poll_typed_chars()
     return out, ok_shift and shift or false, paste
 end
 
+function ImGui.InputText(label, value, callback)
