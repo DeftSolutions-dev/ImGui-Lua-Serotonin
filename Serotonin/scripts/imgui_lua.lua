@@ -1418,3 +1418,4 @@ function ImGui.Checkbox(label, value)
     if g.nav_id == id and g.nav_activate then pressed = true end
     if pressed then value = not value end
     if visible then
+
