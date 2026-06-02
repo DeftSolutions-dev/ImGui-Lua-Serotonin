@@ -731,3 +731,4 @@ function DesirePro.appear(id, center_y)
         s.alpha = 0
         s.timer = 0
     end
+    s.timer = s.timer + delta_time()
