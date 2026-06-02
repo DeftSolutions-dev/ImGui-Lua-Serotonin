@@ -1528,3 +1528,4 @@ function DesirePro.esp_preview(ctx)
                 if layout[i].name == drag then moved = table.remove(layout, i) end
             end
             if moved then
+                moved.group = tg
