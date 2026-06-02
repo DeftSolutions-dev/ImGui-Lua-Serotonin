@@ -131,3 +131,4 @@ local function rgb_to_hsv(r, g, b)
         if mx == r then h = ((g - b) / d) % 6
         elseif mx == g then h = (b - r) / d + 2
         else h = (r - g) / d + 4 end
+        h = h / 6
