@@ -3446,3 +3446,4 @@ local function close_popup_window()
     while #g.id_stack > win._id_stack_save do remove(g.id_stack) end
     remove(g.window_stack)
     g.current_window = g.window_stack[#g.window_stack]
+    if #g.draw_layer_stack > 0 then remove(g.draw_layer_stack) end
