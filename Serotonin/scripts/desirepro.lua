@@ -443,3 +443,4 @@ function DesirePro.update_notifications()
             local w, h = 280, 58
             local nx = sw - w - 22 + n.x * (w + 44)
             DesirePro.shadow_rect(3, nx, y, w, h, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.5, 18)
+            ImGui.AddRectFilled(3, nx, y, w, h, DesirePro.with_alpha(DesirePro.col.bg, 0.97), 8)
