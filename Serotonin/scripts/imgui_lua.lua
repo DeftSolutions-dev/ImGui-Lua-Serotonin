@@ -318,3 +318,4 @@ g = {
 
     user_setup_fn     = nil,
 
+    registered        = false,
