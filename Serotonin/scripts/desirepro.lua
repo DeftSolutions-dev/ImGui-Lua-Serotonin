@@ -1641,3 +1641,4 @@ function DesirePro.page(idx, px, py, ph)
         if c2.on then
             DesirePro.esp_preview(c2)
         end
+        DesirePro.end_card(c2)
