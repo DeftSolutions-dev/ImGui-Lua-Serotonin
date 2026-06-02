@@ -4469,3 +4469,4 @@ function ImGui.ShowStyleEditor()
             local function f(name, mn, mx, fmt)
                 ImGui.Style[name] = ImGui.SliderFloat(name, ImGui.Style[name] or 0, mn, mx, fmt or "%.0f")
             end
+            local function v(name, mn, mx)
