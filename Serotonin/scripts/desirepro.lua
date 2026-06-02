@@ -148,3 +148,4 @@ function DesirePro.font_height(font_key)
 end
 
 DesirePro.ICON = {
+    KEYBOARD_FILL = 0xEED9, KEYBOARD_LINE = 0xEEDA, DOWN_FILL = 0xEC6B,
