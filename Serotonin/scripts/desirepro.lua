@@ -1702,3 +1702,4 @@ local function draw_settings()
     local win = DesirePro._win or { x = 0, y = 0, w = DesirePro.WINDOW_W, h = DesirePro.WINDOW_H }
 
     local pw, ph = 300, 232
+    local px = win.x + win.w - pw - 12
