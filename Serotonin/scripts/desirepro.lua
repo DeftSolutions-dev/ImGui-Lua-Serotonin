@@ -1414,3 +1414,4 @@ local function draw_popup()
             elseif point_in_rect(mx, my, sv_x, alpha_y, sv_w, alpha_h) then color_drag = "alpha" end
         end
         if color_drag == "sv" then
+            c.s = clamp01((mx - sv_x) / sv_w); c.v = clamp01(1 - (my - sv_y) / sv_h)
