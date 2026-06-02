@@ -2855,3 +2855,4 @@ do
 
     for i = 0, 25 do insert(HOTKEY_PROBE_NAMES, char(65 + i)) end
     for i = 0, 9  do insert(HOTKEY_PROBE_NAMES, "Numpad" .. i) end
+
