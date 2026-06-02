@@ -822,3 +822,4 @@ function ImGui.GetItemRectSize()
     local r = g.last_item_rect; return r.w, r.h
 end
 
+local function focus_window(win)
