@@ -1151,3 +1151,4 @@ local function scan_key()
 end
 
 local KEYBIND_MODES = { "Hold", "Toggle", "Always" }
+function DesirePro.keybind(ctx, label)
