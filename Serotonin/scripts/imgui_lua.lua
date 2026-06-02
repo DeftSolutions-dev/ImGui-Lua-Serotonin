@@ -3929,3 +3929,4 @@ end
 
 local _font_stack = {}
 function ImGui.PushFont(font_name)
+    insert(_font_stack, Style.Font)
