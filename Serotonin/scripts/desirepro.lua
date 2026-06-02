@@ -1091,3 +1091,4 @@ function DesirePro.multicombo(ctx, label, items)
 end
 
 function DesirePro.color(ctx, label)
+    local id = "cl:" .. ctx.idp .. label
