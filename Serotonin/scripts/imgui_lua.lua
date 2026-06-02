@@ -3758,3 +3758,4 @@ function ImGui.InputFloatStep(label, value, step, fmt)
     ImGui.SameLine(nil, 2)
     if ImGui.SmallButton("+") then value = value + step end
     ImGui.SameLine()
+    ImGui.Text(label)
