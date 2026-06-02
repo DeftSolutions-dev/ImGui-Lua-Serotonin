@@ -446,3 +446,4 @@ local function update_io()
     end
 
     local ok_tk, tk = pcall(keyboard.IsPressed, g.toggle_key)
+    tk = ok_tk and tk or false
