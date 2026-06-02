@@ -284,3 +284,4 @@ g = {
     clip_stack        = {},
 
     popup_active      = false,
+    popup_rect        = nil,
