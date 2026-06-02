@@ -1311,3 +1311,4 @@ function ImGui.TextWrapped(text)
         local trial = (cur == "") and word or (cur .. " " .. word)
         local tw = text_size(trial, font)
         if tw > total_w and cur ~= "" then
+            insert(lines, cur); cur = word
