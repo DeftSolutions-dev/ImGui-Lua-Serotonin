@@ -3945,3 +3945,4 @@ function ImGui.InputTextWithHint(label, hint, value)
         if r and hint then
             dr_text(2, tostring(hint), r.x + 4,
                     r.y + (r.h - Style.FontHeight) * 0.5,
+                    StyleColor(Col.TextDisabled))
