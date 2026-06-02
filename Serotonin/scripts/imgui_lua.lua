@@ -165,3 +165,4 @@ for i, n in ipairs(C_NAMES) do Col[n] = i end
 ImGui.Col = Col
 
 local function default_dark_theme()
+    local t = {}
