@@ -216,3 +216,4 @@ function DesirePro.preload_font(font_key)
     for _, g in pairs(fm.glyphs) do
         if g.f and load_tex(dir .. g.f) then n = n + 1 end
     end
+    return n
