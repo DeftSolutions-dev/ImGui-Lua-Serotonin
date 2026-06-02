@@ -1917,3 +1917,4 @@ function ImGui.BeginTabItem(label, p_open)
         if not pos then insert(tb.label_order, label); pos = #tb.label_order end
         local computed_x = tb.x - (tb.scroll or 0)
         for i = 1, pos - 1 do
+            computed_x = computed_x + (tb.tab_widths[tb.label_order[i]] or 80) + 2
