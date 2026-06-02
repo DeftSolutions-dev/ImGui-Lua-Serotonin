@@ -1526,3 +1526,4 @@ function DesirePro.esp_preview(ctx)
             local moved
             for i = #layout, 1, -1 do
                 if layout[i].name == drag then moved = table.remove(layout, i) end
+            end
