@@ -119,3 +119,4 @@ function DesirePro.text(layer, x, y, str, font_key, color, alpha)
         if g then
             if g.f then
                 local tex = load_tex(dir .. g.f)
+                if tex then
