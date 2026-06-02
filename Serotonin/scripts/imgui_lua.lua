@@ -2683,3 +2683,4 @@ end
 function ImGui.SetWindowSize(w_, h_)
     local w = g.current_window; if not w then return end
     w.w = max(Style.WindowMinSize.x, w_)
+    w.h = max(Style.WindowMinSize.y, h_)
