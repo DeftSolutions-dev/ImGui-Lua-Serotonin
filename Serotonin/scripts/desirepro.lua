@@ -45,3 +45,4 @@ end
 
 local LOCALE = {}
 do
+    local ok, src = pcall(file.read, "desirepro/localization.lua")
