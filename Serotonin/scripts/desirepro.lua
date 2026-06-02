@@ -54,3 +54,4 @@ do
         end
     end
 end
+DesirePro.lang = 0
