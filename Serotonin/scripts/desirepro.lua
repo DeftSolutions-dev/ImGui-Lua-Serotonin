@@ -776,3 +776,4 @@ function DesirePro.begin_card(name, x, y, w, body_h, icon)
 
     local ptex = load_tex(ROOT .. "/img/grad_pill.png")
     if ptex then
+        ImGui.AddImage(2, pill_l, pill_t, pw, ph, ptex, ImGui.ColF(0.13, 0.13, 0.15, 1), 1)
