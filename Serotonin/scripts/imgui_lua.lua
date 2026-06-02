@@ -4427,3 +4427,4 @@ function ImGui.BeginDragDropSource(flags)
     g.dragdrop_active = true
     g.dragdrop_source_id = g.last_item_id
 
+    ImGui.BeginTooltip()
