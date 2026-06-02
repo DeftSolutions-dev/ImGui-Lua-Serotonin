@@ -4244,3 +4244,4 @@ end
 function ImGui.InputTextMultiline(label, value, w, h)
     local win = g.current_window; if not win then return value end
     w = w or (win._content_x1 - win.cursor_x)
+    h = h or 80
