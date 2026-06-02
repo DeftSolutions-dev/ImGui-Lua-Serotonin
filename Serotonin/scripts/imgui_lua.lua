@@ -3895,3 +3895,4 @@ function ImGui.OpenPopupOnItemClick(str_id, button)
     if not g.last_item_id or not r then return false end
     if not point_in_rect(g.mouse_x, g.mouse_y, r.x, r.y, r.w, r.h) then return false end
     if button == 1 and g.mouse_right_clicked then
+        ImGui.OpenPopup(str_id); return true
