@@ -1069,3 +1069,4 @@ function DesirePro.multicombo(ctx, label, items)
     ImGui.PopClipRect()
     local acx, acy = box_max - 14, y + h / 2
     local ang = s.roll * 3.14159
+    local lx1, ly1 = rotate_point(acx, acy, acx - 4, acy - 2, ang)
