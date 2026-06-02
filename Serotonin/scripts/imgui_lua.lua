@@ -2076,3 +2076,4 @@ function ImGui.TreeNodeEx(label, flags)
     local total_w = (flags.framed or flags.span_full) and (win._content_x1 - x) or (16 + tw + 4)
 
     local hov = ItemHoverable(x, y, total_w, h, id)
+    local pressed = hov and g.mouse_left_clicked
