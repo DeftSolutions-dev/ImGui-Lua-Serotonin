@@ -500,3 +500,4 @@ function DesirePro.text_centered(layer, cx, y, str, font_key, color, alpha)
     return DesirePro.text(layer, floor(cx - w / 2 + 0.5), y, str, font_key, color, alpha)
 end
 
+function DesirePro.text_in(layer, x, box_top, box_h, str, font_key, color, alpha)
