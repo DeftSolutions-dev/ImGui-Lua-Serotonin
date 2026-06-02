@@ -2722,3 +2722,4 @@ end
 function ImGui.SetNextItemWidth(w) _next_item_width = w end
 local function get_item_width(default_w)
     if _next_item_width ~= nil then
+        local w = _next_item_width; _next_item_width = nil; return w
