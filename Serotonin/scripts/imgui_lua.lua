@@ -3023,3 +3023,4 @@ function ImGui.DragFloat2(label, v, speed, mn, mx, fmt) return vec_widget(label,
 function ImGui.DragFloat3(label, v, speed, mn, mx, fmt) return vec_widget(label, v, 3, ImGui.DragFloat,  speed, mn, mx, fmt) end
 function ImGui.DragFloat4(label, v, speed, mn, mx, fmt) return vec_widget(label, v, 4, ImGui.DragFloat,  speed, mn, mx, fmt) end
 function ImGui.DragInt2  (label, v, speed, mn, mx, fmt) return vec_widget(label, v, 2, ImGui.DragInt,    speed, mn, mx, fmt) end
+function ImGui.DragInt3  (label, v, speed, mn, mx, fmt) return vec_widget(label, v, 3, ImGui.DragInt,    speed, mn, mx, fmt) end
