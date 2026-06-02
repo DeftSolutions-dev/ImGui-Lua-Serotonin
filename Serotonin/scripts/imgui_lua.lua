@@ -2936,3 +2936,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     if not me then return false end
 
     local sw, sh = draw.GetScreenSize()
+    insert(g.draw_layers[4], {
