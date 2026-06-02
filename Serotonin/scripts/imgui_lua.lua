@@ -2308,3 +2308,4 @@ function ImGui.InputText(label, value, callback)
     dr_rect_filled(2, x, y, input_w, frame_h, bg, Style.FrameRounding)
     local display = value or ""
     if active and (g.frame_count % 60) < 30 then display = display .. "|" end
+    dr_text(2, display, x + 4, y + (frame_h - th) * 0.5, StyleColor(Col.Text))
