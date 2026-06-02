@@ -179,3 +179,4 @@ function DesirePro.icon_size(key, size)
     if not im then return 0, 0 end
     local cp = type(key) == "number" and key or DesirePro.ICON[key]
     local g = cp and im.glyphs[cp]
+    if not g then return 0, 0 end
