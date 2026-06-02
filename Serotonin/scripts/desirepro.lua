@@ -719,3 +719,4 @@ function DesirePro.appear(id, center_y)
     local restart = false
     if not s then
         s = { off = 0, alpha = 1, timer = 0, seen = fc }
+        appear_state[id] = s
