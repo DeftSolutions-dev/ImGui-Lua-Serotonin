@@ -3208,3 +3208,4 @@ function ImGui.TableHeader(label)
         t.sort_col = t.sort_specs[1] and t.sort_specs[1].col or -1
         t.sort_dir = t.sort_specs[1] and t.sort_specs[1].dir or 1
     end
+    local bg = StyleColor(Col.TableHeaderBg)
