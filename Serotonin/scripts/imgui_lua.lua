@@ -4190,3 +4190,4 @@ function ImGui.DragFloatRange2(label, vmin_cur, vmax_cur, speed, lo, hi, fmt)
     local tw_lbl = text_size(label)
     local each_w = (total_w - (tw_lbl > 0 and (tw_lbl + Style.ItemInnerSpacing.x) or 0) - Style.ItemInnerSpacing.x) * 0.5
     ImGui.SetNextItemWidth(each_w)
+    vmin_cur = ImGui.DragFloat("##min", vmin_cur, speed or 1, lo, vmax_cur, fmt or "%.3f")
