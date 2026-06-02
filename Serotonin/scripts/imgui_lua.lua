@@ -4637,3 +4637,4 @@ local function flush_layer(layer)
 
                     if c.x + tw > clip.x + clip.w then
                         s = clip_text_chars(s, (clip.x + clip.w) - c.x, c.font)
+                    end
