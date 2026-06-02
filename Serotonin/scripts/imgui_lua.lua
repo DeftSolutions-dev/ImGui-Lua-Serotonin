@@ -4760,3 +4760,4 @@ function ImGui._OnPaint()
         end
         ImGui.Render()
     end)
+    if not ok then
