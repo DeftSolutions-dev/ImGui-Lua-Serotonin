@@ -989,3 +989,4 @@ function DesirePro.combo(ctx, label, items)
     local x0 = appear_xy(id, ctx, h)
     local y = ctx.cy
     local opened = (open_combo == id)
+    local preview = DesirePro.translate(items[sel + 1] or "?")
