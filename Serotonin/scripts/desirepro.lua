@@ -945,3 +945,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
         ImGui.AddRectFilled(2, floor(sx + i * (lw + sp)), gy + pad, lw, gh - 2 * pad, ImGui.ColF(0, 0, 0, 0.35), 1)
     end
 
+    ctx.cy = ctx.cy + floor(44 * US) + floor(9 * US)
