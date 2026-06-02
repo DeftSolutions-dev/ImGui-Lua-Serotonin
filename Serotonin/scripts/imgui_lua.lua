@@ -3665,3 +3665,4 @@ function ImGui.BeginTooltip()
     a = a + (1 - a) * min(1, dt * 14)
     g.storage[0]._tooltip_alpha = a
     me._alpha = a
+    g._tooltip_was_shown = true
