@@ -4508,3 +4508,4 @@ function ImGui.ShowStyleEditor()
                     c.r, c.g, c.b, c.a = r, g_, b, a
                 end
             end
+            ImGui.EndTabItem()
