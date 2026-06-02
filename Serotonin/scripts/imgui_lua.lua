@@ -746,3 +746,4 @@ local function anim_set(win, id, v)
     g.storage[win.id]["anim_" .. tostring(id)] = v
 end
 
+local function anim_step(win, id, target, speed)
