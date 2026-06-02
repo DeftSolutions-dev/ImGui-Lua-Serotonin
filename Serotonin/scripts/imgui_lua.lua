@@ -2415,3 +2415,4 @@ render_scrollbar = function(win)
             local new_t = clamp((g.mouse_y - sb_y - grab_h * 0.5) / grab_y_range, 0, 1)
             win.scroll_y = new_t * win.scroll_max_y
         else
+            clear_active_id()
