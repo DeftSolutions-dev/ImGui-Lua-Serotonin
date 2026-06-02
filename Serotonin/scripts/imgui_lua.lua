@@ -2334,3 +2334,4 @@ end
 function ImGui.SetTooltip(text)
     local mx, my = g.mouse_x + 14, g.mouse_y + 8
     local tw, th = text_size(text)
+    local pad = 6
