@@ -3630,3 +3630,4 @@ function ImGui.MenuItem(label, shortcut, selected)
         ImGui.CloseCurrentPopup()
     end
     if selected or hovered then
+        local col = hovered and StyleColor(Col.HeaderHovered) or StyleColor(Col.Header)
