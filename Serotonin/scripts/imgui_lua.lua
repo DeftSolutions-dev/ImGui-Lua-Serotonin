@@ -3361,3 +3361,4 @@ open_popup_window = function(me)
 
     insert(g.draw_layer_stack, 4)
 
+    me._clip_rect = { x = me.x, y = me.y, w = 8, h = 8 }
