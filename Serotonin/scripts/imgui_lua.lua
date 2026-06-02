@@ -2789,3 +2789,4 @@ function ImGui.ColorButton(desc_id, col, w, h)
     h = h or (th + Style.FramePadding.y * 2)
     auto_wrap(w)
     local x, y = win.cursor_x, win.cursor_y
+    local pressed, hovered, held = ButtonBehavior(x, y, w, h, id)
