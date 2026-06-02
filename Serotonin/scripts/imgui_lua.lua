@@ -3300,3 +3300,4 @@ function ImGui.OpenPopup(str_id)
         id     = fnv1a("popup:" .. tostring(str_id)),
         x      = g.mouse_x,
         y      = g.mouse_y,
+    }
