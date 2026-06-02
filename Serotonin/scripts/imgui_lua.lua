@@ -2882,3 +2882,4 @@ function ImGui.Hotkey(label, key)
     x, y = win.cursor_x, win.cursor_y
 
     local hovered = ItemHoverable(x, y, hk_w, frame_h, id)
+    if hovered and g.mouse_left_clicked then
