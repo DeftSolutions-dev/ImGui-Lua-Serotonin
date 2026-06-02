@@ -1299,3 +1299,4 @@ function ImGui.TextDisabled(text)
     ImGui.TextColored(StyleColor(Col.TextDisabled), text)
 end
 
+function ImGui.TextWrapped(text)
