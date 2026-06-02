@@ -2038,3 +2038,4 @@ function ImGui.EndTabBar()
             dr_rect_filled(2, pair_x, tb.y, btn_w, tb.tab_h, lc, Style.TabRounding)
             dr_text(2, "<", pair_x + btn_w * 0.5 - 3, tb.y + 4, StyleColor(Col.Text))
 
+            local rid  = fnv1a("tab_right", tb.id)
