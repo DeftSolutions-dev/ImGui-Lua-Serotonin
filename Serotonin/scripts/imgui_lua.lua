@@ -4117,3 +4117,4 @@ function ImGui.DatePicker(label, y, m, d)
                 ImGui.Dummy(cell_w, cell_h)
             else
                 local is_sel = (idx == d)
+                local btn_id = "##d" .. tostring(idx)
