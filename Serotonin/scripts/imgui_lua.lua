@@ -1343,3 +1343,4 @@ function ImGui.BulletText(text)
     local cx = win.cursor_x + 4
     local cy = win.cursor_y + th * 0.5
     dr_circle_filled(2, cx, cy, 2, StyleColor(Col.Text), 6)
+    if ItemAdd(win.cursor_x, win.cursor_y, tw + 12, th) then
