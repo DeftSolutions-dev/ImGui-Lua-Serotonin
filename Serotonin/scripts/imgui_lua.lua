@@ -2166,3 +2166,4 @@ function ImGui.CollapsingHeader(label)
     local w = win._content_x1 - x
     local hov = ItemHoverable(x, y, w, h, id)
     local pressed = hov and g.mouse_left_clicked
+    if pressed then
