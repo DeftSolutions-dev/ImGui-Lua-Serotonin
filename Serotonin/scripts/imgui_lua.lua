@@ -4257,3 +4257,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
         end
         local active = (g.active_id == id)
         if active then
+            local typed, shift, paste = poll_typed_chars()
