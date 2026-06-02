@@ -2718,3 +2718,4 @@ function ImGui.PopItemWidth()
     if win._item_width_stack and #win._item_width_stack > 0 then
         remove(win._item_width_stack)
     end
+end
