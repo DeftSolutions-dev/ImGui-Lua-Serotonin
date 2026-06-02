@@ -1657,3 +1657,4 @@ function ImGui.Combo(label, current_idx, items, flags)
     if ImGui.BeginCombo(label, items[current_idx] or "", flags) then
 
         local visible_rows
+        if flags.height_small then visible_rows = 4
