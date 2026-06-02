@@ -2110,3 +2110,4 @@ function ImGui.TreeNodeEx(label, flags)
     end
 
     dr_text(2, label, x + 22, y + (h - th) * 0.5, StyleColor(Col.Text))
+    record_item(id, x, y, total_w, h, hov, pressed, false)
