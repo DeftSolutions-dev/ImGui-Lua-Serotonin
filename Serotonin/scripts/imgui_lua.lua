@@ -1116,3 +1116,4 @@ function ImGui.End()
 
     if win.flags and win.flags.auto_resize then
         local pad = Style.WindowPadding
+        local title_h = win._title_h or 0
