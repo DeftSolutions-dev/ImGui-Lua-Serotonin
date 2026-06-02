@@ -2126,3 +2126,4 @@ function ImGui.TreeNode(label)
     local x, y = win.cursor_x, win.cursor_y
     local tw, _ = text_size(label)
     local total_w = 16 + tw
+    local hov = ItemHoverable(x, y, total_w, h, id)
