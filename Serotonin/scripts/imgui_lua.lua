@@ -2019,3 +2019,4 @@ function ImGui.EndTabBar()
                 tb.tab_widths[tb.label_order[i]] = nil
                 remove(tb.label_order, i)
             end
+        end
