@@ -318,3 +318,4 @@ function DesirePro.accent_at(y)
     local win = DesirePro._win
     local t = 0.5
     if win and win.h > 0 then
+        t = (y - win.y) / win.h
