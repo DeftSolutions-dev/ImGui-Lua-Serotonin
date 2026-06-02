@@ -1467,3 +1467,4 @@ function DesirePro.esp_preview(ctx)
     local hh = bh * hp
     ImGui.AddRectFilled(2, hbx, by + bh - hh, 4, hh,
         ImGui.RGBA(floor(255 * (1 - hp)), floor(150 + 90 * hp), 70, 255), 2)
+    ImGui.AddRectFilled(2, bx, by + bh + 4, bw, 4, ImGui.RGBA(0, 0, 0, 200), 2)
