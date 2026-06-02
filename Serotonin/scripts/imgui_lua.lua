@@ -2234,3 +2234,4 @@ local function poll_typed_chars()
     end
     g._paste_prev = ok_v and v or false
     return out, ok_shift and shift or false, paste
+end
