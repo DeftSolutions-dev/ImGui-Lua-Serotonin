@@ -912,3 +912,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     end
 
     local frac = (v - vmin) / (vmax - vmin)
+    s.slow = DesirePro.anim(s.slow, frac * tw, 25)
