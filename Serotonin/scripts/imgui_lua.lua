@@ -2525,3 +2525,4 @@ end
 function ImGui.Image(tex_id, w, h, tint)
     local win = g.current_window; if not win then return end
     auto_wrap(w)
+    local x, y = win.cursor_x, win.cursor_y
