@@ -2360,3 +2360,4 @@ local function text_clip(s, max_w, font)
 end
 ImGui.TextClip = text_clip
 
+render_scrollbar = function(win)
