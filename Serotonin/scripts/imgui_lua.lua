@@ -4135,3 +4135,4 @@ function ImGui.FileBrowser(str_id, state)
     state           = state or {}
     state.path      = state.path or ""
     state.selected  = state.selected
+
