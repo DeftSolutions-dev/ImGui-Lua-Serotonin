@@ -2943,3 +2943,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
 
     open_popup_window(me)
 
+    local pad = Style.WindowPadding
