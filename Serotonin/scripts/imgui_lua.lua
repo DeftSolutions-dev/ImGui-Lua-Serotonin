@@ -2096,3 +2096,4 @@ function ImGui.TreeNodeEx(label, flags)
         dr_rect_filled(2, x, y, total_w, h, col, 0)
     end
 
+    local cx = x + 10
