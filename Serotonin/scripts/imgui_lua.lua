@@ -2290,3 +2290,4 @@ function ImGui.InputText(label, value, callback)
             if type(r) == "string" then value = r end
         end
 
+        if callback then
