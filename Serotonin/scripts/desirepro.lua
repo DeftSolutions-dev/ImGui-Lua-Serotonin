@@ -590,3 +590,4 @@ local function draw_tab(i, tab, bx, by, bw, bh)
     local dragging = DesirePro.drag and DesirePro.drag.moved
     local hovered = point_in_rect(mx, my, bx, by, bw, bh) and not dragging
     local selected = (DesirePro.active_tab == i)
+    if hovered and ImGui.IsMouseClicked() and not DesirePro._modal and not DesirePro._input_block then DesirePro.active_tab = i end
