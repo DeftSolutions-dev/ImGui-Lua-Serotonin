@@ -454,3 +454,4 @@ local function update_io()
 
     local function any_pressed(names)
         for _, k in ipairs(names) do
+            local ok, v = pcall(keyboard.IsPressed, k)
