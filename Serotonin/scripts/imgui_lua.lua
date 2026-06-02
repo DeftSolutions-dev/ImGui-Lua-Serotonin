@@ -2209,3 +2209,4 @@ do
     INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Decimal",   emit = "." }
     INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Minus",     emit = "-" }
     INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Subtract",  emit = "-" }
+end
