@@ -1288,3 +1288,4 @@ local function draw_popup()
                 ImGui.AddRectFilled(3, px + 4, iy, pw - 8, ih, DesirePro.with_alpha(DesirePro.col.active, 0.15), 4)
             end
             if seld then
+                ImGui.AddCircleFilled(3, px + 14, iy + ih / 2, 3, DesirePro.col.active, 12)
