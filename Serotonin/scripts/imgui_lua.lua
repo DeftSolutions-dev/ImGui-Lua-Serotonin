@@ -1283,3 +1283,4 @@ function ImGui.Text(text)
         dr_text(2, text, win.cursor_x, win.cursor_y, StyleColor(Col.Text))
     end
     ItemSize(tw, th)
+end
