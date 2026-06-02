@@ -1568,3 +1568,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     local tw_lbl, th = text_size(label)
     local pad = Style.FramePadding
     local frame_h = th + pad.y * 2
+    local total_w = win._content_x1 - win.cursor_x
