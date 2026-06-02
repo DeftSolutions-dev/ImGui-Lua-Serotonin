@@ -1227,3 +1227,4 @@ function ImGui.SeparatorText(text)
     local win = g.current_window; if not win then return end
     local tw, th = text_size(text)
     local x = win.cursor_x
+    local y = win.cursor_y + math.floor(th * 0.5)
