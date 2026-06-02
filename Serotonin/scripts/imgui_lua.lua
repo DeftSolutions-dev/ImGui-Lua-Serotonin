@@ -996,3 +996,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
             win.h = max(Style.WindowMinSize.y, win.h + g.mouse_dy)
         end
 
+        local rid = fnv1a("resize", id)
