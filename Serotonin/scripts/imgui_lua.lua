@@ -1933,3 +1933,4 @@ function ImGui.BeginTabItem(label, p_open)
     if tb.selected == nil then tb.selected = label end
 
     local visible_left  = tb.x
+    local visible_right = tb.x + tb.w - 56
