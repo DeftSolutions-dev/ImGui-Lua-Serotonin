@@ -3213,3 +3213,4 @@ function ImGui.TableHeader(label)
     dr_rect_filled(2, x, y, cw, h, bg, 0)
     dr_text(2, label, x + 4, y + Style.FramePadding.y, StyleColor(Col.Text))
 
+    local my_idx
