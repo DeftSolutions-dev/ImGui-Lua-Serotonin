@@ -2695,3 +2695,4 @@ function ImGui.SetWindowFocus()
     insert(g.windows_z_order, w.id)
 end
 function ImGui.GetFontSize()                 return Style.FontHeight end
+function ImGui.GetFrameHeight()              return Style.FontHeight + Style.FramePadding.y * 2 end
