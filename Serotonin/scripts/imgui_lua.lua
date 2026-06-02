@@ -1769,3 +1769,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
     if pressed and not flags.no_picker then
         if ImGui.IsPopupOpen(popup_str) then
             ImGui.CloseCurrentPopup()
+        else
