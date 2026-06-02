@@ -1753,3 +1753,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
         local s = get_picker_state(id, r, g_, b)
         s.open = not s.open
     end
+    if visible and not flags.no_small_preview then
