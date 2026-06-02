@@ -2974,3 +2974,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
         ImGui.CloseCurrentPopup()
         return false
     end
+
