@@ -697,3 +697,4 @@ local function right_clicked()
     if not ImGui.IsMouseRightClicked() then return false end
     if DesirePro._input_block then return false end
     if DesirePro._modal and not DesirePro._modal_active then return false end
+    return true
