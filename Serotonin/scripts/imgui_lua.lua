@@ -229,3 +229,4 @@ local Style = {
     WindowTitleHeight   = 22,
     FramePadding        = { x = 4,  y = 3  },
     FrameRounding       = 0,
+    FrameBorderSize     = 0,
