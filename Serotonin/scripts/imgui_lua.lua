@@ -4094,3 +4094,4 @@ function ImGui.DatePicker(label, y, m, d)
         m = m + 1
         if m > 12 then m = 1; y = y + 1 end
         if d > days_in_month(y, m) then d = days_in_month(y, m) end
+    end
