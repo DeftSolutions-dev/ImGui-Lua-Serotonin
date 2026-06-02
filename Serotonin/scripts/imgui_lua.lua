@@ -4652,3 +4652,4 @@ local function flush_layer(layer)
                 local cx2, cy2 = clip.x + clip.w, clip.y + clip.h
                 local outL = c.x1 < clip.x and c.x2 < clip.x and c.x3 < clip.x
                 local outR = c.x1 > cx2 and c.x2 > cx2 and c.x3 > cx2
+                local outT = c.y1 < clip.y and c.y2 < clip.y and c.y3 < clip.y
