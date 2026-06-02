@@ -1012,3 +1012,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
         local ok_ctrl, ctrl_held = pcall(keyboard.IsPressed, "Control")
         ctrl_held = ok_ctrl and ctrl_held or false
         if ctrl_held then
+            local cs_id = fnv1a("ctrl_scroll", id)
