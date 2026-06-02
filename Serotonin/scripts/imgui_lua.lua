@@ -1981,3 +1981,4 @@ function ImGui.BeginTabItem(label, p_open)
         local col = (t <= 1) and col_lerp(cA, cB, t) or col_lerp(cB, cC, t - 1)
         dr_rect_filled(2, x, y, tab_w, tab_h, col, Style.TabRounding)
         dr_text(2, label, x + (tab_w - close_w - tw) * 0.5, y + (tab_h - th) * 0.5, StyleColor(Col.Text))
+
