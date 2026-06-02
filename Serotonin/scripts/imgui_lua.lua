@@ -4106,3 +4106,4 @@ function ImGui.DatePicker(label, y, m, d)
         dr_text(2, name, x + (cell_w - text_size(name)) * 0.5, win.cursor_y, StyleColor(Col.TextDisabled))
         ImGui.Dummy(cell_w, cell_h)
     end
+    local first = dow_first(y, m)
