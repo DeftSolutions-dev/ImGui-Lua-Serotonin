@@ -1557,3 +1557,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     ItemSize(slider_w + label_part, frame_h)
     return value, active
 end
+
