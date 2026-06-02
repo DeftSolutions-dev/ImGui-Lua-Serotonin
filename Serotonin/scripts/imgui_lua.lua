@@ -125,3 +125,4 @@ local function rgb_to_hsv(r, g, b)
     local mx = max(r, g, b)
     local mn = min(r, g, b)
     local d = mx - mn
+    local h, s, v = 0, 0, mx
