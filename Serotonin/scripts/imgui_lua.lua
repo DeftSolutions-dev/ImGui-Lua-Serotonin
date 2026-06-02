@@ -312,3 +312,4 @@ g = {
 
     draw_layers       = { {}, {}, {}, {}, {}, {} },
 
+    menu_open         = true,
