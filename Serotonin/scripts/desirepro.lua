@@ -1244,3 +1244,4 @@ function DesirePro.input(ctx, label, placeholder)
     ImGui.AddRectFilled(2, fx, y, fw, h, DesirePro.col.elem, 4)
     ImGui.AddRect(2, fx, y, fw, h, bcol, 1, 4)
 
+    local inner = fw - 20
