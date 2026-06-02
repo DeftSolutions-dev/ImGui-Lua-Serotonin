@@ -629,3 +629,4 @@ local function dr_circle_filled(layer, cx, cy, r, col, segs)
     push_cmd(layer, { kind = "circf", cx = cx, cy = cy, r = r, col = col, segs = segs or 16 })
 end
 
+local function dr_gradient(layer, x, y, w, h, c1, c2, horizontal)
