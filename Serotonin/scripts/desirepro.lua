@@ -43,3 +43,4 @@ do
         (function() local n = 0 for _ in pairs(META.images or {}) do n = n + 1 end return n end)()))
 end
 
+local LOCALE = {}
