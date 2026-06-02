@@ -751,3 +751,4 @@ local function appear_xy(id, ctx, rowh)
     return ctx.x + off, ctx.x1 + off
 end
 
+local CARD_HEADER = floor(55 * DesirePro.US)
