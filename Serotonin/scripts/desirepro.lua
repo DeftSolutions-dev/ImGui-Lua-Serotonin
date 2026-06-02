@@ -287,3 +287,4 @@ DesirePro.col_light = {
     active        = R(88, 116, 245, 255), dark          = R(228, 58, 72, 255),
     second        = R(240, 240, 240, 200), background   = R(250, 250, 250, 180),
     window_bg     = R(255, 255, 255, 180), bg           = R(245, 245, 245, 200),
+    separator     = R(200, 200, 200, 180), anim_default = R(215, 215, 215, 200),
