@@ -4729,3 +4729,4 @@ function ImGui.Render()
         for i = 1, n do sorted[i] = layer[idx[i]] end
         for i = 1, n do layer[i] = sorted[i] end
     end
+    stable_sort_by_z(g.draw_layers[1])
