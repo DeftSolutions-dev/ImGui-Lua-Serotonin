@@ -749,3 +749,4 @@ end
 local function anim_step(win, id, target, speed)
     speed = speed or 12
     local cur = anim_get(win, id)
+    local dt  = g.dt or 0.016
