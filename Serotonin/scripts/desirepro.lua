@@ -103,3 +103,4 @@ local function utf8_iter(s)
             cp = cp * 0x40 + (cc % 0x40)
         end
         i = i + size
+        return cp
