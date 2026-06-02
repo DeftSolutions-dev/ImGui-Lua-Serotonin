@@ -4659,3 +4659,4 @@ local function flush_layer(layer)
                 end
             else
                 draw.TriangleFilled(c.x1, c.y1, c.x2, c.y2, c.x3, c.y3, col, a)
+            end
