@@ -274,3 +274,4 @@ g = {
     last_item_clicked = false,
     last_item_active  = false,
 
+    hovered_id        = nil,
