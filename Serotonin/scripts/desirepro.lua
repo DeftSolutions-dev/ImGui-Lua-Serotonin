@@ -868,3 +868,4 @@ function DesirePro.featurebox(ctx, label, content_fn)
     DesirePro.icon_scaled(2, gx, gy, "SETTINGS_4_FILL", 18, 13 + st.gh * 2, gcol, 1)
     return v
 end
+
