@@ -382,3 +382,4 @@ function DesirePro.ease_toggle(st, key, on, speed)
     return on and e or (1 - e)
 end
 
+local _seed = 2463534242
