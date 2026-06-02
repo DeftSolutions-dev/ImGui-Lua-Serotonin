@@ -2204,3 +2204,4 @@ do
         INPUT_KEYS[#INPUT_KEYS + 1] = { key = 0x60 + i,      emit = tostring(i) }
     end
     INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Space",     emit = " " }
+    INPUT_KEYS[#INPUT_KEYS + 1] = { key = "Backspace", emit = "\b" }
