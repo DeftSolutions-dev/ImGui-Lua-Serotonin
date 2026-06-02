@@ -2896,3 +2896,4 @@ function ImGui.Hotkey(label, key)
             end
         end
 
+        local okbs, bs = pcall(keyboard.IsPressed, "Backspace")
