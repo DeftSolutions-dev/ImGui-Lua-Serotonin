@@ -3783,3 +3783,4 @@ function ImGui.SaveIniSettings(path)
         end
     end
     local ok, err = pcall(file.write, path, table.concat(lines, "\n"))
+    return ok, err
