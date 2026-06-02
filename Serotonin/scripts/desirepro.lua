@@ -885,3 +885,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
     local tw = tmax_x - tmin_x
     local th = tmax_y - tmin_y
     local mid_y = (tmin_y + tmax_y) / 2
+    local step = is_int and 1 or ((vmax - vmin) / 100)
