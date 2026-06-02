@@ -1401,3 +1401,4 @@ local function draw_popup()
                           { 0.33, 0.7, 0.8 }, { 0.5, 0.7, 0.9 }, { 0.6, 0.7, 0.95 }, { 0.83, 0.7, 0.9 } }
         for i, p in ipairs(presets) do
             local bx = sv_x + (i - 1) * 24
+            ImGui.AddRectFilled(3, bx, preset_y, 20, 20, hsv2rgb(p[1], p[2], p[3], 1), 4)
