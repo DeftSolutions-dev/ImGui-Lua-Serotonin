@@ -2930,3 +2930,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
         g.popup_pending_open = nil
     end
     local me
+    for i = 1, #g.popup_stack do
