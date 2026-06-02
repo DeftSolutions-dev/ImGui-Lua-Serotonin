@@ -1042,3 +1042,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
         local ax, ay = win.x + 8, win.y + title_h * 0.5
         local arrow_col = StyleColor(Col.Text)
+        if win.collapsed then
