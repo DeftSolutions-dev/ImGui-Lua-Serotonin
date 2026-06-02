@@ -270,3 +270,4 @@ end
 local R = ImGui.RGBA
 
 DesirePro.col_dark = {
+    active        = R(88, 116, 245, 255), dark          = R(228, 58, 72, 255),
