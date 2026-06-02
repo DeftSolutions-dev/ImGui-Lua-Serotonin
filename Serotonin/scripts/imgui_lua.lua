@@ -4280,3 +4280,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
             ImGui.Text(line)
         end
     end
+    ImGui.EndChild()
