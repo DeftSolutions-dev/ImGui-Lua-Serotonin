@@ -3283,3 +3283,4 @@ function ImGui.EndTable()
     win.cursor_y = t.cur_row_max_y + 2
     win.cursor_x = win.cursor_start_x + win.indent_x
     win._table = nil
+end
