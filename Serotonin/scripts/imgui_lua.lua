@@ -3116,3 +3116,4 @@ function ImGui.TableSetColumnIndex(col)
 end
 
 function ImGui.TableNextColumn()
+    local win = g.current_window; if not win then return false end
