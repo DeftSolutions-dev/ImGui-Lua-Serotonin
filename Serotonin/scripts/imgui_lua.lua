@@ -3133,3 +3133,4 @@ function ImGui.TableSetupColumn(label, flags)
     flags = flags or {}
     t.setups = t.setups or {}
     insert(t.setups, { label = label, flags = flags })
+
