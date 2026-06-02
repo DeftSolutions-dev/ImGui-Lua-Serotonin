@@ -346,3 +346,4 @@ function DesirePro.pill(layer, x, y, w, h, col)
     ImGui.AddRectFilled(layer, x, y, w, h, col, r)
 end
 
+function DesirePro.rrect(layer, x, y, w, h, r, col)
