@@ -2161,3 +2161,4 @@ function ImGui.CollapsingHeader(label)
     local key = "header_" .. tostring(id)
     local open = store_get(win, key, false)
     local th = Style.FontHeight
+    local h = th + Style.FramePadding.y * 2
