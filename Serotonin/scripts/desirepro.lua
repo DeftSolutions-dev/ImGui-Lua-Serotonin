@@ -1686,3 +1686,4 @@ local function draw_feature()
     if feat and t > 0.85 and clicked()
         and not point_in_rect(mx, my, px, py, pw, ph)
         and not in_popup(mx, my) then
+        DesirePro._feature = nil
