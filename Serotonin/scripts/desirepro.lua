@@ -1172,3 +1172,4 @@ function DesirePro.keybind(ctx, label)
 
     st.bga = DesirePro.anim(st.bga, (st.waiting or hovered) and 1 or 0, 5)
     DesirePro.shadow_rect(2, px, py, pw, ph, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.3, 6)
+    local bg = st.waiting and col_lerp_rgb(DesirePro.col.anim_default, DesirePro.col.active, 0.35) or DesirePro.col.anim_default
