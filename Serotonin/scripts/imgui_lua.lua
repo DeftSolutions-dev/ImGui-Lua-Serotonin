@@ -1149,3 +1149,4 @@ local function ItemSize(w, h)
     win.cursor_max_y = max(win.cursor_max_y, win.cursor_y + win.line_h)
     win.prev_line_h  = win.line_h
     win.cursor_x = win.cursor_start_x + win.indent_x
+    win.cursor_y = win.cursor_y + win.line_h + Style.ItemSpacing.y
