@@ -863,3 +863,4 @@ function DesirePro.featurebox(ctx, label, content_fn)
             DesirePro._feature = { id = id, content = content_fn, ax = ctx.x1, ay = row_y, idp = id }
         end
     end
+    st.gh = DesirePro.anim(st.gh, (hov or opened) and 1 or 0, 12)
