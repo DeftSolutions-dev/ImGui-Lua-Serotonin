@@ -1408,3 +1408,4 @@ local function draw_popup()
             end
         end
 
+        if rc then
