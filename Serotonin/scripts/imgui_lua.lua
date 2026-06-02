@@ -3020,3 +3020,4 @@ local function vec_widget(label, v, n, draw_fn, ...)
     return v
 end
 function ImGui.DragFloat2(label, v, speed, mn, mx, fmt) return vec_widget(label, v, 2, ImGui.DragFloat,  speed, mn, mx, fmt) end
+function ImGui.DragFloat3(label, v, speed, mn, mx, fmt) return vec_widget(label, v, 3, ImGui.DragFloat,  speed, mn, mx, fmt) end
