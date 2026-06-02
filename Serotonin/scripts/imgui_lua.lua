@@ -3457,3 +3457,4 @@ end
 
 function ImGui.BeginPopupContextItem(str_id)
     str_id = str_id or "##itemcontext"
+    local r = g.last_item_rect
