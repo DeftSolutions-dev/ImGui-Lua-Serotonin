@@ -791,3 +791,4 @@ end
 function ImGui.IsWindowFocused()
     local win = g.current_window; if not win then return false end
     local last = g.windows_z_order[#g.windows_z_order]
+    return last == win.id
