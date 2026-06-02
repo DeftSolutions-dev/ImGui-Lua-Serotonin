@@ -701,3 +701,4 @@ local function right_clicked()
 end
 local function in_popup(mx, my)
     return popup_rect ~= nil and point_in_rect(mx, my, popup_rect.x, popup_rect.y, popup_rect.w, popup_rect.h)
+end
