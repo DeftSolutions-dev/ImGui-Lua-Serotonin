@@ -334,3 +334,4 @@ end
 
 function DesirePro.anim(cur, target, mul)
     if DesirePro.no_anim then return target end
+    return DesirePro.lerp(cur, target, delta_time() * (mul or 12))
