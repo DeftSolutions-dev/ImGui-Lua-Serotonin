@@ -2145,3 +2145,4 @@ function ImGui.TreeNode(label)
     dr_text(2, label, x + 16, y + (h - th) * 0.5, StyleColor(Col.Text))
     record_item(id, x, y, total_w, h, hov, pressed, false)
     ItemSize(total_w, h)
+    if open then
