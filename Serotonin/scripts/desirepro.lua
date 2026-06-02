@@ -1869,3 +1869,4 @@ function DesirePro.menu()
                 local dx, dy = ImGui.GetMouseDelta()
                 DesirePro.box_x = ox + dx
                 DesirePro.box_y = oy + dy
+            else
