@@ -3260,3 +3260,4 @@ function ImGui.EndTable()
             local _, hov, held = ButtonBehavior(edge_x - 2, t.y0, 4, total_h, rid)
             if held then
                 local dx = g.mouse_dx
+                local nw_left  = max(20, t.col_widths[i]     + dx)
