@@ -24,3 +24,4 @@ do
     if ok and type(src) == "string" and #src > 0 then
         local chunk = loadstring(src, "desirepro_metrics")
         if chunk then
+            local ok2, tbl = pcall(chunk)
