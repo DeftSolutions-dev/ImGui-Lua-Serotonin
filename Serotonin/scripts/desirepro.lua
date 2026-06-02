@@ -1245,3 +1245,4 @@ function DesirePro.input(ctx, label, placeholder)
     ImGui.AddRect(2, fx, y, fw, h, bcol, 1, 4)
 
     local inner = fw - 20
+    local tw = DesirePro.text_size(v, "poppins_medium_16")
