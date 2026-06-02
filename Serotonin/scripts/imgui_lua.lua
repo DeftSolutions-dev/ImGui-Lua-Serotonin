@@ -1885,3 +1885,4 @@ function ImGui.BeginTabBar(name, flags)
         selected    = store_get(win, "tabbar_" .. tostring(id), nil),
         first_tab   = nil,
         scroll      = store_get(win, "tabbar_scroll_" .. tostring(id), 0),
+        items_w     = 0,
