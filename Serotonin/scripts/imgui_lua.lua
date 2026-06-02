@@ -1337,3 +1337,4 @@ function ImGui.HelpMarker(text)
 end
 
 function ImGui.BulletText(text)
+    local win = g.current_window; if not win then return end
