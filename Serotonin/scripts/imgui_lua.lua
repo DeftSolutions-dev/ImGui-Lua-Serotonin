@@ -3708,3 +3708,4 @@ function ImGui.BeginTooltip()
 end
 
 function ImGui.EndTooltip()
+    local win = g.current_window
