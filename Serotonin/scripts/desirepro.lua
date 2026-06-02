@@ -600,3 +600,4 @@ local function draw_tab(i, tab, bx, by, bw, bh)
         ImGui.AddRectFilled(2, bx, by, bw, bh, DesirePro.with_alpha(DesirePro.col.active, st.fa), 6)
     end
     DesirePro.icon_gradient(2, bx + 24, by + bh / 2, tab.icon, 22, st.ia)
+    local lcol = selected and DesirePro.col.label_active or (hovered and DesirePro.col.label_hover or DesirePro.col.label)
