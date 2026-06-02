@@ -2241,3 +2241,4 @@ function ImGui.InputText(label, value, callback)
     local id = GetID("inp:" .. label)
     insert(g.focus_list, id)
     local th = Style.FontHeight
+    local pad = Style.FramePadding
