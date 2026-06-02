@@ -543,3 +543,4 @@ ImGui.GetStyleColor = StyleColor
 
 function ImGui.PushStyleColor(idx, col)
     insert(g.color_stack, { idx = idx, col = col })
+end
