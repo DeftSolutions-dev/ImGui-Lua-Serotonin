@@ -3891,3 +3891,4 @@ end
 
 function ImGui.OpenPopupOnItemClick(str_id, button)
     button = button or 1
+    local r = g.last_item_rect
