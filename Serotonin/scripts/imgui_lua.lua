@@ -3078,3 +3078,4 @@ function ImGui.BeginTable(str_id, columns, flags)
     end
     return true
 end
+
