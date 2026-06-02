@@ -1842,3 +1842,4 @@ function DesirePro.menu()
                         if d < bd then bd = d; best = s[1] end
                     end
                     DesirePro.dock = best
+                end
