@@ -1564,3 +1564,4 @@ function DesirePro.esp_preview(ctx)
             DesirePro.text(2, lx, it.sy, disp, FONT, col, 1)
 
             if open_color == cid then
+                local pxp = lx - 100
