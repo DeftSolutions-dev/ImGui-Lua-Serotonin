@@ -2924,3 +2924,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
 
             x    = sw * 0.5 - 100, y = sh * 0.5 - 50,
             w = 0, h = 0,
+            opened_this_frame = true,
