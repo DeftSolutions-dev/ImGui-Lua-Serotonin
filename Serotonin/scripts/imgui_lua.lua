@@ -4141,3 +4141,4 @@ function ImGui.FileBrowser(str_id, state)
     if ImGui.Button("..") and state.path ~= "" then
         state.path = state.path:match("^(.*)/[^/]+$") or ""
     end
+    ImGui.Separator()
