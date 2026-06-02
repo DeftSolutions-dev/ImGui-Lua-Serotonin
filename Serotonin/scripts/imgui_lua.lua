@@ -729,3 +729,4 @@ local function ButtonBehavior(x, y, w, h, id)
         if g.mouse_left_released then
             if hovered then pressed = true end
             clear_active_id()
+        end
