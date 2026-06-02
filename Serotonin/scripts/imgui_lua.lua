@@ -1674,3 +1674,4 @@ function ImGui.Combo(label, current_idx, items, flags)
         end
         if need_scroll then ImGui.EndChild() end
         ImGui.EndCombo()
+    end
