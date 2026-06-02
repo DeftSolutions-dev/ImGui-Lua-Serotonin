@@ -457,3 +457,4 @@ local function update_io()
             local ok, v = pcall(keyboard.IsPressed, k)
             if ok and v then return true end
         end
+        return false
