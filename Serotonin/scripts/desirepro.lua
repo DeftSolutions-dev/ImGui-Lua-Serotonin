@@ -303,3 +303,4 @@ DesirePro.theme = false
 
 function DesirePro.update_theme()
     local src = DesirePro.theme and DesirePro.col_light or DesirePro.col_dark
+    local step = (ImGui.GetDeltaTime() or 0.016) * 12
