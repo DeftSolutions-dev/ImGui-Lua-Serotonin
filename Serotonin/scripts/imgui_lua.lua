@@ -1495,3 +1495,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     local x, y = win.cursor_x, win.cursor_y
 
     local visible = ItemAdd(x, y, slider_w, frame_h)
+    local hovered = (not flags.no_input) and ItemHoverable(x, y, slider_w, frame_h, id) or false
