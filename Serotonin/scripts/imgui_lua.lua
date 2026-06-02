@@ -1860,3 +1860,4 @@ end
 function ImGui.ColorEdit4(label, r, g_, b, a, flags)
     flags = flags or {}
     r, g_, b = ImGui.ColorEdit3(label, r, g_, b, flags)
+    a = ImGui.SliderFloat("##" .. label .. "_alpha", a or 1, 0, 1, "A %.2f")
