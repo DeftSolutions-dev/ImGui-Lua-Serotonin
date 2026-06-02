@@ -24,3 +24,4 @@ DesirePro.preload({
     },
     icon_sizes = { 16, 18, 23, 27, 35 },
     images = { "esp_bg" },
+})
