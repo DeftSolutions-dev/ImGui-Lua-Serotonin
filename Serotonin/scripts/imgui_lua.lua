@@ -1059,3 +1059,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
     local sb_reserve = Style.ScrollbarSize
     win.cursor_start_x = win.x + pad.x
+    win.cursor_start_y = win.y + title_h + pad.y - win.scroll_y
