@@ -4034,3 +4034,4 @@ function ImGui.Console(str_id, state, on_submit, w, h)
     local input_h = ImGui.GetFrameHeight()
 
     if ImGui.BeginChild("cons_log_" .. str_id, w or 0, h - input_h - 6, true) then
+        for _, line in ipairs(state.lines) do
