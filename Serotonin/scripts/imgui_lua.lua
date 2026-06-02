@@ -3102,3 +3102,4 @@ function ImGui.TableNextRow()
     win.cursor_y    = t.row_y + 2
 end
 
+function ImGui.TableSetColumnIndex(col)
