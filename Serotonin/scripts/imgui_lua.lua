@@ -374,3 +374,4 @@ local function update_io()
     if type(pos) == "table" then
         mx = pos[1] or pos.x or 0
         my = pos[2] or pos.y or 0
+    else
