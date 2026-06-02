@@ -2750,3 +2750,4 @@ function ImGui.BeginDisabled(disabled)
     insert(g._disabled_stack, disabled)
 end
 function ImGui.EndDisabled()
+    local s = g._disabled_stack
