@@ -1442,3 +1442,4 @@ function ImGui.Checkbox(label, value)
             local x2 = x + box_sz - pad_in
             local y2 = y + pad_in + 1
             dr_line(2, x0, y0, x1, y1, cm, 2)
+            dr_line(2, x1, y1, x2, y2, cm, 2)
