@@ -1010,3 +1010,4 @@ function DesirePro.combo(ctx, label, items)
     DesirePro.text_in(2, box_min + 10, y, h, preview, "poppins_medium_16", DesirePro.col.label_active, 1)
 
     local acx, acy = box_max - 14, y + h / 2
+    local ang = s.roll * 3.14159
