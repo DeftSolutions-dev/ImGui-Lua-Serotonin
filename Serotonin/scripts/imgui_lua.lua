@@ -1482,3 +1482,4 @@ end
 local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     flags = flags or {}
     local logarithmic = flags.logarithmic and vmin > 0 and vmax > 0
+    if flags.always_clamp then value = clamp(value, vmin, vmax) end
