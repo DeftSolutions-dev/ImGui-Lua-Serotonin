@@ -4754,3 +4754,4 @@ function ImGui._OnPaint()
     _frame_ctr = _frame_ctr + 1
 
     local ok, err = pcall(function()
+        ImGui.NewFrame()
