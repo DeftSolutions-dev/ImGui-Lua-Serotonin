@@ -931,3 +931,4 @@ function DesirePro.slider(ctx, label, vmin, vmax, is_int)
         DesirePro.grad_rrect(2, tmin_x, tmin_y, fw, th, th / 2, DesirePro.col.dark, DesirePro.col.active)
     end
 
+    local grow = s.grab * 3
