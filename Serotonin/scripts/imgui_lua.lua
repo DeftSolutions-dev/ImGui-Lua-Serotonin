@@ -2945,3 +2945,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
 
     local pad = Style.WindowPadding
     local title_h = Style.WindowTitleHeight
+    local last_w = me._last_w or 320
