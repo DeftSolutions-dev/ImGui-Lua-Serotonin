@@ -2046,3 +2046,4 @@ function ImGui.EndTabBar()
             dr_text(2, ">", rx + btn_w * 0.5 - 3, tb.y + 4, StyleColor(Col.Text))
 
             local step = 80
+            local max_scroll = max(0, tb.items_w - tb.w + btn_w * 2 + 8)
