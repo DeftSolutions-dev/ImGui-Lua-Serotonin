@@ -2345,3 +2345,4 @@ local function text_clip(s, max_w, font)
     local w, _ = text_size(s, font)
     if w <= max_w then return s end
 
+    local ell = "..."
