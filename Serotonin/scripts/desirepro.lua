@@ -1543,3 +1543,4 @@ function DesirePro.esp_preview(ctx)
         local tg = DesirePro._esp_target
         local hx, hy, hw2, hh2
         if tg == "left" then hx, hy, hw2, hh2 = bx - 84, by, 80, bh
+        elseif tg == "right" then hx, hy, hw2, hh2 = bx + bw + 4, by, 80, bh
