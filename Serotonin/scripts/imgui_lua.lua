@@ -3405,3 +3405,4 @@ local function close_popup_window()
     local pad = Style.WindowPadding
 
     local final_w = (win.cursor_max_x - me.x) + pad.x
+    local final_h = (win.cursor_max_y - me.y) + pad.y
