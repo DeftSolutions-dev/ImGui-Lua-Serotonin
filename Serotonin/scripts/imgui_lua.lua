@@ -1667,3 +1667,4 @@ function ImGui.Combo(label, current_idx, items, flags)
             ImGui.BeginChild("##cmb_scroll_" .. label, 0, visible_rows * row_h, false)
         end
         for i, it in ipairs(items) do
+            if ImGui.Selectable(tostring(it), current_idx == i) then
