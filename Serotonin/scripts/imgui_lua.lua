@@ -877,3 +877,4 @@ local function get_or_create_window(id, title)
 end
 
 local function store_get(win, key, default_v)
+    local s = g.storage[win.id]
