@@ -1497,3 +1497,4 @@ function DesirePro.esp_preview(ctx)
     local drag = DesirePro._esp_drag
 
     for i = #layout, 1, -1 do
+        local it = layout[i]
