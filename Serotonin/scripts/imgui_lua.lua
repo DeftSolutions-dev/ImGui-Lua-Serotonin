@@ -3115,3 +3115,4 @@ function ImGui.TableSetColumnIndex(col)
     win._content_x1 = x + cw - 4
 end
 
+function ImGui.TableNextColumn()
