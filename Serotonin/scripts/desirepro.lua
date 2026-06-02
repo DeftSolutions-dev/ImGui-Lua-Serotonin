@@ -232,3 +232,4 @@ end
 function DesirePro.preload(spec)
     local total = 0
 
+    local fonts = spec and spec.fonts
