@@ -1417,3 +1417,4 @@ function ImGui.Checkbox(label, value)
     local pressed, hovered, held = ButtonBehavior(x, y, total_w, box_sz, id)
     if g.nav_id == id and g.nav_activate then pressed = true end
     if pressed then value = not value end
+    if visible then
