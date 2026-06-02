@@ -329,3 +329,4 @@ local MOUSE_DOWN_CANDIDATES = {
     "VK_LBUTTON", 1, 0x01,
 }
 local MOUSE_RDOWN_CANDIDATES = {
+    "MouseRight", "Mouse2", "MOUSE2", "RightMouse", "RMB", "rmb", "mouse_right",
