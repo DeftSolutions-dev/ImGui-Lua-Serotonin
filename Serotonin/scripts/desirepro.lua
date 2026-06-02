@@ -1763,3 +1763,4 @@ function DesirePro.menu()
     end
 
     local box_w = horiz and mw or (side + mw)
+    local box_h = horiz and (band + mh) or mh
