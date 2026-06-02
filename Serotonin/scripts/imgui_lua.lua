@@ -4574,3 +4574,4 @@ local function flush_layer(layer)
     for i = 1, #layer do
         local c = layer[i]
         local k = c.kind
+        local clip = c.clip
