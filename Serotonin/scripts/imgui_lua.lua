@@ -3303,3 +3303,4 @@ function ImGui.OpenPopup(str_id)
     }
 end
 
+function ImGui.IsPopupOpen(str_id)
