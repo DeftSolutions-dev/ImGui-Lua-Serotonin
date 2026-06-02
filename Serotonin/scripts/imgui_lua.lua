@@ -3954,3 +3954,4 @@ end
 function ImGui.SelectableEx(label, selected, flags, w_override, h_override)
     flags = flags or {}
     if flags.disabled then ImGui.BeginDisabled(true) end
+    local pressed = ImGui.Selectable(label, selected, w_override, h_override)
