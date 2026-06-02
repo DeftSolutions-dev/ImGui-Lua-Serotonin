@@ -1120,3 +1120,4 @@ function ImGui.End()
         win.w = max(Style.WindowMinSize.x,
                     (win.cursor_max_x - win.x) + pad.x + Style.ScrollbarSize)
         win.h = max(Style.WindowMinSize.y,
+                    (win.cursor_max_y - win.y) + pad.y)
