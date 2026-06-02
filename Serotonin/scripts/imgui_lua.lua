@@ -301,3 +301,4 @@ g = {
 
     storage           = {},
 
+    next_window_pos        = nil,
