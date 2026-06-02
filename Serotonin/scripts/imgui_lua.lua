@@ -4689,3 +4689,4 @@ local function flush_layer(layer)
             end
 
         elseif k == "image" then
+            local col, a = to_image_tint(c.col, c.alpha)
