@@ -3869,3 +3869,4 @@ function ImGui.GetMouseDragDelta()
     end
     if g.mouse_left_released then
         g._drag_start_x, g._drag_start_y = nil, nil
+    end
