@@ -752,3 +752,4 @@ local function appear_xy(id, ctx, rowh)
 end
 
 local CARD_HEADER = floor(55 * DesirePro.US)
+function DesirePro.begin_card(name, x, y, w, body_h, icon)
