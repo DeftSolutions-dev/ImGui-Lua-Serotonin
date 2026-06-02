@@ -3166,3 +3166,4 @@ function ImGui.TableHeadersRow()
             ImGui.TableHeader(s.label)
         end
         return
+    end
