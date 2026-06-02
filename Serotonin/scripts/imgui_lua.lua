@@ -3413,3 +3413,4 @@ local function close_popup_window()
     local _dt = g.dt or 0.016
     me._open_anim = me._open_anim + (1 - me._open_anim) * min(1, _dt * 18)
     if me._open_anim > 0.995 then me._open_anim = 1 end
+    local h_anim = final_h * me._open_anim
