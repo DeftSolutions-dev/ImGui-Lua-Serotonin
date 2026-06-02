@@ -1854,3 +1854,4 @@ function DesirePro.menu()
                 ImGui.AddRectFilled(3, g[1], g[2], g[3], g[4], DesirePro.with_alpha(DesirePro.col.active, hg and 0.25 or 0.08), 9)
                 ImGui.AddRect(3, g[1], g[2], g[3], g[4], DesirePro.with_alpha(DesirePro.col.active, 0.5), 1, 9)
             end
+        end
