@@ -1488,3 +1488,4 @@ local function slider_internal(label, value, vmin, vmax, fmt, is_int, flags)
     local id = GetID("sld:" .. label)
     local tw_lbl, th = text_size(label)
     local pad = Style.FramePadding
+    local frame_h = th + pad.y * 2
