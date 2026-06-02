@@ -3881,3 +3881,4 @@ end
 
 function ImGui.IsMouseHoveringRect(x, y, w, h)
     return point_in_rect(g.mouse_x, g.mouse_y, x, y, w, h)
+end
