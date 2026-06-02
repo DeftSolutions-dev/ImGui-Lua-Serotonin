@@ -1063,3 +1063,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win.cursor_x       = win.cursor_start_x
     win.cursor_y       = win.cursor_start_y
     win.cursor_max_x   = win.cursor_start_x
+    win.cursor_max_y   = win.cursor_start_y
