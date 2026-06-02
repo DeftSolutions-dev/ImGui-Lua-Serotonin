@@ -2673,3 +2673,4 @@ function ImGui.GetWindowSize()
     local win = g.current_window; if not win then return 0, 0 end
     return win.w, win.h
 end
+function ImGui.GetWindowWidth()  local w = g.current_window; return w and w.w or 0 end
