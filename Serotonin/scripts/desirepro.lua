@@ -1330,3 +1330,4 @@ local function draw_popup()
             local on = sel[i] == true
             if ih_hover then
                 ImGui.AddRectFilled(3, px + 4, iy, pw - 8, ih, DesirePro.with_alpha(DesirePro.col.active, 0.15), 4)
+            end
