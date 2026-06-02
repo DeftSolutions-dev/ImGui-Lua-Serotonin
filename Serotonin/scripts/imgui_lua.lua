@@ -4250,3 +4250,4 @@ function ImGui.InputTextMultiline(label, value, w, h)
         local th = Style.FontHeight
         local text = tostring(value or "")
 
+        local x, y = win.cursor_x, win.cursor_y
