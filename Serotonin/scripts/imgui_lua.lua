@@ -1231,3 +1231,4 @@ function ImGui.SeparatorText(text)
     local total_w = win._content_x1 - x
     local pad = 6
     local left_w = 8
+    local col = StyleColor(Col.Separator)
