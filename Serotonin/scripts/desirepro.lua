@@ -539,3 +539,4 @@ DesirePro.dock = 0
 local tab_anim = {}
 
 local function tab_label(tab)
+    return DesirePro.translate(tab.name)
