@@ -3863,3 +3863,4 @@ function ImGui.IsMouseDragging(threshold)
 end
 function ImGui.GetMouseDragDelta()
 
+    if g.mouse_left_clicked then
