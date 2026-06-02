@@ -122,3 +122,4 @@ local function hsv_to_rgb(h, s, v)
 end
 
 local function rgb_to_hsv(r, g, b)
+    local mx = max(r, g, b)
