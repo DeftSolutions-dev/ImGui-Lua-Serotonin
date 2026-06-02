@@ -1195,3 +1195,4 @@ function DesirePro.keybind(ctx, label)
                 st.armed = false
             end
         end
+    end
