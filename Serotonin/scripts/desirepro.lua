@@ -123,6 +123,7 @@ local function resolve_font(font_key)
     local nk = "poppins_" .. FONT_WEIGHT_NAME[ni] .. "_" .. size
     if META.fonts[nk] then return nk end
     return font_key
+end
 function DesirePro.text(layer, x, y, str, font_key, color, alpha)
     local fm = META.fonts[font_key]
     if not fm then return 0 end
