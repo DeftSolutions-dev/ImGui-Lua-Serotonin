@@ -1074,3 +1074,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
 
     win._content_y1    = win.y + effective_h - pad.y
     win._inner_x0      = win.x
+    win._inner_y0      = win.y + title_h
