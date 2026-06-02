@@ -4673,3 +4673,4 @@ local function flush_layer(layer)
                 draw.CircleFilled(c.cx, c.cy, c.r, col, c.segs, a)
             end
 
+        elseif k == "grad" then
