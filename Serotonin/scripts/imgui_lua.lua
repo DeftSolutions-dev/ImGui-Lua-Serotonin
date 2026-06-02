@@ -3932,3 +3932,4 @@ function ImGui.PushFont(font_name)
     insert(_font_stack, Style.Font)
     Style.Font = font_name
 end
+function ImGui.PopFont()
