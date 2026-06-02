@@ -1640,3 +1640,4 @@ function ImGui.Selectable(label, selected, w_override, h_override)
     if visible then
         local col
         if selected then col = StyleColor(Col.HeaderActive)
+        elseif held and hovered then col = StyleColor(Col.HeaderActive)
