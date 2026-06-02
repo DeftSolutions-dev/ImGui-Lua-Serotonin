@@ -1670,3 +1670,4 @@ local function draw_feature()
     DesirePro._feature_lasty = feat and feat.ay or DesirePro._feature_lasty
 
     ImGui.SetDrawAlpha(t)
+    DesirePro.shadow_rect(2, px, py, pw, ph, DesirePro.with_alpha(ImGui.RGBA(0, 0, 0, 255), 1), 0.5, 22)
