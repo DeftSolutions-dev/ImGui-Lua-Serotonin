@@ -1051,3 +1051,4 @@ function DesirePro.multicombo(ctx, label, items)
     local minw = floor(110 * DesirePro.US)
     if bw > cap then bw = cap elseif bw < minw then bw = minw end
     local box_min = box_max - bw
+    local mx, my = mouse_pos()
