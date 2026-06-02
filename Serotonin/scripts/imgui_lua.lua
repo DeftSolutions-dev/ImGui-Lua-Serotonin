@@ -1723,3 +1723,4 @@ local function get_picker_state(id, r, g_, b)
     end
 
     local eps = 0.001
+    if abs((s.last_r or -1) - r) > eps
