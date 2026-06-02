@@ -598,3 +598,4 @@ local function draw_tab(i, tab, bx, by, bw, bh)
 
     if st.fa > 0.002 then
         ImGui.AddRectFilled(2, bx, by, bw, bh, DesirePro.with_alpha(DesirePro.col.active, st.fa), 6)
+    end
