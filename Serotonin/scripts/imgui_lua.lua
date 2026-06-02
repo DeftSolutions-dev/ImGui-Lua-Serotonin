@@ -1328,3 +1328,4 @@ function ImGui.TextWrapped(text)
 end
 
 function ImGui.HelpMarker(text)
+    ImGui.TextDisabled("(?)")
