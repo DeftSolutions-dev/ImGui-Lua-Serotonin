@@ -3799,3 +3799,4 @@ function ImGui.LoadIniSettings(path)
                 local title = section:match("^Window:(.+)$")
                 if title then
                     current_title = title
+                    g._pending_window_settings[title] =
