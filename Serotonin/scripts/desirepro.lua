@@ -607,3 +607,4 @@ end
 local function draw_header(mx, my, mw)
 
     DesirePro.icon_gradient(2, mx + 35, my + 30, "TETHER_USDT_FILL", 30, 1)
+
