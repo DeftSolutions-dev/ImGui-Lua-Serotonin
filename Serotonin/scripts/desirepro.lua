@@ -1058,3 +1058,4 @@ function DesirePro.multicombo(ctx, label, items)
         opened = not opened
     end
     s.lab = DesirePro.anim(s.lab, hovered and 1 or 0, 12)
+    s.open = DesirePro.anim(s.open or 0, opened and 1 or 0, 15)
