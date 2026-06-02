@@ -3698,3 +3698,4 @@ function ImGui.BeginTooltip()
         _content_x1 = me.x + 1000,
         _content_y1 = me.y + 1000,
         _inner_x0 = me.x, _inner_y0 = me.y,
+        _inner_x1 = me.x + 1000, _inner_y1 = me.y + 1000,
