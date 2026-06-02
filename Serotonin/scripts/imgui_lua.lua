@@ -2959,3 +2959,4 @@ function ImGui.BeginPopupModal(name, p_open, flags)
     if dheld then
         me.x = me.x + g.mouse_dx
         me.y = me.y + g.mouse_dy
+    end
