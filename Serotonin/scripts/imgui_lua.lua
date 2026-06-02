@@ -3792,3 +3792,4 @@ function ImGui.LoadIniSettings(path)
     if not ok or type(content) ~= "string" then return false end
     g._pending_window_settings = g._pending_window_settings or {}
     local current_title
+    for line in content:gmatch("[^\r\n]+") do
