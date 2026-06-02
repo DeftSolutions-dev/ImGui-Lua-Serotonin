@@ -1022,3 +1022,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     end
 
     local target_ct = win.collapsed and 1 or 0
+    win._collapse_t = win._collapse_t or target_ct
