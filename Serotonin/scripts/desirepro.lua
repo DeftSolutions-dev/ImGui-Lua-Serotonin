@@ -1056,3 +1056,4 @@ function DesirePro.multicombo(ctx, label, items)
     if hovered and clicked() then
         open_combo = opened and nil or id
         opened = not opened
+    end
