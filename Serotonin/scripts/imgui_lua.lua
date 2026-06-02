@@ -4418,3 +4418,4 @@ function ImGui.StyleColorsClassic()
 end
 
 function ImGui.BeginDragDropSource(flags)
+    flags = flags or {}
