@@ -35,3 +35,4 @@ end
 local function current_clip()
     local s = g.clip_stack[#g.clip_stack]
     if s then return s end
+    return { x = -1e9, y = -1e9, w = 2e9, h = 2e9 }
