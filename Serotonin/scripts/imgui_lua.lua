@@ -917,3 +917,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win._has_close = (p_open ~= nil)
 
     win._close_clicked = false
+
