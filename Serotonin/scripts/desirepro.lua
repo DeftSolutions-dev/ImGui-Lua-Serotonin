@@ -859,3 +859,4 @@ function DesirePro.featurebox(ctx, label, content_fn)
     if hov and clicked() then
         if opened then
             DesirePro._feature = nil
+        else
