@@ -156,3 +156,4 @@ local C_NAMES = {
     "CheckMark","SliderGrab","SliderGrabActive","Button","ButtonHovered","ButtonActive",
     "Header","HeaderHovered","HeaderActive","Separator","SeparatorHovered","SeparatorActive",
     "ResizeGrip","ResizeGripHovered","ResizeGripActive","Tab","TabHovered","TabActive",
+    "TabUnfocused","TabUnfocusedActive","PlotLines","PlotLinesHovered","PlotHistogram",
