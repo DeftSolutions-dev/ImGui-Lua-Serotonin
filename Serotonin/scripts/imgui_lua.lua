@@ -2070,3 +2070,4 @@ function ImGui.TreeNodeEx(label, flags)
     if flags.leaf then open = false end
 
     local th = Style.FontHeight
+    local h = th + Style.FramePadding.y * 2
