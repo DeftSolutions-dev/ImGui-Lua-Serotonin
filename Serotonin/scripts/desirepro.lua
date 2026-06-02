@@ -525,3 +525,4 @@ DesirePro.HEADER_H = floor(60 * DesirePro.US)
 
 DesirePro.tabs = {
     { icon = "CAR_FILL",            name = "Car" },
+    { icon = "EYE_2_FILL",          name = "ESP" },
