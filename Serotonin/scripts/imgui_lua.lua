@@ -717,3 +717,4 @@ local function ItemHoverable(x, y, w, h, id)
     return true
 end
 
+local function ButtonBehavior(x, y, w, h, id)
