@@ -915,3 +915,4 @@ function ImGui.Begin(title, opts_or_p_open, maybe_opts)
     win.flags = opts
     win.title = title
     win._has_close = (p_open ~= nil)
+
