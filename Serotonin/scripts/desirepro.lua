@@ -1368,3 +1368,4 @@ local function draw_popup()
         local preset_y = hex_y + 24
         local ph = (preset_y + 20) - py + pad
         popup_rect = { x = px, y = py, w = pw, h = ph }
+
