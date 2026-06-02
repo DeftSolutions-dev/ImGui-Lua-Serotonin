@@ -2522,3 +2522,4 @@ function ImGui.EndChild()
     ItemSize(s.cw, s.ch)
 end
 
+function ImGui.Image(tex_id, w, h, tint)
