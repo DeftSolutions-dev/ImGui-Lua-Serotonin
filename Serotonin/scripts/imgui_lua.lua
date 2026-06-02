@@ -4751,3 +4751,4 @@ function ImGui._OnPaint()
         local sw, sh = draw.GetScreenSize()
         print("[imgui] onPaint fired FIRST TIME. screen=" .. tostring(sw) .. "x" .. tostring(sh))
     end
+    _frame_ctr = _frame_ctr + 1
