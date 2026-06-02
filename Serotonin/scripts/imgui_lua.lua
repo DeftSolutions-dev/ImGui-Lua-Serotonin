@@ -2039,3 +2039,4 @@ function ImGui.EndTabBar()
             dr_text(2, "<", pair_x + btn_w * 0.5 - 3, tb.y + 4, StyleColor(Col.Text))
 
             local rid  = fnv1a("tab_right", tb.id)
+            local rx   = pair_x + btn_w + 4
