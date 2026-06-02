@@ -1745,3 +1745,4 @@ function ImGui.ColorEdit3(label, r, g_, b, flags)
     local id = GetID("col:" .. label)
     local tw_lbl, th = text_size(label)
     local frame_h = th + Style.FramePadding.y * 2
+    local sq_w = (flags.no_small_preview) and 0 or frame_h * 1.6
