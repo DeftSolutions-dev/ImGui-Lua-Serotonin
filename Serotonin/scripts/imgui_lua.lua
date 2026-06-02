@@ -666,3 +666,4 @@ local function text_size(s, font)
 end
 ImGui.CalcTextSize = text_size
 
+set_active_id = function(id, win, rect)
