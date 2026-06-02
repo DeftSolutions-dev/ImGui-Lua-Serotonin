@@ -269,3 +269,4 @@ g = {
 
     id_stack          = {},
     last_item_id      = nil,
+    last_item_rect    = { x = 0, y = 0, w = 0, h = 0 },
