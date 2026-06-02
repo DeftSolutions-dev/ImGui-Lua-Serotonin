@@ -578,3 +578,4 @@ local function draw_square_tab(i, tab, bx, by, bw, bh)
     if selected then lcol, la = DesirePro.col.label_active, 0
     elseif hovered then lcol, la = DesirePro.col.label_hover, 1
     else lcol, la = DesirePro.col.label, 1 end
+    if la > 0 then
