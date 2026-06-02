@@ -1297,3 +1297,4 @@ end
 
 function ImGui.TextDisabled(text)
     ImGui.TextColored(StyleColor(Col.TextDisabled), text)
+end
