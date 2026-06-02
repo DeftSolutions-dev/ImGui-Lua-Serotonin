@@ -1555,3 +1555,4 @@ function DesirePro.esp_preview(ctx)
         local cv = DesirePro.vars[cid]
         local col = cv and hsv2rgb(cv.h, cv.s, cv.v, cv.a) or ImGui.RGBA(255, 255, 255, 255)
         if it.name == drag then
+            local dx, dy = mx - (DesirePro._esp_dx or 0), my - (DesirePro._esp_dy or 0)
