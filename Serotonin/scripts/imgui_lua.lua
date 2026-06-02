@@ -546,3 +546,4 @@ function ImGui.PushStyleColor(idx, col)
 end
 
 function ImGui.PopStyleColor(n)
+    n = n or 1
