@@ -282,3 +282,4 @@ g = {
     active_id_was_just_activated = false,
 
     clip_stack        = {},
+
