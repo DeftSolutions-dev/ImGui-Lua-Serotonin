@@ -4458,3 +4458,4 @@ function ImGui.AcceptDragDropPayload(type_str)
         local data = g.dragdrop_payload.data
         return data
     end
+    return nil
