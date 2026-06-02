@@ -3448,3 +3448,4 @@ local function close_popup_window()
     g.current_window = g.window_stack[#g.window_stack]
     if #g.draw_layer_stack > 0 then remove(g.draw_layer_stack) end
 
+    if me._clip_rect then
