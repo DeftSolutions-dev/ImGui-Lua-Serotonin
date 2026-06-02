@@ -213,3 +213,4 @@ function DesirePro.preload_font(font_key)
     if not fm then return 0 end
     local dir = ROOT .. "/" .. fm.dir .. "/"
     local n = 0
+    for _, g in pairs(fm.glyphs) do
