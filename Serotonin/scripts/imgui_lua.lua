@@ -876,3 +876,4 @@ local function get_or_create_window(id, title)
     return w
 end
 
+local function store_get(win, key, default_v)
