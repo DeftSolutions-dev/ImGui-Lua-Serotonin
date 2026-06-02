@@ -595,3 +595,4 @@ local function draw_tab(i, tab, bx, by, bw, bh)
     st.fa = DesirePro.anim(st.fa, selected and 0.30 or (hovered and 0.15 or 0), 12)
     st.ia = DesirePro.anim(st.ia, selected and 1.0 or (hovered and 0.8 or 0.5), 12)
     st.toff = DesirePro.anim(st.toff, selected and 6 or 0, 12)
+
