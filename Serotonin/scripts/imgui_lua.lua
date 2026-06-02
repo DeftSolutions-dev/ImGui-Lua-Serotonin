@@ -800,3 +800,4 @@ function ImGui.GetMousePos()
     end
     return g.mouse_x, g.mouse_y
 end
+function ImGui.GetMouseDelta()
