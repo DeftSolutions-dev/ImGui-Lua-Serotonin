@@ -523,3 +523,4 @@ DesirePro.WINDOW_H = floor(700 * DesirePro.US)
 DesirePro.TAB_BAND = floor(90 * DesirePro.US)
 DesirePro.HEADER_H = floor(60 * DesirePro.US)
 
+DesirePro.tabs = {
