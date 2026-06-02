@@ -268,3 +268,4 @@ g = {
     chars_queue       = {},
 
     id_stack          = {},
+    last_item_id      = nil,
