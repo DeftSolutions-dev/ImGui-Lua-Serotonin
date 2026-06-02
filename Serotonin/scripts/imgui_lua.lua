@@ -3538,3 +3538,4 @@ function ImGui.EndMenuBar()
         local c = mb._old_clip
         local new_y = mb.y + mb.h
         local diff  = new_y - c.y
+        g.clip_stack[#g.clip_stack] = {
