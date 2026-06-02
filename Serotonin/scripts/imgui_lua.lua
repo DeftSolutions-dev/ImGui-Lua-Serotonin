@@ -617,3 +617,4 @@ local function dr_text(layer, text, x, y, col, font)
     push_cmd(layer, { kind = "text", text = text, x = x, y = y, col = col, font = font or Style.Font })
 end
 
+local function dr_text_clip(layer, text, x, y, col, max_w, font)
