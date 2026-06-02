@@ -3723,3 +3723,4 @@ function ImGui.EndTooltip()
     if #g.clip_stack > 0 then remove(g.clip_stack) end
 end
 
+function ImGui.MenuSeparator()
