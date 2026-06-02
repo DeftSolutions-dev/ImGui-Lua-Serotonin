@@ -1300,3 +1300,4 @@ function ImGui.TextDisabled(text)
 end
 
 function ImGui.TextWrapped(text)
+    local win = g.current_window; if not win then return end
