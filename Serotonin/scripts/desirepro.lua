@@ -136,3 +136,4 @@ function DesirePro.text_size(str, font_key)
     local w = 0
     for cp in utf8_iter(tostring(str)) do
         local g = fm.glyphs[cp]
+        if g then w = w + (g.adv or 0) end
