@@ -1157,3 +1157,4 @@ ImGui._ItemSize = ItemSize
 local function ItemAdd(x, y, w, h)
     local win = g.current_window
     if not win then return false end
+    if y + h < win._inner_y0 then return false end
