@@ -2352,3 +2352,4 @@ local function text_clip(s, max_w, font)
     local lo, hi = 0, #s
     while lo < hi do
         local mid = floor((lo + hi + 1) / 2)
+        local sub_s = sub(s, 1, mid)
