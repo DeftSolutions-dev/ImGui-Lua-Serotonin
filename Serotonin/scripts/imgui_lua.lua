@@ -3257,3 +3257,4 @@ function ImGui.EndTable()
         for i = 1, t.columns - 1 do
             edge_x = edge_x + t.col_widths[i]
             local rid = fnv1a("col_resize", i, t.id)
+            local _, hov, held = ButtonBehavior(edge_x - 2, t.y0, 4, total_h, rid)
