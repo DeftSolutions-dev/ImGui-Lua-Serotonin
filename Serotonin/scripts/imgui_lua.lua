@@ -2135,3 +2135,4 @@ function ImGui.TreeNode(label)
     end
 
     local cx = x + 8
+    local cy = y + h * 0.5
