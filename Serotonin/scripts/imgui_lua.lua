@@ -2366,3 +2366,4 @@ render_scrollbar = function(win)
     local content_h = win.cursor_max_y - win.cursor_start_y
     win.scroll_max_y = max(0, content_h - visible_h)
 
+    if point_in_rect(g.mouse_x, g.mouse_y, win.x, win.y, win.w, win.h) then
