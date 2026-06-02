@@ -601,3 +601,4 @@ local function push_cmd(layer, cmd)
     insert(g.draw_layers[layer], cmd)
 end
 
+local function dr_rect_filled(layer, x, y, w, h, col, rounding)
