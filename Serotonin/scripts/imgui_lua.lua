@@ -1574,3 +1574,4 @@ local function drag_internal(label, value, speed, vmin, vmax, fmt, is_int)
     local x, y = win.cursor_x, win.cursor_y
 
     local visible = ItemAdd(x, y, drag_w, frame_h)
+    local hovered = ItemHoverable(x, y, drag_w, frame_h, id)
