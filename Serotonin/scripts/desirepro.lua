@@ -1575,3 +1575,4 @@ function DesirePro.esp_preview(ctx)
     ctx.cy = ctx.cy + ph + 6
 end
 
+function DesirePro.page(idx, px, py, ph)
